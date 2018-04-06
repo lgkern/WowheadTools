@@ -1,0 +1,279 @@
+[h2][color=c10]Monk Spell Changes[/color][/h2][div class="patch-diff patch-diff-group-monk patch-diff-class patch-diff-class-10"][table]
+  [tr]
+    [td=header colspan=4]Class Tools[/td]
+[/tr]
+  [tr]
+    [td=header]Brewmaster[/td]
+    [td][url=/talent-calc/monk/brewmaster]Talents[/url][/td]
+[/tr]
+  [tr]
+    [td=header]Mistweaver[/td]
+    [td][url=/talent-calc/monk/mistweaver]Talents[/url][/td]
+[/tr]
+  [tr]
+    [td=header]Windwalker[/td]
+    [td][url=/talent-calc/monk/windwalker]Talents[/url][/td]
+[/tr]
+[/table]
+[toggler name="Weapon Damage Converted to AP" size=3 class="c10" closed=true toc=false]
+
+[ul][li][b][anchor="fist-of-the-white-tiger-261947"][spell=261947][/b]   Strike your target with the technique of the White Tiger, dealing [([del copy=true]250%[/del][ins]87.75% of Attack power) + (85% of Attack power)[/ins]] Physical damage to your target while generating 3 Chi.[/li]
+[li][b][anchor="wind-strikes-262112"][spell=262112][/b]   When you use Fists of Fury, you next 3 Tiger Palm attacks release a gust of wind that deals ([del copy=true]150%[/del][ins]52.65% of Attack power)%[/ins] Physical damage to all enemies 8 yards in front of you.
+[color=lightblue][/color][/li][/ul][/toggler][toggler class="heading-size-3 c10" name="Brewmaster" size=3]
+
+[h5]Specialization[/h5]
+[ul]
+[li][b][anchor="blackout-strike-205523"][spell=205523][/b]   Strike with a blast of Chi energy, dealing ([del copy=true]373.5%[/del][ins]61.1793%[/ins] of Attack power) Physical damage
+[/li]
+[li][b][anchor="breath-of-fire-115181"][spell=115181][/b]   Breathe fire on targets in front of you, causing ([del copy=true]180%[/del][ins]23.751%[/ins] of Attack power) Fire damage[del copy=true] Brewmaster (Level 78) - and generating a stack of Elusive Brawler for each target[/del]
+Targets affected by Keg Smash will also burn, [del copy=true]for (97.2%[/del][ins]taking (19.656%[/ins] of Attack power) Fire damage [del copy=true]over 8 sec.[/del][ins]and dealing 5% reduced damage to you for 12 sec.[/ins]
+[/li]
+[li][b][anchor="effuse-116694"][spell=116694][/b]   A fast and efficient spell, healing the target for ([del copy=true]200%[/del][ins]40.95%[/ins] of Attack power).
+[/li]
+[li][b][anchor="gift-of-the-ox-124507"][spell=124507][/b]   When you take damage, you have a chance to summon a Healing Sphere visible only to you. Moving through this Healing Sphere heals you for ([del copy=true]750%[/del][ins]81.9%[/ins] of Attack power).
+[/li]
+[li][b][anchor="ironskin-brew-115308"][spell=115308][/b]   Increases the damage you delay with Stagger by an additional [del copy=true]35%[/del][ins]30%[/ins] for 6 sec. 
+Shares charges with Purifying Brew.
+[color=lightblue]Cooldown changed from 21 sec recharge to 16 sec recharge[/color][/li]
+[li][b][anchor="keg-smash-121253"][spell=121253][/b]   Smash a keg of brew on the target, dealing ([del copy=true]670%[/del][ins]85.995%[/ins] of Attack power) damage to all enemies within 8 yds and reducing their movement speed by [del copy=true]50%[/del][ins]20%[/ins] for 15 sec.
+Reduces the remaining cooldown on your Brews by 4 sec.
+[/li]
+[li][b][anchor="purifying-brew-119582"][spell=119582][/b]   Clears [del copy=true]40%[/del][ins]50%[/ins] of your damage delayed with Stagger.
+Shares charges with Ironskin Brew.
+[color=lightblue]Cooldown changed from 21 sec recharge to 16 sec recharge[/color][/li]
+[li][b][anchor="stagger-115069"][spell=115069][/b]   You shrug off attacks, delaying 40% of Physical damage, instead taking it over 10 sec. Affects magical attacks at [del copy=true]40% effectiveness.[/del][ins]20% effectiveness.[/ins]
+[color=lightblue][/color][/li]
+[/ul]
+
+[h5]Talents[/h5]
+[center][table class="grid"]
+[tr][td width=50%][b]Live[/b][/td] [td][b]BFA[/b][/td][/tr]
+[tr][td][url=https://www.wowhead.com/talent-calc/monk/brewmaster][img src=https://i.gyazo.com/e92d3986e76aeba827093433e732c3d8.png width=400][/url][/td]
+[td][url=https://bfa.wowhead.com/talent-calc/monk/brewmaster][img src=https://i.gyazo.com/ab0681d8554a87874bb2a580d3dbc8a0.png width=400][/url][/td][/tr][/table][/center]
+
+
+[ul]
+[li][b][anchor="blackout-combo-196736"][spell=196736][/b]   Blackout Strike also empowers your next ability:
+Tiger Palm: Damage increased by [del copy=true]200%.[/del][ins]100%.[/ins]
+Breath of Fire: Cooldown reduced by 3 sec.
+Keg Smash: Reduces the remaining cooldown on your Brews by 2 additional sec.
+Ironskin Brew: Pauses Stagger damage for 3 sec.
+Purifying Brew: Grants you a stack of Elusive Brawler.
+[color=lightblue][/color][/li]
+[li][b][anchor="chi-burst-123986"][spell=123986][/b]   Hurls a torrent of Chi energy up to 40 yds forward, dealing ([del copy=true]503.25%[/del][ins]65.52%[/ins] of Attack power) Nature damage to all enemies, and ([del copy=true]412.5%[/del][ins]67.5675%[/ins] of Attack power) healing to the Monk and all allies in its path.[/li]
+[li][b][anchor="eye-of-the-tiger-196607"][spell=196607][/b]   Tiger Palm also applies Eye of the Tiger, dealing ([del copy=true]172%[/del][ins]28.1736%[/ins] of Attack power) Nature damage to the enemy and ([del copy=true]172%[/del][ins]28.1736%[/ins] of Attack power) healing to the Monk over 8 sec.
+[color=lightblue][/color][/li]
+[li][b][anchor="leg-sweep-tbd-264348"][spell=264348][/b]   [del copy=true]The cooldown[/del][ins]Increases the range[/ins] of Leg Sweep [del copy=true]is reduced by 15 sec.[/del][ins]by 2 yds and reduces its cooldown by 10 sec.[/ins]
+[color=lightblue]Name changed from Leg Sweep [TBD] to Tiger Tail Sweep[/color][/li]
+[li][b][anchor="rushing-jade-wind-116847"][spell=116847][/b]   Summons a whirling tornado around you, causing [(9) * ([del copy=true]69%[/del][ins]9.1728%[/ins] of Attack power)] damage over 6 sec to enemies within 8 yards
+[del copy=true] Windwalker - Applies Mark of the Crane to up to 2 nearby targets[/del][/li]
+[li][b][anchor="special-delivery-196730"][spell=196730][/b]   Drinking Ironskin or Purifying Brew has a 100% chance to toss a keg high into the air that lands nearby after 3 sec, dealing ([del copy=true]243%[/del][ins]32.76%[/ins] of Attack power) damage to all enemies within 8 yards and reducing their movement speed by 50% for 15 sec.
+[color=lightblue][/color][/li][/ul]
+
+[h5]Azerite Traits[/h5]
+[ul]
+[li][b][anchor="fit-to-burst-269431"][spell=269431 diff=26231][/b]   Keg Smash clears 3% of your damage delayed with Stagger, and Keg Smash deals an additional [del copy=true]231 damage.[/del][ins]69 damage.[/ins]
+Brewmaster
+[color=lightblue][/color][/li]
+[li][b][anchor="ph-blackout-kick-269435"][spell=269435][/b]   Blackout Strike has an additional 5% chance to critically strike, and deals an additional 125 damage.
+Monk[/li]
+[/ul]
+
+[/toggler]
+[toggler class="heading-size-3 c10" name="Mistweaver" size=3]
+
+[h5]Specialization[/h5]
+[ul]
+[li][b][anchor="detox-115450"][spell=115450][/b]   Removes all Magic, Poison, and Disease effects from the target.
+[color=lightblue]Cost changed from 2.6% of base mana to 1.3% of base mana[/color][/li]
+[li][b][anchor="effuse-116694"][spell=116694][/b]   A fast and efficient spell, healing the target for ([del copy=true]200%[/del][ins]40.95%[/ins] of Attack power).
+[/li]
+[li][b][anchor="enveloping-mist-124682"][spell=124682][/b]   Wraps the target in healing mists, healing for ([del copy=true]990%[/del][ins]247.5%[/ins] of Spell power) over 6 sec[color=lightblue][/color][/li]
+[li][b][anchor="essence-font-191837"][spell=191837][/b]   Unleashes a rapid twirl of healing bolts at up to 6 allies within 25 yds, every 1.002 sec for 3 sec. Each bolt heals a target for ([del copy=true]135%[/del][ins]33.75%[/ins] of Spell power)
+ plus an additional ([del copy=true]48%[/del][ins]12%[/ins] of Spell power) over 8 sec.
+Gust of Mists will heal affected targets twice.  Castable while moving.
+[color=lightblue][/color][/li]
+[li][b][anchor="essence-font-231633"][spell=231633][/b]   Each bolt of Essence Font heals a target for an additional ([del copy=true]48%[/del][ins]12%[/ins] of Spell power) over 8 sec.
+Gust of Mists will heal affected targets twice.
+[color=lightblue][/color][/li]
+[li][b][anchor="fortifying-brew-243435"][spell=243435][/b]   Turns your skin to stone, increasing your current and maximum health by 20%, and reducing damage taken by 20% [ins]for 15 sec.[/ins]
+[color=lightblue][/color][/li]
+[li][b][anchor="life-cocoon-116849"][spell=116849][/b]   Encases the target in a cocoon of Chi energy for 12 sec, absorbing [(((Spell power * [del copy=true]42[/del][ins]7[/ins]) + 0)) * (1 + Versatility)] damage and increasing all healing over time received by 50%.
+[color=lightblue][/color][/li]
+[li][b][anchor="mastery-gust-of-mists-117907"][spell=117907][/b]   Effuse, Renewing Mist, Enveloping Mist, and Vivify also cause a gust of healing mists, instantly healing the primary target for ([del copy=true]0.01%[/del][ins]0.1%[/ins] of Spell power).
+[color=lightblue][/color][/li]
+[li][b][anchor="renewing-mist-115151"][spell=115151][/b]   Surrounds the target with healing mists, restoring ([del copy=true]700%[/del][ins]175%[/ins] of Spell power) health over 20 sec.
+If Renewing Mist heals a target past maximum health, it will travel to another injured ally within 20 yds.
+[color=lightblue][/color][/li]
+[li][b][anchor="revival-115310"][spell=115310][/b]   Heals all party and raid members within 40 yards for ([del copy=true]720%[/del][ins]180%[/ins] of Spell power) and clears them of all harmful Magical, Poison, and Disease effects.[/li]
+[li][b][anchor="rising-sun-kick-107428"][spell=107428][/b]   Kick upwards, dealing ([del copy=true]653%[/del][ins]106.86%[/ins] of Attack power) damage
+[color=lightblue][/color][/li]
+[li][b][anchor="soothing-mist-193884"][spell=193884][/b]   Effuse, Enveloping Mist, Vivify, and Life Cocoon also trigger Soothing Mist.
+After casting these spells, you continue to channel healing mists into the target, healing them for ([del copy=true]64%[/del][ins]32%[/ins] of Spell power) every [del copy=true]0.5[/del][ins]1[/ins] sec, until you take any other action.
+[color=lightblue][/color][/li]
+[li][b][anchor="spinning-crane-kick-101546"][spell=101546][/b]   Spin while kicking in the air, dealing [4 * ([del copy=true]122%[/del][ins]16.38%[/ins] of Attack power)] damage over 1.50 sec to enemies within 8 yds.
+[color=lightblue][/color][/li]
+[li][b][anchor="vivify-116670"][spell=116670][/b]   Causes a surge of invigorating mists around the target, healing them and their 2 nearest injured allies for ([del copy=true]300%[/del][ins]75%[/ins] of Spell power).[/li][/ul]
+
+
+[h5]Talents[/h5]
+[center][table class="grid"]
+[tr][td width=50%][b]Live[/b][/td] [td][b]BFA[/b][/td][/tr]
+[tr][td][url=https://www.wowhead.com/talent-calc/monk/mistweaver][img src=https://i.gyazo.com/ae4f2e13d9f646a67242e376b5284b69.png width=400][/url][/td]
+[td][url=https://bfa.wowhead.com/talent-calc/monk/mistweaver][img src=https://i.gyazo.com/4724f8140f14daa912092904404caf63.png width=400][/url][/td][/tr][/table][/center]
+
+
+[ul][li][b][anchor="chi-burst-123986"][spell=123986][/b]   Hurls a torrent of Chi energy up to 40 yds forward, dealing ([del copy=true]503.25%[/del][ins]65.52%[/ins] of Attack power) Nature damage to all enemies, and ([del copy=true]412.5%[/del][ins]67.5675%[/ins] of Attack power) healing to the Monk and all allies in its path.[/li]
+[li][b][anchor="leg-sweep-tbd-264348"][spell=264348][/b]   [del copy=true]The cooldown[/del][ins]Increases the range[/ins] of Leg Sweep [del copy=true]is reduced by 15 sec.[/del][ins]by 2 yds and reduces its cooldown by 10 sec.[/ins]
+[color=lightblue]Name changed from Leg Sweep [TBD] to Tiger Tail Sweep[/color][/li]
+[li][b][spell=198664][/b] Summons an effigy of Chi-Ji, the Red Crane for 45 sec. Chi-Ji heals nearby allies with Crane Heal for ([del]135%[/del][ins]22.113%[/ins] of Attack power).[/li][/ul]
+
+[h5]Azerite Traits[/h5]
+[ul]
+[li][b][anchor="invigorating-brew-269621"][spell=269621][/b]   Vivify does an additional [del copy=true]616[/del][ins]173[/ins] healing when empowered by Thunder Focus Tea.
+Mistweaver
+[color=lightblue][/color][/li]
+[li][b][anchor="ph-blackout-kick-269435"][spell=269435][/b]   Blackout Kick has an additional 5% chance to critically strike, and deals an additional [del copy=true]231 damage.[/del][ins]125 damage.[/ins]
+Monk[/li]
+[/ul]
+
+[/toggler]
+[toggler class="heading-size-3 c10" name="Windwalker" size=3]
+
+[h5]Specialization[/h5]
+[ul]
+[li][b][anchor="windwalker-monk-137025"][spell=137025][/b]   Apply Aura: Modifies Damage/Healing Done by [del]25%[/del] [ins]-5%[/ins].[/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="touch-of-death-amplifier-271232"][spell=271232][/b]   Increases damage done by Touch of Death by 10% of all damage you dealt to the target during the duration.
+[color=lightblue][/color][/li]
+[li][b][anchor="afterlife-116092"][spell=116092][/b]   When you kill an enemy, you summon a Healing Sphere, healing you for ([del copy=true]1200%[/del][ins]196.56%[/ins] of Attack power) when you walk through it.
+When you kill an enemy with Blackout Kick, you have a 50% chance to summon a Chi Sphere, granting 1 Chi when you walk through it.
+[color=lightblue][/color][/li]
+[li][b][anchor="cyclone-strikes-220357"][spell=220357][/b]   Spin while kicking in the air, dealing [4 * ([del copy=true]122%[/del][ins]16.38%[/ins] of Attack power)] damage over 1.50 sec to enemies within 8 yds. Spinning Crane Kick's damage is increased by [del copy=true]40%[/del][ins]10%[/ins] for each unique target you've struck in the last 1.50 sec with Tiger Palm, Blackout Kick, Rising Sun Kick, or Rushing Jade Wind
+[color=lightblue][/color][/li]
+[li][b][anchor="effuse-116694"][spell=116694][/b]   A fast and efficient spell, healing the target for ([del copy=true]200%[/del][ins]40.95%[/ins] of Attack power).
+[/li]
+[li][b][anchor="fists-of-fury-113656"][spell=113656][/b]   Pummels all targets in front of you, dealing [5 * ([del copy=true]573.4%[/del][ins]94.185%[/ins] of Attack power)] damage over 4 sec [ins]to your primary target and [5 * (94.185% of Attack power) * 50 / 100] damage over 4 sec to other targets. [/ins]Can be channeled while moving.
+[/li]
+[li][b][anchor="flying-serpent-kick-101545"][spell=101545][/b]   Soar forward through the air at high speed for 2 sec. If used again while active, you will land, dealing ([del copy=true]53.658%[/del][ins]8.78918%[/ins] of Attack power) damage to all enemies within 8 yards and reducing movement speed by 70% for 4 sec.
+[color=lightblue][/color][/li]
+
+[li][b][anchor="rising-sun-kick-107428"][spell=107428][/b]   Kick upwards, dealing ([del copy=true]653%[/del][ins]106.86%[/ins] of Attack power) damage, and reducing the effectiveness of healing on the target for 10 sec
+[color=lightblue][/color][/li]
+[li][b][anchor="spinning-crane-kick-101546"][spell=101546][/b]  Spin while kicking in the air, dealing [4 * ([del copy=true]122%[/del][ins]16.38%[/ins] of Attack power)] damage over 1.50 sec to enemies within 8 yds.
+Spinning Crane Kick's damage is increased by [del copy=true]40%[/del][ins]10%[/ins] for each unique target you've struck in the last 1.50 sec with Tiger Palm, Blackout Kick, Rising Sun Kick, or Rushing Jade Wind.
+Spinning Crane Kick's damage is increased by [del copy=true]40%[/del][ins]10%[/ins] for each unique target you've struck in the last 1.50 sec with Tiger Palm, Blackout Kick, or Rising Sun Kick.
+[color=lightblue][/color][/li]
+[li][b][anchor="touch-of-death-115080"][spell=115080][/b]   [del copy=true]Use ancient Pandaren knowledge of anatomy to [/del]Inflict mortal damage on an enemy, [del copy=true]After 8 sec, the target will[/del][ins]causing the target to[/ins] take damage equal to 50% of your maximum health [del copy=true]reduced against players.[/del][ins]after 8 sec, reduced against players.
+During the 8 sec duration, 10% of all other damage you deal to the target will be added to the final damage dealt.[/ins]
+[color=lightblue][/color][/li]
+[/ul]
+
+[h5]Talents[/h5]
+[center][table class="grid"]
+[tr][td width=50%][b]Live[/b][/td] [td][b]BFA[/b][/td][/tr]
+[tr][td][url=https://www.wowhead.com/talent-calc/monk/windwalker][img src=https://wow.zamimg.com/uploads/screenshots/normal/702337.jpg width=400][/url][/td]
+[td][url=https://bfa.wowhead.com/talent-calc/monk/windwalker][img src=https://wow.zamimg.com/uploads/screenshots/normal/702336.jpg width=400][/url][/td][/tr][/table][/center]
+
+
+[b]Removed[/b]
+[ul][li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="chi-orbit-196743"][spell=196743][/b]   Every 5 sec, an orb of energy forms, and rotates around you until it impacts an enemy, dealing ([del copy=true]172%[/del][ins]31.5%[/ins] of Attack power) damage to all nearby enemies. Maximum 4 orbs.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="dampen-harm-122278"][spell=122278][/b]   Reduces all damage you take by 20% to 50% for 10 sec, with larger attacks being reduced by more.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="leg-sweep-119381"][spell=119381][/b]   Knocks down all enemies within 5 yards, stunning them for 3 sec.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="ring-of-peace-116844"][spell=116844][/b]   Form a Ring of Peace at the target location for 8 sec. Enemies that enter will be ejected from the Ring.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="summon-black-ox-statue-115315"][spell=115315][/b]   Summons a Black Ox Statue at the target location for 15 min, pulsing threat to all enemies within 30 yards.
+You may cast Provoke on the statue to taunt all enemies near the statue.
+[color=lightblue][/color][/li][/ul]
+
+[b]New[/b]
+[ul][li][span class="patch-diff-new"]NEW[/span] [b][anchor="combo-breaker-262107"][spell=262107][/b]   When Tiger Palm causes the Blackout Kick! effect, the cooldown of Rising Sun Kick is reset.
+[color=lightblue]Tier 4 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="fist-of-the-white-tiger-261947"][spell=261947][/b]   Strike your target with the technique of the White Tiger, dealing [(87.5% of Attack power) + (87.5% of Attack power)] Physical damage to your target while generating 3 Chi.
+[color=lightblue]Tier 4 Talent
+Inspired by the artifact ability [spell=205320][/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="inner-strength-261767"][spell=261767][/b]   Each Chi you spend reduces damage taken by 3% for 4 sec.
+[color=lightblue]Tier 5 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][spell=261683][/b] Rising Sun Kick strikes a second time for 25% additional damage.
+[color=lightblue]Tier 4 Talent
+Inspired by the artifact trait [spell=196082][/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="wind-strikes-262112"][spell=262112][/b]   When you use Fists of Fury, you next 3 Tiger Palm attacks release a gust of wind that deals 52.65% of Attack power)% Physical damage to all enemies 8 yards in front of you.
+[color=lightblue]Tier 7 Talent[/color][/li][/ul]
+
+
+[b]Changed[/b]
+[ul]
+[li][b][anchor="ascension-115396"][spell=115396][/b]   Increases your maximum Chi by 1[ins], maximum Energy by 20[/ins], and your Energy regeneration by 10%.
+[color=lightblue][/color][/li]
+[li][b][anchor="chi-burst-123986"][spell=123986][/b]   Hurls a torrent of Chi energy up to 40 yds forward, dealing ([del copy=true]503.25%[/del][ins]65.52%[/ins] of Attack power) Nature damage to all enemies, and ([del copy=true]412.5%[/del][ins]67.5675%[/ins] of Attack power) healing to the Monk and all allies in its path.
+[ins]Chi Burst generates 1 Chi per enemy target damaged.[/ins][/li]
+[li][b][anchor="chi-torpedo-115008"][spell=115008][/b]   Torpedoes you forward a long distance and increases your movement speed by 30% for 10 sec, stacking up to 2 times.
+[color=lightblue]Tier 5 Talent[/color][/li]
+[li][b][anchor="energizing-elixir-115288"][spell=115288][/b]   Chug an Energizing Elixir, refilling all your Energy and [ins]instantly generate 2 [/ins]Chi.
+[color=lightblue][/color][/li]
+[li][b][anchor="eye-of-the-tiger-196607"][spell=196607][/b]   Tiger Palm also applies Eye of the Tiger, dealing ([del copy=true]172%[/del][ins]28.1736%[/ins] of Attack power) Nature damage to the enemy and ([del copy=true]172%[/del][ins]28.1736%[/ins] of Attack power) healing to the Monk over 8 sec.
+[color=lightblue][/color][/li]
+[li][b][anchor="hit-combo-196740"][spell=196740][/b]   Each successive attack that triggers Combo Strikes in a row grants [del copy=true]2%[/del][ins]1%[/ins] increased damage, stacking up to 6 times.
+[color=lightblue][/color][/li]
+[li][b][anchor="invoke-xuen-the-white-tiger-123904"][spell=123904][/b]   Summons an effigy of Xuen, the White Tiger for [del copy=true]45[/del][ins]20[/ins] sec. Xuen attacks your primary target, and strikes 3 enemies within 10 yards every 1 sec with Tiger Lightning for ([del copy=true]30%[/del][ins]35%[/ins] of Attack power) Nature damage.
+[color=lightblue]Cooldown changed from 3 min cooldown to 2 min cooldown[/color][/li]
+[li][b][anchor="power-strikes-121817"][spell=121817][/b]   Every 15 sec, your next Tiger Palm [del copy=true]generates[/del][ins]will generate[/ins] 1 additional Chi [ins]and deal 200% additional damage.[/ins]
+[color=lightblue][/color][/li]
+[li][b][anchor="rushing-jade-wind-261715"][spell=261715][/b]   Summons a whirling tornado around you, causing [(0.998667) * ([del]11.76%[/del][ins]9.1728%[/ins] of Attack power)] damage over until cancelled to enemies within 8 yards. [del]Applies Mark of the Crane to up to 2 nearby targets[/del][/li]
+[li][b][anchor="serenity-152173"][spell=152173][/b]   Enter an elevated state of mental and physical serenity for [del copy=true]8[/del][ins]9[/ins] sec. While in this state, you deal 40% increased damage and healing, and all Chi consumers are free and cool down 100% more quickly.
+[color=lightblue][/color][/li]
+[/ul]
+
+[h5]Azerite Traits[/h5]
+[ul]
+[li][b][anchor="ph-blackout-kick-269435"][spell=269435 diff=26231][/b]   Blackout Kick has an additional 5% chance to critically strike, and deals an additional 125 damage.
+Monk[/li]
+[/ul]
+
+[/toggler]
+[toggler class="heading-size-3 c10" name="Monk General" size=3]
+
+[h5]Spells[/h5]
+[ul]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="expose-armor-8647"][spell=8647 diff=26231][/b]   Your damage [del copy=true]exposes weaknesses in the target's armor[/del][ins]weakens the target[/ins], increasing Physical damage taken by [del copy=true]5% for 1 min.[/del][ins]5%.
+(Duration reduced to 1 min against players)[/ins]
+[color=lightblue]Name changed from Expose Armor to Mystic Touch[/color][/li]
+[li][b][anchor="blackout-kick-100784"][spell=100784][/b]  Kick with a blast of Chi energy, dealing ([del copy=true]385% of Attack[/del][ins]7700 / 10000 * Spell[/ins] power) Physical damage.
+[ins] Windwalker - Reduces the cooldown of Rising Sun Kick and Fists of Fury by 1.0 sec when used.[/ins][/li]
+[li][b][anchor="crackling-jade-lightning-117952"][spell=117952][/b]   Channel Jade lightning, causing ([del copy=true]170.8%[/del][ins]27.977%[/ins] of Attack power) Nature damage over 4 sec to the target and sometimes knocking back melee attackers.
+[color=lightblue][/color][/li]
+[li][b][anchor="paralysis-115078"][spell=115078][/b]   Incapacitates the target for 1 min. Limit 1. Damage will cancel the effect.
+[color=lightblue]Cooldown changed from 15 sec cooldown to 1 min cooldown[/color][/li]
+[li][b][anchor="soothing-mist-209525"][spell=209525][/b]   Heals the target for ([del copy=true]3600%[/del][ins]900%[/ins] of Spell power) over 20 sec.
+While channeling, Effuse and Enveloping Mist are instant cast, and will heal the soothed target without breaking the Soothing Mist channel.
+[color=lightblue][/color][/li]
+[li][b][anchor="spinning-crane-kick-107270"][spell=107270][/b]   
+Brewmaster, Mistweaver: Spin while kicking in the air, dealing [4 * ([del copy=true]122%[/del][ins]16.38%[/ins] of Attack power)] damage over 1.50 sec to enemies within 8 yds.
+Windwalker: Spin while kicking in the air, dealing [4 * ([del copy=true]122%[/del][ins]16.38%[/ins] of Attack power)] damage over 1.50 sec to enemies within 8 yds.
+Windwalker: Spinning Crane Kick's damage is increased by [del copy=true]40%[/del][ins]10%[/ins] for each unique target you've struck in the last 1.50 sec with Tiger Palm, Blackout Kick, Rising Sun Kick, or Rushing Jade Wind.
+Spinning Crane Kick's damage is increased by [del copy=true]40%[/del][ins]10%[/ins] for each unique target you've struck in the last 1.50 sec with Tiger Palm, Blackout Kick, or Rising Sun Kick. [/li]
+[li][b][anchor="tiger-palm-100780"][spell=100780][/b]   Attack with the palm of your hand, dealing ([del copy=true]128.1%[/del][ins]27.027%[/ins] of Attack power) damage.[/li]
+[li][b][anchor="transcendence-transfer-119996"][spell=119996][/b]   Your body and spirit swap locations.
+[color=lightblue]Cooldown changed from 25 sec cooldown to 45 sec cooldown[/color][/li][/ul]
+
+[h5]Talents[/h5]
+[ul][li][b][anchor="chi-wave-115098"][spell=115098][/b]   A wave of Chi energy flows through friends and foes, dealing ([del copy=true]86.7%[/del][ins]24.57%[/ins] of Attack power) Nature damage or ([del copy=true]86.7%[/del][ins]14.2015%[/ins] of Attack power) healing. Bounces up to 7 times to targets within 0 yards.
+[color=lightblue][/color][/li]
+[li][b][anchor="leg-sweep-119381"][spell=119381][/b]   Knocks down all enemies within 5 yards, stunning them for [del copy=true]5[/del][ins]3[/ins] sec.
+[color=lightblue]Now baseline
+Cooldown changed from 45 sec cooldown to 1 min cooldown[/color][/li][/ul]
+
+[h5]Honor Talents (4)[/h5]
+[ul]
+[li][b][anchor="admonishment-207025"][spell=207025][/b]   Intimidates the target, increasing their damage taken by [del copy=true]5%[/del][ins]3%[/ins] for 6 sec.  Each unique player that attacks the target increases the damage taken by an additional [del copy=true]5%[/del][ins]3%[/ins], stacking up to 5 times.
+Your melee attacks refresh the duration of Intimidated.
+[color=lightblue][/color][/li]
+[li][b][anchor="guard-202162"][spell=202162][/b]   Guard allies within 15 yards for 15 sec, allowing you to Stagger [del copy=true]30%[/del][ins]20%[/ins] of damage they take.
+[color=lightblue][/color][/li]
+[li][b][anchor="hot-trub-202126"][spell=202126][/b]   Purifying Brew deals [del copy=true]50%[/del][ins]30%[/ins] of your purified staggered damage to all enemies within 10 yards.
+[color=lightblue][/color][/li]
+[li][b][anchor="way-of-the-crane-216113"][spell=216113][/b]   Increases your Physical damage by [del copy=true]50%[/del][ins]35%[/ins], you remove and become immune to all stun, snare and root effects and you heal up to 3 nearest allies for [del copy=true]175%[/del][ins]200%[/ins] of all damage done. Lasts 15 sec.
+[color=lightblue][/color][/li]
+[/ul][/toggler][/div]

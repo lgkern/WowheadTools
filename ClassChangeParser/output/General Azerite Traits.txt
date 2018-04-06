@@ -1,0 +1,82 @@
+[h2][color=patch-diff patch-diff-group-racial-traits]General Azerite Traits Spell Changes[/color][/h2][div class="patch-diff patch-diff-group-general-azerite-traits patch-diff-class patch-diff-class-atch-diff patch-diff-group-racial-traits"]More Azerite traits can be found in the spec-specific parts of the diff, and many were [url=https://www.wowhead.com/news=282473/heart-of-azeroth-azerite-traits-in-26175-for-dk-paladin-priest-and-warrior]added but unchanged since last week[/url].
+[ul]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="agility-20-41695"][spell=41695][/b]   Increases Agility by 20.
+[color=lightblue][/color][/li]
+
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="azerite-empowered-263978"][spell=263978][/b]   Increases the item level this item by 5.
+[color=lightblue][/color][/li]
+
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="azerite-fortification-270659"][spell=270659][/b]   When stunned, immobilized, or knocked back, you heal for 347.
+[color=lightblue][/color][/li]
+
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="azerite-veins-270673"][spell=270673][/b]   Taking damage has a chance to grant you Azerite Veins, healing you for 34 every 3 sec. Lasts 18 sec or until you are fully healed.
+[color=lightblue][/color][/li]
+
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="blood-siphon-264108"][spell=264108][/b]   Increases your Mastery by 28 and your Leech by 14.
+[color=lightblue][/color][/li]
+
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="bulwark-of-the-masses-270655"][spell=270655][/b]   When you are surrounded by 4 or more enemies, gain a shield that absorbs 832 damage. Cannot occur more than once every 15 sec.
+[color=lightblue][/color][/li]
+
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="champion-of-azeroth-270586"][spell=270586][/b]   Contributing to the death of an enemy of Azeroth heals you for 624 and grants you 22 Versatility for 1 min, stacking up to 2 times.
+[color=lightblue][/color][/li]
+
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="elemental-whirl-263984"][spell=263984][/b]   Your damaging abilities have a chance to grant you Elemental Whirl, increasing your Critical Strike, Haste, Mastery, or Versatility by 77 for 10 sec.
+[color=lightblue][/color][/li]
+
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="embrace-of-the-sands-264600"][spell=264600][/b]   Critical strikes by your abilities have a chance to create a localized Sandstorm, damaging enemies and healing allies within 10 yards for (77 * 4) every 2 sec for 6 sec.
+[color=lightblue][/color][/li]
+
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="fury-of-the-sands-263989"][spell=263989][/b]   Attacks have a chance to deal 77 additional Physical damage. Critical strikes by this damage are multiplied by 300%.
+[color=lightblue][/color][/li]
+
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="gemhide-270579"][spell=270579][/b]   When dealt damage greater than 10% of your maximum health, gain 31 Avoidance and 138 Dodge for 10 sec.
+[color=lightblue][/color][/li]
+
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="gutripper-266937"][spell=266937][/b]   Your damaging abilities have a chance to deal 347 Physical damage to the target. Gutripper occurs much more often against targets below 30% health.
+[color=lightblue][/color][/li]
+
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="haste-261582"][spell=261582][/b]   
+[color=lightblue][/color][/li]
+
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="heed-my-call-263987"][spell=263987][/b]   Your damaging agilities have a chance to deal 154 to your target, and 15 to enemies within 3 yards of that target.
+[color=lightblue][/color][/li]
+
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="impassive-visage-270654"][spell=270654][/b]   When you take damage, heal for 139. Cannot occur more than once every 6 sec.
+[color=lightblue][/color][/li]
+
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="increase-versatility-15-55564"][spell=55564][/b]   Increases your Versatility by 15.
+[color=lightblue][/color][/li]
+
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="lifespeed-267665"][spell=267665][/b]   Increases your Haste by 28 and your Avoidance by 14.
+[color=lightblue][/color][/li]
+
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="longstrider-270653"][spell=270653][/b]   Increases your movement speed by 10% of your highest secondary rating, up to 3%.
+[color=lightblue][/color][/li]
+
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="mote-in-the-eye-264238"][spell=264238][/b]   Your abilities have a chance to grant you (77 * 6) critical strike rating, decreasing by 77 every 2 sec.
+[color=lightblue][/color][/li]
+
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="on-my-way-267879"][spell=267879][/b]   Increases your Versatility by 28 and your Speed by 14.
+[color=lightblue][/color][/li]
+
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="overwhelming-power-266180"][spell=266180][/b]   Your damaging abilities have a chance to grant you 25 applications of Overwhelming Power. Each stack of overwhelming Power grants 39 Haste. An application of Overwhelming Power is removed every 3 sec or whenever you take damage.
+[color=lightblue][/color][/li]
+
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="resounding-protection-270568"][spell=270568][/b]   Every 30 sec, gain an absorb shield for 208 for 30 sec.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="savior-267883"][spell=267883][/b]   Your heals on targets below 35% health have a chance to heal for an additional 208.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="self-reliance-270661"][spell=270661][/b]   While no enemies are within 20 yds, you heal for 70 every 3 sec.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="strength-27973"][spell=27973][/b]   
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="test-azerite-power-269593"][spell=269593][/b]   This power has 0 points.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="vampiric-speed-269239"][spell=269239][/b]   When an enemy you damaged dies, you heal for 624 and gain 49 Speed for 6 sec.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="winds-of-war-267671"][spell=267671][/b]   Taking damage grants you 14 Dodge for 3 sec, stacking up to 10 times.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="woundbinder-267880"][spell=267880][/b]   Your healing effects have a chance to increase your Haste by up to 62 for 6 sec. Healing lower health targets will grant you more Haste.
+[color=lightblue][/color][/li]
+[/ul][/div][/toggler][/toggler][/div]

@@ -1,0 +1,321 @@
+[h2][color=c2]Paladin Spell Changes[/color][/h2][div class="patch-diff patch-diff-group-paladin patch-diff-class patch-diff-class-2"][table]
+  [tr]
+    [td=header colspan=4]Class Tools[/td]
+[/tr]
+  [tr]
+    [td=header]Holy[/td]
+    [td][url=/talent-calc/paladin/holy]Talents[/url][/td]
+[/tr]
+  [tr]
+    [td=header]Protection[/td]
+    [td][url=/talent-calc/paladin/protection]Talents[/url][/td]
+[/tr]
+  [tr]
+    [td=header]Retribution[/td]
+    [td][url=/talent-calc/paladin/retribution]Talents[/url][/td]
+[/tr]
+[/table]
+[toggler name="Weapon Damage Converted to AP" size=3 class="c2" closed=true toc=false]
+
+[ul][li][b][anchor="hammer-of-the-righteous-53595"][spell=53595][/b]   Hammers the current target for [del copy=true]112%[/del][ins](27% of Attack power)[/ins] Physical damage.
+Hammer of the Righteous also causes a wave of light that hits all other targets within 8 yds for [del copy=true]67%[/del][ins](8.7048% of Attack power)[/ins] Holy damage
+While you are standing in your Consecration, Hammer of the Righteous also causes a wave of light that hits all other targets within 8 yds for [del copy=true]67%[/del][ins](8.7048% of Attack power)[/ins] Holy damage[/li]
+[li][b][anchor="divine-storm-53385"][spell=53385][/b]   Unleashes a whirl of divine energy, dealing [del copy=true]275%[/del][ins](42% of Attack power)[/ins] Holy damage to all nearby enemies.
+[color=lightblue][/color][/li]
+[li][b][anchor="templars-verdict-85256"][spell=85256][/b]   A powerful weapon strike that deals [[del copy=true][560%[/del][ins](105% of Attack power)[/ins] * ((max(0, min(Level - 10, 10)) * 11 + 290) / 400)] Holy damage.
+[color=lightblue][/color][/li]
+[li][b][anchor="divine-hammer-198034"][spell=198034][/b]   Divine Hammers spin around you, damaging enemies within 8 yds for [del copy=true]73%[/del][ins][7 * (12.4% of Attack power)[/ins]] Holy damage over 9 sec [del copy=true]instantly and every 2 sec for 12 sec[/del].
+Generates 2 Holy Power.
+[color=lightblue]Cooldown changed from 12 to 13.5 sec[/color][/li]
+[li][b][anchor="eye-for-an-eye-205191"][spell=205191][/b]   Reduces Physical damage you take by 35%, and instantly counterattacks any enemy that strikes you in melee combat for [del copy=true]215%[/del][ins](35.3028% of Attack power)[/ins] Physical damage. Lasts 10 sec.
+[color=lightblue][/color][/li]
+[li][b][anchor="blade-of-justice-184575"][spell=184575][/b]   Strikes an enemy with the Blade of Justice, dealing [[del copy=true]755%[/del][ins](200% of Attack power[/ins]) * ((max(0, min(Level - 16, 4)) * 12 + 352) / 400)] Physical damage.
+Generates 2 Holy Power.
+[color=lightblue][/color][/li]
+[li][b][anchor="zeal-217020"][spell=217020][/b]   Strike the target for [del copy=true](450% Physical damage. Maximum 2 charges.[/del][ins](94.86% of Attack power) Physical damage.[/ins]
+Grants Zeal, causing Zeal attacks to chain to an additional nearby target per stack. Maximum 3 stacks. Each jump deals 40% less damage.
+Generates 1 Holy Power.
+[color=lightblue]Cooldown changed from 4.5 to 6 sec[/color][/li][/ul]
+
+[/toggler][toggler class="heading-size-3 c2" name="Holy Paladin" size=3]
+
+[h5]Specialization[/h5]
+[ul]
+[li][b][anchor="holy-paladin-137029"][spell=137029][/b]   Apply Aura: Modifies Damage/Healing Done by [del]5%[/del] [ins]0%[/ins].
+[span class="patch-diff-new"]NEW[/span] Effect #10 Apply Aura: Modifies Damage/Healing Done [spell=26573] [spell=81297] [spell=205228] Value: 150%[/li]
+[li][b][anchor="cleanse-4987"][spell=4987][/b]   Cleanses a friendly target, removing all Poison, Disease, and Magic effects.
+[color=lightblue]Cost changed from 13.0% of base mana to 6.5% of base mana[/color][/li]
+[li][b][anchor="consecration-26573"][spell=26573][/b]   Consecrates the land beneath you, causing [([del copy=true]30%[/del][ins]3.5%[/ins] of Attack power) * 9] Holy damage over 9 sec to enemies who enter the area.
+[color=lightblue][/color][/li]
+[li][b][anchor="flash-of-light-19750"][spell=19750][/b]   A quick spell, healing a friendly target for ([del copy=true]450%[/del][ins]112.5%[/ins] of Spell power).
+[/li]
+[li][b][anchor="holy-light-82326"][spell=82326][/b]   An efficient spell, healing a friendly target for ([del copy=true]425%[/del][ins]106.25%[/ins] of Spell power).
+[/li]
+[li][b][anchor="holy-shock-20473"][spell=20473][/b]   Triggers a burst of Light on the target, dealing ([del copy=true]400%[/del][ins]90%[/ins] of Spell power) Holy damage to an enemy, or ([del copy=true]400%[/del][ins]100%[/ins] of Spell power) healing to an ally. Holy Shock has double the normal critical strike chance.
+[color=lightblue][/color][/li]
+[li][b][anchor="light-of-dawn-85222"][spell=85222][/b]   Unleashes a wave of holy energy, healing up to 5 injured allies within a 15 yd frontal cone for ([del copy=true]180%[/del][ins]45%[/ins] of Spell power).
+[color=lightblue][/color][/li]
+[li][b][anchor="light-of-the-martyr-183998"][spell=183998][/b]   Sacrifice a portion of your own health to instantly heal an ally for ([del copy=true]500%[/del][ins]125%[/ins] of Spell power). You take damage equal to 50% of the healing done.
+Does not cause your Beacon of Light to be healed. Cannot be cast on yourself.
+[/li]
+[/ul]
+
+[h5]Talents[/h5]
+[center][table class="grid"]
+[tr][td width=50%][b]Live[/b][/td] [td][b]BFA[/b][/td][/tr]
+[tr][td][url=https://www.wowhead.com/talent-calc/paladin/holy][img src=https://wow.zamimg.com/uploads/screenshots/normal/702335.jpg width=400][/url][/td]
+[td][url=https://bfa.wowhead.com/talent-calc/paladin/holy][img src=https://i.gyazo.com/6a5c29969604c65eebbb3d1419446225.png width=400][/url][/td][/tr][/table][/center]
+
+
+[ul]
+[li][b][anchor="aura-of-mercy-183415"][spell=183415][/b]   Restores ([del copy=true]15%[/del][ins]7.5%[/ins] of Spell power) health to 3 injured allies within 10 yds every [del]1[/del][ins]2[/ins] sec.
+While Aura Mastery is active, heals all allies in the aura instead of 3 and healing is increased by 100%.
+[color=lightblue][/color][/li]
+[li][b][anchor="bestow-faith-223306"][spell=223306][/b]   Infuse a friendly target with faith for 5 sec, healing them for ([del copy=true]600%[/del][ins]150%[/ins] of Spell power) at the end.
+[color=lightblue][/color][/li]
+[li][b][anchor="holy-prism-114165"][spell=114165][/b]   A beam of light turns the target into a Holy Prism.
+An enemy target takes ([del copy=true]300%[/del][ins]75%[/ins] of Spell power) Holy damage and radiates ([del copy=true]200%[/del][ins]50%[/ins] of Spell power) healing to 5 nearby allies within 15 yards.
+A friendly target is healed for ([del copy=true]400%[/del][ins]100%[/ins] of Spell power) and radiates ([del copy=true]225%[/del][ins]45%[/ins] of Spell power) Holy damage to 5 nearby enemies within 15 yards.
+[color=lightblue][/color][/li][/ul]
+
+[h5]Azerite Traits[/h5]
+[ul]
+[li][b][anchor="divine-illumination-269243"][spell=269243 diff=26231][/b]   Holy Shock has 5% additional critical strike chance, and does [del copy=true]231[/del][ins]139[/ins] additional damage and healing.
+Holy
+[color=lightblue][/color][/li]
+[/ul]
+
+[/toggler]
+[toggler class="heading-size-3 c2" name="Prot Paladin" size=3]
+
+[h5]Specialization[/h5]
+[ul][li][b][anchor="protection-paladin-137028"][spell=137028][/b]   Effect #5 Apply Aura: Modifies Damage/Healing Done [spell=19750] by [del]42%[/del] [ins]50%[/ins].
+Effect #6 Apply Aura: Modifies Power Cost [spell=19750] by [del]22%[/del] [ins]25%[/ins].
+Effect #7 Apply Aura: Modifies Damage/Healing Done [spell=20271] by [del]35%[/del] [ins]-42%[/ins].
+Effect #8 Apply Aura: Modifies Damage/Healing Done [spell=26573] [spell=81297] [spell=205228] by [del]-10%[/del] [ins]0%[/ins].[/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][[url=www.wowhead.com/spell=157488]Improved Block[/url][/b]   Increases the amount blocked by your shield by an additional 10%.[/li]
+[li][b][anchor="avengers-shield-31935"][spell=31935][/b]   Hurls your shield at an enemy target, dealing ([del copy=true]435%[/del][ins]52.416%[/ins] of Attack power) Holy damage interrupting and silencing the non-Player target for 3 sec and then jumping to 2 additional nearby enemies.[/li]
+[li][b][anchor="cleanse-toxins-213644"][spell=213644][/b]   Cleanses a friendly target, removing all Poison and Disease effects.
+[color=lightblue]Cost changed from 13.0% of base mana to 6.5% of base mana[/color][/li]
+[li][b][anchor="consecration-26573"][spell=26573][/b]   Consecrates the land beneath you, causing [([del copy=true]30%[/del][ins]3.5%[/ins] of Attack power) * 9] Holy damage over 9 sec to enemies who enter the area.
+[color=lightblue][/color][/li]
+[li][b][anchor="flash-of-light-19750"][spell=19750][/b]   A quick spell, healing a friendly target for ([del copy=true]450%[/del][ins]112.5%[/ins] of Spell power).[/li]
+[li][b][anchor="hammer-of-the-righteous-53595"][spell=53595][/b]   Hammers the current target for [del copy=true]112%[/del][ins](27% of Attack power)[/ins] Physical damage.
+Hammer of the Righteous also causes a wave of light that hits all other targets within 8 yds for [del copy=true]67%[/del][ins](8.7048% of Attack power)[/ins] Holy damage
+While you are standing in your Consecration, Hammer of the Righteous also causes a wave of light that hits all other targets within 8 yds for [del copy=true]67%[/del][ins](8.7048% of Attack power)[/ins] Holy damage[/li]
+[li][b][anchor="light-of-the-protector-184092"][spell=184092][/b]   Calls down the Light to heal you for ([del copy=true]30% of[/del][ins]200% of Spell power), increased by up to 200% based on[/ins] your missing health.
+[color=lightblue]Cooldown changed from 15 sec recharge to 20 sec recharge[/color][/li]
+[li][b][anchor="mastery-divine-bulwark-76671"][spell=76671][/b]   Increases [del copy=true]damage reduction from[/del][ins]the Armor bonus of[/ins] Shield of the Righteous by [del copy=true]4%[/del][ins]32.0% of your Strength[/ins], and increases your chance to block melee attacks by [del copy=true]8%.[/del][ins]8.0%.[/ins]
+Also increases your attack power by [del copy=true]8%.[/del][ins]8.0%.[/ins]
+[color=lightblue][/color][/li]
+[li][b][anchor="shield-of-the-righteous-53600"][spell=53600][/b]   Slams [del copy=true]the target[/del][ins]targets in front of you[/ins] with your shield, causing ([del copy=true]400%[/del][ins]42.5%[/ins] of Attack power) Holy damage, and [del copy=true]reducing damage you take by (- 1 * 25 ; Min - 80, Max - 25)%[/del][ins]increasing your Armor by 250% of your Strength[/ins] for [del]4.50[/del][ins]5[/ins] sec.
+While you are standing in your Consecration, Shield of the Righteous' effects are increased by 20%
+[color=lightblue]Cooldown changed from 16 sec recharge to 20 sec recharge[/color][/li][/ul]
+
+[h5]Talents[/h5]
+[center][table class="grid"]
+[tr][td width=50%][b]Live[/b][/td] [td][b]BFA[/b][/td][/tr]
+[tr][td][url=https://www.wowhead.com/talent-calc/paladin/protection][img src=https://i.gyazo.com/4865d16f6f52ddfd6556f17ad58e0556.png width=400][/url][/td]
+[td][url=https://bfa.wowhead.com/talent-calc/paladin/protection][img src=https://i.gyazo.com/1a50774346208cff92ae9cc3661fbeb2.png width=400][/url][/td][/tr][/table][/center]
+
+
+[ul]
+[li][b][anchor="blessed-hammer-204019"][spell=204019][/b]   Throws a Blessed Hammer that spirals outward, dealing ([del copy=true]57.4%[/del][ins]10%[/ins] of Attack power) Holy damage to enemies that it hits, and causing them to deal 12% less damage to you on their next auto attack.[/li]
+[li][b][anchor="blessing-of-spellwarding-204018"][spell=204018][/b]   Places a blessing on a party or raid member, protecting them from all magical attacks for 10 [del copy=true]sec. Cannot[/del][ins]sec.
+Cannot[/ins] be used on a target with Forbearance. Causes Forbearance for 30 sec.
+[color=lightblue][/color][/li]
+[li][b][anchor="consecrated-ground-204054"][spell=204054][/b]   Up to 6 allies standing within your Consecration receive ([del copy=true]8.3%[/del][ins]2.075%[/ins] of Spell power) healing every 1 sec, and enemies within your Consecration have 50% reduced movement speed.
+[color=lightblue][/color][/li]
+[li][b][anchor="first-avenger-203776"][spell=203776][/b]   Avenger's Shield now deals 50% increased damage to the first target [del copy=true]hit. Grand[/del][ins]hit.
+Grand[/ins] Crusader now has an additional 10% chance to occur.
+[color=lightblue][/color][/li]
+[li][b][anchor="hand-of-the-protector-213652"][spell=213652][/b]   Calls down the Light to heal a friendly target for ([del copy=true]30% of the target's missing health.[/del][ins]200% of Spell power), increased by up do 200% based on your missing health.[/ins] While you are standing in your Consecration, Hand of the Protector's healing is increased by 20%.
+[color=lightblue]Cooldown changed from 10 sec recharge to 15 sec recharge[/color][/li]
+[li][b][anchor="holy-shield-152261"][spell=152261][/b]   Increases your block chance by 15%, allows you to block spells, and your successful blocks deal ([del copy=true]75%[/del][ins]9.828%[/ins] of Attack power) Holy damage to your attacker.
+[color=lightblue][/color][/li]
+[li][b][anchor="retribution-aura-203797"][spell=203797][/b]   Protects yourself and all party or raid members within 60 yards with an aura that deals ([del copy=true]5%[/del][ins]0.7371%[/ins] of Attack power) Holy damage when melee attacked.
+[color=lightblue][/color][/li]
+[/ul]
+
+[h5]Azerite Traits[/h5]
+[ul]
+[li][b][anchor="righteous-bastion-269245"][spell=269245][/b]   Shield of the Righteous grants damage reduction for [del copy=true]0.5[/del][ins]0.50[/ins] additional seconds, and does [del copy=true]231 additional damage.[/del][ins]55 additional damage.[/ins]
+Protection
+[color=lightblue][/color][/li]
+[/ul]
+
+[/toggler]
+[toggler class="heading-size-3 c2" name="Retribution" size=3]
+
+[h5]Specialization[/h5]
+[ul][li][b][anchor="retribution-paladin-137027"][spell=137027][/b]   Apply Aura: Modifies Damage/Healing Done by [del]0%[/del] [ins]5%[/ins].
+Effect #11 Apply Aura: Modifies Damage/Healing Done [spell=20271] by [del copy=true]45[/del][ins]0[/ins].
+Effect #12 Apply Aura: Modifies Damage/Healing Done [spell=35395] by [del copy=true]50[/del][ins]0[/ins].
+Effect #13 Apply Aura: Modifies Damage/Healing Done [spell=26573] [spell=81297] [spell=205228] by [del copy=true]333[/del][ins]188[/ins].[/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="judgment-231663"][spell=231663] Rank 3[/b]   Judgment increases damage taken from your Holy Power spenders by 10% for [del copy=true]8 sec.
+[/del][ins]15 sec.[/ins]
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][url=https://www.wowhead.com/spell=231661/judgment]Judgment Rank 2[/url][/b]   Judgment hits 1 additional nearby enemy.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][url=https://www.wowhead.com/spell=76672/mastery-divine-judgment]Mastery: Divine Judgment[/url][/b]   Increases Judgment damage by 35.0%, and causes Judgment to increase damage taken from your Holy Power spenders by 14.0% for 8 sec.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="mastery-hand-of-light-267316"][spell=267316][/b]   Increases the damage of your Holy damage abilities by 13.0%.
+[color=lightblue][/color][/li]
+[li][b][anchor="blade-of-justice-184575"][spell=184575][/b]   Strikes an enemy with the Blade of Justice, dealing [[del copy=true]755%[/del][ins](200% of Attack power[/ins]) * ((max(0, min(Level - 16, 4)) * 12 + 352) / 400)] Physical damage.
+Generates 2 Holy Power.
+[color=lightblue][/color][/li]
+[li][b][anchor="cleanse-toxins-213644"][spell=213644][/b]   Cleanses a friendly target, removing all Poison and Disease effects.
+[color=lightblue]Cost changed from 13.0% of base mana to 6.5% of base mana[/color][/li]
+[li][b][anchor="divine-storm-53385"][spell=53385][/b]   Unleashes a whirl of divine energy, dealing [del copy=true]275%[/del][ins](42% of Attack power)[/ins] Holy damage to all nearby enemies.
+[color=lightblue][/color][/li]
+[li][b][anchor="flash-of-light-19750"][spell=19750][/b]   A quick spell, healing a friendly target for ([del copy=true]450%[/del][ins]112.5%[/ins] of Spell power).[/li]
+[li][b][anchor="greater-blessing-of-kings-203538"][spell=203538][/b]   Places a blessing on an ally that grants them an absorption shield. It absorbs up to ([del copy=true]2.7[/del][ins]0.675[/ins] * Spell power) damage, and will be refreshed to full strength every 6 sec, even if fully consumed. Limit 1.
+[color=lightblue][/color][/li]
+[li][b][anchor="hand-of-hindrance-183218"][spell=183218b][/b]   Places a Hand on an enemy target, reducing movement speed by 70% for 10 sec.
+[color=lightblue]Cost changed from 13.0% of base mana to 10.0% of base mana[/color][/li]
+[li][b][anchor="judgment-20271"][spell=20271][/b]   Judges the target, [del copy=true]and 1 other nearby enemy dealing (250%[/del][ins]dealing (112.5%[/ins] of Spell power) Holy damage, 
+Retribution: and causing them to take 25% increased damage taken from your [del copy=true]Holy Power spenders for 8 sec[/del][ins]next Holy Power spender[/ins].
+Generates 1 Holy Power
+[color=lightblue][/color][/li]
+[li][b][anchor="retribution-183435"][spell=183435][/b]   When any party or raid member within 40 [del copy=true]yards[/del][ins]yds[/ins] dies, you gain 20% increased damage done and 30% reduced damage taken for [del copy=true]20[/del][ins]10[/ins] sec.
+[color=lightblue][/color][/li]
+[li][b][anchor="shield-of-vengeance-184662"][spell=184662][/b]   Creates a barrier of holy light that absorbs [del copy=true][(Attack power * 20)][/del][ins]30% of your maximum health in[/ins] damage for 15 sec. When the barrier is consumed, all damage absorbed is dealt as Holy damage divided across all enemies within 8 yds.
+[color=lightblue][/color][/li]
+[li][b][anchor="templars-verdict-85256"][spell=85256][/b]   A powerful weapon strike that deals [[del copy=true][560%[/del][ins](105% of Attack power)[/ins] * ((max(0, min(Level - 10, 10)) * 11 + 290) / 400)] Holy damage.
+[color=lightblue][/color][/li]
+[/ul]
+
+[h5]Talents[/h5]
+[center][table class="grid"]
+[tr][td width=50%][b]Live[/b][/td] [td][b]BFA[/b][/td][/tr]
+[tr][td][url=https://www.wowhead.com/talent-calc/paladin/retribution][img src=https://wow.zamimg.com/uploads/screenshots/normal/702333.jpg width=400][/url][/td]
+[td][url=https://bfa.wowhead.com/talent-calc/paladin/retribution][img src=https://i.gyazo.com/0d439050b5b934846dd9219344ee3f44.png width=400][/url][/td][/tr][/table][/center]
+
+
+[b]Removed[/b]
+[ul][li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="divine-hammer-198034"][spell=198034][/b]   Divine Hammers spin around you, damaging enemies within 8 yds for [del copy=true]73%[/del][ins][9 / 1.5 * (14% of Attack power)[/ins]] Holy damage over 9 sec [del copy=true]instantly and every 2 sec for 12 sec[/del].
+Generates 2 Holy Power.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="divine-intervention-213313"][spell=213313][/b]   Reduces your Divine Shield cooldown by 20%. In addition, any attack which would kill you instead reduces you to 20% of your maximum health and triggers Divine Shield.
+Cannot occur while Divine Shield is on cooldown or Forbearance is active. 
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][url=www.wowhead.com/spell=213757]Execution Sentence[/url][/b]   A hammer slowly falls from the sky, dealing ([del copy=true]2160%[/del][ins]353.808%[/ins] of Attack power) Holy damage after 7 sec.
+[color=lightblue]Old spell ID[/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="final-verdict-198038"][spell=198038][/b]   Increases the damage done by Templar's Verdict by 20%, and the damage done by Divine Storm by 10%.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="greater-judgment-218178"][spell=218178][/b]   [del copy=true]Your Judgment ability hits 2 additional nearby enemies, and[/del][ins]Judgment[/ins] always deals a critical strike against targets above [del copy=true]50% health.[/del][ins]60% health.[/ins][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="holy-wrath-210220"][spell=210220][/b]   Deals 200% of your missing health in Holy damage to 4 nearby enemies, up to 120% of your maximum health.
+Deals 35% of missing health against enemy players.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="judgment-of-light-183778"][spell=183778][/b]   Judgment now applies Judgment of Light to the target, causing the next 40 successful attacks against the target to heal the attacker for ([del copy=true]20%[/del][ins]5%[/ins] of Spell power). 
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][url=https://www.wowhead.com/spell=202271/virtues-blade]Virtue's Blade[/url][/b]   Blade of Justice critical strikes now deal 3 times normal damage.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="zeal-217020"][spell=217020][/b]   Strike the target for [del copy=true](450% Physical damage. Maximum 2 charges.[/del][ins](73.9908% of Attack power) Physical damage.[/ins]
+Grants Zeal, causing Zeal attacks to chain to an additional nearby target per stack. Maximum 3 stacks. Each jump deals 40% less damage.
+Generates 1 Holy Power.
+[color=lightblue]Recharge changed from 4.5 to 6 sec
+[/color][/li][/ul]
+
+[b]New[/b]
+[ul][li][span class="patch-diff-new"]NEW[/span] [b][anchor="divine-judgment-271580"][spell=271580][/b]   Divine Storm increases the damage of your next Judgment by 10% for each enemy hit. Stacks up to 10 times.
+[color=lightblue]Tier 4 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="execution-sentence-267798"][spell=267798][/b]   Deliver an execution sentence, dealing (110% of Attack power) Holy damage.
+Your Holy damage done against the target is increased by 20% for 12 sec.
+[color=lightblue]Tier 1 Talent, new spell ID[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="hammer-of-wrath-24275"][spell=24275][/b]   Hurls a magical hammer that strikes an enemy for (95% of Attack power) Holy damage. Only usable on enemies that have less than 20% health or during Crusade, Avenging Wrath.
+Generates 1 Holy Power.
+[color=lightblue]Tier 2 talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="inquisition-84963"][spell=84963][/b]   Consumes up to 3 Holy Power to increase your damage done and Haste by 10%.
+Lasts 15 sec per Holy Power consumed.
+[color=lightblue]Tier 7 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="righteous-verdict-267610"][spell=267610][/b]   Templar's Verdict increases the damage of your next Templar's Verdict by 15% for 6 sec.
+[color=lightblue]Tier 1 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="selfless-healer-85804"][spell=85804][/b]   Your successful Judgments reduce the cast time and mana cost of your next Flash of Light by 35%, and increase its effect on others by 20%. Stacks up to 3 times.
+[color=lightblue]Tier 1 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="unbreakable-spirit-114154"][spell=114154][/b]   Reduces the cooldown of your Divine Shield, Shield of Vengeance, and Lay on Hands by 30%.
+[color=lightblue]Tier 5 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="wake-of-ashes-255937"][spell=255937][/b]   Lash out at your enemies, dealing (120% of Attack power)% Radiant damage to all enemies within 12 yd in front of you and reducing their movement speed by 50% for 5 sec.
+Demon and Undead enemies are also stunned for 5 sec.
+Generates 5 Holy Power.
+[color=lightblue]Tier 4 Talent
+Previous artifact trait [spell=205273][/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="zeal-269569"][spell=269569][/b]    Judgment grants you Zeal, causing your next 3 auto attacks to attack 50% faster and deal an addtional (10% of Attack power) Holy damage.
+[color=lightblue]Tier 1 Talent[/color][/li]
+[/ul]
+
+[b]Swapped Positions[/b]
+[ul][li][b][anchor="blade-of-wrath-231832"][spell=231832][/b]   Your auto attacks have a chance to reset the cooldown of Blade of Justice.
+[color=lightblue]Procs per minute changed from 4 to 3.5
+Tier 2 talent[/color][/li]
+[li][b][anchor="cavalier-230332"][spell=230332][/b]   Divine Steed now has 2 charges.
+[color=lightblue]Tier 5 Talent[/color][/li]
+[li][b][anchor="consecration-205228"][spell=205228][/b]   Consecrates the land beneath you, causing [([del copy=true]30%[/del][ins]2.2932%[/ins] of Attack power) * [del copy=true]12[/del][ins]7[/ins]] Holy damage over [del copy=true]12[/del][ins]6[/ins] sec to enemies who enter the area.
+[ins]Generates 1 Holy Power.[/ins]
+[color=lightblue]Cooldown changed from 12 to 20 sec
+Tier 4 talent[/color][/li]
+[li][b][anchor="justicars-vengeance-215661"][spell=215661][/b]   A weapon strike that deals ([del copy=true]1000%[/del][ins]100%[/ins] of Attack power) Holy damage and restores health equal to the damage done.
+Deals [del copy=true]100%[/del][ins]50%[/ins] additional damage and healing when used against a stunned target.
+[color=lightblue]Tier 6 Talent[/color][/li]
+[li][b][anchor="word-of-glory-210191"][spell=210191][/b]   Heal yourself and up to [del copy=true]5[/del][ins]4[/ins] friendly targets within [del copy=true]15[/del][ins]30[/ins] yards for ([del copy=true]1200%[/del][ins]400%[/ins] of Spell power).
+[color=lightblue]Tier 6 Talent[/color][/li][/ul]
+
+[b]Changed[/b]
+[ul][li][b][anchor="crusade-231895"][spell=231895][/b]   Increases your damage[ins] done[/ins] and Haste by [del copy=true]3.0%[/del][ins]3%[/ins] for [del copy=true]20[/del][ins]25[/ins] sec.
+Each Holy Power spent during Crusade increases damage [ins]done [/ins]and Haste by an additional [del copy=true]3.0%[/del][ins]3%[/ins].
+[del copy=true]Maximum 15 stacks.[/del][ins]Maximum 10 stacks.[/ins]
+[color=lightblue][/color][/li]
+[li][b][anchor="eye-for-an-eye-205191"][spell=205191][/b]   Reduces Physical damage you take by 35%, and instantly counterattacks any enemy that strikes you in melee combat for [del copy=true]215%[/del][ins](35.3028% of Attack power)[/ins] Physical damage. Lasts 10 sec.
+[color=lightblue][/color][/li]
+[li][b][anchor="fist-of-justice-234299"][spell=234299][/b]   Each Holy Power spent reduces the remaining cooldown on Hammer of Justice by [del copy=true]2.5[/del][ins]2[/ins] sec.
+[color=lightblue][/color][/li]
+[li][b][anchor="the-fires-of-justice-203316"][spell=203316][/b]   Reduces the cooldown of Crusader Strike by 1[del copy=true].0[/del] sec and gives it a 15% chance to reduce the cost of your next [del copy=true]damaging or healing Holy Power ability by 1.[/del][ins]Holy Power spender by 1.[/ins]
+[color=lightblue]Name changed from The Fires of Justice to Fires of Justice[/color][/li]
+[/ul]
+
+[h5]Azerite Traits[/h5]
+[ul]
+[li][b][anchor="zealotry-269262"][spell=269262][/b]   Crusader Strike deals an additional 6% damage over 4 sec, and does 111 additional damage.
+Retribution
+[color=lightblue][/color][/li]
+[/ul]
+
+[/toggler]
+[toggler class="heading-size-3 c2" name="Paladin General" size=3]
+
+[h5]Spells[/h5]
+[ul][li][b][anchor="blessing-of-freedom-1044"][spell=1044][/b]   Places a blessing on a party or raid member, granting immunity to movement impairing [del copy=true]effects [/del][ins]and forced movement effects [/ins] for 8 sec.
+Unbound Freedom: and increasing movement speed by 30%
+[color=lightblue]Cooldown changed from 25 sec recharge to 45 sec recharge[/color][/li]
+[li][b][anchor="crusader-strike-35395"][spell=35395][/b]   Strike the target for [del copy=true][290% * ((min(Level - 1, 19) * 6 + 96) / 210)][/del][ins]90% of Attack power)[/ins] Physical damage.
+Retribution: Generates 1 Holy Power.
+[color=lightblue]Cooldown changed from 4.5 sec recharge to 6 sec recharge[/color][/li]
+[li][b][anchor="divine-steed-190784"][spell=190784][/b]   Summons your Holy mount to ride for 3 sec, increasing movement speed by 100%. Usable while indoors or in combat.
+[color=lightblue]Cooldown changed from 45 sec recharge to 1 min recharge[/color][/li]
+[li][b][anchor="hand-of-reckoning-62124"][spell=62124][/b]   Taunts the target to attack you, and increases threat that you generate against the target for 3 sec.
+[color=lightblue]Cost changed from 3.5% of base mana to 3.0% of base mana[/color][/li]
+[/ul]
+
+[h5]Talents[/h5]
+[ul]
+[li][b][anchor="judgment-of-light-183778"][spell=183778][/b]   Judgment now applies Judgment of Light to the target, causing the next 40 successful attacks against the target to heal the attacker for ([del copy=true]20%[/del][ins]5%[/ins] of Spell power). 
+[color=lightblue]Now Holy/Protection, no longer Retribution[/color][/li]
+[li][b][anchor="repentance-20066"][spell=20066][/b]   Forces an enemy target to meditate, incapacitating them [del copy=true]
+Usable against Demons, Dragonkin, Giants, Humanoids, and Undead.[/del][ins]for 1 min.
+Usable against Humanoids, Demons, Undead, Dragonkin, and Giants.[/ins]
+[color=lightblue][/color][/li]
+[/ul]
+
+[h5]Honor Talents (2)[/h5]
+[ul]
+[li][b][anchor="inquisition-207028"][spell=207028][/b]   Intimidates the target, increasing their damage taken by [del copy=true]5%[/del][ins]3%[/ins] for 6 sec.  Each unique player that attacks the target increases the damage taken by an additional [del copy=true]5%[/del][ins]3%[/ins], stacking up to 5 times.
+Your melee attacks refresh the duration of Intimidated.
+[color=lightblue][/color][/li]
+[li][b][anchor="shield-of-virtue-215652"][spell=215652][/b]   When activated, your next Avenger's Shield will interrupt and silence all enemies within 8 yards of the target.
+[color=lightblue][/color][/li]
+[/ul]
+
+[h5]Azerite Traits[/h5]
+[ul]
+[li][b][spell=92322][/b]   Your harmful spells have a chance to grant 229 mastery for 20 sec.[/li]
+[/ul][/toggler][/div]

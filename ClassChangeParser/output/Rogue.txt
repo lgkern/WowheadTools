@@ -1,0 +1,423 @@
+[h2][color=c4]Rogue Spell Changes[/color][/h2][div class="patch-diff patch-diff-group-rogue patch-diff-class patch-diff-class-4"][table]
+  [tr]
+    [td=header colspan=4]Class Tools[/td]
+[/tr]
+  [tr]
+    [td=header]Assassination[/td]
+    [td][url=/talent-calc/rogue/assassination]Talents[/url][/td]
+[/tr]
+  [tr]
+    [td=header]Outlaw[/td]
+    [td][url=/talent-calc/rogue/outlaw]Talents[/url][/td]
+[/tr]
+  [tr]
+    [td=header]Subtlety[/td]
+    [td][url=/talent-calc/rogue/subtlety]Talents[/url][/td]
+[/tr]
+[/table]
+[toggler name="Weapon Damage Converted to AP" size=3 class="c4" closed=true toc=false]
+
+
+[ul][li][b][anchor="sinister-strike-1752"][spell=1752][/b]   An instant strike that causes ([del copy=true]422% Physical damage.[/del][ins]21.762% of Attack power) Physical damage.[/ins]
+Awards 1 combo point.[/li]
+[li][b][anchor="dispatch-111240"][spell=111240][/b]   Exploits the vulnerability of foes with less than 30% health, dealing ([del copy=true]240%[/del][ins]58.032% of Attack power[/ins]) Physical damage to the target. 
+Mutilate has a 35% chance to make your next Dispatch free and usable on any target, regardless of their health.
+Awards 1 combo point.[/li]
+[li][b][anchor="toxic-blade-245388"][spell=245388][/b]   Stab your enemy with a toxic poisoned blade, dealing ([del copy=true]600% Nature damage.[/del][ins]65.7696% of Attack power) Nature damage.[/ins]
+The damage of your poisons against the target is increased by [del copy=true]35%[/del][ins]30%[/ins] for 9 sec.
+Awards 1 combo point.[/li]
+[li][b][anchor="ambush-8676"][spell=8676][/b]   Ambush the target, causing [del copy=true]780%[/del][ins](95.472% of Attack power)[/ins] Physical damage.
+Awards 1 combo point.
+[color=lightblue]Cost changed from 60 to 50 Energy[/color][/li]
+[li][b][anchor="saber-slash-193315"][spell=193315][/b]   Viciously slash an enemy, causing [del copy=true][392%[/del][ins][(45.279% of Attack power)[/ins] * ((max(0, min(Level - 10, 10)) * 8 + 195) / 275)] Physical damage.
+Saber Slash has a 35% chance to strike an additional time, making your next Pistol Shot [del copy=true]free[/del][ins]half cost and double damage[/ins].
+Awards 1 combo point[del copy=true] each time it strikes[/del].
+[color=lightblue]Cost changed from 50 to 45 Energy[/color][/li]
+[li][b][anchor="killing-spree-51690"][spell=51690][/b]   Teleport to an enemy within 10 yards, attacking 6 times over 2 sec with both weapons for a total of [([del copy=true]338% * 7 + 338%[/del][ins]47.736% of Attack power)% * 6 + 0%[/ins] * 6] Physical damage.
+While Blade Flurry is active, each Killing Spree attack will teleport to and damage a different nearby enemy target.
+[color=lightblue][/color][/li]
+[li][b][anchor="ghostly-strike-196937"][spell=196937][/b]   Strikes an enemy[del copy=true] with your cursed weapon, dealing (252%[/del][ins], dealing (80% of Attack power[/ins]) Physical damage and causing the target to take 10% increased damage from your abilities for 15 sec.
+Awards 1 combo point.
+[color=lightblue]Cooldown changed from None to 30 sec cooldown[/color][/li]
+[li][b][anchor="backstab-53"][spell=53][/b]   Stab the target, causing [([del copy=true][500%[/del][ins]41.106% of Attack power[/ins]) * ((max(0, min(Level - 10, 10)) * 11 + 260) / 370)] Physical damage. Damage increased by 20% when you are behind your target.
+Awards 1 combo point.[/li]
+[li][b][anchor="shadowstrike-185438"][spell=185438][/b]   Strike the target, dealing ([del copy=true]850% Physical damage.[/del][ins]69.8802% of Attack power) Physical damage.[/ins]
+While Stealth is active, you strike through the shadows and appear behind your target up to 25 yds away, dealing 25% additional damage
+Awards 2 combo point.[/li]
+[li][b][anchor="shadow-blade-121473"][spell=121473][/b]   Strike with dark energy, dealing Shadow damage equal to [del copy=true]100%[/del][ins](10.54% of Attack power)[/ins] weapon damage.[/ins][/li]
+[li][b][anchor="gloomblade-200758"][spell=200758][/b]   Punctures your target with your shadow-infused blade for ([del copy=true]575%[/del][ins]47.151% of Attack power[/ins]) Shadow damage, bypassing armor.
+Awards 1 combo point.[/li]
+[li][b][anchor="main-gauche-86392"][spell=86392][/b]   [del copy=true]A vicious attack that deals (210%[/del][ins]Your main-hand attacks have a 30% chance to trigger an attack with your off-hand that deals (0.1%
+ of Attack power[/ins] Physical damage [del copy=true]with your off-hand[/del].[/li]
+[li][b][anchor="mutilate-1329"][spell=1329][/b]   Instantly attacks for [del copy=true](432% + 432%)[/del][ins](29.4996% of Attack power) + (29.4996% of Attack power)[/ins] Physical damage. Awards 2 combo points.[/li][/ul][/toggler][toggler class="heading-size-3 c4" name="Assassination" size=3]
+
+[h5]Specialization[/h5]
+[ul]
+[li][b][anchor="assassination-rogue-137037"][spell=137037][/b]   Apply Aura: Modifies Damage/Healing Done by [del]28%[/del] [ins]32%[/ins].
+[span class="patch-diff-removed"]REMOVED[/span] Modifies Spell Effectiveness [spell=131511 tempname="Prey on the Weak"] Value: +5%
+[span class="patch-diff-new"]NEW[/span] Modifies Cooldown [spell=137619 tempname="Marked for Death"] Value: -30000[/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][url=www.wowhead.com/spell=84601]Assassin's Resolve[/url][/b]   Your maximum Energy is increased by 20 and your damage is increased by 17%.
+[color=lightblue][/color][/li]
+[li][b][anchor="blind-2094"][spell=2094][/b]   Blinds the target, causing it to wander disoriented for 1 min. Damage will interrupt the effect. Limit 1.
+[color=lightblue]Cooldown changed from 2 min cooldown to 1 min cooldown[/color][/li]
+[li][b][anchor="deadly-poison-113780"][spell=113780][/b]   Poisoned weapons have a chance to deal ([del copy=true]25.415%[/del][ins]4.914%[/ins] of Attack power) Nature damage to a target already affected by Deadly Poison.[/li]
+[li][b][anchor="envenom-32645"][spell=32645][/b]   Finishing move that drives your poisoned blades in deep, dealing instant Nature damage and increasing your poison application chance by 30%. Damage and duration increased per combo point.
+   1 point  : [([del copy=true]60%[/del][ins]15%[/ins] of Attack power) * 1] damage, 2 sec
+   2 points: [([del copy=true]60%[/del][ins]15%[/ins] of Attack power) * 2] damage, 3 sec
+   3 points: [([del copy=true]60%[/del][ins]15%[/ins] of Attack power) * 3] damage, 4 sec
+   4 points: [([del copy=true]60%[/del][ins]15%[/ins] of Attack power) * 4] damage, 5 sec
+   5 points: [([del copy=true]60%[/del][ins]15%[/ins] of Attack power) * 5] damage, 6 sec
+   6 points: [([del copy=true]60%[/del][ins]15%[/ins] of Attack power) * 6] damage, 7 sec[/li]
+[li][b][anchor="eviscerate-196819"][spell=196819][/b]   Finishing move that disembowels the target, causing damage per combo point.
+   1 point  : [([del copy=true]85.333%[/del][ins]16.0737%[/ins] of Attack power) * 1] damage
+   2 points: [([del copy=true]85.333%[/del][ins]16.0737%[/ins] of Attack power) * 2] damage
+   3 points: [([del copy=true]85.333%[/del][ins]16.0737%[/ins] of Attack power) * 3] damage
+   4 points: [([del copy=true]85.333%[/del][ins]16.0737%[/ins] of Attack power) * 4] damage
+   5 points: [([del copy=true]85.333%[/del][ins]16.0737%[/ins] of Attack power) * 5] damage
+   6 points: [([del copy=true]85.333%[/del][ins]16.0737%[/ins] of Attack power) * 6] damage[/li]
+[li][b][anchor="fan-of-knives-51723"][spell=51723 diff=26231][/b]   Sprays knives at all targets within 10 yards, dealing ([del copy=true]20.475%[/del][ins]20.5%[/ins] of Attack power) Physical damage and applying your active poisons at their normal rate.
+Awards 1 combo points.[/li]
+[li][b][anchor="garrote-703"][spell=703][/b]   Garrote the enemy, causing ([del copy=true]810%[/del][ins]117%[/ins] of Attack power) Bleed damage over 18 sec.
+Silences the target for 3 sec when used from Stealth
+Awards 1 combo point.
+[color=lightblue]Cooldown changed from 15 sec cooldown to 6 sec cooldown[/color][/li]
+[li][b][anchor="mastery-potent-poisons-76803"][spell=76803][/b]   Increases the damage done by your poisons [del copy=true]by 32% and the effect of Agonizing Poison by 16%[/del][ins] and bleeds by 14.0%.[/ins]
+[color=lightblue]Name changed from Mastery: Potent Poisons to Mastery: Potent Assassin[/color][/li]
+[li][b][anchor="mutilate-1329"][spell=1329][/b]   Instantly attacks for [del copy=true](432% + 432%)[/del][ins](29.4996% of Attack power) + (29.4996% of Attack power)[/ins] Physical damage. Awards 2 combo points.
+[color=lightblue]Cost changed from 55 Energy to 50 Energy[/color][/li]
+[li][b][anchor="poisoned-knife-185565"][spell=185565][/b]   Throws a poison-coated knife, dealing ([del copy=true]60%[/del][ins]9.828%[/ins] of Attack power) damage and applying your active Lethal and Non-Lethal Poisons.
+Awards 1 combo point.[/li]
+[li][b][anchor="rupture-1943"][spell=1943][/b]   Finishing move that tears open the target, dealing Bleed damage over time. Lasts longer per combo point.
+   1 point  : [([del copy=true]150%[/del][ins]27.846%[/ins] of Attack power) * 8 / 2] over 8 sec
+   2 points: [([del copy=true]150%[/del][ins]27.846%[/ins] of Attack power) * 12 / 3] over 12 sec
+   3 points: [([del copy=true]150%[/del][ins]27.846%[/ins] of Attack power) * 16 / 4] over 16 sec
+   4 points: [([del copy=true]150%[/del][ins]27.846%[/ins] of Attack power) * 20 / 5] over 20 sec
+   5 points: [([del copy=true]150%[/del][ins]27.846%[/ins] of Attack power) * 24 / 6] over 24 sec
+   6 points: [([del copy=true]150%[/del][ins]27.846%[/ins] of Attack power) * 28 / 7] over 28 sec[/li]
+[li][b][anchor="sinister-strike-1752"][spell=1752][/b]   An instant strike that causes [del copy=true]422% Physical damage.[/del][ins]21.762% of Attack power) Physical damage.[/ins]
+Awards 1 combo point.
+[color=lightblue][/color][/li]
+[li][b][anchor="vendetta-79140"][spell=79140][/b]   Marks an enemy for death for 20 sec, increasing the damage your abilities and auto attacks deal to the target by 30%, and making the target visible to you even through concealments such as stealth and invisibility.[ins]
+Grants 40 Energy plus an addtional (40)) Energy over 2 sec.[/ins]
+[color=lightblue][/color][/li]
+[li][b][anchor="venomous-wounds-79134"][spell=79134][/b]   You regain [del copy=true] Venom Rush 10[/del] 7 Energy each time your [del copy=true]abilities[/del][ins] Internal Bleeding, Garrote, or Rupture[/ins] deal Bleed damage to a poisoned target.
+If an enemy dies while afflicted by your Rupture, you regain energy based on its remaining duration.
+[color=lightblue]Tooltip error, does not increase with Venom Rush[/color][/li]
+[li][b][anchor="wound-poison-8679"][spell=8679][/b]   Coats your weapons with a Lethal Poison that lasts for 1 hour. Each strike has a 30% chance to poison the enemy, which instantly inflicts ([del copy=true]13%[/del][ins]2.1294%[/ins] of Attack power) Nature damage and reduces all healing received for 12 sec.
+[color=lightblue][/color][/li]
+[/ul]
+
+ [h5]Talents[/h5]
+[center][table class="grid"]
+[tr][td width=50%][b]Live[/b][/td] [td][b]BFA[/b][/td][/tr]
+[tr][td][url=https://www.wowhead.com/talent-calc/rogue/assassination][img src=https://wow.zamimg.com/uploads/screenshots/normal/702327.jpg width=400][/url][/td]
+[td][url=https://bfa.wowhead.com/talent-calc/rogue/assassination][img src=https://i.gyazo.com/cd9447d486b15351c9c164ff86451c56.png width=400][/url][/td][/tr][/table][/center]
+
+
+[b]Removed[/b]
+[ul]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="anticipation-114015"][spell=114015][/b]   You may have a maximum of 10 combo points. Finishers still consume a maximum of 5 combo points.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="death-from-above-152150"][spell=152150][/b]   Finishing move that empowers your weapons with shadow energy and performs a devastating two-part attack. 
+You whirl around, dealing up to ([del copy=true]440%[/del][ins]57.33%[/ins] of Attack power) damage to all enemies within 8 yds, then leap into the air and [del copy=true]Envenom, Run Through, Eviscerate[/del][ins]Eviscerate[/ins] your target on the way back down, with such force that it has a 200% stronger effect.
+[color=lightblue]Now Subtlety only[/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="hemorrhage-16511"][spell=16511][/b]   Rips a gushing wound in the target, dealing [del copy=true]100%[/del][ins]10.54%[/ins] Physical damage and increasing Bleed damage from your abilities on the target by 25% for 20 sec.
+Awards 1 combo point.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="shadow-focus-108209"][spell=108209][/b]   Abilities cost 25% less Energy while Stealth or Shadow Dance is active.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="alacrity-193539"][spell=193539][/b]   Your finishing moves have a 20 + (20 * ComboPoints)% chance per combo point to grant 3% Haste for 20 sec, stacking up to [del copy=true]10[/del][ins]5[/ins] times.
+[color=lightblue][/color][/li][/ul]
+
+[b]New[/b]
+[ul][li][span class="patch-diff-new"]NEW[/span] [b][anchor="crimson-tempest-121411"][spell=121411][/b]   Finishing move that slashes at all enemies within 10 yards, dealing instant damage and causing victims to bleed for additional damage. Lasts longer per combo point.
+   1 point : [(5% of Attack power) * 2] plus [(12% of Attack power) * 2] over 4 sec
+   2 points: [(5% of Attack power) * 3] plus [(12% of Attack power) * 3] over 6 sec
+   3 points: [(5% of Attack power) * 4] plus [(12% of Attack power) * 4] over 8 sec
+   4 points: [(5% of Attack power) * 5] plus [(12% of Attack power) * 5] over 10 sec
+   5 points: [(5% of Attack power) * 6] plus [(12% of Attack power) * 6] over 12 sec
+Deeper Stratagem
+   6 points: [(5% of Attack power) * 7] plus [(15%12% of Attack power) * 7] over 14 sec
+[color=lightblue]Tier 7 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="dispatch-111240"][spell=111240][/b]   Exploits the vulnerability of foes with less than 30% health, dealing ([del copy=true]240%[/del][ins]58.032% of Attack power[/ins]) Physical damage to the target. 
+Mutilate has a 35% chance to make your next Dispatch free and usable on any target, regardless of their health.
+Awards 1 combo point.[/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="hidden-blades-270061"][spell=270061 diff=26231 diffnew=1 tempname="Hidden Blades"][/b]   Every 2 sec, gain 20% increased damage for your next Fan of Knives, stacking up to 20 times.
+[color=lightblue]Tier 7 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="master-assassin-255989"][spell=255989][/b]   While Stealth is active and for 3 sec after breaking Stealth, your critical strike chance is increased by 50%.
+[color=lightblue]Tier 2 Talent
+After the legendary [item=144236][/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="poison-bomb-255544"][spell=255544][/b]   Envenom and Rupture have a 4% chance per combo point spent to smash a vial of poison at the target's location, creating a pool of acidic death that deals [(11% of Attack power) * 4] Nature damage over 2 sec to all enemies within it.
+[color=lightblue]Tier 7 Talent
+Former artifact trait [spell=192657][/color][/li][/ul]
+
+[b]Swapped Positions[/b]
+[ul][li][b][anchor="marked-for-death-137619"][spell=137619][/b]   Marks the target, instantly generating 5 combo points. Cooldown reset if the target dies within 1 min.
+[color=lightblue]Tier 3 Talent[/color][/li]
+[li][b][anchor="venom-rush-152152"][spell=152152][/b]   [del copy=true]Venomous Wounds grants 3 additional Energy each time it grants Energy.[/del][ins]Mutilate refunds 5 Energy when used against a poisoned target.[/ins]
+[color=lightblue]Tier 6 Talent[/color][/li][/ul]
+
+[b]Changed[/b]
+[ul][li][b][anchor="elaborate-planning-193640"][spell=193640][/b] Your finishing moves grant [del copy=true]12%[/del][ins]10%[/ins] increased damage done for 5 sec.[/li]
+[li][b][anchor="exsanguinate-200806"][spell=200806][/b]   Twist your blades into the target's wounds, causing your Bleed effects on them to bleed out [del copy=true]150%[/del][ins]100%[/ins] faster.
+[color=lightblue][/color][/li]
+[li][b][anchor="internal-bleeding-154904"][spell=154904][/b]   Kidney Shot also deals up to [6 * ([del copy=true]144%%[/del][ins]18.72%[/ins] of Attack power)] Bleed damage over [del copy=true]12[/del][ins]6[/ins] sec, based on combo points spent.
+[color=lightblue][/color][/li]
+[li][b][anchor="thuggee-196861"][spell=196861][/b]   [del copy=true]Resets the remaining cooldown on Garrote when a target dies with your Garrote active.[/del][ins]Increase the duration of Garrote's silence effect to 8 sec.
+Enemies silenced by Garrote deal 15% reduced damage for 8 sec.[/ins]
+[color=lightblue]Name changed from Thuggee to Iron Wire[/color][/li]
+[li][b][anchor="leeching-poison-108211"][spell=108211][/b]   Coats your weapons with a[del copy=true] Non-Lethal[/del] Poison that lasts for 1 hour, granting you 10% Leech.
+[color=lightblue]Can now be used in addition to non-lethal poison[/color][/li]
+[li][b][anchor="subterfuge-108208"][spell=108208][/b]   Your abilities requiring Stealth can still be used for 3 sec after Stealth breaks.
+Also causes Garrote to deal [del copy=true]125%[/del][ins]100%[/ins] increased damage and have no cooldown when used from Stealth [del copy=true]or[/del][ins]and for[/ins] 3 sec after [del copy=true]Stealth breaks.[/del][ins]breaking Stealth.[/ins][/li]
+[li][b][anchor="toxic-blade-245388"][spell=245388][/b]   Stab your enemy with a toxic poisoned blade, dealing ([del copy=true]600% Nature damage.[/del][ins]65.7696% of Attack power) Nature damage.[/ins]
+The damage of your poisons against the target is increased by [del copy=true]35%[/del][ins]30%[/ins] for 9 sec.
+Awards 1 combo point.[/li][/ul]
+
+[h5]Honor Talents[/h5]
+[ul][li][b][anchor="neurotoxin-206328"][spell=206328][/b]   Stabs the target with your off-hand weapon, causing ([del copy=true]100% of weapon damage[/del][ins]8.2212% of Attack power[/ins]) Nature damage, and applies a deadly neurotoxin for 10 sec. The neurotoxin causes any ability used to incur a 3 sec cooldown.[/li][/ul]
+
+[h5]Azerite Traits[/h5]
+[ul]
+[li][b][anchor="contaminant-269308"][spell=269308][/b]   Mutilate has a 10% chance to apply additional Deadly Poison, and does (62 * 2) additional damage.
+Assassination
+[color=lightblue][/color][/li]
+[/ul]
+
+[/toggler]
+[toggler class="heading-size-3 c4" name="Outlaw" size=3]
+
+[h5]Specialization[/h5]
+[ul][li][b][anchor="outlaw-rogue-137036"][spell=137036][/b]   Apply Aura: Modifies Damage/Healing Done by [del]10%[/del] [ins]42%[/ins].[/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][url=https://www.wowhead.com/spell=199740]Bribe[/url][/b]   Bribes a non-player humanoid target up to level 55 with fool's gold, convincing it to fight for you for 5 min.
+[color=lightblue][/color][/li]
+
+[li][b][anchor="ambush-8676"][spell=8676][/b]   Ambush the target, causing [del copy=true]780%[/del][ins](95.472% of Attack power)[/ins] Physical damage.
+Awards 1 combo point.[/li]
+[li][b][anchor="between-the-eyes-199804"][spell=199804][/b]   Finishing move that deals damage with your pistol and stuns the target.
+Critical strikes with this ability deal four times normal damage
+   1 point  : [([del copy=true]110.5%[/del][ins]18.0999%[/ins] of Attack power) * 1] damage, 1 sec
+   2 points: [([del copy=true]110.5%[/del][ins]18.0999%[/ins] of Attack power) * 2] damage, 2 sec
+   3 points: [([del copy=true]110.5%[/del][ins]18.0999%[/ins] of Attack power) * 3] damage, 3 sec
+   4 points: [([del copy=true]110.5%[/del][ins]18.0999%[/ins] of Attack power) * 4] damage, 4 sec
+   5 points: [([del copy=true]110.5%[/del][ins]18.0999%[/ins] of Attack power) * 5] damage, 5 sec
+   6 points: [([del copy=true]110.5%[/del][ins]18.0999%[/ins] of Attack power) * 6] damage, 6 sec
+[color=lightblue]Cooldown changed from 20 to 30 sec
+Cost changed from 35 Energy / 1 Energy to 25 Energy / 1 Energy[/color][/li]
+[li][b][anchor="blade-flurry-13877"][spell=13877][/b]   [del copy=true]While active, your melee[/del][ins]Causes your[/ins] attacks also strike all nearby enemies for [del copy=true]30%[/del][ins]50%[/ins] of normal damage for 12 sec[del copy=true], but your Energy regeneration is reduced by 20%. Lasts until cancelled[/del].
+[color=lightblue]Cooldown changed to 25 sec and no longer lasts until cancelled
+Now has 2 Charges
+Cost changed from 10 to 15 Energy[/color][/li]
+[li][b][anchor="blind-2094"][spell=2094][/b]   Blinds the target, causing it to wander disoriented for 1 min. Damage will interrupt the effect. Limit 1.
+[color=lightblue]Cooldown changed from 2 min cooldown to 1 min cooldown[/color][/li]
+
+[li][b][anchor="combat-potency-35551"][spell=35551][/b]   Your off-hand attacks have a [del copy=true]30%[/del][ins]75%[/ins] chance to generate 10 Energy.
+[color=lightblue][/color][/li]
+
+[li][b][anchor="gouge-1776"][spell=1776][/b]   Gouges the eyes of an enemy target, incapacitating for 4 sec. Damage will interrupt the effect.
+Awards 1 combo point.
+[color=lightblue]Cooldown changed from 10 sec cooldown to 15 sec cooldown[/color][/li]
+[li][b][anchor="mastery-main-gauche-76806"][spell=76806][/b]   Your main-hand attacks have a [del copy=true]18.0[/del][ins]30%[/ins] chance to trigger an attack with your off-hand that deals [del copy=true]210%[/del][ins](0.1% of Attack power)[/ins] Physical damage.
+[color=lightblue][/color][/li]
+[li][b][anchor="pistol-shot-185763"][spell=185763][/b]   Draw a concealed pistol and fire a quick shot at an enemy, dealing ([del copy=true]214.5%[/del][ins]35.1351%[/ins] of Attack power) Physical damage and reducing movement speed by 50% for 6 sec.
+Awards 1 combo point.[/li]
+[li][b][anchor="restless-blades-79096"][spell=79096][/b]   Finishing moves reduce the remaining cooldown of Adrenaline Rush, Between the Eyes, Sprint, Grappling Hook, Ghostly Strike, Killing Spree, Marked for Death, Blade Rush, Death from Above, and Vanish by [del copy=true]0.5[/del][ins]1[/ins] sec per combo point spent.
+[color=lightblue][/color][/li]
+[li][b][anchor="riposte-199754"][spell=199754][/b]   Grants 100% chance to parry for 10 sec, and each time you parry an attack you will riposte the target for [del copy=true]130%[/del][ins]19.8% of Attack Power[/ins] Physical damage. Cannot occur more often than once per 1 sec.
+[color=lightblue][/color][/li]
+[li][b][anchor="run-through-2098"][spell=2098][/b]   Lunging finishing move that causes damage per combo point[del copy=true] and has increased range[/del]:
+   1 point  : [([del copy=true]184.6%[/del][ins]35%[/ins] of Attack power) * 1] damage
+   2 points: [([del copy=true]184.6%[/del][ins]35%[/ins] of Attack power) * 2] damage
+   3 points: [([del copy=true]184.6%[/del][ins]35%[/ins] of Attack power) * 3] damage
+   4 points: [([del copy=true]184.6%[/del][ins]35%[/ins] of Attack power) * 4] damage
+   5 points: [([del copy=true]184.6%[/del][ins]35%[/ins] of Attack power) * 5] damage
+   6 points: [([del copy=true]184.6%[/del][ins]35%[/ins] of Attack power) * 6] damage[/li]
+[li][b][anchor="saber-slash-193315"][spell=193315][/b]   Viciously slash an enemy, causing [del copy=true][392%[/del][ins][(45.279% of Attack power)[/ins] * ((max(0, min(Level - 10, 10)) * 8 + 195) / 275)] Physical damage.
+Saber Slash has a 35% chance to strike an additional time, making your next Pistol Shot [del copy=true]free[/del][ins]half cost and double damage[/ins].
+Awards 1 combo point[del copy=true] each time it strikes[/del].
+[color=lightblue]Cost changed from 50 to 45 Energy[/color][/li]
+[li][b][anchor="vitality-61329"][spell=61329][/b]   Increases your Energy regeneration rate by [del copy=true]20% and your Attack Power by 50%[/del][ins]35%.
+Outlaw (Level 50)
+Your off-hand attacks have a 75% chance to generate 10 Energy[/ins]
+[color=lightblue]Name changed from Vitality to Combat Potency[/color][/li]
+[/ul]
+
+[h5]Talents[/h5]
+[center][table class="grid"]
+[tr][td width=50%][b]Live[/b][/td] [td][b]BFA[/b][/td][/tr]
+[tr][td][url=https://www.wowhead.com/talent-calc/rogue/outlaw][img src=https://wow.zamimg.com/uploads/screenshots/normal/702325.jpg width=400][/url][/td]
+[td][url=https://bfa.wowhead.com/talent-calc/rogue/outlaw][img src=https://i.gyazo.com/e00ceebb00e93d1b0e3cca77b0694fea.png width=400][/url][/td][/tr][/table][/center]
+
+
+[b]Removed[/b]
+[ul][li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="anticipation-114015"][spell=114015][/b]   You may have a maximum of 10 combo points. Finishers still consume a maximum of 5 combo points.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="death-from-above-152150"][spell=152150][/b]   Finishing move that empowers your weapons with shadow energy and performs a devastating two-part attack. 
+You whirl around, dealing up to ([del copy=true]440%[/del][ins]73.5%[/ins] of Attack power) damage to all enemies within 8 yds, then leap into the air and [del copy=true]Envenom, Run Through, Eviscerate[/del][ins]Eviscerate[/ins] your target on the way back down, with such force that it has a 200% stronger effect.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="parley-199743"][spell=199743][/b]   Pacifies a target not in combat, who is forced to negotiate instead of fighting for 5 min. Only works on Humanoids, Demons, and Dragonkin. Damage caused will break the peace. Limit 1.
+[color=lightblue][spell=256165][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="grappling-hook-195457"][spell=195457][/b]   Launch a grappling hook and pull yourself to the target location.
+[color=lightblue]Now baseline[/color][/li][/ul]
+
+[b]New[/b]
+[ul][li][span class="patch-diff-new"]NEW[/span] [b][anchor="blade-fury-272026"][spell=272026][/b]   Increases the duration of Blade Flurry by 3 sec and its damage by 5%.
+[color=lightblue]Tier 7 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="blade-rush-271877"][spell=271877][/b]   Charge to your target with your blades out, dealing (150% of Attack power)% Physical damage. While Blade Flurry is active, also hits all nearby enemies for 100% damage. Generates 25 Energy over 5 sec.
+[color=lightblue]Tier 7 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="blinding-powder-256165"][spell=256165][/b]   Reduce the cooldown of Blind by 30 sec and increase its range by 15 yds.
+[color=lightblue]Tier 5 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][spell=256170][/b] Activating Adrenaline Rush causes your next Roll the Bones to grant at least two matches.
+[color=lightblue]Tier 6 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="retractable-hook-256188"][spell=256188][/b]   Reduce the cooldown of Grappling Hook by 30 sec.
+[color=lightblue]Tier 2 Talent[/color][/li][/ul]
+
+[b]Changed[/b]
+[ul][li][b][anchor="ghostly-strike-196937"][spell=196937][/b]   Strikes an enemy[del copy=true] with your cursed weapon, dealing (252%[/del][ins], dealing (80% of Attack power[/ins]) Physical damage and causing the target to take 10% increased damage from your abilities for 15 sec.
+Awards 1 combo point.
+[color=lightblue]Cooldown changed from None to 35 sec cooldown[/color][/li]
+[/ul]
+
+[b]Swapped Positions[/b]
+[ul][li][b][anchor="alacrity-193539"][spell=193539][/b]   Your finishing moves have a 20 + (20 * ComboPoints)% chance per combo point to grant 3% Haste for 20 sec, stacking up to [del copy=true]10[/del][ins]5[/ins] times.
+[color=lightblue]Tier 6 Talent[/color][/li]
+[li][b][anchor="cannonball-barrage-185767"][spell=185767][/b]   Command a ghost ship crew to barrage the target area with cannonballs doing [([del copy=true]195%[/del][ins]26.208%[/ins] of Attack power) * 6] Physical damage over 2 sec and slowing enemies by 50% for 1.50 sec.
+[color=lightblue]Tier 7 Talent[/color][/li]
+[li][b][anchor="killing-spree-51690"][spell=51690][/b]   Teleport to an enemy within 10 yards, attacking [del copy=true]6 times over 2 sec[/del] with both weapons for a total of [([del copy=true]338% * 7 + 338%[/del][ins]47.736% of Attack power)% * 6 + 0%[/ins] * 6] Physical damage[ins] over 2 sec[/ins].
+While Blade Flurry is active, [del copy=true]each Killing Spree attack will teleport to and damage a different nearby enemy target[/del][ins]also hits all nearby enemies for 100% damage[/ins].
+[color=lightblue]Tier 7 Talent[/color][/li]
+[li][b][anchor="loaded-dice-256170"][spell=256170][/b]   Activating Adrenaline Rush causes your next Roll the Bones to grant at least two matches.
+[color=lightblue]Tier 6 Talent[/color][/li]
+[li][b][anchor="marked-for-death-137619"][spell=137619][/b]   Marks the target, instantly generating 5 combo points. Cooldown reset if the target dies within 1 min.
+[color=lightblue]Tier 3 Talent[/color][/li]
+[li][b][anchor="slice-and-dice-5171"][spell=5171][/b]   Finishing move that consumes combo points to increase attack speed by [del copy=true]125%[/del][ins]60%[/ins] and Energy regeneration rate by 15%. Lasts longer per combo point.
+   1 point  : 12 seconds
+   2 points: 18 seconds
+   3 points: 24 seconds
+   4 points: 30 seconds
+   5 points: 36 seconds
+   6 points: 42 seconds[/li]
+[li][b][anchor="quick-draw-196938"][spell=196938][/b]   [del copy=true]Free[/del][ins]Half-cost[/ins] uses of Pistol Shot granted by Saber Slash now generate 1 additional combo point, and deal 50% [del copy=true]increased[/del][ins]additional[/ins] damage.
+[color=lightblue]Tier 6 Talent[/color][/li]
+[/ul]
+
+[h5]Azerite Traits[/h5]
+[ul]
+[li][b][anchor="swashbuckler-269297"][spell=269297][/b]   Saber Slash has 3% additional chance to strike twice, and does 49 additional damage.
+Outlaw
+[color=lightblue][/color][/li]
+[/ul]
+
+[/toggler]
+[toggler class="heading-size-3 c4" name="Subtlety" size=3]
+
+[h5]Specialization[/h5]
+[ul]
+[li][b][anchor="subtlety-rogue-137035"][spell=137035][/b]   Apply Aura: Modifies Damage/Healing Done by [del]27%[/del] [ins]25%[/ins].
+[span class="patch-diff-new"]NEW[/span] Modifies Cooldown [spell=137619 tempname="Marked for Death"] Value: -30000[/li]
+[li][b][anchor="backstab-53"][spell=53][/b]   Stab the target, causing [del copy=true][500%[/del][ins][41.106% of Attack power[/ins] * ((max(0, min(Level - 10, 10)) * 11 + 260) / 370)] Physical damage. Damage increased by 20% when you are behind your target.
+Awards 1 combo point.
+[color=lightblue][/color][/li]
+[li][b][anchor="eviscerate-196819"][spell=196819][/b]   Finishing move that disembowels the target, causing damage per combo point.
+   1 point  : [([del copy=true]85.33%[/del][ins]16.0737%[/ins] of Attack power) * 1] damage
+   2 points: [([del copy=true]85.33%[/del][ins]16.0737%[/ins] of Attack power) * 2] damage
+   3 points: [([del copy=true]85.33%[/del][ins]16.0737%[/ins] of Attack power) * 3] damage
+   4 points: [([del copy=true]85.33%[/del][ins]16.0737%[/ins] of Attack power) * 4] damage
+   5 points: [([del copy=true]85.33%[/del][ins]16.0737%[/ins] of Attack power) * 5] damage
+   6 points: [([del copy=true]85.33%[/del][ins]16.0737%[/ins] of Attack power) * 6] damage[/li]
+[li][b][anchor="nightblade-195452"][spell=195452][/b]   Finishing move that infects the target with shadowy energy, dealing Shadow damage over time and causing attacks against the target to reduce movement speed by [del copy=true]50%[/del][ins]20%[/ins] for 8 sec. Lasts longer per combo point.
+   1 point  : [([del copy=true]90%[/del][ins]37.8378% [/ins] of Attack power) * 8 / [del copy=true]2[/del][ins]6[/ins]] over 8 sec
+   2 points: [([del copy=true]90%[/del][ins]37.8378% [/ins] of Attack power) * 10 / [del copy=true]2[/del][ins]6[/ins]] over 10 sec
+   3 points: [([del copy=true]90%[/del][ins]37.8378% [/ins] of Attack power) * 12 / [del copy=true]2[/del][ins]6[/ins]] over 12 sec
+   4 points: [([del copy=true]90%[/del][ins]37.8378% [/ins] of Attack power) * 14 / [del copy=true]2[/del][ins]6[/ins]] over 14 sec
+   5 points: [([del copy=true]90%[/del][ins]37.8378% [/ins] of Attack power) * 16 / [del copy=true]2[/del][ins]6[/ins]] over 16 sec
+   6 points: [([del copy=true]90%[/del][ins]37.8378% [/ins] of Attack power) * 18 / [del copy=true]2[/del][ins]6[/ins]] over 18 sec
+You deal 15% increased damage to enemies afflicted by your Nightblade.
+[color=lightblue][/color][/li]
+[li][b][anchor="shadow-blades-121471"][spell=121471][/b]   Draws upon surrounding shadows to empower your weapons [del copy=true]causing auto attacks to deal Shadow damage and abilities that generate combo points to[/del][ins]for 20 sec, causing your Backstab, Shadowstrike, and auto attacks to deal Shadowstrike damage and your Gloomblade to deal 30% increased damage.
+Additionally, your combo point generating abilities[/ins] generate 1 additional combo point.[del copy=true]Lasts 15 sec.[/del][/li]
+[li][b][anchor="shadow-dance-185313"][spell=185313][/b]   Allows use of all Stealth abilities and grants all the combat benefits of Stealth for [del copy=true]4[/del][ins]5[/ins] sec. Effect not broken from taking damage or attacking.[/li]
+[li][b][anchor="shadow-techniques-196912"][spell=196912][/b]   Your auto attacks have a chance to generate [del copy=true]a combo point[/del][ins]1 combo point and 8 Energy[/ins].
+[color=lightblue][/color][/li]
+[li][b][anchor="shadowstrike-185438"][spell=185438][/b]   Strike the target, dealing [del copy=true]850% Physical damage.[/del][ins]69.8802d% of Attack power) Physical damage.[/ins]
+While Stealth is active, you strike through the shadows and appear behind your target up to 25 yds away, dealing 25% additional damage
+Awards 2 combo point.
+[color=lightblue][/color][/li]
+[li][b][anchor="shuriken-combo-245639"][spell=245639][/b]   Shuriken Storm increases the damage of your next Eviscerate by [del copy=true]10%[/del][ins]5%[/ins] for each enemy hit beyond the first. Stacks up to 5 times.
+[color=lightblue][/color][/li]
+[li][b][anchor="shuriken-storm-197835"][spell=197835][/b]   Sprays shurikens at all targets within 10 yards, dealing ([del copy=true]120%[/del][ins]18%[/ins] of Attack power) Physical damage.
+Damage increased by [del copy=true]100%[/del][ins]50%[/ins] while Stealth or Shadow Dance is active.
+Awards 1 combo points per target hit.[/li]
+[li][b][anchor="shuriken-toss-114014"][spell=114014][/b]   Throws a shuriken at an enemy target for ([del copy=true]120%[/del][ins]19.656%[/ins] of Attack power) Physical damage.
+Awards 1 combo point.[/li]
+[/ul]
+
+[h5]Talents[/h5]
+[center][table class="grid"]
+[tr][td width=50%][b]Live[/b][/td] [td][b]BFA[/b][/td][/tr]
+[tr][td][url=https://www.wowhead.com/talent-calc/rogue/subtlety][img src=https://wow.zamimg.com/uploads/screenshots/normal/702323.jpg width=400][/url][/td]
+[td][url=https://bfa.wowhead.com/talent-calc/rogue/subtlety][img src=https://i.gyazo.com/1e7f8ee11bfda5be2b67af5e66c81aa5.png width=400][/url][/td][/tr][/table][/center]
+
+
+[b]Removed[/b]
+[ul][li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="anticipation-114015"][spell=114015][/b]   You may have a maximum of 10 combo points. Finishers still consume a maximum of 5 combo points.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="master-of-subtlety-31223"][spell=31223][/b]   Attacks made while stealthed and for 5 seconds after breaking stealth cause an additional 10% damage.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="tangled-shadow-200778"][spell=200778][/b]   Nightblade now decreases the target's movement speed by an additional 20%.
+[color=lightblue][/color][/li][/ul]
+
+[b]New[/b]
+[ul]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="coming-soon-271464"][spell=271464][/b]   There is a new talent hiding in the shadows!
+[color=lightblue]Tier 7 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="find-weakness-91023"][spell=91023][/b]   Your Shadowstrike and Cheap Shot abilities reveal a flaw in your target's defenses, causing all your attacks to bypass 40% of that enemy's armor for 10 sec.
+[color=lightblue]Tier 1 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="shot-in-the-dark-257505"][spell=257505][/b]   After entering Stealth or Shadow Dance, your next Cheap Shot is free.
+[color=lightblue]Tier 5 Talent[/color][/li][/ul]
+
+[b]Changed[/b]
+[ul][li][b][anchor="dark-shadow-245687"][spell=245687][/b]   While Shadow Dance is active, all damage you deal is increased by [del copy=true]30%[/del][ins]25%[/ins].
+[color=lightblue][/color][/li]
+[li][b][anchor="death-from-above-152150"][spell=152150][/b]   Finishing move that empowers your weapons with shadow energy and performs a devastating two-part attack. 
+You whirl around, dealing up to ([del copy=true]440%[/del][ins]57.33%[/ins] of Attack power) damage to all enemies within 8 yds, then leap into the air and [del copy=true]Envenom, Run Through, Eviscerate[/del][ins]Eviscerate[/ins] your target on the way back down, with such force that it has a 200% stronger effect.[/li]
+[li][b][anchor="enveloping-shadows-238104"][spell=238104][/b]   Deepening Shadows reduces the remaining cooldown of Shadow Dance by an additional [del copy=true]1.0[/del][ins]1[/ins] sec per combo point spent.
+Shadow Dance gains 1 additional charge.
+[color=lightblue][/color][/li]
+[li][b][anchor="gloomblade-200758"][spell=200758][/b]   Punctures your target with your shadow-infused blade for [del copy=true]575%[/del][ins]47.151% of Attack power[/ins] Shadow damage, bypassing armor.
+Awards 1 combo point.
+[color=lightblue][/color][/li]
+[li][b][anchor="shadow-focus-108209"][spell=108209][/b]   Abilities cost [del copy=true]75%[/del][ins]25%[/ins] less Energy while Stealth or Shadow Dance is active.[/li]
+[li][b][anchor="soothing-darkness-200759"][spell=200759][/b]   You heal 3% of your maximum [del copy=true]life[/del][ins]health[/ins] every 1 sec while Stealth or Shadow Dance is active.
+[color=lightblue][/color][/li]
+[li][b][anchor="weaponmaster-193537"][spell=193537][/b]   Your [del copy=true]abilities have a 6%[/del][ins]Shadowstrike and Backstab have a 15%[/ins] chance to hit the target twice each time they deal damage.
+[color=lightblue][/color][/li][/ul]
+
+[b]Swapped Positions[/b]
+[ul]
+[li][b][anchor="marked-for-death-137619"][spell=137619 diff=26231][/b]   Marks the target, instantly generating 5 combo points. Cooldown reset if the target dies within 1 min.
+[color=lightblue]Tier 3 Talent[/color][/li]
+[/ul]
+
+[h5]Azerite Traits[/h5]
+[ul]
+[li][b][anchor="subtle-blade-269342"][spell=269342][/b]   Nightblade's duration is increased by 1.0 sec, and deals 14 additional damage whenever it deals damage.
+Subtlety
+[color=lightblue][/color][/li]
+[/ul]
+
+[/toggler]
+[toggler class="heading-size-3 c4" name="Rogue General" size=3]
+
+[h5]Spells[/h5]
+[ul][li][span class="patch-diff-new"]NEW[/span] [b][anchor="expose-armor-8647"][spell=8647][/b]   Your damage exposes weaknesses in the target's armor, increasing Physical damage taken by 5% for 1 min.
+[color=lightblue]Removed in build 282727, made a Windwalker debuff[/color][/li]
+[li][b][anchor="feint-1966"][spell=1966][/b]   Performs an evasive maneuver, reducing damage taken from area-of-effect attacks by [del copy=true]50%[/del][ins]40%[/ins] for 5 sec.
+[color=lightblue]Cooldown changed from None to 15 sec cooldown[/color][/li]
+[li][b][anchor="shroud-of-concealment-114018"][spell=114018][/b]   Extend a cloak that [del copy=true]wraps[/del][ins]shrouds[/ins] party and raid members within 30 yards in shadows, providing stealth for 15 sec.
+[color=lightblue][/color][/li]
+[/ul]
+
+[h5]Honor Talents[/h5]
+[ul][li][b][anchor="shiv-248744"][spell=248744][/b]   Deals [del copy=true]500%[/del][ins](41.106% of Attack power)[/ins] Physical damage, and reduces the target's movement speed by 70% for 4 sec.
+Cannot be blocked, dodged or parried.[/li][/ul][/toggler][/div]

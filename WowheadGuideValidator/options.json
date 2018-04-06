@@ -1,0 +1,69 @@
+{
+    "expansion":"Legion",
+    "patch":"7.3",
+    "artifacts":{
+                      "blood-death-knight" :  "Maw of the Damned"
+                    , "frost-death-knight" : "Blades of the Fallen Prince"
+                    , "unholy-death-knight" : "Apocalypse"
+                    , "havoc-demon-hunter" : "Twinblades of the Deceiver"
+                    , "vengeance-demon-hunter" : "Aldrachi Warblades"
+                    , "balance-druid" : "Scythe of Elune"
+                    , "guardian-druid" : "Claws of Ursoc"
+                    , "feral-druid" : "Fangs of Ashamane"
+                    , "restoration-druid" : "G'Hanir, the Mother Tree"
+                    , "beast-mastery-hunter" : "Titanstrike"
+                    , "marksmanship-hunter" : "Thas'dorah"
+                    , "survival-hunter" : "Talonclaw"
+                    , "arcane-mage" : "Aluneth, Great Staff of the Magna"
+                    , "fire-mage" : "Felo'melorn"
+                    , "frost-mage" : "Ebonchill"
+                    , "brewmaster-monk" : "Fu Zan, the Wanderer's Companion"
+                    , "mistweaver-monk" : "Sheilun, Staff of the Mists"
+                    , "windwalker-monk" : "Fists of the Heavens"
+                    , "holy-paladin" : "The Silver Hand"
+                    , "protection-paladin" : "Truthguard"
+                    , "retribution-paladin" : "Ashbringer"
+                    , "discipline-priest" : "Light's Wrath"
+                    , "holy-priest" : "T'uure, Beacon of the Naaru"
+                    , "shadow-priest" : "Xal'atath"
+                    , "assassination-rogue" : "The Kingslayers"
+                    , "outlaw-rogue" : "The Dreadblades"
+                    , "subtlety-rogue" : "Fangs of the Devourer"
+                    , "elemental-shaman" : "The Fist of Ra-Den"
+                    , "enhancement-shaman" : "Doomhammer"
+                    , "restoration-shaman" : "Sharas'dal, Scepter of Tides"
+                    , "affliction-warlock" : "Ulthalesh, the Deadwind Harvester"
+                    , "demonology-warlock" : "Skull of the Man'ari"
+                    , "destruction-warlock" : "Scepter of Sargeras"
+                    , "arms-warrior" : "Strom'kar, the Warbreaker"
+                    , "fury-warrior" : "Warswords of the Valarjar"
+                    , "protection-warrior" : "Scale of the Earth-Warder"
+                },          
+    "validations":{
+        "Death Knight":{
+           "DK":3,
+           "Death Knight":1},
+        "Restoration":{
+           "Restoration":1,
+           "Resto":1},
+        "Marksmanship":{
+           "Marksmanship":0,
+           "MM":1,
+           "Marksman":3},
+        "Beast Mastery":{
+           "Beast Mastery":2,
+           "BM":1},
+        "Retribution":{
+           "Retribution":1,
+           "Ret":2},                       
+        "Discipline":{
+           "Discipline":1,
+           "Disc":1},
+        "Protection":{
+           "Protection":1,
+           "Prot":1}
+                  },
+    "precision":0.2,
+    "guidesTypes":"guide,talent-guide,rotation-guide,artifact-guide,gear-guide,stat-priority-guide,enhancements-guide,macro-guide",
+    "otherGuide":"leveling-guide"
+}

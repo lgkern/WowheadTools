@@ -1,0 +1,370 @@
+[h2][color=c11]Druid Spell Changes[/color][/h2][div class="patch-diff patch-diff-group-druid patch-diff-class patch-diff-class-11"][table]
+  [tr]
+    [td=header colspan=4]Class Tools[/td]
+[/tr]
+  [tr]
+    [td=header]Balance[/td]
+    [td][url=/talent-calc/druid/balance]Talents[/url][/td]
+[/tr]
+  [tr]
+    [td=header]Feral[/td]
+    [td][url=/talent-calc/druid/feral]Talents[/url][/td]
+[/tr]
+  [tr]
+    [td=header]Guardian[/td]
+    [td][url=/talent-calc/druid/guardian]Talents[/url][/td]
+[/tr]
+  [tr]
+    [td=header]Restoration[/td]
+    [td][url=/talent-calc/druid/restoration]Talents[/url][/td]
+[/tr]
+[/table]
+[toggler name="Weapon Damage to AP Conversion" size=3 class="c11" closed=true toc=false]
+[ul][li][b][anchor="maim-22570"][spell=22570][/b]   Finishing move that causes Physical damage and stuns the target. Damage and duration increased per combo point:
+   1 point  : ([del copy=true]140%[/del][ins]7.99% of Attack power)%[/ins] damage, 1 sec
+   2 points: ([del copy=true]280%[/del][ins]16.15% of Attack power)%[/ins] damage, 2 sec
+   3 points: ([del copy=true]420%[/del][ins]24.14% of Attack power)%[/ins] damage, 3 sec
+   4 points: ([del copy=true]560%[/del][ins]32.3% of Attack power)%[/ins] damage, 4 sec
+   5 points: ([del copy=true]700%[/del][ins]40.46% of Attack power)%[/ins] damage, 5 sec[/li]
+[li][b][anchor="shred-5221"][spell=5221][/b]   Shred the target, causing [del copy=true][847%[/del][ins][38.0562% of Attack power[/ins] * ((min(Level - 1, 19) * 18 + 353) / 695)] Physical damage to the target.
+Deals 20% increased damage against bleeding targets
+While stealthed, Shred deals 50% increased damage, and has double the chance to critically strike
+Awards [del copy=true]1[/del][ins][0[/ins] combo point.[/li]
+[li][b][anchor="swipe-106785"][spell=106785][/b]   Swipe nearby enemies, inflicting [del copy=true]610%[/del][ins](27.88% of Attack power[/ins]) Physical damage.
+Deals 20% increased damage against bleeding targets[/li]
+[li][b][anchor="brutal-slash-202028"][spell=202028][/b]   Strikes all nearby enemies with a massive slash, inflicting [del copy=true]2470%[/del][ins](54.1008% of Attack power)[/ins] Physical damage.
+Awards 1 combo point.
+[color=lightblue]Cost changed from 20 Energy to 30 Energy
+Cooldown changed from 12 sec recharge to 10 sec recharge[/color][/li]
+[li][b][anchor="mangle-33917"][spell=33917][/b]   Mangle the target for [del copy=true]387%[/del][ins](43.9374% of Attack power)[/ins] Physical damage.
+Deals 20% additional damage against bleeding targets
+Generates 8 Rage.[/li]
+[li][b][anchor="maul-6807"][spell=6807][/b]   Maul the target for [del copy=true]750%[/del][ins](85.527% of Attack power[/ins]) Physical damage.[/li]
+[li][b][anchor="pulverize-80313"][spell=80313][/b]   A devastating blow that consumes 2 stacks of your Thrash on the target to deal [del copy=true]850%[/del][ins](96.9306% of Attack power[/ins]) Physical damage, and reduces all damage you take by 9% for 20 sec.[/li]
+[li][b][anchor="enraged-maul-236716"][spell=236716][/b]   Maul the target for [del copy=true]500%[/del][ins](22.542% of Attack power)[/ins] Physical damage.[/li][/ul]
+
+[/toggler]
+[toggler class="heading-size-3 c11" name="Balance" size=3]
+
+[h5]Specialization[/h5]
+[ul][li][span class="patch-diff-new"]NEW[/span] [b][anchor="shred-5221"][spell=5221][/b]   Shred the target, causing [del copy=true][847%[/del][ins][38.0562% of Attack power[/ins] * ((min(Level - 1, 19) * 18 + 353) / 695)] Physical damage to the target.
+Awards [del copy=true]1[/del][ins][0[/ins] combo point.
+[color=lightblue]Now baseline for all specs[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="mangle-33917"][spell=33917][/b]   Mangle the target for [del copy=true]387%[/del][ins](43.9374% of Attack power)[/ins] Physical damage.
+Generates 8 Rage.
+[color=lightblue]Now baseline for all specs[/color][/li]
+[li][b][anchor="lunar-strike-194153"][spell=194153][/b]   Call down a strike of lunar energy, causing ([del copy=true]319%[/del][ins]85%[/ins] of Spell power) Arcane damage to the target, and [([del copy=true]319%[/del][ins]85%[/ins] of Spell power) * [del copy=true]35[/del][ins]25[/ins] / 100] Arcane damage to all other enemies within 5 yards.[/li]
+[li][b][anchor="moonkin-form-24858"][spell=24858][/b]   Shapeshift into Moonkin Form, increasing [del copy=true]your Arcane and Nature damage[/del][ins]the damage of your Druid spells[/ins] by 10% and your armor by [del copy=true]200%[/del][ins]125%[/ins], and granting protection from Polymorph effects.[/li]
+[li][b][anchor="remove-corruption-2782"][spell=2782][/b]   Nullifies corrupting effects on the friendly target, removing all Curse and Poison effects.
+[color=lightblue]Cost changed from 13.0% of base mana to 6.5% of base mana[/color][/li]
+[li][b][anchor="solar-wrath-190984"][spell=190984][/b]   Hurl a ball of solar energy at the target, dealing ([del copy=true]225%[/del][ins]60%[/ins] of Spell power) Nature damage.[/li]
+[li][b][anchor="starfall-191034"][spell=191034][/b]   Calls down waves of falling stars at the targeted area, dealing [9 * ([del copy=true]45.76%[/del][ins]9.25%[/ins] of Spell power)] Astral damage over 8 sec.[/li]
+[li][b][anchor="starsurge-78674"][spell=78674][/b]   Launch a surge of stellar energies at the target, dealing ([del copy=true]520%[/del][ins]150%[/ins] of Spell power) Astral damage.
+Also grants you Lunar and Solar Empowerments, which increase the damage of your next Lunar Strike and Solar Wrath by 20%, respectively.[/li]
+[li][b][anchor="sunfire-93402"][spell=93402][/b]   A quick beam of solar light burns the enemy for ([del copy=true]114.4%[/del][ins]22.5%[/ins] of Spell power) Nature damage and then an additional ([del copy=true]343.2%[/del][ins]67.5%[/ins] of Spell power) Nature damage over 12 sec to the primary target and all enemies within 5 yards[/li][/ul]
+
+[h5]Talents[/h5]
+[center][table class="grid"]
+[tr][td width=50%][b]Live[/b][/td] [td][b]BFA[/b][/td][/tr]
+[tr][td][url=https://www.wowhead.com/talent-calc/druid/balance][img src=https://i.gyazo.com/cebdb558105a2aa939d37c4b762675c2.png width=400][/url][/td]
+[td][url=https://bfa.wowhead.com/talent-calc/druid/balance][img src=https://i.gyazo.com/b375e7b50e7c7e96573e3c5745ee4848.png width=400][/url][/td][/tr][/table][/center]
+
+
+[ul]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="displacer-beast-102280"][spell=102280][/b]   Teleports you up to 20 yards forward, activating Cat Form and increasing your movement speed by 50% for 2 sec.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="tiger-dash-252216"][spell=252216][/b]   Activates Cat Form and increases movement speed by 200%, reducing gradually over 4 sec.
+[color=lightblue]New level 30 Talent for all specs, replaces Displacer Beast[/color][/li]
+[li][b][anchor="restoration-affinity-197492"][spell=197492][/b]   You gain: Ysera's Gift - Heals you for 3% of your maximum health every 5 sec. If you are at full health, a injured party or raid member will be healed instead. You also learn: Rejuvenation, [del]Healing Touch[/del] Swiftmend
+[color=lightblue][/color][/li]
+[li][b][anchor="shooting-stars-202342"][spell=202342][/b]   Moonfire and Sunfire damage over time has a 10% chance to call down a falling star, dealing ([del copy=true]57.2%[/del][ins]11.25%[/ins] of Spell power) Astral damage and generating 4 Astral Power.
+[color=lightblue][/color][/li]
+[li][b][anchor="stellar-flare-202347"][spell=202347][/b]   Burns the target for ([del copy=true]260%[/del][ins]52.5%[/ins] of Spell power) Astral  damage, and then an additional ([del copy=true]998.4%[/del][ins]210%[/ins] of Spell power) damage over 24 sec.[/li][/ul]
+
+[h5]Honor Talents[/h5]
+[ul][li][b][anchor="deep-roots-206852"][spell=206852][/b]   [del copy=true]Damage no longer cancels your Entangling Roots.[/del][ins]Increases the amount of damage required to cancel Entangling Roots by 50%.[/ins]
+[color=lightblue][/color][/li][/ul]
+
+[/toggler]
+[toggler class="heading-size-3 c11" name="Feral" size=3]
+
+[h5]Specialization[/h5]
+[ul][li][b][anchor="feral-druid-137011"][spell=137011][/b]   Apply Aura: Modifies Damage/Healing Done by [del copy=true]43%[/del][ins]29%[/ins].
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="mangle-33917"][spell=33917][/b]   Mangle the target for [del copy=true]387%[/del][ins](43.9374% of Attack power)[/ins] Physical damage.
+Generates 8 Rage.
+[color=lightblue]Now baseline for all specs[/color][/li]
+[li][b][anchor="ferocious-bite-22568"][spell=22568][/b]   Finishing move that causes Physical damage per combo point and consumes up to 25 additional Energy to increase damage by up to 100%.
+When used on targets below 25% health Ferocious Bite will also refresh the duration of your Rip on your target
+  1 point  : [([del copy=true]600%[/del][ins]98.28%[/ins] of Attack power) * 1 / 5] damage
+  2 point  : [([del copy=true]600%[/del][ins]98.28%[/ins] of Attack power) * 2 / 5] damage
+  3 point  : [([del copy=true]600%[/del][ins]98.28%[/ins] of Attack power) * 3 / 5] damage
+  4 point  : [([del copy=true]600%[/del][ins]98.28%[/ins] of Attack power) * 4 / 5] damage
+  5 point  : [([del copy
+=true]600%[/del][ins]98.28%[/ins] of Attack power) * 5 / 5] damage
+[/li]
+[li][b][anchor="infected-wounds-48484"][spell=48484][/b]   Rake causes an Infected Wound in the target, reducing the target's movement speed by [del copy=true]50%[/del][ins]20%[/ins] for 12 sec.[/li]
+[li][b][anchor="nurturing-instinct-33873"][spell=33873][/b]   Increases your spell power by [del copy=true]120% of your Agility.[/del][ins]100% of your attack power.[/ins]
+[color=lightblue][/color][/li]
+[li][b][anchor="maim-22570"][spell=22570][/b]   Finishing move that causes Physical damage and stuns the target. Damage and duration increased per combo point:
+   1 point  : ([del copy=true]140%[/del][ins]6.2322% of Attack power)%[/ins] damage, 1 sec
+   2 points: ([del copy=true]280%[/del][ins]12.597% of Attack power)%[/ins] damage, 2 sec
+   3 points: ([del copy=true]420%[/del][ins]18.8292% of Attack power)%[/ins] damage, 3 sec
+   4 points: ([del copy=true]560%[/del][ins]25.194% of Attack power)%[/ins] damage, 4 sec
+   5 points: ([del copy=true]700%[/del][ins]31.5588% of Attack power)%[/ins] damage, 5 sec
+[/li]
+[li][b][anchor="thrash-77758"][spell=77758][/b]   Strikes all nearby enemies, dealing ([del copy=true]55.3%[/del][ins]6.2244%[/ins] of Attack power) Bleed damage and an additional ([del copy=true]60.5%[/del][ins]12.5%[/ins] of Attack power) Bleed damage over 15 sec. When applied from Bear Form, this effect can stack up to 3 times.
+Generates [del copy=true]4 Rage.[/del][ins]5 Rage.[/ins][/li]
+[li][b][anchor="rake-1822"][spell=1822][/b]   Rake the target for ([del copy=true]111.264%[/del][ins]18.225%[/ins] of Attack power) Bleed damage and an additional ([del copy=true]556.32%[/del][ins]77.805%[/ins] of Attack power) Bleed damage over 15 sec.
+Reduces the target's movement speed by [del copy=true]50%[/del][ins]20%[/ins] for 12 sec[/li]
+[li][b][anchor="remove-corruption-2782"][spell=2782][/b]   Nullifies corrupting effects on the friendly target, removing all Curse and Poison effects.
+[color=lightblue]Cost changed from 13.0% of base mana to 6.5% of base mana[/color][/li]
+[li][b][anchor="rip-1079"][spell=1079][/b]   Finishing move that causes Bleed damage over 24 sec. Damage increases per combo point:
+   1 point : [floor(1 * (([del copy=true]19.52%[/del][ins]2.7027%[/ins] of Attack power)) * 12)] damage
+   2 points: [floor(2 * (([del copy=true]19.52%[/del][ins]2.7027%[/ins] of Attack power)) * 12)] damage
+   3 points: [floor(3 * (([del copy=true]19.52%[/del][ins]2.7027%[/ins] of Attack power)) * 12)] damage
+   4 points: [floor(4 * (([del copy=true]19.52%[/del][ins]2.7027%[/ins] of Attack power)) * 12)] damage
+   5 points: [floor(5 * (([del copy=true]19.52%[/del][ins]2.7027%[/ins] of Attack power)) * 12)] damage
+[color=lightblue][/color][/li]
+[li][b][anchor="shred-5221"][spell=5221][/b]   Shred the target, causing [del copy=true][847%[/del][ins][38.0562% Attack power[/ins] * ((min(Level - 1, 19) * 18 + 353) / 695)] Physical damage to the target.
+ [/li]
+[li][b][anchor="stampeding-roar-106898"][spell=106898][/b]   Lets loose a wild roar, increasing the movement speed of all friendly players within [del copy=true]10[/del][ins]15[/ins] yards by 60% for 8 sec.
+[color=lightblue][/color][/li]
+[/ul]
+
+[h5]Talents[/h5]
+[center][table class="grid"]
+[tr][td width=50%][b]Live[/b][/td] [td][b]BFA[/b][/td][/tr]
+[tr][td][url=https://www.wowhead.com/talent-calc/druid/feral][img src=https://i.gyazo.com/ba2f01f067327be5905b031d67c95041.png width=400][/url][/td]
+[td][url=https://bfa.wowhead.com/talent-calc/druid/feral][img src=https://i.gyazo.com/2a928e9db2c043fb8a578684523429a9.png width=400][/url][/td][/tr][/table][/center]
+
+
+[ul][li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="displacer-beast-102280"][spell=102280][/b]   Teleports you up to 20 yards forward, activating Cat Form and increasing your movement speed by 50% for 2 sec.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="tiger-dash-252216"][spell=252216][/b]   Activates Cat Form and increases movement speed by 200%, reducing gradually over 4 sec.
+[color=lightblue]New Tier 2 Talent[/color][/li]
+[li][b][anchor="bloodtalons-155672"][spell=155672][/b]   Casting Regrowth or Entangling Roots causes your next two melee abilities to deal [del copy=true]20%[/del][ins]25%[/ins] increased damage for their full duration.
+[color=lightblue][/color][/li]
+[li][b][anchor="brutal-slash-202028"][spell=202028][/b]   Strikes all nearby enemies with a massive slash, inflicting [del copy=true]2470% Physical damage.[/del][ins]54.1008% of Attack power) Physical damage.[/ins]
+Awards 1 combo point.
+[color=lightblue]Cost changed from 20 Energy to 30 Energy
+Cooldown changed from 12 sec recharge to 10 sec recharge[/color][/li]
+[li][b][anchor="jagged-wounds-202032"][spell=202032][/b]   Your Rip, Rake, and Thrash abilities deal [del copy=true]the same damage as normal, but in 20% less time.[/del][ins]their full damage 20% faster.[/ins]
+[color=lightblue][/color][/li]
+[li][b][anchor="moment-of-clarity-236068"][spell=236068][/b]   Omen of Clarity now triggers 100% more often, stacks up to (1u + 1) times, and increases the damage of your next Shred, Thrash,
+Swipe by [del copy=true]20%.[/del][ins]15%[/ins]
+[color=lightblue][/color][/li]
+[li][b][anchor="restoration-affinity-197492"][spell=197492][/b]   You gain: Ysera's Gift - Heals you for 3% of your maximum health every 5 sec. If you are at full health, a injured party or raid member will be healed instead. You also learn: Rejuvenation, [del]Healing Touch[/del] Swiftmend
+[color=lightblue][/color][/li]
+[li][b][anchor="savage-roar-52610"][spell=52610][/b]   Finishing move that [del copy=true]grants 15% increased damage[/del][ins]increases damage by 15%[/ins] while in Cat Form. Lasts longer per combo point.
+[color=lightblue]Cost changed from 40 Energy / 1 Energy to 30 Energy / 1 Energy[/color][/li][/ul]
+
+[h5]Honor Talents[/h5]
+[ul][li][b][anchor="tooth-and-claw-236019"][spell=236019][/b]   Maximum health while in Bear Form increased by 15% and damage while in Bear Form increased by 30%.
+You also learn: Enraged Maul
+Maul the target for [del copy=true]500%[/del][ins](22.542% of Attack power)[/ins] Physical damage.
+[color=lightblue][/color][/li]
+[/ul]
+
+[h5]Azerite Traits[/h5]
+[ul]
+[li][b][anchor="bloodline-269384"][spell=269384][/b]   Rip has 2% additional critical strike chance, and deals an additional (3 * 12) total damage.
+Feral
+[color=lightblue][/color][/li]
+[/ul]
+
+[/toggler]
+[toggler class="heading-size-3 c11" name="Guardian" size=3]
+
+[h5]Specialization[/h5]
+[ul]
+[li][b][anchor="guardian-druid-137010"][spell=137010][/b]   Apply Aura: Modifies Damage/Healing Done by [del]50%[/del] [ins]4%[/ins].
+[span class="patch-diff-removed"]REMOVED[/span] Effect #10 Apply Aura: Modifies Periodic Damage/Healing Done [spell=8921] [spell=164812] Value: 8%[/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="bear-form-270100"][spell=270100][/b]   Bear Form gives an additional 30% Stamina.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="shred-5221"][spell=5221][/b]   Shred the target, causing [del copy=true][847%[/del][ins][38.0562% of Attack power[/ins] * ((min(Level - 1, 19) * 18 + 353) / 695)] Physical damage to the target.
+Awards [del copy=true]1[/del][ins][0[/ins] combo point.
+[color=lightblue]Now baseline for all specs[/color][/li]
+[li][b][anchor="nurturing-instinct-33873"][spell=33873][/b]   Increases your spell power by [del copy=true]120% of your Agility.[/del][ins]100% of your attack power.[/ins]
+[color=lightblue][/color][/li]
+[li][b][anchor="frenzied-regeneration-22842"][spell=22842][/b]   Heals you for [del copy=true]50% of all damage taken in the last 5 sec over 3 sec, minimum 5%[/del][ins]25%[/ins] of maximum health [ins]over 5 sec.[/ins]
+[color=lightblue]Cooldown changed from 24 sec recharge to 36 sec recharge[/color][/li]
+[li][b][anchor="ironfur-192081"][spell=192081][/b]   Increases armor by [del copy=true]65% for 6 sec.[/del][ins]110% of your Agility for 7 sec.[/ins]
+[color=lightblue][/color][/li]
+[li][b][anchor="mangle-33917"][spell=33917][/b]   Mangle the target for [del copy=true]387% Physical damage.[/del][ins]56.33% of Attack power) Physical damage.[/ins]
+
+Generates [del copy=true]5 Rage.[/del][ins]8 Rage.[/ins]
+[color=lightblue][/color][/li]
+
+[li][b][anchor="maul-6807"][spell=6807][/b]   Maul the target for [del copy=true]750%[/del][ins]85.527% of Attack power[/ins] Physical damage.
+[color=lightblue][/color][/li]
+[li][b][anchor="remove-corruption-2782"][spell=2782][/b]   Nullifies corrupting effects on the friendly target, removing all Curse and Poison effects.
+[color=lightblue]Cost changed from 13.0% of base mana to 6.5% of base mana[/color][/li]
+[li][b][anchor="stampeding-roar-106898"][spell=106898][/b]   Lets loose a wild roar, increasing the movement speed of all friendly players within [del copy=true]10[/del][ins]15[/ins] yards by 60% for 8 sec.
+[color=lightblue][/color][/li]
+[li][b][anchor="thrash-77758"][spell=77758][/b]   Strikes all nearby enemies, dealing ([del copy=true]55.3%[/del][ins]6.2244%[/ins] of Attack power) Bleed damage and an additional ([del copy=true]60.5%[/del][ins]12.5%[/ins] of Attack power) Bleed damage over 15 sec. When applied from Bear Form, this effect can stack up to 3 times.
+Generates [del copy=true]4 Rage.[/del][ins]5 Rage.[/ins][/li][/ul]
+
+[h5]Talents[/h5]
+[center][table class="grid"]
+[tr][td width=50%][b]Live[/b][/td] [td][b]BFA[/b][/td][/tr]
+[tr][td][url=https://www.wowhead.com/talent-calc/druid/guardian][img src=https://i.gyazo.com/75a7f1d23d3b90b3adec72732d1aa5c8.png width=400][/url][/td]
+[td][url=https://bfa.wowhead.com/talent-calc/druid/guardian][img src=https://i.gyazo.com/87393aff6111bb6c70f195d380fbdcb7.png width=400][/url][/td][/tr][/table][/center]
+
+
+[ul][li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="guttural-roars-204012"][spell=204012][/b]   Increases[del copy=true] the radius of Stampeding Roar by 200%[/del] the radius of Incapacitating Roar by 100% and reduces the cooldown of Stampeding Roar by 50%.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="tiger-dash-252216"][spell=252216][/b]   Activates Cat Form and increases movement speed by 200%, reducing gradually over 4 sec.
+[color=lightblue]New Tier 2 Talent[/color][/li]
+[li][b][anchor="brambles-203953"][spell=203953][/b]   Sharp brambles protect you, absorbing and reflecting up to (Attack power * [del copy=true]0.24[/del][ins]0.2[/ins]) damage from each attack. While Barkskin is active, the brambles also deal ([del copy=true]24%[/del][ins]2.6208%[/ins] of Attack power) Nature damage to all nearby enemies every 1 sec
+[color=lightblue][/color][/li]
+[li][b][anchor="galactic-guardian-203964"][spell=203964][/b]   Your damage has a [del copy=true]7%[/del][ins]5%[/ins] chance to trigger a free automatic Moonfire on that target. 
+When this occurs, the next Moonfire you cast generates 8 Rage, and deals 300% increased direct damage.
+[color=lightblue][/color][/li]
+[li][b][anchor="lunar-beam-204066"][spell=204066][/b]   Summons a beam of lunar light at your location, dealing [([del copy=true]90%[/del][ins]10.647%[/ins] of Attack power) * 8] Arcane damage and healing you for [([del copy=true]300%[/del][ins]49.14%[/ins] of Attack power) * 8] over 8 sec.
+[color=lightblue][/color][/li]
+[li][b][anchor="pulverize-80313"][spell=80313][/b]   A devastating blow that consumes 2 stacks of your Thrash on the target to deal [del copy=true]850%[/del][ins](96.9306% of Attack power)[/ins] Physical damage, and reduces all damage you take by 9% for 20 sec.
+[color=lightblue][/color][/li]
+[li][b][anchor="restoration-affinity-197492"][spell=197492][/b]   You gain: Ysera's Gift - Heals you for 3% of your maximum health every 5 sec. If you are at full health, a injured party or raid member will be healed instead. You also learn: Rejuvenation, [del]Healing Touch[/del] Swiftmend
+[color=lightblue][/color][/li]
+[/ul]
+
+[h5]Honor Talents (1)[/h5]
+[ul]
+[li][b][anchor="alpha-challenge-207017"][spell=207017][/b]   Intimidates the target, increasing their damage taken by [del copy=true]5%[/del][ins]3%[/ins] for 6 sec.  Each unique player that attacks the target increases the damage taken by an additional [del copy=true]5%[/del][ins]3%[/ins], stacking up to 5 times.
+Your melee attacks refresh the duration of Intimidated.
+[color=lightblue][/color][/li]
+[/ul]
+
+[h5]Azerite Traits[/h5]
+[ul]
+[li][b][anchor="twisted-claw-269393"][spell=269393][/b]   Mangle [del copy=true]absorbs the next 385 damage you take within until cancelled. Mangle's damage bonus[/del][ins]deals an additional 3% damage[/ins] against bleeding targets, [del copy=true]is increased by 3%.
+Guardian[/del][ins]and grants you an absorb shield that prevents 385 damage for 6 sec.
+Guardian[/ins]
+[color=lightblue][/color][/li]
+[/ul]
+
+[/toggler]
+[toggler class="heading-size-3 c11" name="Resto Druid" size=3]
+
+[h5]Specialization[/h5]
+[ul][li][span class="patch-diff-removed"]REMOVED[/span] [b][url=https://www.wowhead.com/spell=5185/healing-touch]Healing Touch[/url][/b]   Heals a friendly target for (112.5% of Spell power).
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][url=https://www.wowhead.com/spell=48500/living-seed]Living Seed[/url][/b]   When you critically heal a target with the direct healing portion of Swiftmend, Regrowth, or Healing Touch, you plant a Living Seed on the target.
+When the target is next attacked, the Living Seed will bloom and heal the target for 25% of the initial heal. Lasts 15 sec.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][url=https://www.wowhead.com/spell=231032/regrowth]Regrowth[/url][/b]   Regrowth's initial heal has a 40% increased chance for a critical effect.
+[color=lightblue][/color][/li]
+[ul][li][span class="patch-diff-new"]NEW[/span] [b][anchor="shred-5221"][spell=5221][/b]   Shred the target, causing [del copy=true][847%[/del][ins][38.0562% of Attack power[/ins] * ((min(Level - 1, 19) * 18 + 353) / 695)] Physical damage to the target.
+Awards [del copy=true]1[/del][ins][0[/ins] combo point.
+[color=lightblue]Now baseline for all specs[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="mangle-33917"][spell=33917][/b]   Mangle the target for [del copy=true]387%[/del][ins](43.9374% of Attack power)[/ins] Physical damage.
+Generates 8 Rage.
+[color=lightblue]Now baseline for all specs[/color][/li]
+[li][b][anchor="efflorescence-145205"][spell=145205][/b]   Grows a healing blossom at the target location, restoring ([del copy=true]56.445%[/del][ins]14.1113%[/ins] of Spell power) health to three injured allies within 10 yards every 2 sec for 30 sec. Limit 1.
+[color=lightblue][/color][/li]
+[li][b][anchor="lifebloom-33763"][spell=33763][/b]   Heals the target for ([del copy=true]375%[/del][ins]120%[/ins] of Spell power) over 15 sec. When Lifebloom expires or is dispelled, the target is instantly healed for ([del copy=true]250%[/del][ins]80%[/ins] of Spell power). Limit 1.
+[color=lightblue][/color][/li]
+
+[li][b][anchor="natures-cure-88423"][spell=88423][/b]   Cures harmful effects on the friendly target, removing all Magic, Curse, and Poison effects.
+[color=lightblue]Cost changed from 13.0% of base mana to 6.5% of base mana[/color][/li]
+[li][b][anchor="regrowth-8936"][spell=8936][/b]   Heals a friendly target for ([del copy=true]350%[/del][ins]120%[/ins] of Spell power) and another [([del copy=true]60%[/del][ins]30%[/ins] of Spell power) * 1] over 12 sec.[del copy=true]Regrowth's initial heal has a 40% increased chance for a critical effect.[/del]
+[color=lightblue]Cost changed from 18.6% of base mana to 16.0% of base mana[/color][/li]
+[li][b][anchor="rejuvenation-774"][spell=774][/b]   Heals the target for ([del copy=true]240%[/del][ins]60%[/ins] of Spell power) over 12 sec.
+[color=lightblue][/color][/li]
+
+[li][b][anchor="solar-wrath-5176"][spell=5176][/b]   Causes ([del copy=true]220%[/del][ins]57.75%[/ins] of Spell power) Nature damage to the target.[/li]
+[li][b][anchor="sunfire-93402"][spell=93402][/b]  A quick beam of solar light burns the enemy for ([del copy=true]114.4%[/del][ins]22.5%[/ins] of Spell power) Nature damage and then an additional ([del copy=true]343.2%[/del][ins]67.5%[/ins] of Spell power) Nature damage over 12 sec to the primary target and all enemies within 5 yards
+[color=lightblue][/color][/li]
+[li][b][anchor="swiftmend-18562"][spell=18562][/b]   Instantly heals a friendly target for ([del copy=true]770%[/del][ins]210%[/ins] of Spell power).
+[color=lightblue]Cooldown changed from 30 sec recharge to 25 sec recharge[/color][/li]
+[li][b][anchor="tranquility-740"][spell=740][/b]   Heals all allies within 40 yards for [([del copy=true][5 * (180%[/del][ins]35% of Spell power) * 5] over 8 sec. Each heal heals the target for another (12% of Spell power) over 8 sec, Healing stacking.[/ins]
+Healing increased by 100% when not in a raid.
+[color=lightblue][/color][/li]
+[li][b][anchor="wild-growth-48438"][spell=48438][/b]   Heals up to 6 injured allies within 30 yards of the target for ([del copy=true]238%[/del][ins]59.5%[/ins] of Spell power) over 7 sec. Healing starts high and declines over the duration.
+[color=lightblue][/color][/li][/ul]
+
+[h5]Talents[/h5]
+[center][table class="grid"]
+[tr][td width=50%][b]Live[/b][/td] [td][b]BFA[/b][/td][/tr]
+[tr][td][url=https://www.wowhead.com/talent-calc/druid/restoration][img src=https://wow.zamimg.com/uploads/screenshots/normal/702302.jpg width=400][/url][/td]
+[td][url=https://bfa.wowhead.com/talent-calc/druid/restoration][img src=https://wow.zamimg.com/uploads/screenshots/normal/702303.jpg width=400][/url][/td][/tr][/table][/center]
+
+[b]Removed[/b]
+[ul][li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="displacer-beast-102280"][spell=102280][/b]   Teleports you up to 20 yards forward, activating Cat Form and increasing your movement speed by 50% for 2 sec.
+[color=lightblue][/color][/li][/ul]
+
+[b]New[/b]
+[ul][li][span class="patch-diff-new"]NEW[/span] [b][anchor="tiger-dash-252216"][spell=252216][/b]   Activates Cat Form and increases movement speed by 200%, reducing gradually over 4 sec.
+[color=lightblue]Tier 2 talent[/color][/li][/ul]
+
+[b]Swapped Positions[/b]
+[ul][li][b][anchor="germination-155675"][spell=155675][/b]   You can apply Rejuvenation twice to the same target.
+[color=lightblue]Tier 7 Talent[/color][/li]
+[li][b][anchor="stonebark-197061"][spell=197061][/b]   Reduces the cooldown of Ironbark by 30 sec, and it increases healing from your heal over time effects by 20%.
+[color=lightblue]Tier 6 Talent[/color][/li]
+[/ul]
+
+[b]Changed[/b]
+[ul]
+[li][b][anchor="abundance-207383"][spell=207383][/b]   For each Rejuvenation you have active, [del copy=true]the cast time of Healing Touch[/del][ins]Regrowth's cost[/ins] is reduced by [del copy=true]10%, and the[/del][ins]6% and[/ins] critical effect chance [del copy=true]of Regrowth [/del]is increased by [del copy=true]10%.[/del][ins]6%.[/ins]
+[color=lightblue][/color][/li]
+[li][b][anchor="cenarion-ward-102351"][spell=102351][/b]   Protects a friendly target for 30 sec. Any damage taken will consume the ward and heal the target for ([del copy=true]880%[/del][ins]220%[/ins] of Spell power) over 8 sec.
+[color=lightblue][/color][/li]
+[li][b][anchor="cultivation-200390"][spell=200390][/b]   When Rejuvenation heals a target below 60% health, it applies Cultivation to the target, healing them for ([del copy=true]120%[/del][ins]30%[/ins] of Spell power) over 6 sec.
+[color=lightblue][/color][/li]
+[li][b][anchor="flourish-197721"][spell=197721][/b]   Extends the duration of all of your heal over time effects on friendly targets within 60 yards by [del copy=true]6 sec.[/del][ins]8 sec, and increases the rate of your heal over time effects by 100% for 8 sec.[/ins]
+[color=lightblue]Cooldown changed from 1 min cooldown to 1.5 min cooldown
+Previous artifact ability [spell=208253] with its cooldown increased to 1.5m to accommodate[/color][/li]
+[li][b][anchor="spring-blossoms-207385"][spell=207385][/b]   Each target healed by Efflorescence is healed for an additional ([del copy=true]60%[/del][ins]15%[/ins] of Spell power) over 6 sec.
+[color=lightblue][/color][/li]
+[/ul]
+
+[h5]Honor Talents[/h5]
+[ul][li][b][anchor="deep-roots-206852"][spell=206852][/b]   [del copy=true]Damage no longer cancels your Entangling Roots.[/del][ins]Increases the amount of damage required to cancel Entangling Roots by 50%.[/ins]
+[color=lightblue][/color][/li]
+[li][b][anchor="nourish-203374"][spell=203374][/b]   Your [del copy=true]Healing Touch[/del][ins]Regrowth[/ins] automatically applies one of your missing healing over time spells to the target. If all of them are present, [del copy=true]Healing Touch[/del][ins]Regrowth[/ins] critically heals.
+[color=lightblue][/color][/li]
+[/ul]
+
+[h5]Azerite Traits[/h5]
+[ul]
+[li][b][anchor="rejuvenating-breath-269498"][spell=269498][/b]   Increases the duration of Rejuvenation by 1.0 sec and the total healing of Rejuvenation by (
+Restoration
+[color=lightblue][/color][/li]
+[/ul]
+
+[/toggler]
+[toggler class="heading-size-3 c11" name="Druid General" size=3]
+
+[h5]Spells[/h5]
+[ul][li][span class="patch-diff-new"]NEW[/span] [b][anchor="hibernate-2637"][spell=2637][/b]   Forces the enemy target to sleep for up to 40 sec.  Any damage will awaken the target.  Only one target can be forced to hibernate at a time.  Only works on Beasts and Dragonkin.[/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="soothe-2908"][spell=2908][/b]   Soothes the target, dispelling all enrage effects.[/li]
+[[li][b][anchor="bear-form-5487"][spell=5487][/b]   Shapeshift into Bear Form, increasing armor by [del copy=true]200%[/del][ins]220%[/ins] and Stamina by [del copy=true]55%[/del][ins]25%[/ins], granting protection from Polymorph effects, and increasing threat generation.
+[color=lightblue][/color][/li]
+[li][b][anchor="cat-form-768"][spell=768][/b]   Shapeshift into Cat Form, increasing[ins] auto-attack damage by 40%[/ins], movement speed by 30%, granting protection from Polymorph effects, and reducing falling damage.
+[color=lightblue][/color][/li]
+[li][b][anchor="dash-1850"][spell=1850][/b]   Activates Cat Form and increases movement speed by 70% while in Cat Form for [del copy=true]15[/del][ins]10[/ins] sec.
+[color=lightblue][/color][/li]
+[li][b][anchor="moonfire-164812"][spell=164812][/b]   A quick beam of lunar light burns the enemy for ([del copy=true]114.4%[/del][ins]22.5%[/ins] of Spell power) Arcane damage and then an additional ([del copy=true]457.6%[/del][ins]90%[/ins] of Spell power) Arcane damage over 16 sec.
+[/li]
+[li][b][anchor="rebirth-20484"][spell=20484][/b]   Returns the spirit to the body, restoring a dead target to life with [del copy=true]60%[/del][ins]100%[/ins] health and 20% mana. Castable in combat. Usable in all shapeshift forms.
+[color=lightblue][/color][/li][/ul]
+
+[h5]Talents[/h5]
+[ul][li][b][anchor="feral-affinity-202157"][spell=202157][/b]   You gain: Feline Swiftness
+Increases your movement speed by 15%.
+You also learn: [del copy=true]Shred[/del]Rake, Rip, Ferocious Bite, Swipe
+[color=lightblue][/color][/li]
+[li][b][anchor="guardian-affinity-217615"][spell=217615][/b]   You gain: Thick Hide
+Reduces all damage taken by 6%.
+You also learn: [del copy=true]Mangle[/del]Thrash, Ironfur, Frenzied Regeneration
+[color=lightblue][/color][/li]
+[li][b][anchor="mass-entanglement-102359"][spell=102359][/b]   Roots the target[ins] and all enemies with 15 yards[/ins] in place for 30 sec[del copy=true] and spreads to additional nearby enemies[/del]. Damage may interrupt the effect. Usable in all shapeshift forms.
+[color=lightblue][/color][/li][/ul]
+
+[h5]Azerite Traits[/h5]
+[ul]
+[li][b][anchor="long-night-269379"][spell=269379][/b]   Increases the duration of Moonfire by 1.0 sec, and Moonfire grants 0 Mastery for 15 sec.
+Druid
+[color=lightblue][/color][/li]
+[/ul][/toggler][/div]

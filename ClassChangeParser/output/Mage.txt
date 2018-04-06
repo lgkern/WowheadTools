@@ -1,0 +1,299 @@
+[h2][color=c8]Mage Spell Changes[/color][/h2][div class="patch-diff patch-diff-group-mage patch-diff-class patch-diff-class-8"][table]
+  [tr]
+    [td=header colspan=4]Class Tools[/td]
+[/tr]
+  [tr]
+    [td=header]Arcane[/td]
+    [td][url=/talent-calc/mage/arcane]Talents[/url][/td]
+[/tr]
+  [tr]
+    [td=header]Fire[/td]
+    [td][url=/talent-calc/mage/fire]Talents[/url][/td]
+[/tr]
+  [tr]
+    [td=header]Frost[/td]
+    [td][url=/talent-calc/mage/frost]Talents[/url][/td]
+[/tr]
+[/table]
+[toggler class="heading-size-3 c8" name="Arcane" size=3]
+
+[h5]Specialization[/h5]
+[ul][li][span class="patch-diff-new"]NEW[/span] [b][anchor="arcane-missiles-79684"][spell=79684][/b]   [ins]For each 0 mana you spend, you have a 1% chance to gain Clearcasting, making your next Arcane Missiles free.[/ins]
+[color=lightblue]Name changed from Arcane Missiles to Clearcasting
+Now requires Level 12, down from 14[/color][/li]
+[li][b][anchor="arcane-barrage-44425"][spell=44425][/b]   Launches bolts of arcane energy at the enemy target, causing ([del copy=true]157.3%[/del][ins]80%[/ins] of Spell power) Arcane damage. 
+[del copy=true]Damage increased by 60% per Arcane Charge[/del][ins]Each Arcane Charge increases damage done by 30%[/ins].
+Consumes all Arcane Charges.
+[color=lightblue]Cost changed from 0.5% of base mana to None[/color][/li]
+[li][b][anchor="arcane-blast-30451"][spell=30451][/b]   Blasts the target with energy, dealing ([del copy=true]232.804%[/del][ins]55%[/ins] of Spell power) Arcane damage.
+Damage increased by 60% per Arcane Charge[ins] and mana cost by 100%, and reduces cast time by 8%[/ins].
+[del copy=true]Mana cost increased by 125% per Arcane Charge.[/del]
+Generates 1 Arcane Charge
+[color=lightblue][/color][/li]
+[li][b][anchor="arcane-explosion-1449"][spell=1449][/b]   Causes an explosion of magic around the caster, dealing ([del copy=true]90.75%[/del][ins]60%[/ins] of Spell power) Arcane damage to all enemies within 10 yards.
+[del]Damage increased by 60% per Arcane Charge.
+Mana cost increased by 100%per Arcane Charge.
+Generates 1 Arcane Charge if any targets are hit.[/del]
+[color=lightblue][/color][/li]
+[li][b][anchor="arcane-missiles-5143"][spell=5143][/b]   Launches five waves of Arcane Missiles at the enemy over [del copy=true]2[/del][ins]2.50[/ins] sec, causing a total of [5 * ([del copy=true]53.603%[/del][ins]50%[/ins] of Spell power)] Arcane damage.[del copy=true]
+Damage increased by 60% per Arcane Charge.
+Each damaging spell cast has a 0% chance to activate Arcane Missiles. Chance doubled for Arcane Blast. Limit 3 charges.
+Generates 1 Arcane Charge.[/del]
+[color=lightblue]Cost changed from None to 18.0% of base mana[/color][/li]
+[li][b][anchor="prismatic-barrier-235450"][spell=235450][/b]   Shields you for 1 min, absorbing [del copy=true][0 + Spell power * 7[/del][ins][Spell power * 1.75[/ins] * 1 * (1 + Versatility)] damage, reducing [del copy=true]magical[/del][ins]magic[/ins] damage taken by 15%, and reducing the duration of all harmful Magic effects against you by 25%.
+[color=lightblue][/color][/li]
+[/ul]
+
+[h5]Talents[/h5]
+[center][table class="grid"]
+[tr][td width=50%][b]Live[/b][/td] [td][b]BFA[/b][/td][/tr]
+[tr][td][url=https://www.wowhead.com/talent-calc/mage/arcane][img src=https://wow.zamimg.com/uploads/screenshots/normal/702339.jpg width=400][/url][/td]
+[td][url=https://bfa.wowhead.com/talent-calc/mage/arcane][img src=https://wow.zamimg.com/uploads/screenshots/normal/702338.jpg width=400][/url][/td][/tr][/table][/center]
+
+
+[b]Removed[/b]
+[ul]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][url=https://www.wowhead.com/spell=236628/amplification]Amplification[/url][/b]   Arcane Missiles deals an additional 12% damage per Arcane Charge.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][url=https://www.wowhead.com/spell=205035/words-of-power]Words of Power[/url]2[/b]   Grants 1% increased chance to trigger Arcane Missiles per 20% of your mana you have unspent.
+[color=lightblue][/color][/li][/ul]
+
+[b]New[/b]
+[ul][li][span class="patch-diff-new"]NEW[/span] [b][anchor="mana-adept-264351"][spell=264351][/b]   While you are above 80% mana, Arcane Missiles fires 2 additional missiles.
+[color=lightblue]Tier 1 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="rule-of-threes-nyi-264354"][spell=264354][/b]   When you gain your third Arcane Charge, the cost of your next Arcane Blast or Arcane Missiles is reduced by 100%.
+[color=lightblue]Tier 1 Talent[/color][/li][/ul]
+
+[b]Changed[/b]
+[ul][li][b][anchor="arcane-orb-153626"][spell=153626][/b]   Launches an Arcane Orb forward from your position, traveling up to 40 yards, dealing ([del copy=true]605%[/del][ins]120%[/ins] of Spell power) Arcane damage to enemies it passes through.
+Grants 1 Arcane Charge when cast and every time it deals damage.
+[color=lightblue][/color][/li]
+[li][b][anchor="nether-tempest-114923"][spell=114923][/b]   Places a Nether Tempest on the target which deals ([del copy=true]68.244%[/del][ins]17.061%[/ins] of Spell power) Arcane damage over 12 sec to the target and [([del copy=true]5.687%[/del][ins]1.125%[/ins] of Spell power) * 12 / 1] to all enemies within 10 yards. Limit 1 target.
+Damage increased by 60% per Arcane Charge.
+[color=lightblue][/color][/li]
+[li][b][anchor="supernova-157980"][spell=157980][/b]   Pulses arcane energy around the target enemy or ally, dealing ([del copy=true]205.7%[/del][ins]30%[/ins] of Spell power) Arcane damage to all enemies within 8 yards, and knocking them upward. A primary enemy target will take 100% increased damage.
+[color=lightblue][/color][/li]
+[li][b][anchor="temporal-flux-234302"][spell=234302][/b]   [del copy=true]Arcane Blast's cast time is reduced by 5% for each Arcane Charge.[/del][ins]5 sec after Evocation ends, you gain its effect again.[/ins]
+[color=lightblue][/color][/li][/ul]
+
+[h5]Azerite Traits[/h5]
+[ul]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="arcane-pummeling-270669"][spell=270669 diff=26231 diffnew=1 tempname="Arcane Pummeling"][/b]   Each wave of Arcane Missiles deals 14 more damage than the previous one.
+Arcane
+[color=lightblue][/color][/li]
+[li][b][anchor="arcane-pummeling-270669"][spell=270669][/b]   Each wave of Arcane Missiles deals 14 more damage than the previous one.
+Arcane
+[color=lightblue][/color][/li]
+[/ul]
+
+[/toggler]
+[toggler class="heading-size-3 c8" name="Fire" size=3]
+
+[h5]Specialization[/h5]
+[ul]
+[li][b][spell=137019][/b] Effect #2 Apply Aura: Modifies Periodic Damage/Healing Done Value: [del]9[/del][ins]12%[/ins][/li]
+[li][b][anchor="blazing-barrier-235313"][spell=235313][/b]   Shields you for 1 min, absorbing [del copy=true][0 + Spell power * 7[/del][ins][Spell power * 1.75[/ins] * (1 + Versatility)] damage
+[color=lightblue][/color][/li]
+[li][b][anchor="fire-blast-108853"][spell=108853][/b]  Blasts the enemy for ([del copy=true]188.8%[/del][ins]47.2%[/ins] of Spell power) Fire damage. Castable while casting other spells. Always deals a critical strike.
+[/li]
+[li][b][anchor="fireball-133"][spell=133][/b]   Throws a fiery ball that causes [del copy=true]236%[/del][ins]59%[/ins] of Spell power) Fire damage.
+[/li]
+[li][b][anchor="scorch-2948"][spell=2948][/b]   Scorches an enemy for ([del copy=true]70.8%[/del][ins]17.7%[/ins] of Spell power) Fire damage. Castable while moving.[/li]
+[/ul]
+
+[h5]Talents[/h5]
+[center][table class="grid"]
+[tr][td width=50%][b]Live[/b][/td] [td][b]BFA[/b][/td][/tr]
+[tr][td][url=https://www.wowhead.com/talent-calc/mage/fire][img src=https://i.gyazo.com/fe79ebcb5f6a74cf59893aa0e11b9153.png width=400][/url][/td]
+[td][url=https://bfa.wowhead.com/talent-calc/mage/fire][img src=https://i.gyazo.com/412a6dc2edf37a2f3c145adb876d8d42.png width=400][/url][/td][/tr][/table][/center]
+
+[b]Removed[/b]
+[ul][li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="controlled-burn-205033"][spell=205033][/b]   When you gain Heating Up, you have a 20% chance to instantly activate Hot Streak.
+[color=lightblue]Former artifact ability [spell=194466][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="cinderstorm-198929"][spell=198929][/b]   Throws a spread of 6 cinders that travel in an arc, each dealing ([del copy=true]76.7%[/del][ins]15%[/ins] of Spell power) Fire damage to enemies it hits. Damage increased by 30% if the target is affected by your Ignite.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="conflagration-205023"][spell=205023][/b]   Fireball also applies Conflagration to the target, dealing an additional ([del copy=true]20%[/del][ins]6.6%[/ins] of Spell power) Fire damage over 8 sec.
+Enemies affected by either Conflagration or Ignite have a 10% chance to flare up and deal ([del copy=true]45%[/del][ins]6.75%[/ins] of Spell power) Fire damage to nearby enemies.
+[color=lightblue][/color][/li]
+[/ul]
+
+[b]New[/b]
+[ul][li][span class="patch-diff-new"]NEW[/span] [b][anchor="phoenix-flames-257541"][spell=257541][/b]   Hurls a Phoenix that deals (100% of Spell power) Fire damage to the target and splashes (31.25% of Spell power) Fire damage to other nearby enemies. Always deals a critical strike.
+[color=lightblue]Tier 4 Talent, former artifact ability[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="pyroclasm-269650"][spell=269650][/b]   Consuming Hot Streak has a 15% chance to make your next non-instant Pyroblast cast within 15 sec deal 300% additional damage.
+Maximum two charges.
+[color=lightblue]Tier 7 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="searing-touch-269644"][spell=269644][/b]   Scorch deals 300% increased damage and is a guaranteed Critical Strike when the target is below 30% health.
+[color=lightblue]Tier 1 Talent[/color][/li]
+[/ul]
+
+[b]Changed[/b]
+[ul][li][b][anchor="blast-wave-157981"][spell=157981][/b]   Causes an explosion around yourself, dealing ([del copy=true]118%[/del][ins]45%[/ins] of Spell power) Fire damage to all enemies within 8 yards, [ins]knocking them back,
+ [/ins]and reducing movement speed by 70% for 4 sec.
+[color=lightblue]Range changed from 40 yd range to None[/color][/li]
+[li][b][anchor="blazing-soul-235365"][spell=235365][/b]   [del copy=true]Dealing Fire damage to targets within 8 yards of you refills your Blazing Barrier for 40% of the damage dealt.[/del][ins]Casting Blink ignites a Blazing Barrier around you.[/ins]
+[color=lightblue][/color][/li]
+[li][b][anchor="firestarter-205026"][spell=205026][/b]   Your Fireball and Pyroblast spells always deal[del copy=true]s[/del] a critical strike when the target is above 90% health. 
+[color=lightblue][/color][/li]
+[li][b][anchor="flame-patch-205037"][spell=205037][/b]   Flamestrike leaves behind a patch of flames which burns enemies within it for [8 * ([del copy=true]29.5%[/del][ins]6%[/ins] of Spell power)] Fire damage over 8 sec. 
+[color=lightblue][/color][/li]
+[li][b][anchor="living-bomb-44457"][spell=44457][/b]   The target becomes a Living Bomb, taking ([del copy=true]118%[/del][ins]24%[/ins] of Spell power) Fire damage over 4 sec, and then exploding to deal an additional ([del copy=true]94.4%[/del][ins]14%[/ins] of Spell power) Fire damage to the target and all other enemies within 10 yards.
+Other enemies hit by this explosion also become a Living Bomb, but this effect cannot spread further.
+[color=lightblue][/color][/li]
+[li][b][anchor="meteor-153561"][spell=153561][/b]   Calls down a meteor which lands at the target location after until cancelled, dealing ([del copy=true]1298%[/del][ins]260%[/ins] of Spell power) Fire damage, split evenly between all targets within 8 yards, and burns the ground, dealing 0 Fire damage over 10 sec to all enemies in the area. 
+[color=lightblue][/color][/li][/ul]
+
+[b]Swapped Position[/b]
+[ul]
+[/ul]
+
+[h5]Azerite Traits[/h5]
+[ul]
+[li][b][anchor="ignition-point-269383"][spell=269383 diff=26231][/b]   Ignite damage from Fireball is increased by 5%, and Fireball deals an additional [del copy=true]231[/del][ins]69[/ins] damage when it critically strikes.
+Fire
+[color=lightblue][/color][/li]
+[/ul]
+
+[/toggler]
+[toggler class="heading-size-3 c8" name="Frost Mage" size=3]
+
+[h5]Specialization[/h5]
+[ul][li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="unstable-magic-157976"][spell=157976 diff=26231][/b]   
+Frost:
+[del copy=true]Frostbolt has a 20% chance to explode on impact, dealing 40% additional damage to the target and all other enemies within 8 yds.[/del]
+[color=lightblue]Now a Arcane/Fire spell[/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][url=www.wowhead.com/spell=231598]Water Jet[/url][/b]   Your Water Elemental can now cast Water Jet, dealing ([del copy=true]330.408%[/del][ins]82.602%[/ins] of Spell power) Frost damage to the target over 4 sec. The Mage's Frostbolts that hit the target while it is being blasted with icy water will grant a charge of Fingers of Frost.
+[color=lightblue][/color][/li]
+[li][b][anchor="blizzard-190356"][spell=190356][/b]   Ice shards pelt the target area, dealing [([del copy=true]57.915%[/del][ins]12%[/ins] of Spell power) * 8] Frost damage over 8 sec and reducing movement speed by 50% for 15 sec.
+[color=lightblue][/color][/li]
+[li][b][anchor="brain-freeze-190447"][spell=190447][/b]   Frostbolt has a [del copy=true]15%[/del][ins]25%[/ins] chance to empower your next Flurry to be instant cast and deal 50% increased damage
+[color=lightblue][/color][/li]
+[li][b][anchor="cold-snap-235219"][spell=235219 diff=26231][/b]   Resets the cooldown of your[ins] Ice Barrier[/ins], Frost Nova, Cone of Cold, [del copy=true]Ice Barrier, [/del]and Ice Block.
+[color=lightblue][/color][/li]
+[li][b][anchor="cone-of-cold-120"][spell=120][/b]   Targets in a cone in front of you take ([del copy=true]180%[/del][ins]37.5%[/ins] of Spell power) Frost damage and have movement slowed by 70% for 5 sec.
+[/li]
+[li][b][anchor="fingers-of-frost-112965"][spell=112965 diff=26231][/b]   Frostbolt[ins] has a 15% chance[/ins] and Frozen Orb damage [del copy=true]have a 12% chance[/del][ins]has a 10%[/ins] to grant a charge of Fingers of Frost.
+Fingers of Frost causes your next Ice Lance to deal damage as if the target were frozen.
+Maximum 2 charges.
+[color=lightblue][/color][/li]
+[li][b][anchor="flurry-44614"][spell=44614][/b]   Unleash a flurry of ice, striking the target 3 times for a total of [([del copy=true]178.191%[/del][ins]38%[/ins] of Spell power) * 3] Frost damage. Each hit reduces the target's movement speed by 70% for 1 sec.
+[color=lightblue][/color][/li]
+[li][b][anchor="freeze-231596"][spell=231596 diff=26231][/b]   Your Water Elemental can now cast Freeze:
+ Freeze
+Blasts enemies in a 8 yard radius with frost, freezing them in place for up to 8 sec. Damage caused may interrupt the effect.[del copy=true]
+ Frost
+Grants the Mage a charge of Fingers of Frost for each target successfully hit by Freeze[/del]
+[color=lightblue][/color][/li]
+[li][b][anchor="frostbolt-116"][spell=116][/b]   Launches a bolt of frost at the enemy, causing ([del copy=true]204.75%[/del][ins]60%[/ins] of Spell power) Frost damage and slowing movement speed by 50% for 15 sec.
+[color=lightblue][/color][/li]
+[li][b][anchor="frozen-orb-84714"][spell=84714][/b]   Launches an orb of swirling ice up to 40 yards forward which deals up to [20 * ([del copy=true]30.771%[/del][ins]10%[/ins] of Spell power)] Frost damage to all enemies it passes through. Grants 1 charge of Fingers of Frost when it first damages an enemy.
+Enemies damaged by the [del copy=true]Frost[/del][ins]Frozen[/ins] Orb are slowed by 50% for 15 sec.
+[color=lightblue][/color][/li]
+[li][b][anchor="ice-barrier-11426"][spell=11426][/b]   Shields you for 1 min, absorbing [del copy=true][0 + Spell power * 10[/del][ins][Spell power * 2.5[/ins] * 1 * (1 + Versatility)] damage
+[color=lightblue][/color][/li]
+[li][b][anchor="ice-lance-30455"][spell=30455][/b]   Quickly fling a shard of ice at the target, dealing ([del copy=true]140.4%[/del][ins]31%[/ins] of Spell power) Frost damage. Ice Lance damage is tripled against frozen targets.
+[color=lightblue][/color][/li]
+[li][b][anchor="mastery-icicles-76613"][spell=76613 diff=26231][/b]   When you [del copy=true]damage enemies with Frostbolt, 18.0% of the damage done is stored as an Icicle[/del][ins]cast Frostbolt of Flurry, you gain an Icicle that stores Frost damage[/ins] for 1 min.[del copy=true]Also increases the damage done by your Water Elemental by 18.0%.
+[/del][ins]
+[/ins]Casting Ice Lance causes [del copy=true]any[/del][ins]all[/ins] Icicles stored to begin launching at the target, [del copy=true]Up[/del][ins]each dealing (0.1% of Spell power) Frost damage.
+Up[/ins] to 5 Icicles can be stored. [del copy=true]Excess Icicles will automatically be launched. [/del][ins]Any excess Icicles gained will be automatically launched.[/ins]
+[color=lightblue][/color][/li]
+[/ul]
+
+[h5]Talents[/h5]
+[center][table class="grid"]
+[tr][td width=50%][b]Live[/b][/td] [td][b]BFA[/b][/td][/tr]
+[tr][td][url=https://www.wowhead.com/talent-calc/mage/frost][img src=https://i.gyazo.com/d5ae7774c78ffe136c73c933021f7ee1.png width=400][/url][/td]
+[td][url=https://bfa.wowhead.com/talent-calc/mage/frost][img src=https://i.gyazo.com/9174abb9de421e1c0b51e73a538e8d04.png width=400][/url][/td][/tr][/table][/center]
+
+
+[ul]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="arctic-gale-205038"][spell=205038 diff=26231][/b]   Increases Blizzard's damage by 30% and its area of effect by 20%.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="ebonbolt-257537"][spell=257537 diff=26231][/b]   [del copy=true]Deals (300%[/del][ins]Launch a bolt of ice at the enemy, dealing (200%[/ins] of Spell power) [del copy=true]Shadowfrost damage and causes Brain Freeze.[/del][ins]Frost damage and granting you Brain Freeze.[/ins]
+[color=lightblue]Now a Tier 4 talent, former artifact ability
+Cast Time changed from 3 sec cast to 2.5 sec cast[/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][url=www.wowhead.com/spell=112948]Frost Bomb[/url][/b]   Places a Frost Bomb on the target for 12 sec. Limit 1 target. Your Ice Lances that benefit from Shatter will trigger the release of a wave of freezing ice, dealing ([del copy=true]184.275%[/del][ins]50%[/ins] of Spell power) Frost damage to the target and ([del copy=true]115.128%[/del][ins]25%[/ins] of Spell power) Frost damage to all other enemies within 10 yards.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="coming-soon-270559"][spell=270559 diff=26231 diffnew=1 tempname="Coming Soon"][/b]   This talent has been temporarily frozen in a block of ice!
+[color=lightblue]Tier 4 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="freezing-rain-270233"][spell=270233 diff=26231 diffnew=1 tempname="Freezing Rain"][/b]   Frozen Orb makes Blizzard instant cast and increases its damage done by 35% for 12 sec.
+[color=lightblue]Tier 6 Talent[/color][/li]
+[li][b][anchor="bone-chilling-205027"][spell=205027][/b]   Whenever you attempt to chill a target, you gain Bone Chilling, increasing [del copy=true]Frost[/del][ins]spell[/ins] damage you deal by 0.5% for 8 sec, stacking up to 10 times.
+[color=lightblue][/color][/li]
+[li][b][anchor="comet-storm-153595"][spell=153595 diff=26231][/b]   Calls down a series of 7 icy comets on and around the target, [del copy=true]each of which deals (152.1% of Spell power)[/del][ins]that deals up to [7 * (45% of Spell power)][/ins] Frost damage to all enemies within 6 yds of its [del copy=true]impact.[/del][ins]impacts.[/ins]
+[color=lightblue]Tier 6 Talent[/color][/li]
+[li][b][anchor="frigid-winds-235224"][spell=235224][/b]   All of your chilling effects [del copy=true]reduces[/del][ins]reduce[/ins] the target's movement speed by an additional 15%.
+[color=lightblue][/color][/li]
+[li][b][anchor="frozen-touch-205030"][spell=205030 diff=26231][/b]   [del copy=true]Increases your chance to generate[/del][ins]Frostbolt grants you 20% more[/ins] Fingers of Frost [del copy=true]charges by 40%.[/del][ins]and Brain Freeze.[/ins]
+[color=lightblue][/color][/li]
+[li][b][anchor="glacial-insulation-235297"][spell=235297][/b]   Ice Barrier increases your armor by [del copy=true]100%[/del][ins]200%[/ins] while active, and Ice Block applies Ice Barrier to you when it fades.
+[color=lightblue][/color][/li]
+[li][b][anchor="glacial-spike-199786"][spell=199786 diff=26231][/b]   Conjures a massive spike of ice, and merges your current Icicles into it. It impales your target, dealing ([del copy=true]1755%[/del][ins]400%[/ins] of Spell power) damage plus[ins] all of[/ins] the damage stored in your Icicles, and freezes the target in place for 4 sec. Damage may interrupt the freeze effect.
+Requires 5 Icicles to cast.
+Passive:
+Ice Lance no longer launches Icicles.
+[color=lightblue][/color][/li]
+[li][b][anchor="ice-floes-108839"][spell=108839][/b]   Makes your next Mage spell with a cast time shorter than 10 sec castable while moving. Unaffected by the global cooldown and castable while casting.[del copy=true]Max 3 charges.[/del]
+[color=lightblue][/color][/li]
+[li][b][anchor="ice-nova-157997"][spell=157997 diff=26231][/b]   Causes a whirl of icy wind around the [del copy=true]target enemy or ally, dealing 526.5%[/del][ins]enemy, dealing [(50% of Spell power) * 400 / 100] Frost damage to the target and (50%[/ins] of Spell power) Frost damage to all[ins] other[/ins] enemies within 8 yards, and freezing them in place for 2 sec.[del copy=true]A primary enemy target will take 100% increased damage.[/del]
+[color=lightblue]Tier 1 Talent[/color][/li]
+[li][b][anchor="lonely-winter-205024"][spell=205024 diff=26231][/b]   You can no longer summon your Water Elemental, but Frostbolt, Ice Lance, [del copy=true]Flurry, and Frozen Orb deal 25% increased damage. [/del][ins]and Flurry deal 20% increased damage. [/ins]
+[color=lightblue][/color][/li]
+[li][b][anchor="ray-of-frost-205021"][spell=205021 diff=26231][/b]   [del copy=true]For the next 10 sec, you can channel a beam of icy power at an enemy, slowing movement by 50% and dealing (269.1%[/del][ins]Channel an icy beam at the enemy for 5 sec, dealing (120%[/ins] of Spell power) Frost damage every 1 sec[ins] and slowing movement by 60%[/ins]. Each time Ray of Frost deals damage, its damage [del copy=true]increases by 20%.[/del][ins]and snare increases by 10%.
+Generates 2 charges of Fingers of Frost over its duration.[/ins]
+[color=lightblue]Now requires Level 100, up from 15
+Cooldown changed from 1 min cooldown to 1.25 min cooldown
+Tier 7 Talent[/color][/li]
+[li][b][anchor="splitting-ice-56377"][spell=56377 diff=26287][/b]   Your Ice Lance and Icicles now deal 5% increased damage, and hit a second nearby target for 80% of their damage.
+[del copy=true]Glacial Spike
+Your[/del][ins]Your Ebonbolt and[/ins] Glacial Spike also [del copy=true]hits[/del][ins]hit[/ins] a second nearby target for 80% of its [del copy=true]damage
+[/del][ins]damage.[/ins]
+[color=lightblue]Tier 6 Talent[/color][/li]
+[/ul]
+
+[h5]Azerite Traits[/h5]
+[ul]
+[li][b][anchor="packed-ice-269381"][spell=269381 diff=26231][/b]   Frostbolt has 5% additional critical strike chance, and deals [del copy=true]231 additional damage.[/del][ins]139 additional damage.[/ins]
+Frost
+[color=lightblue][/color][/li]
+[/ul]
+
+[/toggler]
+[toggler class="heading-size-3 c8" name="Mage General" size=3]
+
+[h5]Spells[/h5]
+[ul]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="arcane-intellect-1459"][spell=1459][/b]   Infuses the target with brilliance, increasing their Intellect by 10% for 1 hour.  
+If target is in your party or raid, all party and raid members will be affected.
+[color=lightblue][/color][/li]
+[li][b][anchor="frost-nova-122"][spell=122][/b]   Blasts enemies within 12 yds of you for ([del copy=true]17.91%[/del][ins]4.4775%[/ins] of Spell power) Frost damage and freezes them in place for 8 sec. Damage may interrupt the freeze effect.[/li]
+[li][b][anchor="mana-attunement-121039"][spell=121039][/b]   Your mana regeneration is increased by [del copy=true]50%[/del][ins]100%[/ins].
+[color=lightblue][/color][/li]
+[li][b][anchor="polymorph-118"][spell=118][/b]   Transforms the enemy into a sheep, wandering around incapacitated for [del copy=true]50 sec[/del][ins]1 min[/ins]. While affected, the victim cannot take actions but will regenerate health very quickly. Damage will cancel the effect. Limit 1.
+Only works on Beasts, Humanoids and Critters.
+[color=lightblue][/color][/li]
+[li][b][anchor="spellsteal-30449"][spell=30449][/b]   Steals a beneficial magic effect from the target. This effect lasts a maximum of 2 min. 
+Kleptomania: all beneficial magic effects from the target. These effects lasts a maximum of 2 min.[/li]
+[li][b][anchor="waterbolt-31707"][spell=31707][/b]   Deals [([del copy=true]117%[/del][ins]29.25%[/ins] of Spell power) * 0.75] Frost damage to the target.[/li]
+[/ul]
+
+[h5]Talents[/h5]
+[ul][li][b][anchor="mirror-image-55342"][spell=55342][/b]   Creates 3 copies of you nearby [ins]for 40 sec[/ins], which cast spells and attack your enemies.
+[color=lightblue][/color][/li]
+[li][b][anchor="rune-of-power-116011"][spell=55342][/b]   Places a Rune of Power on the ground for 10 sec which increases your spell damage by 40% while you stand within 8 yds.[del copy=true] Max 2 charges.[/del]
+[color=lightblue][/color][/li]
+[li][b][anchor="shimmer-212653"][spell=212653][/b]   Teleports you 20 yards forward, unless something is in the way. Unaffected by the global cooldown and castable while casting.
+[color=lightblue]Cooldown changed from 15 sec recharge to 20 sec recharge[/color][/li]
+[li][b][anchor="unstable-magic-157976"][spell=157976][/b]   
+Arcane: Arcane Blast has a 20% chance to explode on impact, dealing [del copy=true]50%[/del][ins]40%[/ins] additional damage to the target and all other enemies within 8 yds.
+Fire: Fireball has a 25% chance to explode on impact, dealing [del copy=true]50%[/del][ins]40%[/ins] additional damage to the target and all other enemies within 8 yds.
+Frost: Frostbolt has a 20% chance to explode on impact, dealing [del copy=true]50%[/del][ins]40%[/ins] additional damage to the target and all other enemies within 8 yds.
+[color=lightblue][/color][/li]
+[/ul]
+
+[h5]Azerite Traits[/h5]
+[ul]
+[li][span class="patch-diff-new"]NEW[/span] [b][spell=224871][/b]   Creates a portal, teleporting group members that use it to Dalaran in the Broken Isles.
+[color=lightblue]Probably a placeholder[/color][/li]
+[/ul][/toggler][/div]

@@ -1,0 +1,444 @@
+[h2][color=c9]Warlock Spell Changes[/color][/h2][div class="patch-diff patch-diff-group-warlock patch-diff-class patch-diff-class-9"][table]
+  [tr]
+    [td=header colspan=4]Class Tools[/td]
+[/tr]
+  [tr]
+    [td=header]Affliction[/td]
+    [td][url=/talent-calc/warlock/affliction]Talents[/url][/td]
+[/tr]
+  [tr]
+    [td=header]Demonology[/td]
+    [td][url=/talent-calc/warlock/demonology]Talents[/url][/td]
+[/tr]
+  [tr]
+    [td=header]Destruction[/td]
+    [td][url=/talent-calc/warlock/destruction]Talents[/url][/td]
+[/tr]
+[/table]
+[toggler class="heading-size-3 c9" name="Affliction" size=3]
+
+[h5]Specialization [/h5]
+[ul]
+[li][b][anchor="affliction-warlock-137043"][spell=137043][/b]   Apply Aura: Modifies Damage/Healing Done by [del]14%[/del] [ins]32%[/ins].[/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][url=www.wowhead.com/spell=231799]Shadow Bite[/url][/b]   Your Felhunter's Shadow Bite deals 50% increased damage for each of your Affliction damage over time effects on the target.
+[color=lightblue][/color][/li]
+[li][b][anchor="agony-980"][spell=980][/b]   Inflicts increasing agony on the target, causing up to [([del copy=true]31.86%[/del][ins]7.2%[/ins] of Spell power) * 6] Shadow damage over 18 sec. Damage starts low and increases over the duration. Refreshing Agony maintains its current damage level.
+Agony damage sometimes generates 1 Soul Shard.
+[color=lightblue]Cost changed from 3.0% of base mana to 1.0% of base mana[/color][/li]
+[li][b][anchor="corruption-172"][spell=172][/b]   Corrupts the target, causing ([del copy=true]226.8%[/del][ins]63%[/ins] of Spell power) Shadow damage over 14 sec.
+[color=lightblue]Cost changed from 3.0% of base mana to 1.0% of base mana[/color][/li]
+[li][b][anchor="drain-soul-198590"][spell=198590][/b]   Drains the target's soul, causing 6 Shadow damage over 6 sec, and healing you for [del copy=true]200%[/del][ins]125%[/ins] of the damage done.
+Generates 1 Soul Shard if the target dies during this effect.
+[color=lightblue][/color][/li]
+[li][b][anchor="life-tap-1454"][spell=1454][/b]   [del copy=true]Restores 30% of your maximum mana[/del][ins]Grants 1 Soul Shard[/ins] at the cost of [del copy=true]10%[/del][ins]15%[/ins] of your maximum health.
+[color=lightblue]Now available to all specs
+Now requires Level 20, up from 8
+Cooldown changed from None to 30 sec recharge
+Charges changed from None to 3 Charges[/color][/li]
+[li][b][anchor="mastery-potent-afflictions-77215"][spell=77215][/b]   Increases damage done by Agony, Corruption, Siphon Life, and Unstable Affliction by [del copy=true]25%)[/del][ins]25.0%[/ins].
+[color=lightblue][/color][/li]
+[li][b][anchor="seed-of-corruption-27243"][spell=27243][/b]   Embeds a demon seed in the enemy target that will explode after [del copy=true]18 sec, dealing (172%[/del][ins]12 sec, dealing (50%[/ins] of Spell power) Shadow damage to all enemies within 10 yards and applying Corruption to them.
+The seed will detonate early if the target is hit by other detonations, or takes (Spell power * [del copy=true]300[/del][ins]50[/ins] / 100) damage from your spells.
+[color=lightblue][/color][/li]
+[li][b][anchor="shadow-bolt-196657"][spell=196657][/b]   Sends a shadowy bolt at the enemy, causing ([del copy=true]160%[/del][ins]50%[/ins] of Spell power) Shadow damage.
+[color=lightblue]Cost changed from 6.0% of base mana to 2.0% of base mana[/color][/li]
+[li][b][anchor="unstable-affliction-30108"][spell=30108][/b]   Afflicts the target with ([del copy=true]370.8%[/del][ins]64%[/ins] of Spell power) Shadow damage over 8 sec. You may afflict a target with up to 5 Unstable Afflictions at once.
+[del copy=true]If dispelled, deals [(92.7%[/del][ins]You deal 10% increased damage to targets affected by your Unstable Affliction.
+If dispelled, deals [(16%[/ins] of Spell power) * 400 / 100] damage to the dispeller and silences them for 4 sec.
+ Affliction (Level 26)
+Refunds 1 Soul Shard if the target dies while afflicted.
+
+[color=lightblue][/color][/li]
+[/ul]
+
+[h5]Talents [/h5]
+[center][table class="grid"]
+[tr][td width=50%][b]Live[/b][/td] [td][b]BFA[/b][/td][/tr]
+[tr][td][url=https://www.wowhead.com/talent-calc/warlock/affliction][img src=https://wow.zamimg.com/uploads/screenshots/normal/702317.jpg width=400][/url][/td]
+[td][url=https://bfa.wowhead.com/talent-calc/warlock/affliction][img src=https://wow.zamimg.com/uploads/screenshots/normal/702316.jpg width=400][/url][/td][/tr][/table][/center]
+
+
+[b]Removed[/b]
+[ul][li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="contagion-196105"][spell=196105][/b]   You deal [del copy=true]15%[/del][ins]10%[/ins] increased damage to targets affected by your Unstable Affliction.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="empowered-life-tap-235157"][spell=235157][/b]   Life Tap increases your damage dealt by 10% for 20 sec.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="grimoire-of-sacrifice-108501"][spell=108501][/b]   Summons a second demon which fights for you for 25 sec and deals 100% increased damage. 1.5 min cooldown. The demon will immmediately use one of its special abilities when summoned:
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="howl-of-terror-5484"][spell=5484][/b]   Let loose a terrifying howl, causing 5 enemies within 10 yds to flee in fear, disorienting them for 20 sec. Damage may cancel the effect.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="malefic-grasp-235155"][spell=235155][/b]   While channeling Drain Soul, your damage over time effects deal [del copy=true]25%[/del][ins]20%[/ins] increased damage to the target.
+[color=lightblue][/color][/li][/ul]
+
+
+[b]New[/b]
+[ul][li][span class="patch-diff-new"]NEW[/span] [b][anchor="creeping-death-264000"][spell=264000][/b]   Your Agony, Corruption, and Unstable Affliction deal their full damage 15% faster.
+[color=lightblue]Tier 7 Talent
+Inspired by the legendary [item=132394][/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="coming-soon-268044"][spell=268044][/b]   This talent has been lost in the nether but will be found soon!
+[color=lightblue]Tier 6 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="deathbolt-264106"][spell=264106][/b]   Launches a bolt of death at the target, dealing 40% of the total remaining damage of your damage over time effects on the target.
+[color=lightblue]Tier 1 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="shadow-embrace-32388"][spell=32388][/b]   Shadow Bolt applies Shadow Embrace, increasing your damage dealt to the target by 3% for 10 sec. Stacks up to 3 times.
+[color=lightblue]Tier 1 Talent[/color][/li][/ul]
+
+
+[b]Swapped Position[/b]
+[ul][li][b][anchor="deaths-embrace-234876"][spell=234876][/b]   Agony, Corruption, Unstable Affliction, Seed of Corruption, and Shadow Bolt deal up to [del copy=true]50%[/del][ins]40%[/ins] increased damage on targets below 35% health. Damage increase is higher against lower health targets.
+[color=lightblue]Tier 2 Talent[/color][/li]
+[li][b][anchor="writhe-in-agony-196102"][spell=196102][/b]   Agony's damage may now ramp up to 15 stacks.
+[color=lightblue]Tier 2 Talent[/color][/li][/ul]
+
+
+[b]Changed[/b]
+[ul]
+[li][b][anchor="absolute-corruption-196103"][spell=196103][/b]   Corruption is now permanent and deals [del copy=true]25% increased damage. Duration[/del][ins]15% increased damage.
+Duration[/ins] reduced to 24 sec against players.
+[color=lightblue][/color][/li]
+[li][b][anchor="grimoire-of-sacrifice-108503"][spell=108503][/b]   [del copy=true]Sacrifice[/del][ins]Sacrifices[/ins] your demon pet for power, gaining its command demon ability, and [del copy=true]15% increased damage done.
+Lasts 1 hour or until you summon a demon pet.[/del][ins]causing your spells to sometimes also deal (35% of Spell power) additional Shadow damage.
+Lasts 1 hour or until you summon a demon pet.[/ins]
+[color=lightblue][/color][/li]
+[li][b][anchor="haunt-48181"][spell=48181][/b]   A ghostly soul haunts the target, dealing ([del copy=true]500%[/del][ins]55%[/ins] of Spell power) Shadow damage and increasing your damage dealt to the target by [del copy=true]15% for 10 sec. If[/del][ins]10% for 15 sec.
+If[/ins] the target dies, Haunt's cooldown is reset.
+[color=lightblue]Cost changed from 5.0% of base mana to 2.0% of base mana
+Cooldown changed from 25 sec cooldown to 15 sec cooldown[/color][/li]
+[li][b][anchor="phantom-singularity-205179"][spell=205179][/b]   Places a phantom singularity above the target, which consumes the life of all enemies within 15 yards, dealing [8 * ([del copy=true]180%[/del][ins]25%[/ins] of Spell power)] damage over 16 sec, healing you for [del copy=true]20%[/del][ins]25%[/ins] of the damage done.
+[color=lightblue][/color][/li]
+[li][b][anchor="siphon-life-63106"][spell=63106][/b]   Siphons the target's life essence, dealing 0 damage over 15 sec and healing you for [del copy=true]60%[/del][ins]30%[/ins] of the damage done.
+[color=lightblue][/color][/li]
+[li][b][anchor="sow-the-seeds-196226"][spell=196226][/b]   Seed of Corruption [del copy=true]will now embed[/del][ins]now embeds[/ins] a demon seed [del copy=true]in 2 additional nearby enemies.[/del][ins]into 1 additional nearby enemy.[/ins]
+[color=lightblue][/color][/li]
+[/ul]
+
+[h5]Azerite Traits[/h5]
+[ul]
+[li][b][anchor="suffer-269372"][spell=269372][/b]   Agony's duration is increased by 1 sec, and it deals (3 * 6 * 9) additional total damage.
+Affliction
+[color=lightblue][/color][/li]
+[/ul]
+
+[/toggler]
+[toggler class="heading-size-3 c9" name="Demonology" size=3]
+
+[h5]Specialization [/h5]
+[ul][li][span class="patch-diff-removed"]REMOVED[/span][b][anchor="demonic-empowerment-193396"][spell=193396][/b]   Empowers your active demons with dark energies, increasing their haste by 50% and health by 20%
+[/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="demonwrath-193440"][spell=193440][/b]   Causes your demons to crackle with demonic energy, dealing [3 * ([del copy=true]34.5%[/del][ins]7%[/ins] of Spell power)] Shadow damage to all enemies within 10 yds of any of your demons over 3 sec. Castable while moving.
+Demonwrath damage has a 15% chance to generate 1 Soul Shard.
+[color=lightblue]Cost changed from 0.0% of base mana, plus 2.5% per second to 0.0% of base mana, plus 1.0% per second[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][spell=265187][/b] Summon a Demonic Tyrant to increase the duration of all of your current demons by 15.0 sec, and increase the damage of all of your other demons by 15%, while casting Shadow Bolt Volley at your enemies.[/li]
+[li][b][span class="patch-diff-new"]NEW[/span] [anchor="implosion-196277"][spell=196277][/b]   Demonic forces suck all of your Wild Imps toward the target, and then cause them to violently explode, dealing (50% of Spell power) Shadowflame damage to all enemies within 0 yards.
+[color=lightblue]Now baseline[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][spell=265339][/b] Summon 5 Wild Imps around you.[/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="molten-core-267102"][spell=267102][/b]   When your Wild Imps expend all of their energy, you have a 10% chance to absorb their life essence, granting you a stack of Demonic Core. 
+When your summoned Dreadstalkers fade away, you have a 100% chance to absorb their life essence, granting you a stack of Demonic Core.
+Demonic Core reduces the cast time of Demonbolt by 100%. Maximum 4 stacks.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][spell=264178][/b] Send the fiery soul of a fallen demon at the enemy, causing (90% of Spell power) Shadowflame damage.
+Generates 2 Soul Shards.[/li]
+[li][b][anchor="call-dreadstalkers-104316"][spell=104316][/b]   Summons 2 ferocious Dreadstalkers to attack the target for 12 sec.
+[color=lightblue]Cooldown changed from 15 sec cooldown to 20 sec cooldown[/color][/li]
+[li][b][anchor="drain-life-234153"][spell=234153][/b]   Drains life from the target, causing 6 Shadow damage over 6 sec, and healing you for 600% of the damage done.
+[color=lightblue]Cost changed from 0.0% of base mana, plus 3.0% per second to 0.0% of base mana, plus 1.0% per second[/color][/li]
+[li][b][anchor="hand-of-guldan-105174"][spell=105174][/b]   Calls down a demonic meteor full of Wild Imps which burst forth to attack the target.
+Deals up to [[del copy=true]4[/del][ins]3[/ins] * (25% of Spell power)] Shadowflame damage on impact to all enemies within 8 yds of the target and summons up to [del copy=true]4[/del][ins]3[/ins] Wild Imps, based on Soul Shards consumed.
+[color=lightblue]Cost changed from 0.0% of base mana, plus 3.0% per second to 0.0% of base mana, plus 1.0% per second[/color][/li]
+
+[li][b][anchor="life-tap-1454"][spell=1454][/b]   [del copy=true]Restores 30% of your maximum mana[/del][ins]Grants 1 Soul Shard[/ins] at the cost of [del copy=true]10%[/del][ins]15%[/ins] of your maximum health.
+[color=lightblue]Now available to all specs
+Now requires Level 20, up from 8
+Cooldown changed from None to 30 sec recharge
+Charges changed from None to 3 Charges[/color][/li]
+[li][b][anchor="mastery-master-demonologist-77219"][spell=77219][/b]   [del copy=true]Demonic Empowerment also [/del]Increases the damage [del copy=true]of[/del][ins]done by[/ins] your demons by [del copy=true]14.4%[/del][ins]14.0%[/ins].
+[color=lightblue][/color][/li]
+[li][b][anchor="shadow-bolt-686"][spell=686][/b]   Sends a shadowy bolt at the enemy, causing ([del copy=true]125%[/del][ins]45%[/ins] of Spell power) Shadow damage. Generates 1 Soul Shard.
+[color=lightblue]Cost changed from 6.0% of base mana to 2.0% of base mana[/color][/li]
+[/ul]
+
+[h5]Talents [/h5]
+[center][table class="grid"]
+[tr][td width=50%][b]Live[/b][/td] [td][b]BFA[/b][/td][/tr]
+[tr][td][url=https://www.wowhead.com/talent-calc/warlock/demonology][img src=https://wow.zamimg.com/uploads/screenshots/normal/702315.jpg width=400][/url][/td]
+[td][url=https://bfa.wowhead.com/talent-calc/warlock/demonology][img src=https://i.gyazo.com/17e7513a7ed7e3fe5063cc117c965ee6.png width=400][/url][/td][/tr][/table][/center]
+
+
+[b]Removed[/b]
+[ul][li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="shadowfury-30283"][spell=30283][/b]   Stuns all enemies within 8 yds for [del copy=true]4[/del][ins]3[/ins] sec.
+[color=lightblue]Now baseline
+Range changed from 30 yd range to 35 yd range
+Cooldown changed from 30 sec cooldown to 1 min cooldown[/color][/li]
+[li][b][span class="patch-diff-removed"]REMOVED[/span] [anchor="grimoire-of-supremacy-152107"][spell=152107][/b]  
+[color=lightblue][/color][/li]
+[li][b][span class="patch-diff-removed"]REMOVED[/span] [anchor="hand-of-doom-196283"][spell=196283][/b]  
+[color=lightblue][/color][/li]
+[li][b][span class="patch-diff-removed"]REMOVED[/span] [anchor="impending-doom-196270"][spell=196270][/b] 
+[color=lightblue][/color][/li]
+[li][b][span class="patch-diff-removed"]REMOVED[/span] [anchor="implosion-196277"][spell=196277][/b]   Demonic forces suck all of your Wild Imps toward the target, and then cause them to violently explode, dealing (50% of Spell power) Shadowflame damage to all enemies within 8 yards.
+[ins]If the explosion hits 3 or more enemies, you have a 50% chance to generate a Soul Shard.[/ins]
+[color=lightblue]Now baseline[/color][/li]
+[li][b][span class="patch-diff-removed"]REMOVED[/span] [anchor="improved-dreadstalkers-196272"][spell=196272][/b]  
+[color=lightblue][/color][/li]
+[li][b][span class="patch-diff-removed"]REMOVED[/span] [anchor="demonbolt-157695"][spell=157695][/b]
+[color=lightblue][/color][/li]
+[li][b][span class="patch-diff-removed"]REMOVED[/span] [anchor="power-trip-196605"][spell=196605][/b]  
+[color=lightblue][/color][/li]
+[li][b][span class="patch-diff-removed"]REMOVED[/span] [anchor="shadowflame-205181"][spell=205181][/b]   
+[color=lightblue][/color][/li]
+[li][b][span class="patch-diff-removed"]REMOVED[/span] [anchor="shadowy-inspiration-196269"][spell=196269][/b]  
+[color=lightblue][/color][/li]
+[li][b][span class="patch-diff-removed"]REMOVED[/span] [anchor="summon-darkglare-205180"][spell=205180][/b]   
+[color=lightblue][/color][/li]
+[/ul]
+
+[b]New[/b]
+[ul][li][span class="patch-diff-new"]NEW[/span] [b][anchor="doom-265412"][spell=265412][/b]   Inflicts impending doom upon the target, causing (250% of Spell power) Shadow damage after 30 sec. Limit 1.
+[color=lightblue]Tier 2 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][spell=264057][/b]  Command your Felguard to strike into the soul of its enemy, dealing (100% of Attack power) Physical damage.Shadow damage.
+Demonology
+Generates 1 Soul Shard.
+[color=lightblue]Tier 4 Talent[/color][/li]
+[li][b][span class="patch-diff-new"]NEW[/span] [spell=264078][/b]   When your Dreadstalkers charge into battle, their Dreadbite attack now hits all targets within 8 yards and deals 25% more damage.
+[color=lightblue]Tier 1 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][spell=264119][/b] Summon a Vilefiend to fight for you for the next 15 sec.
+[color=lightblue]Tier 4 Talent[/color][/li]
+[li][b][span class="patch-diff-new"]NEW[/span] [spell=264130][/b]   Instantly sacrifice up to 2 Wild Imps to generate 2 charges of Demonic Core.
+[color=lightblue]Tier 2 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="bilescourge-bombers-267211"][spell=267211][/b]  Tear open a portal to the nether above the target location, from which several Bilescourge will pour out of and crash into the ground over 6 sec, dealing (15% of Spell power) Shadow damage to all enemies within 10 yards.
+[color=lightblue]Tier 1 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][url=https://bfa.wowhead.com/spell=267171/demonic-strength]Demonic Strength[/url][/b] Infuse your Felguard with demonic strength and command it to charge your target and unleash a Felstorm that will deal 400% increased damage.
+[color=lightblue]Tier 1 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][spell=267170][/b]  Casting Call Dreadstalkers causes the target to take 20% additional Shadowflame damage from you for the next 12 sec.
+[color=lightblue]Tier 4 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][url=https://bfa.wowhead.com/spell=267215/demonic-consumption]Demonic Consumption[/url][/b] Your Demonic Tyrant now destroys and absorbs the remaining power of all of your Wild Imps to empower himself.
+[color=lightblue]Tier 7 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="inner-demons-267216"][spell=267216][/b]   You passively summon a Wild Imp to fight for you every 10 sec, and have a 10% chance to also a summon an additional Demon to fight for you for 15 sec.
+[color=lightblue]Tier 6 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="nether-portal-267217"][spell=267217][/b] Tear open a portal to the Twisting Nether for 20 sec.  Every time you spend Soul Shards, you will also command demons from the Nether to come out and fight for you.
+[color=lightblue]Tier 7 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="sacrificed-souls-267214"][spell=267214][/b]   Each Soul Shard spent reduces the cooldown of Demon Commander by 1.0 sec.
+[color=lightblue]Tier 7 Talent[/color][/li][/ul]
+
+[b]Changed[/b]
+[ul]
+[li][b][anchor="demonic-calling-205145"][spell=205145][/b]   Shadowbolt and Demonbolt have a 20% chance[del copy=true], and Demonwrath has a 5% chance on each target,[/del][ins]and Soulfire have
+has a 20% chance[/ins] to make your next Call Dreadstalkers cost no Soul Shards.
+[color=lightblue][/color][/li]
+[/ul]
+
+[b]Swapped Positions[/b]
+[ul][li][b][anchor="soul-conduit-215941"][spell=215941][/b]   Every Soul Shard you spend has a [del copy=true]20%[/del][ins]15%[/ins] chance to be refunded.
+[color=lightblue]Tier 6 Talent[/color][/li]
+[/ul]
+
+[h5]Azerite Traits[/h5]
+[ul]
+[li][b][anchor="meteoric-flare-269594"][spell=269594][/b]   Hand of Gul'dan has a 5% chance to refund a Soul Shard when it hits a target, and deals an additional 69 damage.
+Demonology
+[color=lightblue][/color][/li]
+[/ul]
+
+[/toggler]
+[toggler class="heading-size-3 c9" name="Destruction" size=3]
+
+[h5]Specialization [/h5]
+[ul][li][b][anchor="destruction-warlock-137046"][spell=137046][/b]   Apply Aura: Modifies Damage/Healing Done by [del]15%[/del][ins]0%[/ins].[/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][url=https://www.wowhead.com/spell=231794/unending-resolve]Unending Resolve Rank 2[/url][/b]   Unending Resolve's cooldown is reduced by 90 sec.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="backdraft-196406"][spell=196406][/b]   Conflagrate reduces the cast time of your next [del copy=true]two Incinerates or Chaos Bolts by 30%.[/del][ins]Incinerate or Chaos Bolt by 30%.[/ins]
+[color=lightblue]Now baseline[/color][/li]
+[li][b][anchor="chaos-bolt-116858"][spell=116858][/b]   Unleashes a devastating blast of chaos, dealing a critical strike for [2 * ([del copy=true]560%[/del][ins]120%[/ins] of Spell power)] Chaos damage. Damage is further increased by your critical strike chance.[/li]
+[li][b][anchor="conflagrate-17962"][spell=17962][/b]   Triggers an explosion on the target, dealing ([del copy=true]75%[/del][ins]90%[/ins] of Spell power) Fire damage. Generates 5 Soul Shard Fragments.
+Destruction (Level 25):   Reduces the cast time of your next [del copy=true]two Incinerates or Chaos Bolts[/del][ins]Incinerate or Chaos Bolt[/ins] by 30% for 10 sec
+Generates 5 Soul Shard Fragments.[/li]
+[li][b][anchor="drain-life-234153"][spell=234153][/b]   Drains life from the target, causing 6 Shadow damage over 6 sec, and healing you for 600% of the damage done.
+[color=lightblue]Cost changed from 0.0% of base mana, plus 3.0% per second to 0.0% of base mana, plus 1.0% per second[/color][/li]
+[li][b][anchor="havoc-80240"][spell=80240][/b]   Marks a target with Havoc for 10 sec, causing your single target spells to also strike the Havoc victim.[del copy=true]Limit 1.[/del]
+[color=lightblue]Cost changed from 8.0% of base mana to 2.0% of base mana
+Cooldown changed from 45 sec cooldown to 25 sec cooldown[/color][/li]
+[li][b][anchor="immolate-348"][spell=348][/b]   Burns the enemy, causing ([del copy=true]133.2%[/del][ins]40%[/ins] of Spell power) Fire damage immediately and an additional ([del copy=true]432.9%[/del][ins]150%[/ins] of Spell power) Fire damage over 18 sec.
+Periodic damage generates 1 Soul Shard Fragment and has a 50% chance to generate an additional 1 on critical strikes.
+[color=lightblue]Cost changed from 6.0% of base mana to 1.5% of base mana[/color][/li]
+[li][b][anchor="immolate-193540"][spell=193540][/b]   Burns the enemy, causing ([del copy=true]133.2%[/del][ins]40%[/ins] of Spell power) Fire damage immediately and an additional ([del copy=true]432.9%[/del][ins]150%[/ins] of Spell power) Fire damage over 18 sec.
+Periodic damage generates 1 Soul Shard Fragment and has a 50% chance to generate an additional 1 on critical strikes.
+[color=lightblue][/color][/li]
+[li][b][anchor="incinerate-29722"][spell=29722][/b]   Draws fire toward the enemy, dealing ([del copy=true]233.1%[/del][ins]58.275%[/ins] of Spell power) Fire damage.
+Generates 2 Soul Shard Fragments and an additional 1 on critical strikes.
+[color=lightblue]Cost changed from 5.0% of base mana to 2.0% of base mana[/color][/li]
+[li][b][anchor="life-tap-1454"][spell=1454][/b]   [del copy=true]Restores 30% of your maximum mana[/del][ins]Grants 1 Soul Shard[/ins] at the cost of [del copy=true]10%[/del][ins]15%[/ins] of your maximum health.
+[color=lightblue]Now available to all specs
+Cooldown changed from None to 30 sec recharge
+Charges changed from None to 3 Charges[/color][/li]
+
+[li][b][anchor="rain-of-fire-5740"][spell=5740][/b]   Calls down a rain of hellfire, dealing [([del copy=true]80%[/del][ins]16%[/ins] of Spell power) * 8] Fire damage over 8 sec to enemies in the area.
+[color=lightblue][/color][/li]
+[li][b][anchor="shadow-bolt-686"][spell=686][/b] Sends a shadowy bolt at the enemy, causing ([del copy=true]125%[/del][ins]45%[/ins] of Spell power) Shadow damage.
+[color=lightblue]Cost changed from 6.0% of base mana to 2.0% of base mana[/color][/li]
+[li][b][anchor="summon-infernal-1122"][spell=1122][/b]   Summons an Infernal from the Twisting Nether, impacting for (100% of Spell power) Fire damage and stunning all [del copy=true]enemy targets[/del][ins]enemies[/ins] in the area for 2 [del copy=true]sec. The[/del][ins]sec.
+The[/ins] Infernal will serve you for [del copy=true]25 sec, dealing strong area-of-effect damage.[/del][ins]30 sec, dealing (50% of Spell power) damage to all nearby enemies every 2 sec and generating 1 Soul Shard Fragment every 0.5 sec.[/ins]
+[color=lightblue]Now Demonology only[/color][/li]
+[/ul]
+
+[h5]Talents [/h5]
+[center][table class="grid"]
+[tr][td width=50%][b]Live[/b][/td] [td][b]BFA[/b][/td][/tr]
+[tr][td][url=https://www.wowhead.com/talent-calc/warlock/destruction][img src=https://wow.zamimg.com/uploads/screenshots/normal/702313.jpg width=400][/url][/td]
+[td][url=https://bfa.wowhead.com/talent-calc/warlock/destruction][img src=https://i.gyazo.com/ac1a376a414b36687e33488ba932d271.png width=400][/url][/td][/tr][/table][/center]
+
+
+[b]Removed[/b]
+[ul][li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="empowered-life-tap-235157"][spell=235157][/b]   Life Tap increases your damage dealt by 10% for 20 sec.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][spell=196406][/b]   Casting Conflagrate reduces the cast time of your next two Incinerates or Chaos Bolts by 30%.
+[color=lightblue]Now baseline[/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="grimoire-of-synergy-171975"][spell=171975][/b]   Damage done by you or your demon has a chance to grant the other one 10% increased damage for 15 sec.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="hellfire-1949"][spell=1949 diff=26231][/b]   Engulfs the surrounding area in hellfire, causing (40% of Spell power) Fire damage to yourself, and (40% of Spell power) Fire damage to all nearby enemies every 1 sec.
+You may move while channeling Hellfire.
+Costs 4 Soul Shard Fragments per sec.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][url=https://www.wowhead.com/spell=196410/wreak-havoc]Wreak Havoc[/url][/b]   Reduces the cooldown of Havoc by 20 sec.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="shadowfury-30283"][spell=30283][/b]   Stuns all enemies within 8 yds for [del copy=true]4[/del][ins]3[/ins] sec.
+[color=lightblue]Now baseline
+Range changed from 30 yd range to 35 yd range
+Cooldown changed from 30 sec cooldown to 1 min cooldown[/color][/li][/ul]
+
+[b]New[/b]
+[ul][li][span class="patch-diff-new"]NEW[/span] [b][spell=1949][/b]   Engulfs the surrounding area in hellfire, causing (40% of Spell power) Fire damage to yourself, and (40% of Spell power) Fire damage to all nearby enemies every 1 sec. You may move while channeling Hellfire. Costs 4 Soul Shard Fragments per sec.
+[color=lightblue]Tier 4 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="flashover-267115"][spell=267115][/b]   Conflagrate deals 10% increased damage and grants an additional stack of Backdraft.
+[color=lightblue]Tier 1 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="inferno-270545"][spell=270545 diff=26231 diffnew=1 tempname="Inferno"][/b]   Rain of Fire damage has a 20% chance to generate a Soul Shard Fragment.
+[color=lightblue]Tier 4 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="internal-combustion-266134"][spell=266134][/b]   Chaos Bolt consumes up to 5 sec of Immolate's damage over time effect on your target, instantly dealing that much damage.
+[color=lightblue]Tier 2 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="soul-fire-6353"][spell=6353][/b]   Burns the enemy's soul, dealing a critical strike for [2 * (140% of Spell power)] Fire damage. Damage is further increased by your critical strike chance.
+[color=lightblue]Costs 10 Soul Shard Fragments
+Tier 1 Talent[/color][/li]
+
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="dark-soul-113858"][spell=113858][/b]   Infuses your soul with unstable power, increasing your critical strike chance by 30% for 20 sec.
+[color=lightblue]Tier 7 Talent[/color][/li][/ul]
+
+[b]Swapped Position[/b]
+
+[ul][li][b][anchor="eradication-196412"][spell=196412][/b]   Chaos Bolt increases the damage you deal to the target by [del]15%[/del][ins]10%[/ins] for 7 sec.
+[color=lightblue]Tier 1 Talent[/color][/li]
+[li][b][anchor="roaring-blaze-205184"][spell=205184][/b]   Conflagrate [del copy=true]increases your remaining Immolate damage on the target by 25% until Immolate expires or is refreshed.[/del][ins]burns the target for an additional (48% of Spell power) Fire damage over 6 sec.[/ins]
+[color=lightblue]Tier 6 Talent[/color][/li]
+[li][b][anchor="shadowburn-17877"][spell=17877][/b]   Blasts a target for ([del copy=true]315%[/del][ins]60%[/ins] of Spell power) Shadowflame damage. 
+[del copy=true]Generates 5 Soul Shard Fragments and an additional 5 Soul Shard Fragments [/del]If the target dies within 5 sec [ins]and yields experience or honor, Shadowburn's cooldown is reset.
+Generates 3 Soul Shard Fragments.[/ins]
+[color=lightblue]Cost changed from 2.0% of base mana to 1.0% of base mana
+Charges changed from 1 Charges to 2 Charges
+Tier 2 Talent[/color][/li]
+[/ul]
+
+[b]Changed[/b]
+[ul][li][b][anchor="cataclysm-152108"][spell=152108][/b]   Conjures a cataclysm at the target location, dealing ([del copy=true]150%[/del][ins]180%[/ins] of Spell power) Shadowflame damage to all enemies within 8 yards and afflicting them with Immolate.
+[/li]
+[li][b][anchor="demonic-calling-205145"][spell=205145][/b]   Shadowbolt has a 20% chance[del copy=true], and Demonwrath has a 5% chance on each target[/del] to make your next Call Dreadstalkers cost no Soul Shards.
+[color=lightblue][/color][/li]
+[li][b][anchor="channel-demonfire-196447"][spell=196447][/b]   Launches 15 bolts of felfire over 3 sec at random targets afflicted by your Immolate within 40 yds. Each bolt deals ([del copy=true]50%[/del][ins]8%[/ins] of Spell power) Fire damage to the target and ([del copy=true]50%[/del][ins]8%[/ins] of Spell power) Fire damage to nearby enemies.
+[color=lightblue]Cost changed from 4.8% of base mana to 1.5% of base mana[/color][/li]
+[li][b][anchor="fire-and-brimstone-196408"][spell=196408][/b]   Incinerate now[ins] also[/ins] hits all enemies near your target for [del copy=true]50% damage.[/del][ins]40% damage and generates 1 Soul Shard Fragment for each additional enemy hit.[/ins]
+[color=lightblue][/color][/li]
+[li][b][anchor="grimoire-of-sacrifice-108503"][spell=108503][/b]   [del copy=true]Sacrifice[/del][ins]Sacrifices[/ins] your demon pet for power, gaining its command demon ability, and [del copy=true]15% increased damage done.
+Lasts 1 hour or until you summon a demon pet.[/del][ins]causing your spells to sometimes also deal (35% of Spell power) additional Shadow damage.
+Lasts 1 hour or until you summon a demon pet.[/ins]
+[color=lightblue][/color][/li]
+[li][b][spell=205148][/b] [del]Chaos Bolt and Rain of Fire restore 35% of your maximum mana and deal 10% increased damage.[/del] [ins]Your spells have a chance to grant you 15% Haste for 8 sec.[/ins][/li]
+[li][b][spell=266086][/b] [del]You are able to maintain control over even greater demons indefinitely, allowing you to summon a Doomguard or Infernal as a permanent pet.[/del] [ins]While you have an Infernal active, every Soul Shard you spend increases the damage of your Chaos Bolt by 8%.[/ins]
+[color=lightblue][/color][/li][/ul]
+
+[h5]Azerite Traits[/h5]
+[ul]
+[li][b][anchor="unshackled-fel-270648"][spell=270648"][/b]   Chaos Bolt deals 5% damage to all other enemies within 5 yds of the primary target, and deals an additional 231 damage.
+Destruction
+[color=lightblue][/color][/li]
+[/ul]
+
+[/toggler]
+[toggler class="heading-size-3 c9" name="Warlock General" size=3]
+
+[h5]Spells [/h5]
+[ul][li][span class="patch-diff-removed"]REMOVED[/span] [b][url=https://www.wowhead.com/spell=18540/summon-doomguard]Summon Doomguard[/url][/b]   Summons a Doomguard for 25 sec to assault the target with its Doom Bolts.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="unending-breath-5697"][spell=5697][/b]   Allows an ally to breathe underwater and increases swim speed by 20% for 10 min.
+[color=lightblue][/color][/li]
+[li][b][anchor="banish-710"][spell=710][/b]   Banishes an enemy Demon, Aberration, or Elemental, preventing any action for 30 sec. Limit 1. Casting Banish again on the target will cancel the effect.
+[color=lightblue]Cost changed from 2.5% of base mana to 1.5% of base mana[/color][/li]
+[li][b][anchor="command-demon-119898"][spell=119898][/b]   Commands your demon to perform its most powerful ability. This spell will transform based on your active pet. 
+Imp: [del copy=true]Cauterize Master[/del][ins]Singe Magic[/ins]
+Succubus: [del]Whiplash[/del][ins]Seduction[/ins]
+[color=lightblue][/color][/li]
+[li][b][anchor="create-healthstone-6201"][spell=6201][/b]   Creates a Healthstone that can be consumed to restore [del copy=true]25%[/del][ins]40%[/ins] health.
+[color=lightblue]Cost changed from 5.0% of base mana to 2.0% of base mana[/color][/li]
+[li][b][anchor="create-soulwell-29893"][spell=29893][/b]   Creates a Soulwell for 2 min. Party and raid members can use the Soulwell to acquire a Healthstone.
+[color=lightblue]Cost changed from 10.0% of base mana to 5.0% of base mana[/color][/li]
+[li][b][anchor="demonic-gateway-111771"][spell=111771][/b]   Creates a demonic gateway between two locations. Activating the gateway transports the user to the other gateway. Each player can use a Demonic Gateway only once per 1.50 min.
+[color=lightblue]Cost changed from 10.0% of base mana to 3.0% of base mana
+Cast Time changed from 3 sec cast to 2 sec cast[/color][/li]
+[li][b][anchor="enslave-demon-1098"][spell=1098][/b]   Enslaves the target demon up to level 57, forcing it to do your bidding for 5 min.
+[color=lightblue]Cost changed from 5.0% of base mana to 2.0% of base mana[/color][/li]
+[li][b][anchor="eye-of-kilrogg-126"][spell=126][/b]   Summons an Eye of Kilrogg and binds your vision to it. The eye is stealthed and moves quickly but is very fragile.
+[color=lightblue]Cost changed from 4.0% of base mana to 3.0% of base mana[/color][/li]
+[li][b][anchor="fear-5782"][spell=5782][/b]   Strikes fear in the enemy, disorienting for 20 sec. Damage may cancel the effect. Limit 1.
+[color=lightblue]Cost changed from 10.0% of base mana to 1.5% of base mana[/color][/li]
+[li][b][anchor="ritual-of-summoning-698"][spell=698][/b]   Begins a ritual to create a summoning portal, requiring the caster and 2 allies to complete. This portal can be used to summon party and raid members.
+[color=lightblue]Cost changed from 4.0% of base mana to 5.0% of base mana[/color][/li]
+[li][b][anchor="soul-shards-246985"][spell=246985][/b]   Soul Shards[ins] and Soul Shard Fragments[/ins] are generated by some of your spells and consumed to cast your most powerful spells and summon demons to serve you. 
+[del copy=true]While out of combat you regenerate up to 3 Soul Shards.[/del][ins]10 Soul Shard Fragments make up 1 Soul Shard.
+While out of combat you regenerate up to 3 Soul Shards.[/ins]
+[color=lightblue][/color][/li]
+[li][b][anchor="soulstone-20707"][spell=20707][/b]   Stores the soul of the target party or raid member, allowing resurrection upon death.
+ Affliction and  Demonology and  Destruction (Level 70)
+Also castable to resurrect a dead target
+ Targets resurrect with [del copy=true]100%[/del][ins]60%[/ins] health and 20% mana.
+[color=lightblue][/color][/li]
+[li][b][anchor="summon-infernal-1122"][spell=1122][/b]   Summons an Infernal from the Twisting Nether, impacting for (100% of Spell power) Fire damage and stunning all [del copy=true]enemy targets[/del][ins]enemies[/ins] in the area for 2 [del copy=true]sec. The[/del][ins]sec.
+The[/ins] Infernal will serve you for [del copy=true]25 sec, dealing strong area-of-effect damage.[/del][ins]30 sec, dealing (50% of Spell power) damage to all nearby enemies every 2 sec and generating 1 Soul Shard Fragment every 0.5 sec.[/ins]
+[color=lightblue]No longer Affliction/Demonology[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="shadowfury-30283"][spell=30283][/b]   Stuns all enemies within 8 yds for [del copy=true]4[/del][ins]3[/ins] sec.
+[color=lightblue]Now baseline
+Range changed from 30 yd range to 35 yd range
+Cooldown changed from 30 sec cooldown to 1 min cooldown[/color][/li]
+[li][b][anchor="unending-resolve-104773"][spell=104773][/b]   Hardens your skin, reducing all damage you take by 40% and granting immunity to interrupt and silence effects for 8 sec.
+[color=lightblue]Cost changed from 10.0% of base mana to 2.0% of base mana[/color][/li]
+[/ul]
+
+[h5]Talents[/h5]
+[b]Removed[/b]
+[ul][li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="demonic-circle-48018"][spell=48018 diff=26131][/b]   Summons a Demonic Circle for 15 min. [del copy=true]allowing you to cast it again[/del][ins]Cast Demonic Circle: Teleport[/ins] to teleport to its location and remove all movement slowing effects.[del copy=true]Limit 1.[/del]
+[color=lightblue]Changed spell ID[/color][/li][/ul]
+
+[b]New[/b]
+[ul][li][span class="patch-diff-new"]NEW[/span] [b][anchor="darkfury-264874"][spell=264874][/b]   Reduces the cooldown of Shadowfury by 15 sec.
+[color=lightblue]Tier 5 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="demonic-circle-268358"][spell=268358 diff=26131 diffnew=1 tempname="Demonic Circle"][/b]   Summons a Demonic Circle for 15 min. Cast Demonic Circle: Teleport to teleport to its location and remove all movement slowing effects.
+You also learn: Demonic Circle - Teleport
+Teleports you to your Demonic Circle and removes all movement slowing effects.
+[color=lightblue]New version[/color][/li][/ul]
+
+[b]Swapped Positions[/b]
+[ul]
+[li][b][anchor="burning-rush-111400"][spell=111400][/b]   Increases your movement speed by 50%, but also damages you for 4% of your maximum health every 1 sec. Movement impairing effects may not reduce you below 100% of normal movement speed. Lasts until cancelled.
+[color=lightblue]Tier 3 Talent[/color][/li]
+[li][b][anchor="dark-pact-108416"][spell=108416][/b]   Sacrifices 20% of your current health to shield you for [del copy=true]400%[/del][ins]250%[/ins] of the sacrificed health for 20 sec. Usable while suffering from control impairing effects.
+[color=lightblue]Tier 3 Talent[/color][/li]
+[li][b][anchor="demon-skin-219272"][spell=219272][/b]   Your Soul Leech absorption now passively recharges at a rate of [del copy=true]1%[/del][ins]0.5%[/ins] of maximum health every 1 sec, and may now absorb up to [del copy=true]20%[/del][ins]15%[/ins] of maximum health.
+[color=lightblue]Tier 3 Talent[/color][/li]
+[li][b][anchor="demonic-circle-48018"][spell=48018][/b]   Summons a Demonic Circle for 15 min, allowing you to cast it again to teleport to its location and remove all movement slowing effects. Limit 1.
+[color=lightblue]Tier 5 Talent
+Cost changed from 5.0% of base mana to 2.0% of base mana[/color][/li]
+[li][b][anchor="mortal-coil-6789"][spell=6789][/b]   Horrifies an enemy target into fleeing, incapacitating for 3 sec and healing you for 20% of maximum health.
+[color=lightblue]Tier 5 Talent
+Cost changed from 6.0% of base mana to 2.0% of base mana[/color][/li][/ul]
+
+[b]Changed[/b]
+[ul][li][b][anchor="grimoire-of-service-108501"][spell=108501][/b]   Summons a second demon which fights for you for 25 sec and deals 100% increased damage. 1.5 min cooldown. The demon will immmediately use one of its special abilities when summoned.
+[color=lightblue]Now a Demonology Talent[/color][/li]
+[li][b][anchor="soul-conduit-215941"][spell=215941][/b]   Every Soul Shard you spend has a [del copy=true]20%[/del][ins]15%[/ins] chance to be refunded.
+[color=lightblue][/color][/li]
+[li][b][anchor="soul-harvest-196098"][spell=196098][/b]   Destruction: [del copy=true]Increases your damage and your pets' damage by 20%. Lasts 4 sec, increased by 6 sec for each target afflicted by your Immolate up to a maximum of 36 sec.[/del]
+[color=lightblue]Removed from Destruction and Demonology, just Affliction Talent[/color][/li][/ul][/toggler][/div]

@@ -1,0 +1,250 @@
+[h2][color=c12]Demon Hunter Spell Changes[/color][/h2][div class="patch-diff patch-diff-group-demon-hunter patch-diff-class patch-diff-class-12"][table]
+  [tr]
+    [td=header colspan=4]Class Tools[/td]
+[/tr]
+  [tr]
+    [td=header]Havoc[/td]
+    [td][url=/talent-calc/demon-hunter/havoc]Talents[/url][/td]
+[/tr]
+  [tr]
+    [td=header]Vengeance[/td]
+    [td][url=/talent-calc/demon-hunter/vengeance]Talents[/url][/td]
+[/tr]
+[/table]
+[toggler name="Weapon Damage to AP Conversion" size=3 class="c12" closed=true toc=false]
+[ul][li][b][anchor="demons-bite-162243"][spell=162243][/b]   Quickly attack for [del copy=true]380%[/del][ins](45.279% of Attack power)[/ins] Physical damage.
+Generates 20 to 30 Fury.[/li]
+[li][b][anchor="dark-slash-258860"][spell=258860][/b]   Slash an enemy for ([del copy=true]153%[/del][ins]53.703% of Attack power[/ins]) Physical damage, and increase the damage your Chaos Strike deals to them by 40% for 8 sec.[/li]
+[li][b][anchor="chaos-strike-162794"][spell=162794][/b]   Slice your target for [del copy=true](305% + 485%)[/del][ins][(36.153% of Attack power) + (57.564% of Attack power)][/ins] Chaos damage. [del copy=true]Critical strikes refund 20 Fury.[/del][ins]Chaos Strike has a 40% chance to refund 20 Fury.[/ins][/li]
+[li][b][anchor="shear-203782"][spell=203782][/b]   Shears an enemy for ([del copy=true]340%[/del][ins]40.365% of Attack power[/ins]) Physical damage, and [del copy=true]has a small chance to shatter a Lesser Soul Fragment from your target that heals you for (250% of Attack power) health when consumed.[/del][ins]shatters a Lesser Soul Fragment from your target.[/ins]
+Generates 10 Pain.[/li]
+[li][b][anchor="throw-glaive-204157"][spell=204157][/b]   Vengeance: Throw a demonic glaive at the target, dealing ([del copy=true]170%[/del][ins]15.795% of Attack power[/ins]) Physical damage. The glaive can ricochet to 2 additional enemies within 10 yards. Generates high threat.[/li]
+[li][b][anchor="throw-glaive-185123"][spell=185123][/b]   Havoc: Throw a demonic glaive at the target, dealing [del copy=true]490%[/del][ins]33.345% of Attack Power[/ins] Physical damage. The glaive can ricochet to 2 additional enemies within 10 yards.[/li]
+[li][b][anchor="felblade-232893"][spell=232893][/b]   Havoc: Charge to your target and deal ([del copy=true]560% Fire damage.[/del][ins]66.69% of Attack power)% Fire damage.[/ins]
+Vengeance: Shear has a chance to reset the cooldown of Felblade.
+Generates 30 Pain.
+Havoc: Demon's Bite has a chance to reset the cooldown of Felblade.
+Generates 50 Fury.[/li]
+[li][b][anchor="vengeful-retreat-198813"][spell=198813][/b]   Deals [del copy=true]100%[/del][ins]11.934% of Attack Power[/ins] Physical damage and reduces the movement speed of all nearby enemies by 70% for 3 sec.[/li]
+[li][b][anchor="blade-dance-188499"][spell=188499][/b]   Strike all nearby enemies for [del copy=true]3 * 96% + 288%[/del][ins][3 * (7.02% of Attack power)% + (19.656% of Attack power)%[/ins]] Physical damage, and increase your chance to dodge by 100% for 1 sec.
+[color=lightblue]Cooldown changed from 10 sec to 9 sec[/color][/li]
+[/ul]
+
+[/toggler][toggler class="heading-size-3 c12" name="Havoc" size=3]
+
+[h5]Specialization[/h5]
+[ul]
+[li][b][anchor="chaos-strike-162794"][spell=162794][/b]   Slice your target for [del copy=true](305% + 485%)[/del][ins][(36.153% of Attack power) + (57.564% of Attack power)][/ins] Chaos damage. [del copy=true]Critical strikes refund 20 Fury.[/del][ins]Chaos Strike has a 40% chance to refund 20 Fury.[/ins][/li]
+[li][b][anchor="mastery-demonic-presence-185164"][spell=185164][/b]   Increases your Chaos damage by [del copy=true]12%[/del][ins]12.0%[/ins] and your movement speed by [del copy=true]8%[/del][ins]5.0%[/ins].
+[color=lightblue][/color][/li]
+[/ul]
+
+[h5]Talents[/h5]
+[center][table class="grid"]
+[tr][td width=50%][b]Live[/b][/td] [td][b]BFA[/b][/td][/tr]
+[tr][td][url=https://www.wowhead.com/talent-calc/demon-hunter/havoc][img src=https://wow.zamimg.com/uploads/screenshots/normal/702307.jpg width=400][/url][/td]
+[td][url=https://bfa.wowhead.com/talent-calc/demon-hunter/havoc][img src=https://wow.zamimg.com/uploads/screenshots/normal/702306.jpg width=400][/url][/td][/tr][/table][/center]
+
+
+[b]Removed[/b]
+[ul]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="bloodlet-206473"][spell=206473][/b]   Throw Glaive [del copy=true]causes targets[/del][ins]bounces to 2 additional targets, and causes them[/ins] to bleed for 150% of the damage inflicted over 10 sec.[del copy=true]If this effect is reapplied, any remaining damage will be added to the new Bloodlet.[/del]
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="chaos-blades-247938"][spell=247938][/b]   Increases all damage done by 30% for 18 sec.
+While active, your auto attack deals 150% increased damage, and causes Chaos damage.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="chaos-cleave-206475"][spell=206475][/b]   Chaos Strike hits all nearby enemies for an additional 10% damage.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="demon-reborn-193897"][spell=193897][/b]   Invoking Metamorphosis also resets the cooldowns of Eye Beam, Chaos Nova, and Blur.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="prepared-203551"][spell=203551][/b]   Reduces the cooldown of Vengeful Retreat by 10 sec, and generates 100 Fury over 10 sec if you damage at least one enemy with Vengeful Retreat.
+[color=lightblue][/color][/li][/ul]
+
+[b]New[/b]
+[ul][li][span class="patch-diff-new"]NEW[/span] [b][anchor="cycle-of-hatred-258887"][spell=258887][/b]   When Chaos Strike refunds Fury, it also reduces the cooldown of Metamorphosis by 3 sec.
+[color=lightblue]Tier 5 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="dark-slash-258860"][spell=258860][/b]   Slash an enemy for 68.85% of Attack power Physical damage, and increase the damage your Chaos Strike deals to them by 40% for 8 sec.
+[color=lightblue]Tier 5 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="immolation-aura-258920"][spell=258920][/b]   Engulf yourself in flames, instantly causing (24.57%% of Attack power) Fire damage to enemies within 8 yards and radiating (9.1728% of Attack power) Fire damage every sec.  Lasts 10 sec.
+Generates 80 Fury over 10 sec.
+[color=lightblue]Tier 2 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="insatiable-hunger-258876"][spell=258876][/b]   Demon's Bite generates up to 10 additional Fury.
+[color=lightblue]Tier 2 Talent
+The Legendary [item=137038] became the new talent [spell=258876].[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="trail-of-ruin-258881"][spell=258881][/b]   The final slash of Blade Dance inflicts an additional (37.44% of Attack power) Chaos damage over 4 sec.
+[color=lightblue]Tier 3 Talent[/color][/li][/ul]
+
+[b]Swapped Positions[/b]
+[ul][li][b][anchor="demonic-appetite-206478"][spell=206478][/b]   Chaos Strike has a 25% chance to spawn a Lesser Soul Fragment, and consuming any Soul Fragment grants [del copy=true]35[/del][ins]30[/ins] Fury.
+[color=lightblue]Tier 1 Talent[/color][/li]
+
+[li][b][anchor="fel-barrage-258925"][spell=258925][/b]   [del]At your command, unleash Fel, inflicting 45 Chaos damage to your target and nearby enemies over 2 sec.
+Your damaging abilities have a chance to reduce the cooldown of Fel Barrage by 5 sec.[/del] [ins]Unleash a torrent of Fel energy over 3 sec, inflicting [(13) * (31.2% of Attack power)] Chaos damage to all enemies within 8 yds.[/ins]
+[color=lightblue]Tier 3 Talent
+Cast time changed from Instant to Channeled[/color][/li]
+
+[li][b][anchor="fel-eruption-211881"][spell=211881][/b]   Impales the target for ([del copy=true]1365%[/del][ins]32.76%[/ins] of Attack power) Chaos damage and stuns them for [del copy=true]2[/del][ins]4[/ins] sec. [del copy=true]Inflicts an additional 100% damage against targets permanently immune to stuns.[/del]
+[color=lightblue]Tier 6 Talent[/color][/li]
+[li][b][anchor="fel-mastery-192939"][spell=192939][/b]   Increases Fel Rush damage by [del copy=true]30%, and grants 30 Fury when Fel Rush damages at least one target.[/del][ins]100%.[/ins]
+[color=lightblue]Tier 3 Talent[/color][/li]
+[li][b][anchor="first-blood-206416"][spell=206416][/b]   Reduces the Fury cost of Blade Dance by 20 and increases its damage to  against the first target struck.
+[color=lightblue]Tier 5 Talent[/color][/li]
+[li][b][anchor="momentum-206476"][spell=206476][/b]   Fel Rush [del copy=true]and Vengeful Retreat increase[/del][ins]increases[/ins] your damage done by [del copy=true]20% for 4 sec.[/del][ins]15% for 6 sec.
+Vengeful Retreat's cooldown is reduced by 5 sec, and it generates 100 Fury over 10 sec if it damages at least one enemy.[/ins]
+[color=lightblue]Tier 7 Talent[/color][/li]
+[li][b][anchor="nemesis-206491"][spell=206491][/b]   Increases damage you inflict against the target by 25% for 1 min. 
+When the target is slain, you will inflict 25% additional damage against all creature types matching the original target (Humanoid, Dragonkin, etc.) for the remaining duration.
+[color=lightblue]Tier 7 Talent[/color][/li][/ul]
+
+[b]Changed[/b]
+[ul][li][b][anchor="master-of-the-glaive-203556"][spell=203556][/b]   Throw Glaive now[del copy=true] has 2 charges, and[/del] snares all enemies hit by 50% for 6 sec.
+[color=lightblue][/color][/li]
+[li][b][anchor="soul-rending-204909"][spell=204909][/b]   [del copy=true]Gain an additional 70%[/del][ins]Leech increased by 5%.
+Gain an additional 10%[/ins] Leech while Metamorphosis is active.[/li]
+[/ul]
+
+
+[h5]Azerite Traits[/h5]
+[ul]
+[li][b][anchor="ph-critical-chaos-269193"][spell=269193][/b]   Chaos Strike generates 3 Fury over 3 sec, and increases your Critical Strike by 0 for 9 sec.
+Havoc
+[color=lightblue]Name changed from [PH] Critical Chaos to Seething Chaos[/color][/li]
+[/ul]
+
+[/toggler]
+[toggler class="heading-size-3 c12" name="Vengeance" size=3]
+
+[h5]Specialization[/h5]
+[ul]
+[li][b][anchor="vengeance-demon-hunter-212613"][spell=212613][/b]   Apply Aura: Modifies Damage/Healing Done by [del]-5%[/del] [ins]0%[/ins].[/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b]Empower Wards[/b]   Reduces magical damage taken by 30% for 6 sec.
+[color=lightblue][/color][/li]
+[li][b][anchor="demon-spikes-203720"][spell=203720][/b]   Surge with fel power, increasing your [ins]Armor by 140% of your Agility, and your[/ins] Parry chance by [del copy=true]20%[/del][ins]15%,[/ins][del copy=true]and reducing Physical damage taken by 12%[/del] for 6 sec.
+[color=lightblue]Cooldown changed from 15 sec recharge to 20 sec recharge[/color][/li]
+[li][b][anchor="demonic-wards-203513"][spell=203513][/b]   Your tattoos reduce all damage taken by [del copy=true]20%[/del][ins]10%[/ins], and increase your Stamina by 65% and your Armor by 75%.
+[color=lightblue][/color][/li]
+[li][b][anchor="fiery-brand-204021"][spell=204021][/b]   Brand an enemy with a demonic symbol, instantly dealing ([del copy=true]813%[/del][ins]133.169%[/ins] of Attack power)% Fire damage and reducing the damage they deal to you by 40% for 8 sec.[/li]
+[li][b][anchor="immolation-aura-178740"][spell=178740][/b]   Engulf yourself in flames, instantly causing ([del copy=true]243%[/del][ins]24.57%[/ins] of Attack power) Fire damage to enemies within 8 yards and radiating ([del copy=true]69%[/del][ins]9.1728%[/ins] of Attack power) Fire damage every sec[del copy=true]. Lasts 6 sec[/del][ins] for 6 sec[/ins].
+Generates 20 Pain over 6 sec.
+[color=lightblue][/color][/li]
+[li][b][anchor="infernal-strike-189110"][spell=189110][/b]   Leap through the air toward a targeted location, dealing ([del copy=true]316%[/del][ins]31.122%[/ins] of Attack power) Fire damage to all enemies within 6 yards.
+[color=lightblue][/color][/li]
+[li][b][anchor="mastery-fel-blood-203747"][spell=203747][/b]   [del copy=true]Demon Spikes reduces Physical damage taken[/del][ins]Increases the Armor bonus of Demon Spikes[/ins] by an additional [del copy=true]12.00%.
+[/del][ins]28.0% of your Agility.[/ins]
+Also increases your attack power by 8[ins].0[/ins]%.
+[color=lightblue][/color][/li]
+[li][b][anchor="metamorphosis-187827"][spell=187827][/b]   Transform to demon form for 15 sec, increasing current and maximum health by 30% and Armor by 100%.and greatly empowering your Shear ability.
+Generates 7 Pain every 1 sec[del copy=true], and greatly empowering your Shear ability[/del].[/li]
+[li][b][anchor="shattered-souls-204254"][spell=204254][/b]   Killing a target will sometimes shatter their soul, leaving a Soul Fragment behind for 20 sec.
+The Soul Fragment will be consumed when you approach it, healing you for ([del copy=true]2125%[/del][ins]348.075%[/ins] of Attack power) health.
+[ins]Consuming a Lesser Soul Fragment heals you for 8% of all damage taken in the last 5 sec, minimum 1% of maximum health.[/ins]
+Consuming a Demon's soul will grant you 20% increased damage for 15 sec.
+[color=lightblue][/color][/li]
+[li][b][anchor="shear-203782"][spell=203782][/b]   Shears an enemy for [del copy=true]340%[/del][ins]40.365%[/ins] Physical damage, and [del copy=true]has a small chance to shatter[/del][ins]shatters[/ins] a Lesser Soul Fragment from your target.[del copy=true]that heals you for (250% of Attack power) health when consumed.[/del]
+Generates 10 Pain.
+[color=lightblue][/color][/li]
+[li][b][anchor="shear-203783"][spell=203783][/b]   Shear [del copy=true]has a small chance to shatter[/del][ins]shatters[/ins] the target's soul, leaving a Lesser Soul Fragment behind for 20 sec.
+[del copy=true]The[/del][ins]Consuming a[/ins] Lesser Soul Fragment [del copy=true]will be consumed when you approach it or cast Soul Cleave, healing you for (250% of Attack power)% of maximum health.
+If the Greater Soul Fragment comes from a Demon, you will deal 20% increased damage for 20 sec.[/del][ins]heals you for 8% of all damage taken in the last 5 sec, minimum 1% of maximum health.[/ins]
+[color=lightblue][/color][/li]
+[li][b][anchor="sigil-of-flame-204596"][spell=204596][/b]   Place a Sigil of Flame at the target location that activates after 2 sec.
+Deals ([del copy=true]186%[/del][ins]13.5%[/ins] of Attack power) Fire damage, and an additional ([del copy=true]204%[/del][ins]26.0442%[/ins] of Attack power) Fire damage over 6 sec, to all enemies affected by the sigil.
+[color=lightblue][/color][/li]
+[li][b][anchor="soul-cleave-228477"][spell=228477][/b]   Viciously strike all enemies in front of you for [del copy=true](2.0 * 340%)[/del][ins](41.85% of Attack power)[/ins] Physical damage and heal yourself for [del copy=true]up to (2.0 * Attack power * 7.26 * 1000 / 1000) based on Pain spent.[/del][ins](75%[/ins] of Attack power).
+[del copy=true]Consumes all Soul Fragments within 25 yds.[/del][ins]Consumes up to 2 Soul Fragments within 25 yds.[/ins][/li][/ul]
+
+
+[h5]Talents[/h5]
+[center][table class="grid"]
+[tr][td width=50%][b]Live[/b][/td] [td][b]BFA[/b][/td][/tr]
+[tr][td][url=https://www.wowhead.com/talent-calc/demon-hunter/vengeance][img src=https://wow.zamimg.com/uploads/screenshots/normal/702305.jpg width=400][/url][/td]
+[td][url=https://bfa.wowhead.com/talent-calc/demon-hunter/vengeance][img src=https://wow.zamimg.com/uploads/screenshots/normal/707093.jpg width=400][/url][/td][/tr][/table][/center]
+
+
+[b]Removed[/b]
+[ul][li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="blade-turning-247254"][spell=247254][/b]   Parrying an attack increases your Pain generation by 20% for 5 sec.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="demonic-infusion-236189"][spell=236189][/b]   Draw from the power of the Twisting Nether to instantly activate and then refill your charges of Demon Spikes.
+Generates 60 Pain.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="fel-eruption-211881"][spell=211881][/b]   Impales the target for ([del copy=true]42%[/del][ins]32.76%[/ins] of Attack power) Chaos damage and stuns them for [del copy=true]2 sec.  Inflicts an additional 100% damage against targets permanently immune to stuns.[/del][ins]4 sec.[/ins]
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="fracture-209795"][spell=209795][/b]   Brutally slam your target for (451% + 897%) Physical damage, and shatter two Lesser Soul Fragments from them.
+[color=lightblue]Old version of [spell=263642][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="soul-barrier-227225"][spell=227225][/b]   Shield yourself for 12 sec, absorbing (2250 / 100 * Attack power * Percent health) damage. Consuming a Soul Fragment adds (250 / 100 * Attack power * Percent health) to the shield.
+Soul Barrier's absorption cannot be reduced below (300 / 100 * Attack power * Percent health).
+Consumes all Soul Fragments within 25 yds.
+[color=lightblue]Old version of of [spell=263648][/color][/li][/ul]
+
+[b]New[/b]
+[ul][li][span class="patch-diff-new"]NEW[/span] [b][anchor="charred-flesh-264002"][spell=264002][/b]   Fiery Brand increases the Fire damage your abilities deal to the target by 20%.
+[color=lightblue]Tier 3 Talent
+Formerly the artifact trait [spell=212817][/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="fracture-263642"][spell=263642][/b]   Rapidly slash your target for [([del copy=true]304% + 304%[/del][ins]40% of Attack power)% + (80% of Attack power)%[/ins]] Physical damage, and shatter 2 Lesser Soul Fragments from them.
+[color=lightblue]Tier 4 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="gluttony-264004"][spell=264004][/b]   Consuming a Soul Fragment has a chance to activate Metamorphosis for 5 sec.
+[color=lightblue]Tier 6 Talent
+Former artifact trait [spell=213017][/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="soul-barrier-263648"][spell=263648][/b]   Shield yourself for 12 sec, absorbing (600 / 100 * Attack power * Percent health) damage.
+Consumes all Soul Fragments within 25 yds to add (120 / 100 * Attack power * Percent health) to the shield per fragment.
+[color=lightblue]New version of of [spell=227225][/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="void-reaver-268175"][spell=268175][/b]   Enemies struck by Soul Cleave deal 8% less damage to you for 4 sec.
+[color=lightblue]Tier 7 Talent[/color][/li][/ul]
+
+[b]Changed[/b]
+[ul][li][b][anchor="burning-alive-207739"][spell=207739][/b]   Every 2 sec, your Fiery Brand deals ([del copy=true]52[/del][ins]5[/ins]% of Attack power) Fire damage and spreads to one nearby enemy.
+[color=lightblue][/color][/li]
+[li][b][anchor="feast-of-souls-207697"][spell=207697][/b]   Soul Cleave heals you for an additional ([del copy=true]Attack power * Percent health * 117 / 100 * 4[/del][ins]39.312%[/ins] of Attack power) over 6 sec.
+[color=lightblue][/color][/li]
+[li][b][anchor="feed-the-demon-218612"][spell=218612][/b]   Consuming a Soul Fragment reduces the remaining cooldown of Demon Spikes by [del copy=true]1[/del][ins]0.5[/ins] sec.
+[color=lightblue][/color][/li]
+[li][b][anchor="fel-devastation-212084"][spell=212084][/b]   Unleash the fel within you, damaging enemies directly in front of you for [([del copy=true]115%[/del][ins]15.561%[/ins] of Attack power) * 10] Fire damage over 2 sec. Causing damage also heals you for up to [([del copy=true]250%[/del][ins]40.95%[/ins] of Attack power) * 10] health.
+[color=lightblue][/color][/li]
+[li][b][anchor="razor-spikes-209400"][spell=209400][/b]   While Demon Spikes is active, you deal [del copy=true]30%[/del][ins]15%[/ins] increased Physical damage and your melee attacks snare targets by [del copy=true]50%[/del][ins]20%[/ins] for 6 sec.
+[color=lightblue][/color][/li]
+[li][b][anchor="spirit-bomb-247454"][spell=247454][/b]   Consume [del copy=true]all[/del][ins]up to 3[/ins] Soul Fragments within 25 yds and then explode, afflicting nearby enemies with Frailty for 20 sec and damaging them for ([del copy=true]180%[/del][ins]22.113%[/ins] of Attack power) Fire per fragment.
+You heal for [del copy=true]20%[/del][ins]10%[/ins] of all damage you deal to enemies with Frailty.
+[color=lightblue]Cost changed from none to 30 Pain[/color][/li][/ul]
+
+[h5]Honor Talents[/h5]
+[ul]
+[li][b][anchor="demonic-trample-205629"][spell=205629][/b]   You enter Metamorphosis, moving at 200% increased speed for [del copy=true]8[/del][ins]5[/ins] sec, knocking down all enemies in your path and dealing (10.3194% of Attack power) Physical damage.
+During Demonic Trample you are unaffected by snares but cannot cast spells or use your normal attacks.
+[color=lightblue][/color][/li]
+[li][b][anchor="tormentor-207029"][spell=207029][/b]   Intimidates the target, increasing their damage taken by [del copy=true]5%[/del][ins]3%[/ins] for 6 sec.  Each unique player that attacks the target increases the damage taken by an additional [del copy=true]5%[/del][ins]3%[/ins], stacking up to 5 times.
+Your melee attacks refresh the duration of Intimidated.
+[color=lightblue][/color][/li]
+[/ul]
+
+
+[h5]Azerite Traits[/h5]
+[ul]
+[li][b][anchor="gaping-maw-269220"][spell=269220][/b]   Lesser Soul Fragments heal for 3% more, and Soul Cleave deals 97 additional damage.
+Vengeance
+[color=lightblue][/color][/li]
+[/ul]
+
+[/toggler]
+[toggler class="heading-size-3 c12" name="DH General" size=3]
+
+[h5]Spells[/h5]
+[ul]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="chaos-brand-255260"][spell=255260][/b]   Your Chaos damage brands the target, increasing magic damage taken by 5% for 1 min.
+(Duration reduced to 1 min against players)
+Vengeance:   Your Fire damage brands the target, increasing magic damage taken by 5% for 1 min.
+(Duration reduced to 1 min against players)
+[color=lightblue][/color][/li]
+[li][b][anchor="chaos-nova-179057"][spell=179057][/b]   Unleash an eruption of fel energy, [del copy=true]stunning all nearby enemies for 5 sec and[/del] dealing ([del copy=true]125%[/del][ins]20.475%[/ins] of Attack power) Chaos damage [ins]and disorienting all nearby enemies for 5 sec. Damage will cancel the effect.
+Each enemy disoriented by Chaos Nova has a 50% chance to generate a Lesser Soul Fragment.[/ins][/li]
+
+[li][b][anchor="consume-magic-183752"][spell=183752][/b]   Interrupts the enemy's spellcasting and locks them from that school of magic for 3 sec.
+[color=lightblue]Range changed from 20 yd range to 10 yd range[/color][/li]
+[li][b][anchor="eye-beam-198013"][spell=198013][/b]   Blasts all enemies[del copy=true] directly[/del] in front of you[del copy=true] for [(55% of Attack power) * 10] Chaos damage. Eye Beam always critically strikes.[/del][ins], dealing guaranteed critical strikes for a total of ((5.0778% of Attack Power) * 10 * 2) Chaos damage over 2 sec. Your primary target takes 100% increased damage.[/ins]
+[color=lightblue]Cooldown changed from 45 sec cooldown to 30 sec cooldown
+Cost changed from 50 Fury to 30 Fury[/color][/li]
+[li][b][anchor="fel-rush-195072"][spell=195072][/b]   Rush forward, incinerating anything in your path for ([del copy=true]294%[/del][ins]15.561%[/ins] of Attack power) Chaos damage.[/li]
+[li][b][anchor="imprison-217832"][spell=217832][/b]   Imprisons a demon, beast, or humanoid, incapacitating them for 1 min. Damage will cancel the effect. Limit 1.
+[color=lightblue]Cooldown changed from 15 sec cooldown to 1 min cooldown[/color][/li]
+[li][b][anchor="metamorphosis-191427"][spell=191427][/b]   Leap into the air and land with explosive force, dealing ([del copy=true]200%[/del][ins]32.76%[/ins] of Attack power) Chaos damage to enemies within 8 yds, and stunning them for 3 sec. Players are Dazed for 3 sec instead.
+Upon landing, you are transformed into a hellish demon for 30 sec, greatly empowering your Chaos Strike and Blade Dance abilities, gaining [del copy=true]30%[/del][ins]20%[/ins] Leech, and 25% Haste.
+[color=lightblue]Cooldown changed from 5 min cooldown to 4 min cooldown[/color][/li][/ul][/toggler][/div]

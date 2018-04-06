@@ -1,0 +1,206 @@
+[h2][color=c6]Death Knight Spell Changes[/color][/h2][div class="patch-diff patch-diff-group-death-knight patch-diff-class patch-diff-class-6"][table]
+  [tr]
+    [td=header colspan=4]Class Tools[/td]
+[/tr]
+  [tr]
+    [td=header]Blood[/td]
+    [td][url=/talent-calc/death-knight/blood]Talents[/url][/td]
+[/tr]
+  [tr]
+    [td=header]Frost[/td]
+    [td][url=/talent-calc/death-knight/frost]Talents[/url][/td]
+[/tr]
+  [tr]
+    [td=header]Unholy[/td]
+    [td][url=/talent-calc/death-knight/unholy]Talents[/url][/td]
+[/tr]
+[/table]
+[toggler name="Weapon Damage to AP Conversion" size=3 class="c6" closed=true toc=false]
+[ul]
+[li][b][anchor="heart-strike-206930"][spell=206930][/b]   Instantly strike the target and 1 other nearby enemy, causing ([del copy=true]203%[/del][ins]31.05% of Attack power[/ins]) Physical damage, and reducing enemies' movement speed by [del copy=true]50%[/del][ins]20%[/ins] for 8 sec.
+Generates 5 bonus Runic Power[/li]
+
+[li][b][anchor="marrowrend-195182"][spell=195182][/b]   Smash the target, dealing ([del copy=true]107%[/del][ins]48.15% of Attack power[/ins]) Physical damage and generating 3 charges of Bone Shield.
+Bone Shield   Surrounds you with a barrier of whirling bones, increasing Armor by 50% of your Strength, and your Haste by 10%. Each melee attack against you consumes a charge. Lasts 30 sec or until all charges are consumed.[/li]
+
+[li][b][anchor="frost-strike-222026"][spell=222026][/b]   Instantly strike the enemy with your off-hand weapon, causing ([del copy=true]280%[/del][ins]42.75% of Attack power[/ins]) Frost damage.[/li]
+
+[li][b][anchor="frostscythe-207230"][spell=207230][/b]   A sweeping attack that strikes all enemies in front of you for ([del copy=true]135%[/del][ins]12.636% of Attack Power[/ins]) Frost damage. This attack benefits from Killing Machine. Critical strikes with Frostscythe deal 4 times normal damage.[/li]
+
+[li][b][anchor="obliterate-222024"][spell=222024][/b]   A brutal attack with both weapons that deals a total of ([del copy=true]456% + 456%[/del][ins]69.75% + 69.75% of Attack Power[/ins]) Physical damage.[/li]
+
+[li][b][anchor="rune-of-razorice-53343"][spell=53343][/b]   Affixes your weapon with a rune that causes ([del copy=true]10%[/del][ins]1.053% of Attack power[/ins]) extra weapon damage as Frost damage and increases enemies' vulnerability to your Frost attacks by 3%, stacking up to 5 times. Modifying your rune weapon requires a Rune Forge in Ebon Hold.
+[color=lightblue][/color][/li]
+
+[li][b][anchor="festering-strike-85948"][spell=85948][/b]   Deals ([del copy=true]129.6[/del][ins]101.088[/ins]% of Attack power) Physical damage and infects the target with 2 to 4 Festering Wounds.[/li]
+
+[li][b][anchor="scourge-strike-55090"][spell=55090][/b]   An unholy strike that deals ([del copy=true]132%[/del][ins]21.2784% of Attack power[/ins]) Physical damage and ([del copy=true]68%[/del][ins]11.1228% of Attack power)%[/ins] Shadow damage, and causes 1 Festering Wound to burst.[/li]
+
+[li][b][anchor="clawing-shadows-207311"][spell=207311][/b]   Deals ([del copy=true]165%[/del][ins]27.0816% of Attack power[/ins]) Shadow damage and causes 1 Festering Wound to burst.[/li]
+
+[li][b][anchor="death-strike-49998"][spell=49998][/b]   Blood, Unholy: Focuses dark power into a strike that deals [del copy=true]284%[/del][ins]46.4256% of Attack Power[/ins] Physical damage and heals you for 30% of all damage taken in the last 5 sec, minimum 10% of maximum health.
+Frost: Focuses dark power into a strike with both weapons, that deals a total of ([del copy=true]284% + 250%[/del][ins]46.4256 + 46.4256% of Attack Power[/ins]) Physical damage and heals you for 30% of all damage taken in the last 5 sec, minimum 10% of maximum health.[/li]
+
+[/ul][/toggler][toggler class="heading-size-3 c6" name="Blood" size=3]
+
+[h5]Specialization[/h5]
+[ul]
+[li][b][anchor="dlood-death-knight-137008"][spell=137008][/b]   Apply Aura: Modifies Damage/Healing Done by [del]15%[/del] [ins]29%[/ins].[/li]
+[li][b][anchor="blood-boil-50842"][spell=50842][/b]   Deals ([del copy=true]375%[/del][ins]30%[/ins] of Attack power) Shadow damage.[/li]
+[li][b][anchor="death-and-decay-43265"][spell=43265][/b]   Blood: Corrupts the targeted ground, causing [([del copy=true]28.62%[/del][ins]3.6036%[/ins] of Attack power) * 11] Shadow damage over 10 sec to targets within the area. While you remain within the area, your Heart Strike will hit up to 3 additional targets.[/li]
+[li][b][anchor="deaths-caress-195292"][spell=195292][/b]   Reach out with necrotic tendrils, dealing ([del copy=true]90%[/del][ins]14.742%[/ins] of Attack power) Shadow damage and applying Blood Plague to your target.[/li]
+[li][b][anchor="gorefiends-grasp-108199"][spell=108199 diff=26231][/b]   Shadowy tendrils coil around all enemies within [del copy=true]20[/del][ins]15[/ins] yards of a hostile or friendly target, pulling them to the target's location.[/li]
+[li][b][anchor="heart-strike-206930"][spell=206930][/b]   Instantly strike the target and 1 other nearby enemy, causing [del copy=true]203%[/del][ins]24.219% of Attack Power[/ins] Physical damage, and reducing enemies' movement speed by [del copy=true]50%[/del][ins]20%[/ins] for 8 sec.
+Generates 5 bonus runic power.
+[color=lightblue][/color][/li]
+[li][b][anchor="marrowrend-195182"][spell=195182][/b]   Smash the target, dealing [del copy=true]315%[/del][ins]37.557% of Attack Power[/ins] Physical damage and generating 3 charges of Bone Shield.
+Bone Shield: Surrounds you with a barrier of whirling bones, [del copy=true]reducing all damage you take by 16% and increasing[/del][ins]increasing Armor by 60% of your Strength[/ins], and your Haste by 10%. Each melee [del copy=true]swing[/del][ins]attack[/ins] against you consumes a charge. Lasts 30 sec or until all charges are consumed.
+[color=lightblue][/color][/li]
+[li][b][anchor="mastery-blood-shield-77513"][spell=77513][/b]   Each time you heal yourself with Death Strike, you gain [del copy=true]12%[/del][ins]12.0%[/ins] of the base amount healed as a Physical damage absorption shield.
+Also increases your attack power by [del copy=true]8%[/del][ins]2.0%[/ins].
+[color=lightblue][/color][/li]
+[li][b][anchor="veteran-of-the-third-war-48263"][spell=48263][/b]   [del copy=true]Increases Stamina[/del][ins]Stamina increased[/ins] by 50% and Armor [del copy=true]by 15%.[/del][ins]increased by 20%.[/ins]
+[color=lightblue][/color][/li]
+[/ul]
+
+[h5]Talents[/h5]
+[center][table class="grid"]
+[tr][td width=50%][b]Live[/b][/td] [td][b]BFA[/b][/td][/tr]
+[tr][td][url=https://www.wowhead.com/talent-calc/death-knight/blood][img src=https://i.gyazo.com/065a287588eb65e39c10e4ba84dee8ed.png width=400][/url][/td]
+[td][url=https://bfa.wowhead.com/talent-calc/death-knight/blood][img src=https://i.gyazo.com/cbb0c2046974162c6df5c9163160fbdd.png width=400][/url][/td][/tr][/table][/center]
+
+
+[b]Changed[/b]
+[ul][li][b][anchor="bonestorm-194844"][spell=194844][/b]   A whirl of bone and gore batters nearby enemies, dealing [del copy=true]115.9% of Attack Power[/del][ins]2[/ins] Shadow damage every 1 sec, and healing you for 2% of your maximum health every time it deals damage. Lasts 1 sec per 10 Runic Power spent.
+[color=lightblue][/color][/li]
+[li][b][anchor="red-thirst-205723"][spell=205723][/b]   Spending Runic Power will decrease the remaining cooldown on Vampiric Blood by 1 sec per [del copy=true]6[/del][ins]10[/ins] Runic Power.
+[color=lightblue][/color][/li]
+[li][b][anchor="spectral-deflection-211078"][spell=211078][/b]   Attacks that deal more than 25% of your maximum health will consume an additional Bone Shield charge to further reduce the damage.
+[color=lightblue]Name changed from Spectral Deflection to Spectral Deflection (NYI/TBD)[/color][/li]
+[li][b][anchor="tightening-grasp-206970"][spell=206970][/b]   Reduces the cooldown on Gorefiend's Grasp by 30 sec, and your Death and Decay also reduces the movement speed of enemies within its radius by [del copy=true]70%[/del][ins]50%[/ins].
+[color=lightblue][/color][/li]
+[/ul]
+
+[h5]Honor Talents[/h5]
+[ul]
+[li][b][anchor="blood-for-blood-233411"][spell=233411][/b]   Sacrifices 15% of your total health to increase the damage done by your Heart Strike by 60% for 12 sec.
+[color=lightblue]Cooldown changed from 1.5 sec to none[/color][/li]
+[li][b][anchor="murderous-intent-207018"][spell=207018][/b]   Intimidates the target, increasing their damage taken by [del copy=true]5%[/del][ins]3%[/ins] for 6 sec. Each unique player that attacks the target increases the damage taken by an additional [del copy=true]5%[/del][ins]3%[/ins], stacking up to 5 times.
+Your melee attacks refresh the duration of Intimidated.
+[color=lightblue][/color][/li]
+[/ul]
+
+[/toggler]
+[toggler class="heading-size-3 c6" name="Frost DK" size=3]
+
+[h5]Specialization[/h5]
+[ul]
+[li][b][anchor="howling-blast-49184"][spell=49184][/b]   Blast the target with a frigid wind, dealing ([del copy=true]82%[/del][ins]13.4316%[/ins] of Attack power).[/li]
+[li][b][anchor="frost-fever-55095"][spell=55095][/b]   A disease that deals [8 * ([del copy=true]55%[/del][ins]9.009%[/ins] of Attack power)] Frost damage over 24 sec and has a chance to grant the Death Knight 5 Runic Power each time it deals damage.
+[color=lightblue][/color][/li]
+[li][b][anchor="mastery-frozen-heart-77514"][spell=77514][/b]   Increases [del copy=true]all Frost damage done by 12%.[/del][ins]your Frost damage abilities by 12.0%.[/ins]
+[color=lightblue][/color][/li]
+[li][b][anchor="pillar-of-frost-51271"][spell=51271][/b]   The power of Frost increases your Strength by 20%. [del copy=true]and grants immunity to external movement effects such as knockbacks. [/del]Lasts 20 sec.
+[color=lightblue][/color][/li]
+[li][b][anchor="remorseless-winter-196770"][spell=196770][/b]   Drain the warmth of life from all nearby enemies, dealing [9 * ([del copy=true]36%[/del][ins]4.7502%[/ins] of Attack power)] Frost damage over 8 sec and reducing their movement speed by [del copy=true]50%[/del][ins]20%[/ins].
+[color=lightblue][/color][/li]
+[li][b][anchor="runic-empowerment-81229"][spell=81229][/b]   When you spend Runic Power, you have a [del copy=true]1.50%[/del][ins]1.8%[/ins] chance per Runic Power spent to gain a Rune.
+[color=lightblue][/color][/li]
+[/ul]
+
+[h5]Talents[/h5]
+[center][table class="grid"]
+[tr][td width=50%][b]Live[/b][/td] [td][b]BFA[/b][/td][/tr]
+[tr][td][url=https://www.wowhead.com/talent-calc/death-knight/frost][img src=https://i.gyazo.com/611bf1a107f4a3506f3e68d30f74e47c.png width=400][/url][/td]
+[td][url=https://bfa.wowhead.com/talent-calc/death-knight/frost][img src=https://i.gyazo.com/3296e3fa502a535bd72452277e82044f.png width=400][/url][/td][/tr][/table][/center]
+
+
+[ul]
+[li][b][anchor="avalanche-207142"][spell=207142][/b]   While Pillar of Frost is active, your melee critical strikes cause jagged icicles to fall on your nearby enemies, dealing ([del copy=true]50%[/del][ins]8.19%[/ins] of Attack power) Frost damage.
+[color=lightblue][/color][/li]
+[li][b][anchor="breath-of-sindragosa-152279"][spell=152279][/b]   Continuously deal ([del copy=true]315%[/del][ins]51.7608%[/ins] of Attack power) Shadowfrost damage every 1 sec to enemies in a cone in front of you. Deals reduced damage to secondary targets. You will continue breathing until your Runic Power is exhausted or you cancel the effect.
+[color=lightblue][/color][/li]
+[li][b][anchor="frozen-pulse-194909"][spell=194909][/b]   While you have fewer than 2 full Rune, your auto attacks radiate intense cold, inflicting ([del copy=true]40%[/del][ins]5.2416%[/ins] of Attack power) Frost damage on all nearby enemies.
+[color=lightblue][/color][/li]
+[li][b][anchor="glacial-advance-194913"][spell=194913][/b]   Summon glacial spikes from the ground that advance forward, each dealing ([del copy=true]375%][/del][ins]61.425%[/ins] of Attack power) Frost damage to enemies near their eruption point.
+[color=lightblue][/color][/li]
+[li][b][anchor="icy-talons-194878"][spell=194878][/b]   Frost Strike also increases your melee attack speed by [del copy=true]12%[/del][ins]5%[/ins] for 6 sec, stacking up to 3 times.
+[color=lightblue][/color][/li]
+[li][b][anchor="inexorable-assault-253593"][spell=253593][/b]   While in combat with no enemy within 8 yards, you gain Inexorable Assault every [del copy=true]1[/del][ins]5[/ins] sec.  Each stack causes your next autoattack to deal ([del copy=true]100%[/del][ins]16.38%[/ins] of Attack power) additional Frost damage.
+[color=lightblue][/color][/li]
+[li][b][anchor="obliteration-207256"][spell=207256][/b]    For the next [del copy=true]10[/del][ins]12[/ins] sec, Frost Strike and Howling Blast grant Killing Machine, and Obliterate costs 1 less Rune.
+[color=lightblue][/color][/li]
+[li][b][anchor="winter-is-coming-207170"][spell=207170][/b]   Enemies struck 5 times by Remorseless Winter [del copy=true]while your Pillar of Frost is active are stunned for 4 sec.[/del][ins]are rooted in place for 8 sec.[/ins]
+[color=lightblue][/color][/li]
+[/ul]
+
+[h5]Azerite Traits[/h5]
+[ul]
+[li][b][anchor="decimate-265145"][spell=265145][/b]   Obliterate has an additional 5% chance to trigger Rime, and Obliterate deals an additional 539 damage when it critically strikes.
+Frost
+[color=lightblue][/color][/li]
+[/ul]
+
+[/toggler]
+[toggler class="heading-size-3 c6" name="Unholy" size=3]
+
+[h5]Specialization[/h5]
+[ul]
+[li][b][anchor="unholy-death-knight-137007"][spell=137007][/b]   Apply Aura: Modifies Damage/Healing Done by [del]10%[/del] [ins]0%[/ins].[/li]
+[li][b][anchor="death-coil-47541"][spell=47541][/b]   Fires a blast of unholy energy at the target, causing ([del copy=true]222.6%[/del][ins]36.4619%[/ins] of Attack power) Shadow damage to an enemy ghoul.
+[color=lightblue][/color][/li]
+[li][b][anchor="death-and-decay-43265"][spell=43265][/b]  Corrupts the targeted ground, causing [([del copy=true]28.62%[/del][ins]3.6036%[/ins] of Attack power) * 11] Shadow damage over 10 sec to targets within the area. While you remain within the area, your Scourge Strike will hit all enemies near the target.
+[color=lightblue][/color][/li]
+[li][b][anchor="mastery-dreadblade-77515"][spell=77515][/b]   Increases [del copy=true]all Shadow damage done by 18%.[/del][ins]the damage of your Shadow damage abilites by 18.0%.[/ins]
+[color=lightblue][/color][/li]
+[li][b][anchor="outbreak-77575"][spell=77575][/b]   Deals ([del copy=true]38%[/del][ins]8.19%[/ins] of Attack power) Shadow damage and surrounds the target in a miasma lasting for 6 sec that causes the target and all nearby enemies to be infected with Virulent Plague.[/li]
+[li][b][anchor="virulent-plague-191587"][spell=191587][/b]   Virulent Plague: A disease that deals [7 * ([del copy=true]74.2%[/del][ins]7.371%[/ins] of Attack power)] Shadow damage over 21 sec. It erupts when the infected target dies, dealing ([del copy=true]106%[/del][ins]17.3628%[/ins] of Attack power) Shadow damage divided among nearby enemies, and has a 30% chance to erupt each time it deals damage.[/li]
+[/ul]
+
+[h5]Talents[/h5]
+[center][table class="grid"]
+[tr][td width=50%][b]Live[/b][/td] [td][b]BFA[/b][/td][/tr]
+[tr][td][url=https://www.wowhead.com/talent-calc/death-knight/unholy][img src=https://i.gyazo.com/16f79805e0e92a427ce4c827d1e9c82a.png width=400][/url][/td]
+[td][url=https://bfa.wowhead.com/talent-calc/death-knight/unholy][img src=https://i.gyazo.com/50ef9dc3ce7dc14551b95698d7fcc07e.png width=400][/url][/td][/tr][/table][/center]
+
+
+
+[ul]
+[li][b][anchor="bursting-sores-207264"][spell=207264][/b]   Festering Wounds deal 50% more damage when burst, and all enemies within 8 yds of a burst Festering Wound suffer ([del copy=true]90%[/del][ins]14.742%[/ins] of Attack power) Shadow damage.
+[color=lightblue][/color][/li]
+[li][b][anchor="epidemic-207317"][spell=207317][/b]   Causes each of your Virulent Plagues within 100 yds to flare up, dealing ([del copy=true]159%[/del][ins]16.38[/ins] of Attack Power) Shadow damage to the infected enemy, and an additional ([del copy=true]27.5%[/del][ins]3.4398%[/ins] of Attack power) Shadow damage to all other enemies near them.
+[color=lightblue][/color][/li]
+[li][b][anchor="soul-reaper-130736"][spell=130736][/b]   Strike an enemy's soul for [del copy=true]371%[/del][ins]126%[/ins] Shadow damage, afflicting them with Soul Reaper for 5 sec.
+Bursting a Festering Wound on an enemy afflicted by Soul Reaper grants 7% Haste for 15 sec, stacking up to 3 times.
+[color=lightblue][/color][/li]
+[li][b][anchor="unholy-frenzy-207289"][spell=207289][/b]   When a Festering Wound bursts, you gain [del copy=true]100%[/del][ins]40%[/ins] increased attack speed for 2.50 sec.
+[color=lightblue][/color][/li]
+[/ul]
+
+[h5]Honor Talents[/h5]
+[ul][li][b][anchor="necrotic-strike-223829"][spell=223829][/b]   A vicious strike that deals [del copy=true]100%[/del][ins](16.4424% of Attack power)[/ins] Plague damage, and converts 1 Festering Wound into a Necrotic Wound, absorbing the next (900 / 100 * Attack power) healing received by the target.[/li][/ul]
+
+
+[h5]Azerite Traits[/h5]
+[ul]
+[li][b][anchor="scourge-the-unbeliever-265147"][spell=265147][/b]   Clawing Shadows, Scourge Strike grants your Ghoul 5 energy, and Clawing Shadows, Scourge Strike deals an additional 231 damage.
+Unholy
+[color=lightblue][/color][/li]
+[/ul]
+
+[/toggler]
+[toggler class="heading-size-3 c6" name="DK General" size=3]
+
+[h5]Spells[/h5]
+[ul]
+[li][b][anchor="deaths-advance-48265"][spell=48265][/b]   [del copy=true]Increases movement speed by 15%.[/del][ins]For 10 sec, you cannot be slowed below 100% of normal speed, you resist forced movement effects by 80%, and you are immune to external knockbacks.
+Passive: You cannot be slowed below 70% of normal speed.[/ins]
+[color=lightblue]Cooldown changed from None to 30 sec cooldown[/color][/li]
+[/ul]
+
+[h5]Azerite Traits[/h5]
+[ul]
+[li][b][anchor="dark-grudge-269368"][spell=269368][/b]   Death Strike heals for an additional 0.5 sec of damage taken, and Death Strike deals an additional 231 damage.
+Death Knight
+[color=lightblue][/color][/li]
+[/ul][/toggler][/div]

@@ -1,0 +1,388 @@
+[h2][color=c7]Shaman Spell Changes[/color][/h2][div class="patch-diff patch-diff-group-shaman patch-diff-class patch-diff-class-7"][table]
+  [tr]
+    [td=header colspan=4]Class Tools[/td]
+[/tr]
+  [tr]
+    [td=header]Elemental[/td]
+    [td][url=/talent-calc/shaman/elemental]Talents[/url][/td]
+[/tr]
+  [tr]
+    [td=header]Enhancement[/td]
+    [td][url=/talent-calc/shaman/enhancement]Talents[/url][/td]
+[/tr]
+  [tr]
+    [td=header]Restoration[/td]
+    [td][url=/talent-calc/shaman/restoration]Talents[/url][/td]
+[/tr]
+[/table]
+[toggler name="Weapon Damage Converted to AP" size=3 class="c7" closed=true toc=false]
+[ul][li][b][anchor="crash-lightning-187874"][spell=187874][/b]   Electrocutes all enemies in front of you, dealing [del copy=true]150%[/del][ins](14.04% of Attack power)[/ins] Nature damage. Hitting 2 or more targets enhances your weapons for 10 sec, causing Stormstrike and Lava Lash to also deal [del copy=true]150%[/del][ins]0[/ins] Nature damage to all targets in front of you.[/li]
+[li][b][anchor="lava-lash-60103"][spell=60103][/b]   Charges your off-hand weapon with lava and burns your target, dealing [del copy=true]781%[/del][ins](180% of Attack power)[/ins] Fire damage.[/li]
+[li][b][anchor="hailstorm-210854"][spell=210854][/b]   Frostbrand now also enhances your weapon's damage, causing each of your weapon attacks to also deal [del copy=true]30%[/del][ins](3.51% of Attack Power)[/ins] Frost damage.[/li]
+[li][b][anchor="windfury-attack-25504"][spell=25504][/b]   Each of your main hand attacks has a [del copy=true]20%[/del][ins]25%[/ins] chance to trigger two extra attacks, dealing [del copy=true]100%[/del][ins](18% of Attack power)[/ins] Physical damage each.[/li]
+[li][b][anchor="windlash-114089"][spell=114089][/b]   A massive gust of air that deals [del copy=true]100%[/del][ins](15.3% of Attack power)[/ins] Physical damage.[/li]
+[li][b][anchor="windstrike-115357"][spell=115357][/b]   Hurl a staggering blast of wind at an enemy, dealing a total of [[del copy=true]750% + 750%[/del][ins](89.505% of Attack power) + (89.505% of Attack power)[/ins]] Physical damage, bypassing armor.
+[color=lightblue]Cooldown changed from 15 sec cooldown to 9 sec cooldown[/color][/li][/ul]
+
+[/toggler]
+[toggler class="heading-size-3 c7" name="Elemental" size=3]
+
+[h5]Specialization[/h5]
+[ul][li][span class="patch-diff-removed"]REMOVED[/span] [b][url=https://www.wowhead.com/spell=16164/elemental-focus]Elemental Focus[/url][/b]   Your direct damage spell critical strikes increase the damage and healing of your next 2 spells by 10%.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][url=https://www.wowhead.com/spell=232643/flame-shock]Flame Shock Rank 2[/url][/b]   Flame Shock has no cooldown, and will spend up to 20 Maelstrom to extend its duration by up to 100%.
+[color=lightblue][/color][/li]
+
+[li][b][anchor="chain-lightning-188443"][spell=188443][/b]   Hurls a lightning bolt at the enemy, dealing ([del copy=true]150%[/del][ins]30%[/ins] of Spell power) Nature damage and then jumping to additional nearby enemies. Affects 3 total targets.
+Generates [del copy=true]6[/del][ins]3[/ins] Maelstrom per target hit.[/li]
+[li][b][anchor="earth-shock-8042"][spell=8042][/b]   Instantly shocks the target with concussive force, causing [del copy=true]up to (1230% of Spell power)[/del][ins](125% of Spell power) Nature damage[/ins][del copy=true] and up to 400 additional Nature damage based on Maelstrom spent[/del].
+[ins]Consumes up to 75 Maelstrom when cast.[/ins]
+[color=lightblue]Cost changed from 10 to 60 Maelstrom[/color][/li]
+[li][b][anchor="earthquake-61882"][spell=61882][/b]   Causes the earth within 8 yards of the target location to tremble and break, dealing (Spell power * [del copy=true]0.92[/del][ins]0.125[/ins] * 6) Physical damage over 6 sec and sometimes knocking down enemies.
+[color=lightblue]Cost changed from None to 75 Maelstrom[/color][/li]
+[li][b][anchor="fire-elemental-198067"][spell=198067][/b]   Calls forth a Greater Fire Elemental to rain destruction on your enemies for [del copy=true]1 min.[/del][ins]30 sec.
+While the Greater Fire Elemental is active, Lava Surge recharges 0% faster and Flame Shock generates 3 Maelstrom when it deals damage over time.[/ins]
+[color=lightblue]Cooldown changed from 5 min cooldown to 2.5 min cooldown[/color][/li]
+[li][b][anchor="flame-shock-188389"][spell=188389][/b]   Sears the target with fire, causing [del copy=true]80%[/del][ins]35%[/ins] of Spell power Fire damage and then an additional [del copy=true]300%[/del][ins]157.5%[/ins] of Spell power Fire damage over [del copy=true]15[/del][ins]18[/ins] sec.
+Maelstrom increases duration up to 100%[/li]
+[li][b][anchor="frost-shock-196840"][spell=196840][/b]   Chills the target with frost, causing ([del copy=true]90%[/del][ins]22.5%[/ins] of Spell power) Frost damage and reducing the target's movement speed by 50% for 5 sec. Maelstrom increases damage and duration up to 100%.[/li]
+[li][b][anchor="healing-surge-8004"][spell=8004][/b]   A quick surge of healing energy that restores [del copy=true]475%[/del][ins]118.75%[/ins] of Spell power of a friendly target's health.
+[color=lightblue][/color][/li]
+[li][b][anchor="lava-burst-51505"][spell=51505][/b]   Hurls molten lava at the target, dealing [del copy=true]275%[/del][ins]53.125% of Spell power)[/ins] Fire damage.
+Lava Burst will always critically strike if the target is affected by Flame Shock
+Generates [del copy=true]12[/del][ins]6[/ins] Maelstrom. 
+[color=lightblue][/color][/li]
+[li][b][anchor="lightning-bolt-188196"][spell=188196][/b]   Hurls a bolt of lightning at the target, dealing ([del copy=true]175%[/del][ins]50.3125%[/ins] of Spell power) Nature damage.
+Generates [del copy=true]8[/del][ins]6[/ins] Maelstrom.[/li]
+[li][b][anchor="mastery-elemental-overload-168534"][spell=168534][/b]   Your Lightning Bolt, Elemental Blast, Icefury, Chain Lightning, and Lava Burst casts have a 15[ins].0[/ins]% chance to trigger a second cast on the same target for 85% of normal damage and 75% of normal Maelstrom generation.[/li]
+[li][b][anchor="thunderstorm-51490"][spell=51490][/b]   Calls down a bolt of lightning, dealing ([del copy=true]41.7942%[/del][ins]10.4485%[/ins] of Spell power) Nature damage to all enemies within 10 yards, reducing their movement speed by 40% for 5 sec, and knocking them away from the Shaman. Usable while stunned.[/li]
+[/ul]
+
+[h5]Talents[/h5]
+[center][table class="grid"]
+[tr][td width=50%][b]Live[/b][/td] [td][b]BFA[/b][/td][/tr]
+[tr][td][url=https://www.wowhead.com/talent-calc/shaman/elemental][img src=https://wow.zamimg.com/uploads/screenshots/normal/702321.jpg width=400][/url][/td]
+[td][url=https://bfa.wowhead.com/talent-calc/shaman/elemental][img src=https://i.gyazo.com/11b35ed21c0c0949c75cc8318ef0873b.png width=400][/url][/td][/tr][/table][/center]
+
+
+[b]Removed[/b]
+[ul][li][span class="patch-diff-removed"]REMOVED[/span] [b][url=www.wowhead.com/spell=192087]Ancestral Swiftness[/url][/b]   Increases Haste by 6%.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="elemental-fusion-192235"][spell=192235][/b]   Flame Shock has a 5% increased chance to trigger Lava Surge.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="gust-of-wind-192063"][spell=192063][/b]   A gust of wind hurls you forward.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="lightning-rod-210689"][spell=210689][/b]   Your Lightning Bolt and Chain Lightning have a 30% chance to make the primary target a Lightning Rod for 10 sec. Lightning Rods take 40% of all damage you deal with Lightning Bolt and Chain Lightning.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="path-of-flame-201909"][spell=201909][/b]   Lava Burst deals 10% more damage and causes Flame Shock to spread from the target to a nearby enemy.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="voodoo-totem-196932"][spell=196932][/b]   Summons a totem at the target location for 10 sec. The totem Hexes all enemies within 8 yds into frogs which are incapacitated and unable to attack or cast spells. Damage or leaving the area will interrupt the effect.
+[color=lightblue][/color][/li][/ul]
+
+
+[b]New[/b]
+[ul][li][span class="patch-diff-new"]NEW[/span] [b][anchor="earth-shield-974"][spell=974][/b]   Protects the target with an earthen shield, [del copy=true]increasing the effectiveness of Shaman healing spells on that target by 20%, and causing attacks to heal the shielded target for (15.75%[/del][ins]healing them for (22%[/ins] of Spell power) [del copy=true]0 charges. Lasts 10 min. This effect[/del][ins]when they take damage. 0 charges. This heal[/ins] can only occur once every few seconds. 
+Earth Shield can only be placed on one target at a time.
+[color=lightblue]Tier 2 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="elemental-attunement-260895"][spell=260895][/b]   Increases the damage of your Earthquake and Earth Shock abilities by 20%.
+[color=lightblue]Tier 7 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="high-voltage-260890"][spell=260890][/b]   Lightning Bolt and Chain Lightning can now cause a second Elemental Overload.
+[color=lightblue]Tier 6 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="molten-fury-260694"][spell=260694][/b]   Earth Shock now increases the damage of your next Lightning Bolt on the target by 200%.
+[color=lightblue]Tier 1 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="natures-guardian-30884"][spell=30884][/b]   Attacks that bring your health below 30% increase your maximum health by 25% for 10 sec.  Cannot occur more than once every 30 sec.
+[color=lightblue]Tier 5 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="spirit-wolf-260878"][spell=260878][/b]   While transformed into a Ghost Wolf, you gain 5% increased movement speed and 5% damage reduction every 1 sec, stacking up to 4 times.
+[color=lightblue]Tier 2 talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="static-charge-265046"][spell=265046][/b]   Reduces the cooldown of Capacitor Totem by 5 sec for each enemy it stuns, up to a maximum reduction of 20 sec.
+[color=lightblue]Tier 2 talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="static-overload-191634"][spell=191634][/b]   [del copy=true]After using Stormkeeper, your next Lightning Bolt or Chain Lightning causes Elemental Overload to trigger[/del][ins]Charge yourself with lightning, causing your next 2 Lightning Bolts or Chain Lightnings to be instant cast and trigger an Elemental Overload[/ins] on every target.
+[color=lightblue]Name changed from Static Overload to Stormkeeper
+Cast Time changed from Instant to 1.5 sec cast
+Cooldown changed from None to 1 min cooldown
+Former artifact ability [spell=205495][/color][/li][/ul]
+
+
+[b]Swapped Position[/b]
+[ul]
+[li][b][anchor="ancestral-guidance-108281"][spell=108281][/b]   For the next 10 sec, 20% of your damage and healing is converted to healing on up to 3 nearby injured party or raid members.
+[color=lightblue]Tier 5 Talent[/color][/li]
+[li][b][anchor="echo-of-the-elements-108283"][spell=108283][/b]   Lava Burst now has 2 charges. Other effects that reset its remaining cooldown will instead grant 1 charge.
+[color=lightblue]Tier 3 Talent[/color][/li]
+[li][b][anchor="elemental-blast-117014"][spell=117014][/b]   Harnesses the raw power of the elements, dealing ([del copy=true]725%[/del][ins]63%[/ins] of Spell power) Elemental damage and increasing your Critical Strike, Haste, or Mastery by 91 for 10 sec.
+[color=lightblue]Tier 1 Talent[/color][/li]
+[li][b][anchor="liquid-magma-totem-192222"][spell=192222][/b]   Summons a totem at the target location for 15 sec that hurls liquid magma at a random nearby target every 1 sec, dealing ([del copy=true]110%[/del][ins]15%[/ins] of Spell power) Fire damage to all enemies within 8 yards.
+[color=lightblue]Tier 4 Talent[/color][/li]
+[li][b][anchor="master-of-the-elements-16166"][spell=16166][/b]   [del copy=true]Elemental forces empower you with 20% haste for 20 sec.[/del][ins]Casting Lava Burst increases the damage of your next Nature or Frost spell by 20%.[/ins]
+[color=lightblue]Name changed from Elemental Mastery to Master of the Elements
+Tier 6 Talent[/color][/li]
+[li][b][anchor="icefury-210714"][spell=210714][/b]   Hurls frigid ice at the target, dealing ([del copy=true]900%[/del][ins]55%[/ins] of Spell power) Frost damage and causing your next 4 Frost Shocks to deal [del copy=true]400%[/del][ins]60%[/ins] increased damage.
+Generates [del copy=true]24[/del][ins]15[/ins] Maelstom.
+[color=lightblue]Tier 4 Talent[/color][/li]
+[li][b][anchor="primal-elementalist-117013"][spell=117013][/b]   Your Earth, Fire, and Storm Elementals are drawn from primal elementals 80% more powerful than regular elementals, with additional abilities, and you gain direct control over them.
+[color=lightblue]Tier 6 Talent[/color][/li]
+[li][b][anchor="storm-elemental-192249"][spell=192249][/b]   Calls forth a Greater Storm Elemental to hurl gusts of wind that damage the Shaman's enemies and generate Maelstrom for the Shaman for 30 sec.[ins]
+While the Storm Elemental is active, each time you cast Lightning Bolt or Chain Lightning, the cast time of Lightning Bolt and Chain Lightning is reduced by 3%, stacking up to 20 times.[/ins]
+[color=lightblue]Tier 4 Talent[/color][/li]
+[li][b][anchor="totem-mastery-210643"][spell=210643][/b]   Summons four totems that increase your combat capabilities for 2 min.
+Resonance: Totem Generates 1 Maelstrom every 1 sec.
+Storm Totem: Increases the chance for Lightning Bolt and Chain Lightning to trigger Elemental Overload by 5%.
+Ember Totem: Increases Flame Shock damage over time by 10%.
+Tailwind Totem: Increases your Haste by 2%.
+[color=lightblue]Tier 3 Talent[/color][/li]
+[li][b][anchor="wind-rush-totem-192077"][spell=192077][/b]   Summons a totem at the target location for 15 sec, continually granting all allies who pass within 10 yards 60% increased movement speed for 5 sec.
+[color=lightblue]Tier 5 Talent[/color][/li][/ul]
+
+
+[b]Changed[/b]
+[ul][li][b][anchor="earthen-rage-170374"][spell=170374][/b]   Your damaging spells incite the earth around you to come to your aid for 6 sec, repeatedly dealing ([del copy=true]55%[/del][ins]13.75%[/ins] of Spell power) Nature damage to your most recently attacked target.
+[color=lightblue][/color][/li][/ul]
+
+[h5]Azerite Traits[/h5]
+[ul]
+[li][b][anchor="flames-of-the-forefathers-264113"][spell=264113][/b]   Increase the damage of Lava Burst by 308 and causes it to grant an additional 5 Maelstrom.
+Elemental/Restoration
+[color=lightblue][/color][/li]
+[li][b][anchor="lightningburn-263792"][spell=263792][/b]   Increase the damage of Chain Lightning by 77 and causes your Fire spells to deal an additional 231 damage over 4 sec.
+Elemental/Restoration
+[color=lightblue][/color][/li]
+[li][b][anchor="overloaded-269568"][spell=269568][/b]   Increases Lightning Bolt's Overload chance by 5% and damage by 154.
+Elemental
+[color=lightblue][/color][/li]
+[/ul]
+
+[/toggler]
+[toggler class="heading-size-3 c7" name="Enhancement" size=3]
+
+[h5]Specialization[/h5]
+[ul][li][span class="patch-diff-removed"]REMOVED[/span] [b][url=www.wowhead.com/spell=195255]Stormlash[/url][/b]   While your weapons are enhanced, your attacks have a chance to grant Stormlash to up to 2 party or raid members for 8 sec, causing attacks and spellcasts to deal additional Nature damage.
+[color=lightblue][/color][/li]
+[li][b][anchor="enhancement-shaman-137041"][spell=137041][/b]   Apply Aura: Modifies Damage/Healing Done by [del]13%[/del] [ins]-30%[/ins].[/li]
+[li][b][anchor="crash-lightning-187874"][spell=187874][/b]   Electrocutes all enemies in front of you, dealing [del copy=true]150%[/del][ins](14.04% of Attack power)[/ins] Nature damage. Hitting 2 or more targets enhances your weapons for 10 sec, causing Stormstrike and Lava Lash to also deal [del copy=true]150%[/del][ins]0%[/ins] Nature damage to all targets in front of you.  
+[color=lightblue][/color][/li]
+[li][b][anchor="flametongue-193796"][spell=193796][/b]   Scorches your target, dealing ([del copy=true]150%[/del][ins]24.57%[/ins] of Attack power) Fire damage, and enhances your weapons with fire for 16 sec, causing each weapon attack to deal up to ([del copy=true]0.2[/del][ins]0.044[/ins] * Attack power) Fire damage, based on weapon speed.
+[color=lightblue]Range changed from 10 yd range to 20 yd range[/color][/li]
+[li][b][anchor="frostbrand-196834"][spell=196834][/b]   Chills your target, dealing ([del copy=true]92.5%[/del][ins]15.1515%[/ins] of Attack power) Frost damage and reducing the target's movement speed by 50% for 3 sec, and enhances your weapons with frost for 16 sec, causing each weapon attack to reduce the target's movement speed by 50% for 3 sec.
+[color=lightblue]Range changed from 10 yd range to 20 yd range[/color][/li]
+[li][b][anchor="healing-surge-188070"][spell=188070][/b]   Heals a friendly target for ([del copy=true]550%[/del][ins]137.5%[/ins] of Spell power).
+Consumes 20 Maelstrom, if available, to become instant[/li]
+[li][b][anchor="lava-lash-60103"][spell=60103][/b]   Charges your off-hand weapon with lava and burns your target, dealing [del copy=true]781%[/del][ins](180% of Attack Power)[/ins] Fire damage.
+[color=lightblue][/color][/li]
+[li][b][anchor="lightning-bolt-187837"][spell=187837 diff=26231][/b]   Fires a bolt of lightning at the target, dealing up to [del copy=true][16[/del][ins][13[/ins] * (14.0625% of Spell power)]
+(14.0625% of Spell power) Nature damage.
+[color=lightblue][/color][/li]
+[li][b][anchor="mastery-enhanced-elements-77223"][spell=77223][/b]   Increases your chance to trigger Stormbringer and Windfury by 0.64%, and increases all Fire, Frost, and Nature damage you deal by 16.0[del copy=true]0[/del]%.
+[color=lightblue][/color][/li]
+[li][b][anchor="rockbiter-193786"][spell=193786][/b]   Assaults your target with earthen power, dealing ([del copy=true]343.75%[/del][ins]56.3062%[/ins] of Attack power) Nature damage.
+Generates 25 Maelstrom.
+[color=lightblue]Range changed from 10 yd range to 20 yd range[/color][/li]
+[li][b][anchor="stormbringer-201845"][spell=201845][/b]   Your weapon attacks have a 5% chance to reset the remaining cooldown on Stormstrike, and cause your next Stormstrike to cost [del copy=true]50%[/del][ins]100%[/ins] less Maelstrom and trigger no cooldown.
+[color=lightblue][/color][/li]
+[li][b][anchor="stormstrike-17364"][spell=17364][/b]   Energizes both your weapons with lightning and delivers a massive blow to your target, dealing a total of [del copy=true](750% + 750%)[/del][ins][(89.505% of Attack power) + (25% of Spell power + 89.505% of Attack power)] [/ins] [del copy=true]Physical[/del][ins]Nature[/ins] damage.
+[color=lightblue]Cost changed from 340 Maelstrom to 30 Maelstrom
+Cooldown changed from 15 sec cooldown to 9 sec cooldown[/color][/li]
+[li][b][anchor="windfury-33757"][spell=33757][/b]   Each of your main hand attacks has a [del copy=true]20%[/del][ins]25%[/ins] chance to trigger two extra attacks, dealing [del copy=true]100%[/del][ins]18% of Attack power)[/ins] Physical damage each.
+[color=lightblue][/color][/li]
+[/ul]
+
+[h5]Talents[/h5]
+[center][table class="grid"]
+[tr][td width=50%][b]Live[/b][/td] [td][b]BFA[/b][/td][/tr]
+[tr][td][url=https://www.wowhead.com/talent-calc/shaman/enhancement][img src=https://wow.zamimg.com/uploads/screenshots/normal/702319.jpg width=400][/url][/td]
+[td][url=https://bfa.wowhead.com/talent-calc/shaman/enhancement][img src=https://i.gyazo.com/b56b35f581dbe97daf1ae4a3ec7c14d4.png width=400][/url][/td][/tr][/table][/center]
+
+
+[b]Removed[/b]
+[ul][li][span class="patch-diff-removed"]REMOVED[/span] [b][url=www.wowhead.com/spell=192087]Ancestral Swiftness[/url][/b]   Increases Haste by 6%.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="empowered-stormlash-210731"][spell=210731][/b]   Stormlash now spreads to 1 additional target and deals 50% additional damage.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][url=https://www.wowhead.com/spell=215864/rainfall]Rainfall[/url][/b]   Blankets the target area in healing rain, restoring [(25% of Spell power) * 5 * 2 / 2] health to up to 6 allies over 10 sec. Stormstrike and Lava Lash extend the duration of Rainfall by 3 sec, up to a maximum of 30 sec.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="tempest-192234"][spell=192234][/b]   Stormbringer increases the critical strike chance of your next Stormstrike by 40%.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="voodoo-totem-196932"][spell=196932][/b]   Summons a totem at the target location for 10 sec. The totem Hexes all enemies within 8 yds into frogs which are incapacitated and unable to attack or cast spells. Damage or leaving the area will interrupt the effect.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="windsong-201898"][spell=201898][/b]   Lashes your enemy for ([del copy=true]500%[/del][ins]125%[/ins] of Spell power) Nature damage, and enhances your weapons with wind, increasing your attack speed by 30% for 20 sec.
+[/li][/ul]
+
+
+[b]New[/b]
+[ul][span class="patch-diff-new"]NEW[/span] [li][b][anchor="ancestral-guidance-108281"][spell=108281][/b]   For the next 10 sec, 20% of your damage and healing is converted to healing on up to 3 nearby injured party or raid members.
+[color=lightblue]Tier 5 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="earth-shield-974"][spell=974][/b]   Protects the target with an earthen shield, [del copy=true]increasing the effectiveness of Shaman healing spells on that target by 20%, and causing attacks to heal the shielded target for (15.75%[/del][ins]healing them for (22%[/ins] of Spell power) [del copy=true]0 charges. Lasts 10 min. This effect[/del][ins]when they take damage. 0 charges. This heal[/ins] can only occur once every few seconds. 
+Earth Shield can only be placed on one target at a time.
+[color=lightblue]Tier 3 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="elemental-spirits-262624"][spell=262624][/b]    Reduces the cooldown of Feral Spirit by 30 sec and causes your Feral Spirits to be imbued with Fire, Frost, or Lightning, enhancing your abilities.
+[color=lightblue]Tier 7 Talent
+Inspired by the artifact trait [spell=198505].[/color][/li]
+[li][b][anchor="searing-assault-192087"][spell=192087][/b]   Flametongue now causes the target to burn for (90% of Attack power) Fire damage over 6 sec.
+[color=lightblue]Tier 1 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="spirit-wolf-260878"][spell=260878][/b]   While transformed into a Ghost Wolf, you gain 5% increased movement speed and 5% damage reduction every 1 sec, stacking up to 4 times.
+[color=lightblue]Tier 3 talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="static-charge-265046"][spell=265046][/b]   Reduces the cooldown of Capacitor Totem by 5 sec for each enemy it stuns, up to a maximum reduction of 20 sec.
+[color=lightblue]Tier 3 talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="totem-mastery-262395"][spell=262395][/b]   Summons four totems that increase your combat capabilities for 2 min.
+Resonance: Totem Generates 1 Maelstrom every 1 sec.
+Storm Totem: Increases the damage of Stormstrike by 5%.
+Ember Totem: Increases Lava Lash damage by 5%.
+Tailwind Totem: Increases your chance to trigger Windfury by 5%.
+[color=lightblue]Tier 4 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="forceful-winds-262647"][spell=262647][/b]   Windfury attunes your weapon to the nearby winds, causing each successive Windfury attack within 15 sec to increase the damage of Windfury by 100% and the Maelstrom generated by 1, stacking up to 5 times.
+[color=lightblue]Tier 4 Talent[/color][/li][/ul]
+
+
+
+[b]Swapped Position[/b]
+[ul][li][b][anchor="boulderfist-246035"][spell=246035][/b]   Rockbiter's recharge time is reduced by 15% and it deals 20% increased damage.
+[color=lightblue]Tier 4 Talent[/color][/li]
+[li][b][anchor="feral-lunge-196884"][spell=196884][/b]   Lunge at your enemy as a ghostly wolf, biting them to deal (32.76% of Attack power) Physical damage.
+[color=lightblue]Tier 5 Talent[/color][/li]
+[li][b][anchor="overcharge-210727"][spell=210727][/b]   Lightning Bolt now consumes up to 40 Maelstrom for up to [del copy=true]1200%[/del] increased damage, but has a 12 sec cooldown.
+[color=lightblue]Tier 1 Talent[/color][/li]
+[li][b][anchor="wind-rush-totem-192077"][spell=192077][/b]   Summons a totem at the target location for 15 sec, continually granting all allies who pass within 10 yards 60% increased movement speed for 5 sec.
+[color=lightblue]Tier 5 Talent[/color][/li][/ul]
+
+[b]Changed[/b]
+[ul][li][b][anchor="crashing-storm-192246"][spell=192246][/b]   Crash Lightning also electrifies the ground, leaving an electrical field behind which damages enemies within it for [7 * ([del copy=true]16%[/del][ins]2.1294%[/ins] of Attack power)] Nature damage over 6 sec. 
+[color=lightblue][/color][/li]
+[li][b][anchor="earthen-spike-188089"][spell=188089][/b]   Summons an Earthen Spike under an enemy, dealing ([del copy=true]1375%[/del][ins]180%[/ins] of Attack power) Physical damage and increasing Physical and Nature damage you deal to the target by [del copy=true]30%[/del][ins]20%[/ins] for 10 sec.[/li]
+[li][b][anchor="feral-lunge-196884"][spell=196884][/b]   Lunge at your enemy as a ghostly wolf, biting them to deal ([del copy=true]200%[/del][ins]32.76%[/ins] of Attack power) Physical damage.
+[color=lightblue][/color][/li]
+[li][b][anchor="fury-of-air-197211"][spell=197211][/b]   Creates a vortex of wind 8 yards around you, dealing ([del copy=true]46%[/del][ins]6.2244%[/ins] of Attack power) Nature damage every 1 sec to enemies caught in the storm, and slowing them by 30% for 3 sec.
+[color=lightblue][/color][/li]
+[li][b][anchor="hailstorm-210854"][spell=210854][/b]   Frostbrand now also enhances your weapon's damage, causing each of your weapon attacks to also deal [del copy=true]30%[/del][ins](3.51% of Attack Power)[/ins] Frost damage.
+[color=lightblue]Tier 5 Talent[/color][/li]
+[li][b][anchor="landslide-197992"][spell=197992][/b]   Rockbiter [del copy=true]enhances your weapon, increasing your Agility by 8% for 10 sec[/del][ins]has a 20% chance to increase the damage of your next Stormstrike within 10 sec by 100%[/ins].
+[color=lightblue]Tier 3 Talent[/color][/li]
+[li][b][anchor="lightning-shield-192106"][spell=192106][/b]   Surround yourself with a shield of lighting for 1 [del copy=true]hour which has[/del][ins]hour.
+Melee attackers have[/ins] a chance to [del copy=true]deal[/del][ins]suffer[/ins] (9.828% of Attack power) Nature damage, [del copy=true]when you deal or take melee damage.[/del][ins]and add a charge to your shield.
+When you Stormstrike, it gains 2 charges.
+At 15 charges, the shield discharges and forms a Lightning Feral Spirit to fight for you for 10 sec.[/ins]
+[color=lightblue]Tier 3 Talent[/color][/li]
+[li][b][anchor="sundering-197214"][spell=197214][/b]   Shatters a line of earth in front of you with your main hand weapon, causing ([del copy=true]1300%[/del][ins]312%[/ins] of Attack power) Physical damage and [del copy=true]knocking enemies to the side.[/del][ins]Incapacitating any enemy hit for 2 sec.[/ins][/li][/ul]
+
+[h5]Azerite Traits[/h5]
+[ul]
+[li][b][anchor="electropotence-264121"][spell=264121][/b]   Increases the critical strike chance of Stormstrike by 8 and causes Stormstrike critical strikes to deal an additional 231 damage.
+Enhancement
+[color=lightblue][/color][/li]
+[li][b][anchor="storms-eye-263795"][spell=263795][/b]   Increases the critical strike chance of Crash Lightning by 77 and increases the radius of Crash Lightning by 1.
+Enhancement
+[color=lightblue][/color][/li]
+[li][b][anchor="strikers-grace-269570"][spell=269570][/b]   Reduces the cooldown of Stormstrike by 5% and increases the damage it deals by (2 *  45). 
+Enhancement
+[color=lightblue][/color][/li]
+[/ul]
+
+[/toggler]
+[toggler class="heading-size-3 c7" name="Resto Shaman" size=3]
+
+[h5]Specialization[/h5]
+[ul]
+[li][b][anchor="chain-heal-1064"][spell=1064][/b]   Heals the friendly target for ([del]380%[/del][ins]95%[/ins] of Spell power), then jumps to heal the most injured nearby party or raid members. Healing is reduced by 30% after each jump. Heals 3 total targets.
+[color=lightblue][/color][/li]
+[li][b][anchor="chain-lightning-421"][spell=421][/b]   Hurls a lightning bolt at the enemy, dealing ([del copy=true]220%[/del][ins]43.75%[/ins] of Spell power) Nature damage and then jumping to additional nearby enemies. Affects 3 total targets.[/li]
+[li][b][anchor="healing-rain-73920"][spell=73920][/b]   Blanket the target area in healing rains, restoring [([del copy=true]50%[/del][ins]12.5%[/ins] of Spell power) * 6 * 2 / 2] health to up to 6 allies over 10 sec.
+[color=lightblue][/color][/li]
+[li][b][anchor="healing-stream-totem-5394"][spell=5394][/b]   Summons a totem at your feet for 15 sec that heals an injured party or raid member within 40 yards for [del copy=true]82%[/del][ins]20.5%[/ins] of Spell power every 2 sec.
+[color=lightblue][/color][/li]
+[li][b][anchor="healing-surge-8004"][spell=8004][/b]   A quick surge of healing energy that restores [del copy=true]475%[/del][ins]118.75%[/ins] of Spell power of a friendly target's health.
+[color=lightblue][/color][/li]
+[li][b][anchor="healing-tide-totem-108280"][spell=108280][/b]   Summons a totem at your feet for 10 sec, which pulses every 2 sec, healing all party or raid members within 40 yards for [del copy=true]96%[/del][ins]24%[/ins] of Spell power).
+[color=lightblue][/color][/li]
+[li][b][anchor="healing-wave-77472"][spell=77472][/b]   An efficient wave of healing energy that restores [del copy=true]475%[/del][ins]131.25%[/ins] of Spell power of a friendly target’s health.
+[color=lightblue][/color][/li]
+[li][b][anchor="lava-burst-51505"][spell=51505][/b]   Hurls molten lava at the target, dealing [del copy=true]275%[/del][ins]53.125% of Spell power)[/ins] Fire damage.
+Lava Burst will always critically strike if the target is affected by Flame Shock
+[color=lightblue][/color][/li]
+[li][b][anchor="lightning-bolt-188196"][spell=188196][/b]   Hurls a bolt of lightning at the target, dealing ([del copy=true]175%[/del][ins]50.3125%[/ins] of Spell power) Nature damage.[/li]
+[li][b][anchor="mastery-deep-healing-77226"][spell=77226][/b]   Increases healing from your spells by up to 24[ins].0%[/ins], based on the current health of your target. Lower health targets are healed for more.
+[color=lightblue][/color][/li]
+[li][b][anchor="purify-spirit-77130"][spell=77130][/b]   Removes all Curse and Magic effects from a friendly target.
+[color=lightblue][/color][/li]
+[li][b][anchor="riptide-61295"][spell=61295][/b]   Restorative waters wash over a friendly target, healing them for [del copy=true]250%[/del][ins]62.5[/ins] of Spell power and an additional [del copy=true]250%[/del][ins]62.5[/ins] of Spell power over 15 sec.
+[color=lightblue][/color][/li]
+[/ul]
+
+[h5]Talents[/h5]
+[center][table class="grid"]
+[tr][td width=50%][b]Live[/b][/td] [td][b]BFA[/b][/td][/tr]
+[tr][td][url=https://www.wowhead.com/talent-calc/shaman/restoration][img src=https://i.gyazo.com/412450bdbdc2e169ac9fcacbc69c00b5.png width=400][/url][/td]
+[td][url=https://bfa.wowhead.com/talent-calc/shaman/restoration][img src=https://i.gyazo.com/474bfe8a5476eedd11efc6b0bb802447.png width=400][/url][/td][/tr][/table][/center]
+
+
+[b]Removed[/b]
+[ul][li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="voodoo-totem-196932"][spell=196932][/b]   Summons a totem at the target location for 10 sec. The totem Hexes all enemies within 8 yds into frogs which are incapacitated and unable to attack or cast spells. Damage or leaving the area will interrupt the effect.
+[color=lightblue][/color][/li][/ul]
+
+
+[b]New[/b]
+[ul][li][span class="patch-diff-new"]NEW[/span] [b][anchor="earth-shield-974"][spell=974][/b]   Protects the target with an earthen shield, [del copy=true]increasing the effectiveness of Shaman healing spells on that target by 20%, and causing attacks to heal the shielded target for (15.75%[/del][ins]healing them for (22%[/ins] of Spell power) [del copy=true]0 charges. Lasts 10 min. This effect[/del][ins]when they take damage. 0 charges. This heal[/ins] can only occur once every few seconds. 
+Earth Shield can only be placed on one target at a time.
+[color=lightblue]Tier 4 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="spirit-wolf-260878"][spell=260878][/b]   While transformed into a Ghost Wolf, you gain 5% increased movement speed and 5% damage reduction every 1 sec, stacking up to 4 times.
+[color=lightblue]Tier 3 talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="static-charge-265046"][spell=265046][/b]   Reduces the cooldown of Capacitor Totem by 5 sec for each enemy it stuns, up to a maximum reduction of 20 sec.
+[color=lightblue]Tier 3 talent[/color][/li][/ul]
+
+
+[b]Changed[/b]
+[ul][li][b][anchor="cloudburst-totem-157153"][spell=157153][/b]   Summons a totem at your feet for 15 sec that collects power from all of your healing spells. When the totem expires or dies, the stored power is released, healing all injured allies within 40 yards for 25% of all [ins]effective [/ins]healing done while it was active, divided evenly among targets.
+Casting this spell a second time recalls the totem and releases the healing.
+[color=lightblue]Cooldown changed from 30 sec cooldown to 30 sec recharge
+Charges changed from None to 1 Charges
+[/color][/li]
+[li][b][anchor="crashing-waves-197464"][spell=197464][/b]   [del copy=true]Riptide grants an additional stack[/del][ins]Both effects[/ins] of Tidal Waves [ins]are increased by 10%.[/ins]
+[color=lightblue][/color][/li]
+[li][b][anchor="earthen-shield-totem-198838"][spell=198838][/b]   Summons a totem with (100 * Total health / 100) health for 15 sec. (100 * Spell power / 100) damage from each attack against allies within 0 yards of the totem is redirected to the totem.
+[color=lightblue]Name changed from Earthen Shield Totem to Earthen Wall Totem[/color][/li]
+[li][b][anchor="unleash-life-73685"][spell=73685][/b]   Unleashes elemental forces of Life, healing a friendly target for ([del copy=true]350%[/del][ins]87.5%[/ins] of Spell power) and increasing the effect of the Shaman's next direct heal by 45%.[/li]
+[li][b][anchor="wellspring-197995"][spell=197995][/b]   Creates a surge of water that flows forward, healing friendly targets in a wide arc in front of you for ([del copy=true]450%[/del][ins]112.5%[/ins] of Spell power).
+[color=lightblue][/color][/li][/ul]
+
+[h5]Azerite Traits[/h5]
+[ul]
+[li][b][anchor="ancestral-reach-263790"][spell=263790][/b]   Increase the healing of Chain Heal by 77 and causes it to bounce an additional time.
+Restoration
+[color=lightblue][/color][/li]
+[li][b][anchor="flames-of-the-forefathers-264113"][spell=264113][/b]   Increase the damage of Lava Burst by 308 and causes it to grant an additional 5 Maelstrom.
+Elemental/Restoration
+[color=lightblue][/color][/li]
+[li][b][anchor="lightningburn-263792"][spell=263792][/b]   Increase the damage of Chain Lightning by 77 and causes your Fire spells to deal an additional 231 damage over 4 sec.
+Elemental/Restoration
+[color=lightblue][/color][/li]
+[/ul]
+
+
+[/toggler]
+[toggler class="heading-size-3 c7" name="Shaman General" size=3]
+
+[h5]Spells[/h5]
+[ul][span class="patch-diff-new"]NEW[/span] [b][anchor="hex-269352"][spell=269352][/b]   STransforms the enemy into a skeletal hatchling for 1 min. While hexed, the victim is incapacitated, and cannot attack or cast spells. Damage may cancel the effect. Limit 1. Only works on Humanoids and Beasts.
+[color=lightblue]Appears to be a new customization[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="tremor-totem-8143"][spell=8143][/b]   Summons an Earth Totem with 5 health at the feet of the caster that shakes the ground around it for 10 sec, removing Fear, Charm and Sleep effects from party and raid members within 30 yards.
+[color=lightblue][/color][/li]
+[li][b][anchor="lightning-surge-totem-192058"][spell=192058][/b]   Summons a totem at the target location that gathers electrical energy from the surrounding air and then explodes after 2 sec to stun all enemies within 8 yards for [del copy=true]5[/del][ins]3[/ins] sec.
+[color=lightblue]Name changed from Lightning Surge Totem to Capacitor Totem
+Cooldown changed from 45 sec cooldown to 1 min cooldown[/color][/li]
+[li][b][anchor="hex-51514"][spell=51514][/b]   Transforms the enemy into a frog for 1 min. While hexed, the victim is incapacitated, and cannot attack or cast spells. Damage may cancel the effect. Limit 1. Only works on Humanoids and Beasts.
+[color=lightblue][/color][/li]
+[li][b][anchor="purge-370"][spell=370][/b]   Purges the enemy target, removing 1 beneficial Magic effect.
+[color=lightblue][/color][/li][/ul]
+
+[h5]Honor Talents (1)[/h5]
+[ul][li][b][anchor="windfury-totem-204332"][spell=204332][/b]   Summons a Windfury Totem with 5 health at the target destination for 1 min. If the totem is destroyed, Windfury Totem incurs a 30 sec cooldown.
+Windfury Totem enchants all allies' weapons within 10 yards with wind causing attacks to have a 40% chance to generate an additional 3 extra attacks, dealing ([del copy=true]100% of weapon damage[/del][ins]11.934% of Attack power[/ins])% Physical damage.
+[color=lightblue][/color][/li][/ul]
+
+[h5]Azerite Traits[/h5]
+[ul]
+[li][b][anchor="astral-shift-263786"][spell=263786][/b]   Increases the damage reduction of Astral Shift by an additional 77%.
+[color=lightblue][/color][/li]
+[li][b][anchor="embrace-the-tides-264123"][spell=264123][/b]   Increases the critical healing of Healing Surge by 154 and causes it to prevent up to 231 damage over the next 6 sec.
+[color=lightblue][/color][/li]
+[li][b][anchor="healing-way-269567"][spell=269567][/b]   Healing Surge critically heals for an additional 5%, and further heals for 462 more on targets below 35%.
+Shaman
+[color=lightblue][/color][/li]
+[/ul][/toggler][/div]

@@ -1,0 +1,513 @@
+[h2][color=c3]Hunter Spell Changes[/color][/h2][div class="patch-diff patch-diff-group-hunter patch-diff-class patch-diff-class-3"][table]
+  [tr]
+    [td=header colspan=4]Class Tools[/td]
+[/tr]
+  [tr]
+    [td=header]Beast Mastery[/td]
+    [td][url=/talent-calc/hunter/beast-mastery]Talents[/url][/td]
+[/tr]
+  [tr]
+    [td=header]Marksmanship[/td]
+    [td][url=/talent-calc/hunter/marksmanship]Talents[/url][/td]
+[/tr]
+  [tr]
+    [td=header]Survival[/td]
+    [td][url=/talent-calc/hunter/survival]Talents[/url][/td]
+[/tr]
+[/table]
+
+[toggler name="Hunter Pets" size=3 class="c3" closed=true toc=false]
+In Battle for Azeroth, each Hunter pet family has a single specialization, any beast from that family will have that specialization and you won't be able to change it. Each specialization has unique abilities:
+
+[b]Ferocity[/b]
+[ul]
+    [li][spell=264663] - You and your pet gain 3% Leech.[/li]
+    [li][spell=264667] - Increases haste by 30% for all party and raid members for 40 sec. Allies receiving this effect will become Sated and unable to benefit from Primal Rage or similar effects again for 10 min.[/li]
+[/ul]
+[b]Tenacity[/b]
+[ul]
+    [li][spell=264662] - You and your pet gain 10% increased maximum health.[/li]
+    [li][spell=264735] - Reduces all damage you and your pet take by 20% for 6 sec.[/li]
+[/ul]
+[b]Cunning[/b]
+[ul]
+    [li][spell=264656] - You and your pet gain 8% increased movement speed.[/li]
+    [li][spell=53271] - Your pet removes all root and movement impairing effects from itself and its target, and grants immunity to all such effects for 4 sec.[/li]
+[/ul]
+
+Besides those exclusive abilities, all pets receive [spell=145626] and [spell=2649]. Each individual pet family also received changes, adding more abilities to families that lacked those. All families now have one basic attack and one special. Some have bonus abilities. We have tamed all different families on Alpha to test which specialization and abilities each family had and the results are in the table below.
+
+Some notable changes are pets like [pet=37]s that have changed from Ferocity to Cunning. This change was likely because otherwise [pet=37]s would have access to a Combat Resurrection (from the family ability [spell=159956]) and Bloodlust/Heroism (from the specialization ability [spell=264667]). Also, the player-favorite family [pet=46] have been changed from Ferocity to Tenacity.
+
+[b]A full list of changed Hunter Pet Families, and their new ability sets, can be found [url=https://www.wowhead.com/news=281769/battle-for-azeroth-hunter-pet-revamp]here[/url][/b].
+
+[/toggler][toggler name="Weapon Damage Converted to AP" size=3 class="c3" closed=true toc=false]
+
+[ul][li][b][anchor="barrage-120360"][spell=120360][/b]   Rapidly fires a spray of shots for 3 sec, dealing an average of [([del copy=true]80%[/del][ins]14.196% of Attack power)%[/ins] * 10] Physical damage to all enemies in front of you. Usable while moving.
+[color=lightblue][/color][/li]
+[li][b][anchor="chimaera-shot-53209"][spell=53209][/b]   A two-headed shot that hits your primary target and another nearby target, dealing ([del copy=true]720%[/del][ins]79.092% of Attack power)%[/ins] Nature damage to one and ([del copy=true]720%[/del][ins]79.092% of Attack power)[/ins] Frost damage to the other.
+Generates 10 Focus for each target hit.
+[color=lightblue][/color][/li]
+[li][b][anchor="rapid-fire-257044"][spell=257044][/b]   Shoot a stream of arrows at your target, dealing ([del copy=true]11%[/del][ins]40% of Attack power)[/ins] Physical damage every 0.3 sec for 3 sec. 
+Each [del copy=true]arrow[/del][ins]shot[/ins] generates 2 Focus. Usable while moving.
+[color=lightblue][/color][/li]
+[li][b][anchor="flanking-strike-259272"][spell=259272][/b]   When you Kill Command you will also strike the enemy for ([del copy=true]100%[/del][ins]48.36% of Attack power)%[/ins] Physical damage and generate 5 Focus, if you are within melee range.
+[color=lightblue][/color][/li]
+[li][b][anchor="cobra-shot-193455"][spell=193455][/b]   A quick shot causing [[del copy=true][270%[/del][ins](27.5808% of Attack power) * ((min(Level - 1, 19) * 12 + 112) / 340)] Physical damage.
+Reduces the cooldown of Kill Command by 1 sec.[/ins]
+[color=lightblue]Cost changed from 50 Focus to 45 Focus[/color][/li]
+[li][b][anchor="multi-shot-2643"][spell=2643][/b]   Fires several missiles, hitting your current target and all enemies within 8 yards for [del copy=true]100%[/del][ins](10.9512% of Attack power)[/ins] Physical damage and triggering Beast Cleave[/li]
+[li][b][anchor="aimed-shot-19434"][spell=19434][/b]   A powerful aimed shot that deals [del copy=true][425%[/del][ins][180% of Attack Power[/ins] * ((max(0, min(Level - 10, 10)) * 8 + 130) / 210)] Physical damage.  Damage increased by 50% against a target you have not yet damaged. 
+[color=lightblue]Cost changed from 50 to 30 Focus
+Cast Time changed from 2 sec cast to 3 sec cast
+Cooldown changed from None to 12 sec recharge
+Charges changed from None to 2 Charges[/color][/li]
+[li][b][anchor="bursting-shot-186387"][spell=186387][/b]   Fires an explosion of bolts at all enemies in front of you, knocking them [del copy=true]back, disorienting them[/del][ins]back,snaring them by 50%[/ins] for 4 sec, and dealing [del copy=true]40%[/del][ins](5.2728% of Attack power)[/ins] Physical damage.[/li]
+[li][b][anchor="multi-shot-257620"][spell=257620][/b]   Fires several missiles, hitting your current target and all enemies within 8 yards for [del copy=true]51%[/del][ins](41% of Attack power)[/ins] Physical damage[/li]
+[li][b][spell=185358][/b]   A quick shot that causes [del copy=true][200% * ((max(0, min(Level - 10, 10)) * 5 + 80) / 130)] Arcane damage.
+Generates 8 Focus.[/del][ins](48% of Attack power) Physical Damage.[/ins]
+[color=lightblue]Name changed from Arcane Shot to Quick Shot
+Cost changed from None to 15 Focus[/color][/li]
+[li][b][anchor="steady-shot-56641"][spell=56641][/b]   A steady shot that causes [del copy=true]85%[/del][ins](60% of Attack power)[/ins] Physical damage [del copy=true]and generates 14 Focus[/del].
+Usable while moving.
+[ins]Generates 10 Focus.[/ins][/li]
+[li][b][anchor="piercing-shot-198670"][spell=198670][/b]   A powerful shot which deals [del copy=true]up to (2 * 775%)[/del][ins][25 / 10 * (112.5% of Attack power)%][/ins] Physical damage to the target and up to [del copy=true]775%[/del][ins](112.5% of Attack power)%[/ins] Physical damage to all enemies between you and the target.
+[del copy=true]Damage increased against targets with Vulnerable.[/del]
+[color=lightblue]Cost changed from 20 to 70 Focus[/color][/li]
+[li][b][anchor="raptor-strike-186270"][spell=186270][/b]   A vicious slash dealing [del copy=true]257%[/del][ins](62.868% of Attack power)[/ins] Physical damage.
+[color=lightblue]Cost changed from 25 to 30 Focus[/color][/li]
+[li][b][anchor="serpent-sting-259491"][spell=259491][/b]   Fire a poison-tipped arrow at an enemy, dealing [del copy=true]42%[/del][ins](20.3112% of Attack power)[/ins] Nature damage instantly and an additional ([del copy=true]121.8%[/del][ins]95.004%[/ins] of Attack power) damage over 12 sec.[/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="arctic-bola-260297"][spell=260297][/b]   Throw an icy bola at an enemy, inflicting [del copy=true](204%[/del][ins]98.6544% of Attack power)[/ins] Frost damage and reducing their movement speed by 30% for 5 sec.[/li]
+[li][b][anchor="butchery-212436"][spell=212436][/b]   Strike all nearby enemies in a flurry of strikes, inflicting [del copy=true]694%[/del][ins](58.032% of Attack power)[/ins] Physical damage to each.
+[color=lightblue]Cost changed from 40 to 20 Focus, cooldown changed from 12 to 15 sec[/color][/li]
+[li][b][anchor="mongoose-bite-259387"][spell=259387][/b]   A brutal attack that deals [del copy=true]102%[/del][ins](49.3272% of Attack power)[/ins] Physical damage and grants you Mongoose Fury.
+Mongoose Fury: Increases the damage of Mongoose Bite by 20% for 14 sec, stacking up to 5 times. Successive attacks do not increase duration.[/li][/ul]
+
+[/toggler][toggler class="heading-size-3 c3" name="Beast Mastery" size=3]
+
+[h5]Specialization[/h5]
+[ul]
+[li][b][anchor="beast-mastery-hunter-137015"][spell=137015][/b]   Apply Aura: Modifies Damage/Healing Done by [del]12%[/del] [ins]6%[/ins].[/li]
+[li][b][anchor="aspect-of-the-wild-193530"][spell=193530][/b]   Grants you and your pet [del copy=true]10 Focus per 1[/del][ins]5 Focus per[/ins] sec and 10% increased critical strike chance [del copy=true]on all attacks for 10 sec.[/del][ins]for 20 sec.[/ins]
+[color=lightblue][/color][/li]
+[li][b][anchor="beast-cleave-115939"][spell=115939][/b]   After you Multi-Shot, your pet's melee attacks also strike all other nearby enemy targets for [del copy=true]100%[/del][ins]75%[/ins] as much for the next 4 sec.
+[color=lightblue][/color][/li]
+[li][b][anchor="cobra-shot-193455"][spell=193455][/b]   A quick shot causing [del copy=true]270% Physical damage.[/del][ins][27.5808% of Attack power * ((min(Level - 1, 19) * 12 + 112) / 340)] Physical damage.
+Reduces the cooldown of Kill Command by 1 sec.[/ins]
+[color=lightblue]Cost changed from 50 Focus to 45 Focus
+The legendary [item=137227] likely inspired the new effect on [spell=193455][/color][/li]
+[li][b][anchor="concussive-shot-5116"][spell=5116][/b]   Dazes the target, slowing movement speed by 50% for 6 sec.
+[color=lightblue]Cooldown changed from 5 sec cooldown to 8 sec cooldown[/color][/li]
+[li][b][anchor="kill-command-34026"][spell=34026][/b]   Give the command to kill, causing your pet to savagely deal [1.5 * ([del copy=true]0[/del][ins]0[/ins] + (Ranged attack power * [del copy=true]3.6[/del][ins]3 / 4[/ins])) * 1 * (0.5 + min(Level, 20) * 0.025) * (1 + Versatility)] Physical damage to [del copy=true]its target. 40 yd range.[/del][ins]the enemy.[/ins]
+[color=lightblue]Range changed from 100 yd range to 50 yd range[/color][/li]
+[li][b][anchor="multi-shot-2643"][spell=2643][/b]   Fires several missiles, hitting your current target and all enemies within 8 yards for [del copy=true]100%[/del][ins](10.9512% of Attack power)[/ins] Physical damage[/li]
+[li][b][anchor="tar-trap-187698"][spell=187698][/b]   Hurls a tar trap to the target location that creates a 8 yd radius pool of tar around itself for 30 sec when the first enemy approaches. All enemies have [del copy=true]50%[/del][ins]80%[/ins] reduced movement speed while in the area of effect. Trap will exist for 1 min.
+[color=lightblue][/color][/li]
+[li][b][anchor="wild-call-185789"][spell=185789][/b]   Your auto shot critical strikes have a 20% chance to reset the cooldown of [del copy=true]Dire Beast[/del][ins]Dire Frenzy.[/ins]
+[color=lightblue][/color][/li]
+[/ul]
+
+[h5]Talents[/h5]
+[center][table class="grid"]
+[tr][td width=50%][b]Live[/b][/td] [td][b]BFA[/b][/td][/tr]
+[tr][td][url=https://www.wowhead.com/talent-calc/hunter/beast-mastery][img src=https://wow.zamimg.com/uploads/screenshots/normal/702345.jpg width=400][/url][/td]
+[td][url=https://bfa.wowhead.com/talent-calc/hunter/beast-mastery][img src=https://i.gyazo.com/f4bd25115b8dbdccf99b8b803dcc75a5.png width=400][/url][/td][/tr][/table][/center]
+
+
+[b]Removed[/b]
+[ul][li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="bestial-fury-194306"][spell=194306][/b]   Increase the damage bonus of Bestial Wrath by 15%.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="blink-strikes-130392"][spell=130392][/b]   Your pet's Basic Attack deals 100% increased damage, can now be used from 30 yards away, and will instantly teleport your pet behind its target. Your pet can teleport only once per 20 sec.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="dire-frenzy-217200"][spell=217200][/b]   Causes your pet to enter a frenzy, performing a flurry of[del copy=true] 5[/del] attacks on the target, and gaining 30% increased attack speed for 8 sec, stacking up to 3 times.
+Generates [del copy=true]24[/del][ins]20[/ins] Focus over 8 sec.
+[color=lightblue]Range changed from 100 yd range to 40 yd range
+Now baseline[/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="intimidation-19577"][spell=19577][/b]   Commands your pet to intimidate the target, stunning it for 5 sec.
+[color=lightblue]Now baseline ability[/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="volley-194386"][spell=194386][/b]   While active, your auto attacks spend 3 Focus to also launch a volley of shots that hit the target and all other nearby enemies, dealing ([del copy=true]100%[/del][ins]16.8%[/ins] of Attack power) additional Physical damage.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="way-of-the-cobra-194397"][spell=194397][/b]   Cobra Shot deals 10% increased damage for every pet or guardian you have active.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="wyvern-sting-19386"][spell=19386][/b]   A stinging shot that puts the target to sleep, incapacitating them for 30 sec. Damage will cancel the effect. Usable while moving.
+[color=lightblue][/color][/li]
+[/ul]
+
+
+[b]New[/b]
+[ul][li][span class="patch-diff-new"]NEW[/span] [b][anchor="natural-mending-270581"][spell=270581][/b]   Every 30 Focus you spend reduces the remaining cooldown on Exhilaration by 1 sec.
+[color=lightblue]Tier 3 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="thrill-of-the-hunt-257944"][spell=257944][/b]  Dire Frenzy increases your critical strike chance by 3% for 8 sec, stacking up to 3 times.
+[color=lightblue]Tier 4 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="venomous-bite-257891"][spell=257891][/b]   Cobra Shot reduces the cooldown Bestial Wrath by 1 sec.
+[color=lightblue]Tier 4 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="animal-companion-nyi-267116"][spell=267116][/b]   Your Call Pet additionally summons the first pet from your stable. This pet will obey your Kill Command, but cannot use pet family abilities.
+[color=lightblue]Tier 1 Talent[/color][/li]
+[/ul]
+
+
+[b]Swapped Positions[/b]
+[ul][li][b][anchor="a-murder-of-crows-131894"][spell=131894][/b]   Summons a flock of crows to attack your target, dealing [([del copy=true]162%[/del][ins]26.5356%[/ins] of Attack power) * 16] Physical damage over 15 sec. When a target dies while affected by this ability, its cooldown will reset.
+[color=lightblue]Tier 1 Talent[/color][/li]
+[li][b][anchor="dire-stable-193532"][spell=193532][/b]   Dire Frenzy generates [del copy=true]12[/del][ins]8[/ins] additional Focus over its duration.
+[color=lightblue]Tier 2 Talent[/color][/li]
+[li][b][anchor="one-with-the-pack-199528"][spell=199528][/b]   [del copy=true]Grants Wild Call a 30%[/del][ins]Wild Call has a 20%[/ins] increased chance to reset the cooldown of Dire [del]Beast[/del][ins]Frenzy[/ins]
+[color=lightblue]Tier 2 Talent[/color][/li]
+[li][b][anchor="posthaste-109215"][spell=109215][/b]   Disengage also frees you from all movement impairing effects and increases your movement speed by [del copy=true]60% for 5 sec.[/del][ins]50% for 4 sec.[/ins]
+[color=lightblue]Tier 5 Talent[/color][/li]
+[li][b][anchor="stampede-201430"][spell=201430][/b]   Summon a herd of stampeding animals from the wilds around you that deal damage to your enemies for 12 sec.
+[color=lightblue]Tier 6 Talent[/color][/li]
+[li][b][anchor="stomp-199530"][spell=199530][/b] When you cast Dire Frenzy, your pet stomps the ground, dealing [(1.18) * (([del copy=true]300%[/del][ins]39.312%[/ins] of Attack power)) * 1.4] Physical damage to all nearby enemies.
+[color=lightblue]Tier 6 Talent[/color][/li][/ul]
+
+
+[b]Changed[/b]
+[ul][li][b][anchor="aspect-of-the-beast-191384"][spell=191384][/b]  The target also bleeds for ([del copy=true]270%[/del][ins]44.226%[/ins] of Attack power) Physical damage over 6 sec.[/li]
+[li][b][anchor="barrage-120360"][spell=120360][/b]   Rapidly fires a spray of shots for 3 sec, dealing an average of [[del copy=true]80%[/del][ins](14.196% of Attack power)%[/ins] * 10] Physical damage to all enemies in front of you. Usable while moving.
+[color=lightblue][/color][/li]
+[li][b][anchor="binding-shot-109248"][spell=109248][/b]   Fires a magical projectile, tethering the enemy and any other enemies within 5 yards for 10 sec, rooting them in place for 5 sec if they move more than 5 yards from the arrow.[del copy=true]Player targets are rooted for a shorter duration.[/del][/li]
+[li][b][anchor="chimaera-shot-53209"][spell=53209][/b]   A two-headed shot that hits your primary target and another nearby target, dealing [del copy=true]720%[/del][ins]79.092% of Attack power)%[/ins] Nature damage to one and [del copy=true]720%[/del][ins]79.092% of Attack power)%[/ins] Frost damage to the other.
+Generates 10 Focus for each target hit.
+[color=lightblue][/color][/li]
+[li][b][anchor="dire-beast-120679"][spell=120679][/b]   Summons a powerful wild beast to attack your target for 8 sec.
+Generates [del copy=true]12[/del][ins]20[/ins] Focus over 8 sec.
+[color=lightblue]Now requires Level 15, up from 12[/color][/li][/ul]
+
+[h5]Azerite Traits[/h5]
+[ul]
+[li][b][anchor="flashing-fangs-269624"][spell=269624][/b]   Kill command increases the damage of your next Cobra Shot by [163 * (2)].
+Beast Mastery
+[color=lightblue][/color][/li]
+[li][b][anchor="rotting-jaws-264195"][spell=264195][/b]   Kill Command has a chance to deal 77 to (77 * 5) additional damage and grants you 6 Focus over 3 sec.
+[color=lightblue][/color][/li]
+[/ul]
+
+[/toggler]
+[toggler class="heading-size-3 c3" name="Marksmanship" size=3]
+
+[h5]Specialization[/h5]
+[ul]
+[li][b][anchor="marksmanship-hunter-137016"][spell=137016][/b]   [span class="patch-diff-removed"]REMOVED[/span] Effect #1 Apply Aura: Modifies Power Cost [spell=257620 tempname="Multi-Shot"] Value: -100%
+[span class="patch-diff-new"]NEW[/span] Effect #10 Apply Aura: Modifies Damage/Healing Done [spell=131894] Value: -40%[/li]
+[li][span class="patch-diff-removed"]REMOVED[/span][b][anchor="cobra-shot-193455"][spell=193455][/b]   A quick shot causing [del copy=true]270% Physical damage.[/del][ins][27.5808% of Attack power * ((min(Level - 1, 19) * 12 + 112) / 340)] Physical damage.
+Reduces the cooldown of Kill Command by 1 sec.[/ins]
+[color=lightblue]Specializations changed from Beast Mastery/Marksmanship to Beast Mastery[/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][url=https://www.wowhead.com/spell=185987]Hunter's Mark[/url][/b]   Your auto shots have a chance to cause your next Arcane Shot or Multi-Shot to apply Hunter's Mark. Hunter's Mark activates Marked Shot.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][url=https://www.wowhead.com/spell=185901/marked-shot]Marked Shot[/url][/b]   Rapidly fires shots at all targets with your Hunter's Mark, dealing 550% Physical damage and making them Vulnerable for 7 sec.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][url=https://www.wowhead.com/spell=231554/marksmans-focus]Marksman's Focus[/url][/b]   Increases your maximum Focus by 30.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="lone-wolf-155228"][spell=155228][/b]   Increases your damage by 18%, but [del copy=true]you can no longer use Call Pet.[/del][ins]only when you do not have your pet out.[/ins]
+[color=lightblue]Now baseline[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="multi-shot-257620"][spell=257620][/b]   Fires several missiles, hitting your current target and all enemies within 8 yards for [del]51%[/del][ins](41% of Attack power)[/ins] Physical damage.
+[color=lightblue]Marksmanship-only version[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="precise-shots-260240"][spell=260240][/b]   Aimed Shot causes your next 1-2 Quick Shots to deal 100% more damage.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][spell=185358][/b]   A quick shot that causes [del copy=true][200% * ((max(0, min(Level - 10, 10)) * 5 + 80) / 130)] Arcane damage.
+Generates 8 Focus.[/del][ins]48% of Attack power) Physical Damage.[/ins]
+[color=lightblue]Name changed from Arcane Shot to Quick Shot
+Cost changed from None to 15 Focus[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="rapid-fire-257044"][spell=257044][/b]   Shoot a stream of 10 arrows at your target, over 3 sec, dealing a total of [10 * (40% of Attack power)% Physical damage.
+Each shot generates 2 Focus. Usable while moving.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][spell=257621][/b]  When Multi-Shot hits 3 or more targets, your next Aimed Shot will ricochet and hit up to 5 additional targets, or each shot of your next Rapid Fire will ricochet to an additional nearby target.
+[color=lightblue][/color][/li]
+[li][b][anchor="aimed-shot-19434"][spell=19434][/b]   A powerful aimed shot that deals [del copy=true][425%[/del][ins][180% of Attack Power[/ins] * ((max(0, min(Level - 10, 10)) * 8 + 130) / 210)] Physical damage.  Damage increased by 50% against a target you have not yet damaged. 
+[color=lightblue]Cost changed from 50 to 30 Focus
+Cast Time changed from 2 sec cast to 3 sec cast
+Cooldown changed from None to 12 sec recharge
+Charges changed from None to 2 Charges[/color][/li]
+[li][b][anchor="bursting-shot-186387"][spell=186387][/b]   Fires an explosion of bolts at all enemies in front of you, knocking them back, [del]disorienting them[/del][ins]snaring them by 50%[/ins] for 4 sec, and dealing [del copy=true]40%[/del][ins](5.2728% of Attack power)[/ins] Physical damage.
+[color=lightblue][/color][/li]
+[li][b][anchor="concussive-shot-5116"][spell=5116][/b]   Dazes the target, slowing movement speed by 50% for 6 sec.
+[color=lightblue]Cooldown changed from 5 sec cooldown to 8 sec cooldown[/color][/li]
+[li][b][anchor="steady-shot-56641"][spell=56641][/b]   A steady shot that causes [del copy=true]85%[/del][ins](60% of Attack power)[/ins] Physical damage [del copy=true]and generates 14 Focus[/del].
+Usable while moving.
+[ins]Generates 10 Focus.[/ins][/li]
+[li][b][anchor="tar-trap-187698"][spell=187698][/b]   Hurls a tar trap to the target location that creates a 8 yd radius pool of tar around itself for 30 sec when the first enemy approaches. All enemies have [del copy=true]50%[/del][ins]80%[/ins] reduced movement speed while in the area of effect. Trap will exist for 1 min.
+[color=lightblue][/color][/li]
+[li][b][anchor="trueshot-193526"][spell=193526][/b]   [del]Increases haste by 40% and causes Arcane Shot and Multi-Shot to always apply Hunter's Mark. Lasts 15 sec.[/del][ins]Immediately gain 2 charges of Aimed Shot, and gain 30% Haste for 15 sec.[/ins]
+[color=lightblue][/color][/li]
+[/ul]
+
+[h5]Talents[/h5]
+[center][table class="grid"]
+[tr][td width=50%][b]Live[/b][/td] [td][b]BFA[/b][/td][/tr]
+[tr][td][url=https://www.wowhead.com/talent-calc/hunter/marksmanship][img src=https://wow.zamimg.com/uploads/screenshots/normal/702343.jpg width=400][/url][/td]
+[td][url=https://bfa.wowhead.com/talent-calc/hunter/marksmanship][img src=https://i.gyazo.com/cd5b1c441991d3641a8f1328ac1d35ea.png width=400][/url][/td][/tr][/table][/center]
+
+
+[b]Removed[/b]
+[ul][li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="black-arrow-194599"][spell=194599][/b]   Fires a Black Arrow at the target, dealing ([del copy=true]520%[/del][ins]109.2%[/ins] of Attack power) Shadow damage over 8 sec and summoning a Dark Minion to taunt it for the duration.
+When you kill an enemy, the remaining cooldown on Black Arrow will reset.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="farstrider-199523"][spell=199523][/b]   
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="lone-wolf-155228"][spell=155228][/b]   Increases your damage by 18%, but you can no longer use Call Pet.
+[color=lightblue]Now baseline[/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="patient-sniper-234588"][spell=234588][/b]   Gain the patience of a veteran sniper, increasing the damage bonus of Vulnerable by 6% every [del copy=true]1[/del][ins]5[/ins] sec.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][spell=260309][/b]  Your Sentinel watches over the target area for 18 sec, applying Hunter's Mark to all enemies every 6 sec.[/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="sidewinders-214579"][spell=214579][/b]   Launches Sidewinders that travel toward the target, weaving back and forth and dealing 0 Nature damage to each target they hit. Cannot hit the same target twice. Applies Vulnerable to all targets hit.
+Generates 35 Focus.
+Also replaces Multi-Shot.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="trick-shot-199522"][spell=199522][/b]   Aimed Shot will now also ricochet and hit all Vulnerable targets for 30% of normal damage.
+If there are no other Vulnerable targets, the damage of your next Aimed Shot is increased by 15%.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="true-aim-199527"][spell=199527][/b]   Each successive Arcane Shot or Aimed Shot fired at the same target increases the damage those Shots deal to the target by 2%, stacking up to 10 times. Limit 1 target.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="wyvern-sting-19386"][spell=19386][/b]   A stinging shot that puts the target to sleep, incapacitating them for 30 sec. Damage will cancel the effect. Usable while moving.
+[color=lightblue][/color][/li][/ul]
+
+
+[b]New[/b]
+[ul]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="double-tap-260402"][spell=260402][/b]   Your next Aimed Shot will fire a second time instantly without consuming Focus, or your next Rapid Fire will shoot twice as manyl shots during its channel.
+[color=lightblue]Tier 6 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][spell=260309][/b]  Aimed Shot has a 30% chance to reduce the focus cost of your next Quick Shot or Multi-Shot is reduced by 100%.
+[color=lightblue]Tier 1 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][spell=260393][/b]   Steady Shot has a 10% chance to cause your next Aimed Shot or Rapid Fire to be guaranteed critical strikes.
+[color=lightblue]Tier 6 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][spell=260404][/b]   Casting Aimed Shot reduces the cooldown of Trueshot by 6.0 sec.
+[color=lightblue]Tier 7 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="careful-aim-260228"][spell=260228][/b]   Aimed Shot has a 20% chance to deal 200% bonus damage to targets who are above 80% health or below 20% health.
+[color=lightblue]New spell ID, new version of [spell=53238]
+Tier 2 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="natural-mending-260386"][spell=260386][/b]   Exhilaration heals you for an additional 20% of your maximum health over 10 sec.
+[color=lightblue]Tier 5 Talent
+Inspired by the artifact trait [spell=190503][/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][spell=257284][/b]   Apply Hunter's Mark to the target, increasing all damage you deal to the marked target by 5%.  If the target dies while affected by Hunter's Mark, you instantly gain 20 Focus. Only one Hunter's Mark can be applied at a time.
+[color=lightblue]Tier 4 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="serrated-shot-271788"][spell=271788][/b]   Fire a shot that buries deep into your target, causing them to take (10% of Attack power) Bleed damage instantly and an additional (40% of Attack power) Bleed damage over 12 sec.
+[color=lightblue]Tier 1 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="streamline-260367"][spell=260367][/b]   Rapid Fire now lasts an additional 2.0 sec.
+[color=lightblue]Tier 4 Talent[/color][/li][/ul]
+
+
+[b]Swapped Position[/b]
+[ul]
+[li][b][anchor="a-murder-of-crows-131894"][spell=131894][/b]   Summons a flock of crows to attack your target, dealing [([del copy=true]162%[/del][ins]34.02%[/ins] of Attack power) * 16] Physical damage over 15 sec. When a target dies while affected by this ability, its cooldown will reset.
+[color=lightblue]Tier 1 Talent[/color][/li]
+[li][b][anchor="explosive-shot-212431"][spell=212431][/b]   Fires a slow-moving munition directly forward. Activating this ability a second time detonates the Shot, dealing up to ([del copy=true]1000%[/del][ins]131.04%[/ins] of Attack power) Fire damage to all enemies within 8 yds[del copy=true], damage based on proximity[/del].
+[ins]If you do not detonate Explosive Shot, 10 Focus and some of the cooldown will be refunded.[/ins]
+[color=lightblue]Tier 2 Talent[/color][/li]
+[li][b][anchor="lock-and-load-194595"][spell=194595][/b]   Your ranged auto attacks have a 5% chance to trigger Lock and Load, causing your next [del]two[/del] Aimed Shot to cost no Focus and be instant.
+[color=lightblue]Tier 7 Talent[/color][/li]
+[li][b][anchor="posthaste-109215"][spell=109215][/b]   Disengage also frees you from all movement impairing effects and increases your movement speed by [del copy=true]60% for 5 sec.[/del][ins]50% for 4 sec.[/ins]
+[color=lightblue]Tier 5 Talent[/color][/li]
+[li][b][anchor="steady-focus-193533"][spell=193533][/b]   [del copy=true]Using Arcane Shot or Multi-Shot two times in a row increases your Focus Regeneration by 25% for 12 sec.[/del][ins]Using Steady Shot reduces the cast time of Steady Shot by 0.25 sec, up to [del copy=true]4[/del][ins]3[/ins] times.  Using any other shot removes this effect.[/ins]
+[color=lightblue]Tier 4 Talent[/color][/li]
+[li][b][anchor="volley-260243"][spell=260243][/b]   [del]While active, your auto attacks spend 3 Focus to also launch a volley of shots that hit the target and all other nearby enemies, dealing (100% of Attack power) additional Physical damage.[/del] [ins]Your auto-shots have a chance to cause a volley of arrows to rain down around the target, dealing (75% of Attack Power)% Physical damage to each enemy within 8 yards.[/ins]
+[color=lightblue]Tier 2 Talent[/color][/li][/ul]
+
+[b]Changed[/b]
+[ul][li][b][anchor="barrage-120360"][spell=120360][/b]   Rapidly fires a spray of shots for 3 sec, dealing an average of [[del copy=true]80%[/del][ins](14.196% of Attack Power)%[/ins] * 10] Physical damage to all enemies in front of you. Usable while moving.
+[color=lightblue][/color][/li]
+[li][b][anchor="binding-shot-109248"][spell=109248][/b]   Fires a magical projectile, tethering the enemy and any other enemies within 5 yards for 10 sec, [del copy=true]stunning them[/del][ins]rooting them in place[/ins] for 5 sec if they move more than 5 yards from the arrow. Player targets are [del copy=true]stunned[/del][ins]rooted[/ins] for a shorter duration.[/li]
+[li][b][anchor="piercing-shot-198670"][spell=198670][/b]   A powerful shot which deals up to ([del copy=true]2 * 775%[/del][ins]%[25 / 10 * (112.5% of Attack power)%[/ins]) Physical damage to the target and up to [del copy=true]775%[/del][ins]112.5% of Attack power)% [/ins] Physical damage to all enemies between you and the target. [del copy=true]Damage increased against targets with Vulnerable.[/del]
+[color=lightblue]Cost changed from 20 Focus to 35 Focus[/color][/li]
+[/ul]
+
+[h5]Honor Talents[/h5]
+[ul][li][b][anchor="rangers-finesse-248443"][spell=248443][/b]   [del copy=true]Your Aimed Shots that strike Vulnerable targets reduce[/del][ins]Casting Aimed Shot reduces[/ins] the remaining cooldown of [del copy=true]Aspect of the Cheetah[/del]Aspect of the Turtle, and Exhilaration by 5 sec.[/li]
+[li][b][anchor="sniper-shot-203155"][spell=203155][/b]   Take a sniper's stance, firing a well-aimed shot dealing [del copy=true]700%[/del][ins](111.54% of Attack power)[/ins] Physical damage.
+Increases the range of all shots by 40% for 15 sec.[/li]
+[/ul]
+
+[h5]Azerite Traits[/h5]
+[ul]
+[li][b][anchor="arrowstorm-263814"][spell=263814][/b]   Increases the damage of Aimed Shot by 77 and has a 4% chance to reset the cooldown of your Rapid Fire.
+[color=lightblue][/color][/li]
+[li][b][anchor="piercing-shots-264198"][spell=264198][/b]   Each arrow fired by Rapid Fire has a 4% chance to hit an additional target.
+[color=lightblue][/color][/li]
+[li][b][anchor="seize-the-initiative-269343"][spell=269343][/b]   Aimed Shot has an additional 8% critical strike chance against targets that are above 90% health, and Aimed Shot deals an additional 434 damage.
+Marksmanship
+[color=lightblue][/color][/li]
+[/ul]
+
+[/toggler]
+[toggler class="heading-size-3 c3" name="Survival" size=3]
+
+[h5]Specialization[/h5]
+
+[ul]
+[li][b][anchor="survival-hunter-137017"][spell=137017][/b]   Apply Aura: Modifies Damage/Healing Done by [del]12%[/del] [ins]20%[/ins].
+[span class="patch-diff-new"]NEW[/span] Effect #6 Apply Aura: Modifies Power Cost [spell=982 tempname="Revive Pet"] Value: -25%.[/li]
+[li][span class="patch-diff-removed"]REMOVED[/span][b][anchor="carve-187708"][spell=187708][/b]   A sweeping attack that strikes all enemies in front of you for 90% Physical damage.
+[color=lightblue]Removed[/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][url=https://www.wowhead.com/spell=202800/flanking-strike]Flanking Strike[/url][/b]   A coordinated attack on the target, where you deal [390% * ((max(0, min(Level - 10, 10)) * 7 + 130) / 200)] Physical damage and your pet deals [1.6 * ((Attack power * 4.2)) * (1 + Versatility) * (min(Level, 20) * 0.05)] Physical damage.
+If the target is attacking you, your pet's attack will deal 50% increased damage and 400% increased threat. Otherwise, your attack will deal 50% increased damage.
+Flanking strike has double the normal chance to trigger Hunting Companion
+[color=lightblue]Now a talent[/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][url=https://www.wowhead.com/spell=237327/flanking-strike]Flanking Strike[/url][/b]   Flanking strike has double the normal chance to trigger Hunting Companion.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="mastery-hunting-companion-191334"][spell=191334][/b]   Your pet's attacks have a [del copy=true]4%[/del][ins]4.0%[/ins] chance to grant you an additional charge of Mongoose Bite.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="mongoose-bite-190928"][spell=190928][/b]   Attempts to sever the target's limbs with a brutal attack that deals 300% Physical damage and grants you Mongoose Fury.
+Mongoose Fury increases Mongoose Bite damage by 50% for 14 sec, stacking up to 6 times. Successive attacks do not increase duration.
+[color=lightblue]Now a talent[/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="waylay-234955"][spell=234955][/b]   After 2 sec, your Traps become fully armed, making them especially devastating.[/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="aspect-of-the-eagle-186289"][spell=186289][/b]   [del]Grants you and your pet 0% increased Critical Strike chance on all abilities, and your pet's attacks have an additional 25% chance to grant you a charge of Mongoose Bite. Lasts 10 sec.[/del][ins]Increases the range of your Mongoose Bite, Raptor Strike to 0-40 yds for 15 sec.[/ins]
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][spell=266779][/b] You and your pet attack as one, increasing all damage you both deal by 20% for 20 sec. While Coordinated Assault is active, Kill Command's chance to reset is increased by 25%.[/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="disengage-263183"][spell=263183][/b]   The cooldown of Disengage is reduced by 10 sec.
+[color=lightblue]Rank 2[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="kill-command-259489"][spell=259489][/b]   Give the command to kill, causing your pet to savagely deal [Attack power * 0.32 * (1 + Versatility) * 1.6] Physical damage to the enemy. Has a 30% chance to immediately reset its cooldown. Generates 20 Focus.
+[color=lightblue]Cooldown changed from 6 sec cooldown to 6 sec recharge
+Charges changed from None to 1 Charges[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="mastery-spirit-bond-263135"][spell=263135][/b]   You and your pet's Focus spending abilities deal 8.0% increased damage.
+While your pet is active, you both regenerate 1.0% of maximum health every 5 sec.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][spell=259491][/b]   Fire a poison-tipped arrow at an enemy, dealing (26.04% of Attack power) Nature damage instantly and an additional (95.004% of Attack power) damage over 12 sec.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][spell=259495][/b]   Hurl a bomb at the target, exploding for (15.6% of Attack power) Fire damage in a cone and coating enemies in wildfire, scorching them for (120% of Attack power) * (6)] Fire damage over 5 sec.
+[color=lightblue]10 Focus[/color][/li]
+[li][b][anchor="explosive-trap-191433"][spell=191433][/b]   Hurls a fire trap to the target location  that explodes when an enemy approaches, causing ([del copy=true]420%[/del][ins]69.3%[/ins] of Attack power) Fire damage and burning all enemies within 8 yards for ([del copy=true]420%[/del][ins]69.3%[/ins] of Attack power) additional Fire damage over 10 sec. Trap will exist for 1 min.
+[color=lightblue][/color][/li]
+[li][b][anchor="harpoon-190925"][spell=190925][/b]   Hurls a harpoon at an enemy, rooting them in place for 3 sec and pulling you to them.
+[color=lightblue]Range changed from 5 - 40 yd range to 5 - 30 yd range
+Changed from cooldown to recharge with 1 Charge
+Now requires Level 14, down from 26[/color][/li]
+[li][b][anchor="hatchet-toss-193265"][spell=193265][/b]   Tosses a hatchet at an enemy, dealing ([del copy=true]10%[/del][ins]1.638%[/ins] of Attack power) Physical damage.[/li]
+[li][b][anchor="lacerate-185855"][spell=185855][/b]   Tears a bleeding wound in the target, dealing [([del copy=true]964.8%[/del][ins]202.608%[/ins] of Attack power) + ([del copy=true]187.2%[/del][ins]39.312%[/ins] of Attack power)] Physical damage over 12 sec.[/li]
+
+
+[li][b][anchor="raptor-strike-186270"][spell=186270][/b]   A vicious slash dealing [del copy=true]257%[/del][ins]62.868% of Attack power[/ins] Physical damage.
+[color=lightblue]Cost changed from 25 Focus to 30 Focus[/color][/li]
+[table][tr][td][spell=982 tempname="Revive Pet"][/td][/tr][/table][/li]
+[li][b][anchor="tar-trap-187698"][spell=187698][/b]   Hurls a tar trap to the target location that creates a 8 yd radius pool of tar around itself for 30 sec when the first enemy approaches. All enemies have [del copy=true]50%[/del][ins]80%[/ins] reduced movement speed while in the area of effect. Trap will exist for 1 min.
+[color=lightblue][/color][/li]
+[li][b][anchor="wing-clip-195645"][spell=195645][/b]   Maims the target, reducing movement speed by 50% for 15 sec.
+[color=lightblue]Now requires Level 4, down from 10[/color][/li]
+[/ul]
+
+[h5]Talents[/h5]
+[center][table class="grid"]
+[tr][td width=50%][b]Live[/b][/td] [td][b]BFA[/b][/td][/tr]
+[tr][td][url=https://www.wowhead.com/talent-calc/hunter/survival][img src=https://wow.zamimg.com/uploads/screenshots/normal/702341.jpg width=400][/url][/td]
+[td][url=https://bfa.wowhead.com/talent-calc/hunter/survival][img src=https://i.gyazo.com/c184fa60f53737f7faaa4a6b49dd6eae.png width=400][/url][/td][/tr][/table][/center]
+
+
+[b]Removed[/b]
+[ul][li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="animal-instincts-204315"][spell=204315][/b]   Flanking Strike also reduces the remaining cooldown by 3 sec of a random one of the following abilities.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="aspect-of-the-beast-191384"][spell=191384][/b]  
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="caltrops-194277"][spell=194277][/b]   Scatters Caltrops in an area for 15 sec. Enemies who step on Caltrops will take ([del copy=true]45%[/del][ins]7.56%[/ins] of Attack power) Bleed damage every 1 sec, and have 70% reduced movement speed for 6 sec.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="dragonsfire-grenade-194855"][spell=194855][/b]   Hurls a dragonsfire grenade at the target that explodes into flames, inflicting [([del copy=true]1304%[/del][ins]151.2%[/ins] of Attack power) + ([del copy=true]400%[/del][ins]54.6%[/ins] of Attack power)] Fire damage over [del copy=true]8[/del][ins]6[/ins] sec and reducing movement speed by [del copy=true]20%[/del][ins]30%[/ins]. The volatile flames on the target also scorch nearby enemies.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="expert-trapper-199543"][spell=199543][/b]   All of your traps are improved in the following ways
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][url=www.wowhead.com/spell=236698]Guerrilla Tactics[/url][/b]   Explosive Trap deals 50% more damage, and Waylay's effects are further strengthened
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="intimidation-19577"][spell=19577][/b]   Commands your pet to intimidate the target, stunning it for 5 sec.
+[color=lightblue]Now baseline ability[/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="mortal-wounds-201075"][spell=201075][/b]   Each time Lacerate deals damage, you have a 2% chance to gain a charge of Mongoose Bite.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="rangers-net-200108"][spell=200108][/b]   Hurls a net at the enemy, rooting the target for 3 sec and reducing movement speed by 50% for 15 sec. Damage may break the effect.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="serpent-sting-87935"][spell=87935][/b]   Targets hit by your Raptor Strike and Carve are also affected by Serpent Sting, dealing 1500 Nature damage over 15 sec.  
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="snake-hunter-201078"][spell=201078][/b]   Instantly grants you 3 charges of Mongoose Bite.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="sticky-bomb-191241"][spell=191241][/b]   Hurls a concussive grenade at your target which sticks to them and explodes after 2 sec, knocking back all nearby enemies.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="throwing-axes-200163"][spell=200163][/b]   Tosses 3 axes at an enemy, each dealing (312.5% of Attack power) Physical damage.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="way-of-the-moknathal-201082"][spell=201082][/b]   Raptor Strike also grants you Mok'Nathal Tactics, increasing your attack power by 3% for 10 sec, stacking up to 4 times.
+[color=lightblue][/color][/li][/ul]
+
+
+[b]New[/b]
+[ul][li][span class="patch-diff-new"]NEW[/span] [b][anchor="alpha-predator-269737"][spell=269737 diff=26231 diffnew=1 tempname="Alpha Predator"][/b]   Kill Command now has 2 charges, and deals 30% increased damage.
+[color=lightblue]Tier 1 Talent, in place of [spell=259272][/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="birds-of-prey-260331"][spell=260331][/b]   Raptor Striking your pet's target extends the duration of Coordinated Assault by 1 sec.
+[color=lightblue]Tier 7 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="binding-shot-117526"][spell=117526][/b]   Breaking the tether of Binding Shot will [del copy=true]stun the target[/del][ins]root the target in place[/ins] for 5 sec (3 sec PvP).
+[color=lightblue]Tier 5 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="bloodseeker-260248"][spell=260248][/b]   Kill Command causes the target to bleed for [Ranged attack power * (0.12) * (4)] damage over 8 sec.
+You and your pet gain 10% attack speed for every bleeding enemy within 12 yds.
+[color=lightblue]Tier 4 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][spell=266921][/b] The cooldowns of Aspect of the Cheetah and Exhilaration are reduced by 20%.
+[color=lightblue]Tier 5 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="chakrams-259391"][spell=259391][/b]   Throw a pair of chakrams at your target, slicing all enemies in the chakrams' path for (105.4% of Attack power) Physical damage. The chakrams will return to you, damaging enemies again.
+Your primary target takes 100% increased damage.
+[color=lightblue]Tier 7 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="Coming-Soon-265949"][spell=265949][/b]   We're on the hunt for something awesome to go here!
+[color=lightblue]Tier 6 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="flanking-strike-269751"][spell=269751 diff=26231 diffnew=1 tempname="Flanking Strike"][/b]   You and your pet leap to the target and strike it as one, dealing a total of [(Attack power * 0.9 * (1 + Versatility)) + ((90% of Attack power))] Physical damage.
+Generates 30 Focus for you and your pet.
+[color=lightblue]Tier 6 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="guerrilla-tactics-264332"][spell=264332][/b]   Wildfire Bomb now has 2 charges, and the initial explosion deals 100% increased damage.
+[color=lightblue]Tier 2 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="hydras-bite-260241"][spell=260241][/b]   Serpent Sting fires arrows at 2 additional enemies near your target, and its damage over time is increased by 30%.
+[color=lightblue]Tier 2 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="mongoose-bite-259387"][spell=259387][/b]   A brutal attack that deals [del]102%[/del][ins]49.3272% of Attack power[/ins] Physical damage and grants you Mongoose Fury. Increases the damage of Mongoose Bite by 20% for 14 sec, stacking up to 5 times. Successive attacks do not increase duration.
+[color=lightblue]Tier 6 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="natural-mending-270581"][spell=270581 diff=26231 diffnew=1 tempname="Natural Mending"][/b]   Every 30 Focus you spend reduces the remaining cooldown on Exhilaration by 1 sec.
+[color=lightblue]Tier 3 Talent[/color][/li]
+[li][b][anchor="terms-of-engagement-265895"][spell=265895 diff=26287][/b]   Harpoon[ins] deals (115% of Attack power) Physical damage and[/ins] generates 40 Focus over 10 sec[del copy=true], and[/del]. Killing an enemy resets the cooldown of Harpoon.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="tip-of-the-spear-260285"][spell=260285][/b]   Kill Command increases the damage of your next Raptor Strike by 15%, stacking up to 3 times.
+[color=lightblue]Tier 6 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="vipers-venom-268501"][spell=268501][/b]   Mongoose Bite, Raptor Strike has a chance to make your next Serpent Sting cost no Focus and deal an additional 300% initial damage.
+[color=lightblue]Tier 1 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="wildfire-infusion-271014"][spell=271014 diff=26287 diffnew=1 tempname="Wildfire Infusion"][/b]   Lace your Wildfire Bomb with extra reagents, randomly giving it one of the following properties each time you throw it:
+Shrapnel Bomb: Shrapnel pierces the targets, causing Mongoose Bite, Raptor Strike and Butchery to apply a bleed for 9 sec that stacks up to 3 times.
+Pheromone Bomb: Kill Command has a 100% chance to reset against targets coated with Pheromones.
+Volatile Bomb: Reacts violently with poison, causing an extra explosion against enemies suffering from your Serpent Sting and refreshes your Serpent Stings.
+[color=lightblue]Tier 7 Talent, in place of [spell=265949][/color][/li][/ul]
+
+
+[b]Swapped Position[/b]
+[ul][li][b][url=https://www.wowhead.com/spell=206505/a-murder-of-crows]A Murder of Crows[/url][/b]   Summons a flock of crows to attack your target over the next 15 sec. If the target dies while under attack, A Murder of Crows' cooldown is reset.
+[color=lightblue]Tier 4 Talent[/color][/li]
+[li][b][anchor="butchery-212436"][spell=212436][/b]   Strike all nearby enemies in a flurry of strikes, inflicting [del copy=true]694%[/del][ins]58.032% of Attack power[/ins] Physical damage to each.
+[color=lightblue]Cost changed from 40 Focus to 20 Focus
+Cooldown changed from 12 sec recharge to 15 sec recharge
+Tier 2 Talent[/color][/li][/ul]
+
+[b]Changed[/b]
+[ul][li][b][anchor="posthaste-109215"][spell=109215][/b]   Harpoon also frees you from all movement impairing effects and increases your movement speed by [del copy=true]60% for 5 sec.[/del][ins]50% for 4 sec.[/ins][/li]
+[li][b][anchor="spitting-cobra-194407"][spell=194407][/b]   Summons a Spitting Cobra for [del copy=true]30[/del][ins]20[/ins] sec that attacks your target for ([del copy=true]100%[/del][ins]31.2%[/ins] of Attack power) Nature damage every 2 sec. [del copy=true]While[/del][ins]
+While[/ins] the Cobra is active you gain [del copy=true]an extra 3 Focus every 1 sec.[/del][ins]2 Focus every sec.[/ins]
+[color=lightblue]Cooldown changed from 1 min cooldown to 1.5 min cooldown[/color][/li]
+[li][b][anchor="steel-trap-162488"][spell=162488][/b]   Hurls a Steel Trap to the target location that [del copy=true]immobilizes[/del][ins]snaps shut on[/ins] the first enemy that approaches, [ins]immobilizing them [/ins]for 30 sec and [del copy=true]deals (1500%[/del][ins]causing them to bleed for (351%[/ins] of Attack power) [del copy=true]Bleed[/del] damage over 30 sec. [del copy=true]Other damage[/del][ins]Damage other than Steel Trap[/ins] may break the immobilization effect. Limit 1. Trap will exist for 1 min.
+[color=lightblue]Cooldown changed from 1 min cooldown to 30 sec cooldown[/color][/li]
+[/ul]
+
+[h5]Azerite Traits[/h5]
+[ul]
+[li][b][anchor="raking-talons-269256"][spell=269256][/b]   Mongoose Bite Raptor Strike has an additional 6% critical strike chance against targets that are below 50% health, and Mongoose Bite Raptor Strike deals an additional 83 damage.
+Survival
+[color=lightblue][/color][/li]
+[li][b][anchor="whirling-rebound-264199"][spell=264199][/b]   Increases the damage of Hatchet Toss by 77 and causes it to return to you, dealing 539 damage to enemies it strikes.
+[color=lightblue][/color][/li]
+[li][b][anchor="vigorous-wings-263818"][spell=263818][/b]   Increases the duration of Aspect of the Eagle by 8 sec and causes your Mongoose Bites to deal an additional 463 damage when they critically strike.
+[color=lightblue][/color][/li]
+[/ul]
+
+[/toggler]
+[toggler class="heading-size-3 c3" name="Hunter General" size=3]
+
+[h5]Spells[/h5]
+[ul][li][span class="patch-diff-removed"]REMOVED[/span] [b][url=www.wowhead.com/spell=198783]Camouflage[/url][/b]   You blend into the surroundings and gain stealth for 1 min. While camouflaged, you will heal for 2% every 1 secs.
+[color=lightblue]Has a new spell ID[/color][/li]
+[li][b][anchor="camouflage-199483"][spell=199483][/b]   You and your pet blend into the surroundings and gain stealth for 1 min. While camouflaged, you will heal for 2% of maximum health every 1 secs.
+[color=lightblue]New spell ID[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="tranquilizing-shot-19801"][spell=19801][/b]   Removes 1 Enrage and 1 Magic effect from an enemy target.
+[color=lightblue][/color][/li]
+[li][b][anchor="mend-pet-136"][spell=136][/b]   Heals your pet for [del copy=true]25%[/del][ins]35%[/ins] of its total health over 10 sec.
+[color=lightblue][/color][/li]
+[/ul]
+
+[h5]Azerite Traits[/h5]
+[ul]
+[li][b][anchor="aspect-of-the-cheetah-263829"][spell=263829][/b]   Adds an additional 77% speed to the initial 3 seconds of Aspect of the Cheetah.
+[color=lightblue][/color][/li]
+[li][b][anchor="ride-the-lightning-263821"][spell=263821][/b]   Increases the critical strike chance of Aspect of the Wild by an additional 5% and causes your attacks to deal 77 additional Nature damage, chaining up to 2 targets.
+[color=lightblue][/color][/li]
+[/ul][/toggler][/div]

@@ -1,0 +1,354 @@
+[h2][color=c1]Warrior Spell Changes[/color][/h2][div class="patch-diff patch-diff-group-warrior patch-diff-class patch-diff-class-1"][table]
+  [tr]
+    [td=header colspan=4]Class Tools[/td]
+[/tr]
+  [tr]
+    [td=header]Arms[/td]
+    [td][url=/talent-calc/warrior/arms]Talents[/url][/td]
+[/tr]
+  [tr]
+    [td=header]Fury[/td]
+    [td][url=/talent-calc/warrior/fury]Talents[/url][/td]
+[/tr]
+  [tr]
+    [td=header]Protection[/td]
+    [td][url=/talent-calc/warrior/protection]Talents[/url][/td]
+[/tr]
+[/table]
+[toggler name="Weapon Damage Converted to AP" size=3 class="c1" closed=true toc=false]
+
+
+[ul][li][b][anchor="colossus-smash-167105"][spell=167105][/b]   Smashes the enemy's armor, dealing [del copy=true]210%[/del][ins]200% of Attack Power[/ins] Physical damage, and increasing damage you deal to them by 30% for 10 sec.[/li]
+[li][b][anchor="hamstring-1715"][spell=1715][/b]   Maims the enemy for ([del copy=true]105%[/del][ins]16.926% of Attack power[/ins]) Physical damage, reducing movement speed by 50% for 15 sec.[/li]
+[li][b][anchor="mortal-strike-12294"][spell=12294][/b]   A vicious strike that deals ([del copy=true]274%[/del][ins]110% of Attack power[/ins]) Physical damage and reduces the effectiveness of healing on the target [ins]by 25%[/ins] for 10 sec.
+[color=lightblue]Cost changed from 20 to 30 Rage[/color][/li]
+[li][b][anchor="overpower-7384"][spell=7384][/b][/li]
+[li][b][anchor="slam-1464"][spell=1464][/b]   Slams an opponent, causing ([del copy=true]190%[/del][ins](55.614% of Attack power)[/ins]) Physical damage.[/li]
+[li][b][anchor="cleave-845"][spell=845][/b]   Strikes all enemies in front of you with a sweeping attack for [del copy=true]90%[/del][ins](48.36% of Attack power}[/ins] Physical damage.[ins] Hitting 3 or more targets inflicts Deep Wounds[/ins].
+[color=lightblue]Cost changed from 10 to 20 Rage
+Now a talent[/color][/li]
+[li][b][anchor="rend-772"][spell=772][/b]   Wounds the target, causing [del copy=true]150%[/del][ins](23.2128% of Attack power)[/ins] Physical damage instantly and an additional ([del copy=true]1000%[/del][ins]81.12%[/ins] of Attack power) Bleed damage over 8 sec.
+[color=lightblue]Ticks now scale with haste[/color][/li]
+[li][b][anchor="skullsplitter-260643"][spell=260643][/b]   Bash an enemy's skull, dealing [del copy=true]140%[/del][ins](67.704% of Attack power)[/ins] Physical damage.
+Generates 30 Rage.[/li]
+[li][b][anchor="warbreaker-262161"][spell=262161][/b]   Smash the ground and shatter the armor of all enemies within 8 yds, dealing [del copy=true]250%[/del][ins](120.9% of Attack power)[/ins] Physical damage and increasing damage you deal to them by 30% for 10 sec.[/li]
+[li][b][anchor="bloodthirst-23881"][spell=23881][/b]   Assault the target in a bloodthirsty craze, dealing [([del copy=true][217%[/del][ins]43.0404% of Attack power[/ins]) * ((max(0, min(Level - 10, 10)) * 8 + 137) / 217)] Physical damage and restoring 4% of your health.
+Generates 10 Rage.[/li]
+[li][b][anchor="execute-5308"][spell=5308][/b]   Attempt to finish off a wounded foe, causing [([del copy=true]400% + 400%[/del][ins]65.7696% of Attack power) + (65.7696% of Attack power)[/ins]] Physical damage. Only usable on enemies that have less than 20% health.[/li]
+[li][b][anchor="furious-slash-100130"][spell=100130][/b]   Aggressively strike with your off-hand weapon for [([del copy=true][307%[/del][ins]50.2944% of Attack power[/ins]) * ((max(0, min(Level - 10, 10)) * 10 + 171) / 271)] Physical damage.
+Increases your Bloodthirst critical strike chance by [del copy=true]15%[/del][ins]20%[/ins] until it next deals a critical strike, stacking up to 6 times[/li]
+[li][b][anchor="rampage-184367"][spell=184367][/b]   Enrages you and unleashes a series of 5 brutal strikes over 2 sec for a total of [del copy=true](57% + 172% + 114% + 345% + 201%)[/del][ins]9.1884% of Attack power) + (28.0488% of Attack power) + (18.3768% of Attack power) + (56.5812% of Attack power) + (32.8848% of Attack power)][/ins] Physical damage.[/li]
+[li][b][anchor="devastate-20243"][spell=20243][/b]   A direct strike, dealing [([del copy=true][278%[/del][ins]32.994% of Attack power[/ins]) * ((max(0, min(Level - 12, 8)) * 8.5 + 241) / 309)] Physical damage.[/li]
+[li][b][anchor="bladestorm-227847"][spell=227847][/b]   You become a whirling storm of destructive force, striking all nearby targets with your main hand weapon for (7 * [del copy=true]157%[/del][ins]33.852% of Attack power[/ins]) Physical damage.[/li]
+[li][b][anchor="heroic-throw-57755"][spell=57755][/b]   Throws your weapon at the enemy, causing ([del copy=true]50%[/del][ins]10.54% of Attack power[/ins]) Physical damage. Generates high threat.[/li]
+[li][b][anchor="raging-blow-85288"][spell=85288][/b]   A mighty blow with both weapons that deals a total of [(([del copy=true]165% + 165%[/del][ins]27.0816% of Attack power) + (27.0816% of Attack power)[/ins]) * ((max(0, min(Level - 13, 7)) * 4 + 118) / 146)] Physical damage. Only usable while Enraged.
+Generates 5 Rage.[/li]
+[li][b][anchor="whirlwind-1680"][spell=1680][/b]   Unleashes a whirlwind of steel, [del copy=true]striking 
+Fervor of Battle:[/del][ins]Fervor of Battle
+hitting[/ins] your primary target for [del copy=true][(3 * (90%) * 2.45] Physical damage, and all other[/del]
+[ins]with Slam and striking all other
+striking[/ins] all enemies within 8 yards for [del copy=true]3 * 90%) Physical damage.[/del][ins][3 * (14.5% of Attack power)] Physical damage.[/ins][/li]
+[li][b][anchor="devastator-236279"][spell=236279][/b]   Your auto attacks deal an additional [([del copy=true][278%[/del][ins]21% of Attack power)[/ins] * ((max(0, min(Level - 12, 8)) * 8.5 + 241) / 309)] Physical damage, generate 2 Rage, and have a [del copy=true]30%[/del][ins]20%[/ins] chance to reset the remaining cooldown on Shield Slam.
+[color=lightblue][/color][/li]
+[/ul]
+
+[/toggler][toggler class="heading-size-3 c1" name="Arms" size=3]
+
+[h5]Specialization[/h5]
+[ul]
+[li][b][anchor="arms-warrior-137049"][spell=137049][/b]   Apply Aura: Modifies Damage/Healing Done by [del]10%[/del] [ins]25%[/ins].[/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="battle-cry-1719"][spell=1719][/b]   Lets loose a battle cry, granting 100% increased critical strike chance for [del copy=true]5[/del][ins]6[/ins] sec.
+[color=lightblue]Name changed from Battle Cry to Recklessness
+Specializations changed from Arms/Fury/Protection to Fury/Protection[/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="cleave-845"][spell=845][/b]   Strikes all enemies in front of you with a sweeping attack for [del copy=true]90%[/del][ins](48.36% of Attack power}[/ins] Physical damage.[ins] Hitting 3 or more targets inflicts Deep Wounds[/ins].
+[color=lightblue]Cooldown changed from 6 to 12 sec
+Cost changed from 10 to 20 Rage
+Now a lvl 75 talent[/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="cleave-231833"][spell=231833][/b]   For each target Cleave hits, up to 5, your next Whirlwind deals 20% more damage.[/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="mastery-colossal-might-76838"][spell=76838][/b]   Increases the damage of your Colossus Smash by [del copy=true]13%[/del][ins]13.0%[/ins], and causes it to increase damage you deal to the target by an additional [del copy=true]13%[/del][ins]13.0%[/ins].[/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="mortal-strike-261900"][spell=261900][/b]   Mortal Strike's damage is increased by 60%.[/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="slam-261901"][spell=261901][/b]   Slam's damage is increased by 60%.[/li]
+
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="mastery-deep-wounds-262111"][spell=262111][/b]   Deep Wounds damage is increased by 8.0%, dealing (53.82% of Attack power) Bleed damage over 3 sec.
+Striking an enemy with Mortal Strike, Cleave, Execute, or Bladestorm inflicts Deep Wounds.[/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="overpower-7384"][spell=7384][/b]   Overpower the enemy, [del copy=true]causing 375%[/del][ins]dealing (70% of Attack power)[/ins] Physical damage. Cannot be blocked, dodged, or parried[del copy=true]and has a 60% increased chance to critically strike. Your other melee abilities have a chance to activate Overpower[/del]. [ins]Increases the damage of your next Mortal Strike[del copy=true] or Execute[/del] by 30%, stacking up to 2 times[/ins].
+[color=lightblue]Now baseline and requires Level 20, up from 15
+Cooldown changed from None to 12 sec recharge[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="sweeping-strikes-260708"][spell=260708][/b]   For 10 sec your single-target damaging abilities hit 1 additional target within 8 yds for 100% damage.[/li]
+[li][b][anchor="bladestorm-227847"][spell=227847][/b]   Become an unstoppable storm of destructive force, striking all targets within 8 yards for (7 * [del copy=true]157%[/del][ins]33.852%[/ins]) Physical damage over 6 sec.
+You are immune to movement impairing and loss of control effects, but can use defensive abilities and can avoid attacks.
+[color=lightblue][/color][/li]
+[li][b][anchor="colossus-smash-167105"][spell=167105][/b]   Smashes the enemy's armor, dealing [del copy=true]210%[/del][ins](200% of Attack power)[/ins] Physical damage, and increasing damage you deal to them by [del copy=true]15% for 8 sec.[/del][ins]30% for 10 sec.[/ins]
+[color=lightblue]Cooldown changed from 20 sec cooldown to 45 sec cooldown[/color][/li]
+[li][b][anchor="execute-163201"][spell=163201][/b]   Attempts to finish off a foe, causing [del copy=true]202% Physical damage, and consuming up to =10 additional Rage to deal up to (202% * 10 / 10) additional damage[/del][ins]up to (2.0 * 80.6%) Physical damage based on Rage spent[/ins]. Only usable on enemies that have less than 20% health.
+If your foe survives, 30% of the Rage spent is refunded.
+[color=lightblue]Cost changed from 10 Rage to 20 Rage[/color][/li]
+[li][b][anchor="hamstring-1715"][spell=1715][/b]   Maims the enemy for [del copy=true]105%[/del][ins]16.926%[/ins] Physical damage, reducing movement speed by 50% for 15 sec.
+[color=lightblue][/color][/li]
+[li][b][anchor="mortal-strike-12294"][spell=12294][/b]   A vicious strike that deals [del copy=true]274%[/del][ins](110% of Attack power)[/ins] Physical damage and reduces the effectiveness of healing on the target [ins]by 25% [/ins]for 10 sec.
+[color=lightblue]Cost changed from 20 Rage to 30 Rage[/color][/li]
+[li][b][anchor="commanding-shout-97462"][spell=97462][/b]   Lets loose a [del copy=true]commanding shout[/del][ins]rallying cry[/ins], granting all party or raid members within 30 yards 15% increased maximum health for 10 sec. After this effect expires, the health is lost.
+[color=lightblue]Name changed from Commanding Shout to Rallying Cry[/color][/li]
+[li][b][anchor="slam-1464"][spell=1464][/b]   Slams an opponent, causing [del copy=true]190%[/del][ins](55.614% of Attack power)[/ins] Physical damage.[/li]
+[li][b][anchor="tactician-184783"][spell=184783][/b]   You have a [del copy=true]0.75%[/del][ins]0.90%[/ins] chance per Rage spent [ins]on damaging abilities [/ins]to reset the remaining cooldown on [del copy=true]Colossus Smash[/del][ins]Overpower[/ins][del copy=true] and Mortal Strike[/del].[/li]
+[li][b][anchor="victory-rush-34428"][spell=34428][/b]   Strikes the target, causing ([del copy=true]100% of Spell power + 200%[/del][ins]32.76%[/ins] of Attack power) damage and healing you for 30% of your maximum health.
+Only usable within 20 sec after you kill an enemy that yields experience or honor.[/li]
+[li][b][anchor="whirlwind-1680"][spell=1680][/b]   Unleashes a whirlwind of steel, [del copy=true]striking 
+Fervor of Battle:[/del][ins]Fervor of Battle
+hitting[/ins] your primary target for [del copy=true][(3 * (90%) * 2.45] Physical damage, and all other[/del]
+[ins]with Slam and striking all other
+striking[/ins] all enemies within 8 yards for [del copy=true]3 * 90%) Physical damage.[/del][ins][3 * (14.5% of Attack power)] Physical damage.[/ins][/li]
+[/ul]
+
+[h5]Talents[/h5]
+[center][table class="grid"]
+[tr][td width=50%][b]Live[/b][/td] [td][b]BFA[/b][/td][/tr]
+[tr][td][url=https://www.wowhead.com/talent-calc/warrior/arms][img src=https://wow.zamimg.com/uploads/screenshots/normal/702311.jpg width=400][/url][/td]
+[td][url=https://bfa.wowhead.com/talent-calc/warrior/arms][img src=https://i.gyazo.com/1c7d32d8c7bb201d9ec38f66de7f16ce.png width=400][/url][/td][/tr][/table][/center]
+
+
+[b]Removed[/b]
+[ul][li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="dauntless-202297"][spell=202297][/b]   Your abilities cost 10% less Rage.[/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="deadly-calm-227266"][spell=227266][/b]   Battle Cry also reduces the Rage cost of your abilities by 75% for the duration.[/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="focused-rage-207982"][spell=207982][/b]   Focus your rage on your next Mortal Strike, increasing its damage by [del copy=true]75%[/del][ins]30%[/ins], stacking up to [del copy=true]0[/del][ins]3[/ins] times. Unaffected by the global cooldown.[/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="mortal-combo-202593"][spell=202593][/b]   Mortal Strike now has a maximum of 2 charges.[/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="opportunity-strikes-203179"][spell=203179][/b]   Your melee abilities have up to a 60% chance, based on the target's missing health, to trigger an extra attack that deals [del copy=true]160%[/del][ins](48.36% of Attack power)[/ins] Physical damage and generates 5 Rage.[/li]
+[li][span class="patch-diff-new"]REMOVED[/span] [b][anchor="overpower-7384"][spell=7384][/b]   Overpowers the enemy, causing 375% Physical damage. Cannot be blocked, dodged, or parried and has a 60% increased chance to critically strike. Your other melee abilities have a chance to activate Overpower.
+[color=lightblue]Now baseline[/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="shockwave-46968"][spell=46968][/b]   Sends a wave of force in a frontal cone, causing ([del copy=true]47.5%[/del][ins]9.975%[/ins] of Attack power) damage and stunning all enemies within 10 yards for [del copy=true]3 sec. Cooldown reduced by 20 sec if it strikes at least 3 targets[/del][ins]2 sec[/ins].
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="sweeping-strikes-202161"][spell=202161][/b]   Mortal Strike and Execute hit 2 additional nearby target [ins]for 50% damage.[/ins][/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="titanic-might-202612"][spell=202612][/b]   Increases the duration of Colossus Smash by 8 sec, and reduces its cooldown by 8 sec.[/li][/ul]
+
+
+[b]New[/b]
+[ul][li][span class="patch-diff-new"]NEW[/span] [b][anchor="cleave-845"][spell=845][/b]   Strikes all enemies in front of you with a sweeping attack for [del copy=true]90%[/del][ins](48.36% of Attack power}[/ins] Physical damage.[ins] Hitting 3 or more targets inflicts Deep Wounds[/ins].
+[color=lightblue]Cooldown changed from 6 to 12 sec
+Cost changed from 10 to 20 Rage[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="collateral-damage-268243"][spell=268243 diff=26131 diffnew=1 tempname="Collateral Damage"][/b]   When your abilities damage a second target due to Sweeping Strikes, they refund 20% of their Rage cost.
+[color=lightblue]Tier 5 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="deadly-calm-262228"][spell=262228][/b]   Reduces the Rage cost of your abilities by 100% for 6 sec.
+[color=lightblue]Tier 6 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="dreadnaught-262150"][spell=262150][/b]   Overpower has 2 charges, and it increases the damage of your next Mortal Strike by an additional 10%.
+[color=lightblue]Tier 7 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="skullsplitter-260643"][spell=260643][/b]   Bash an enemy's skull, dealing (67.704% of Attack Power) Physical damage.
+Generates 30 Rage.
+[color=lightblue]Tier 1 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="sudden-death-29725"][spell=29725][/b]   Your damaging melee abilities have a chance to make your next Execute cost no Rage, be usable on any target regardless of their health, and deal damage as if you spent 40 Rage.
+[color=lightblue]Tier 1 Talent
+Previously the legendary ring [item=137052][/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="war-machine-262231"][spell=262231][/b]   Your auto attacks generate 10% more Rage. Killing an enemy instantly generates 10 Rage, and increases your movement speed by 30% for 15 sec.
+[color=lightblue]Tier 1 Talent[/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="warbreaker-262161"][spell=262161][/b]   Smash the ground and shatter the armor of all enemies within 8 yds, dealing (200% of Attack Power) Physical damage and increasing damage you deal to them by 30% for 10 sec.
+[color=lightblue]Tier 5 Talent
+Formerly the artifact ability [spell=209577][/color][/li]
+[li][b][anchor="impending-victory-202168"][spell=202168][/b]   Instantly attack the target, causing (39.312% of Attack power) damage and healing you for 15% of your maximum health.
+Killing an enemy that yields experience or honor resets the cooldown of Impending Victory.
+[color=lightblue]Tier 2 Talent[/color][/li][/ul]
+
+
+[b]Swapped Position[/b]
+[ul][li][b][anchor="fervor-of-battle-202316"][spell=202316][/b]   Whirlwind deals [del copy=true]80% increased damage to[/del][ins]10% increased damage, and Slams[/ins] your primary target. 
+[color=lightblue]Tier 6 Talent[/color][/li][/ul]
+
+
+[b]Changed[/b]
+[ul][li][b][anchor="anger-management-152278"][spell=152278][/b]   Every 20 Rage you spend reduces the remaining cooldown on [del copy=true]Battle Cry and Bladestorm[/del][ins]Warbreaker, Bladestorm, Deadly Calm, and Colossus Smash[/ins] by 1 sec.[/li]
+[li][b][anchor="in-for-the-kill-248621"][spell=248621][/b]   [del copy=true]Colossus Smash grants you 10% Haste for 8 sec.[/del][ins]Colossus Smash/Warbreaker increases your critical strike chance by 10%, or by 20% if the/any target is below 20% health. Lasts 10 sec.[/ins][/li]
+[li][b][anchor="rend-772"][spell=772][/b]   Wounds the target, causing [del copy=true]150%[/del][ins](23.2128% of Attack power)[/ins] Physical damage instantly and an additional ([del copy=true]1000%[/del][ins]81.12%[/ins] of Attack power) Bleed damage over 8 sec.
+[color=lightblue]Now scales with haste[/color][/li]
+[li][b][anchor="storm-bolt-107570"][spell=107570][/b]   Hurls your weapon at an enemy, causing ([del copy=true]100%[/del][ins]16.38%[/ins] of Attack power) Physical damage and stunning for 4 sec.[/li][/ul]
+
+[h5]Azerite Traits[/h5]
+[ul]
+[li][b][anchor="heavy-handed-269227"][spell=269227][/b]   Mortal Strike refunds 3 Rage and deals 121 additional damage.
+Arms
+[color=lightblue][/color][/li]
+[/ul]
+
+[/toggler]
+[toggler class="heading-size-3 c1" name="Fury" size=3]
+
+[h5]Specialization[/h5]
+[ul]
+[li][b][anchor="fury-warrior-137050"][spell=137050][/b]   Apply Aura: Modifies Damage/Healing Done by [del]10%[/del] [ins]0%[/ins].[/li]
+[li][b][anchor="bloodthirst-23881"][spell=23881][/b]   Assault the target in a bloodthirsty craze, dealing [del copy=true][262%[/del][ins][(43.0404% of Attack Power)[/ins] * ((max(0, min(Level - 10, 10)) * 8 + 137) / 217)] Physical damage and restoring 4% of your health.
+Generates 10 Rage.
+[color=lightblue][/color][/li]
+[li][b][anchor="enrage-184361"][spell=184361][/b]   Bloodthirst critical strikes will Enrage you, increasing your attack speed by [del copy=true]100%[/del][ins]50%[/ins] and damage you take by 20% for [del]4[/del][ins]6[/ins] sec.
+[color=lightblue][/color][/li]
+[li][b][anchor="execute-5308"][spell=5308][/b]   Attempt to finish off a wounded foe, causing [del copy=true](400% + 400%)[/del][ins](65.7696% + 65.7696% of Attack Power)[/ins] Physical damage. Only usable on enemies that have less than 20% health.
+[color=lightblue][/color][/li]
+[li][b][anchor="furious-slash-100130"][spell=100130][/b]   Aggressively strike with your off-hand weapon for [del copy=true][307%[/del][ins][(50.2944% of Attack Power)[/ins] * ((max(0, min(Level - 10, 10)) * 10 + 171) / 271)] Physical damage.
+Increases your Bloodthirst critical strike chance by [del copy=true]15%[/del][ins]20%[/ins] until it next deals a critical strike, stacking up to 6 times.[/li]
+[li][b][anchor="mastery-unshackled-fury-76856"][spell=76856][/b]   Increases damage done while Enraged by [del copy=true]11%[/del][ins]11.0%[/ins].
+[color=lightblue][/color][/li]
+[li][b][anchor="raging-blow-85288"][spell=85288][/b]   A mighty blow with both weapons that deals a total of [([del copy=true]165% + 165%[/del][ins]27.0816% + 27.0816%[/ins]) * ((max(0, min(Level - 13, 7)) * 4 + 118) / 146)] Physical damage. Only usable while Enraged.
+Generates 5 Rage.
+[color=lightblue][/color][/li]
+[li][b][anchor="commanding-shout-97462"][spell=97462][/b]   Lets loose a [del copy=true]commanding shout[/del][ins]rallying cry[/ins], granting all party or raid members within 30 yards 15% increased maximum health for 10 sec. After this effect expires, the health is lost.
+[color=lightblue]Name changed from Commanding Shout to Rallying Cry[/color][/li]
+[li][b][anchor="rampage-184367"][spell=184367][/b]   Enrages you and unleashes a series of 5 brutal strikes over 2 sec for a total of [del copy=true](57% + 172% + 114% + 345% + 201%)[/del][ins]9.1884% of Attack power) + (28.0488% of Attack power) + (18.3768% of Attack power) + (56.5812% of Attack power) + (32.8848% of Attack power)][/ins] Physical damage.[/li]
+[color=lightblue][/color][/li]
+[li][b][anchor="battle-cry-1719"][spell=1719][/b]   Lets loose a battle cry, granting 100% increased critical strike chance for [del copy=true]5[/del][ins]6[/ins] sec.
+[color=lightblue]Name changed from Battle Cry to Recklessness[/color][/li]
+[li][b][anchor="whirlwind-190411"][spell=190411][/b]   Unleashes a whirlwind of steel, striking all enemies within 8 yards for [3 * ([del copy=true]45% + 45%)] Physical damage.[/del][ins]5.8032% + 5.8032% of Attack Power)] Physical damage.[/ins]
+Causes your next Bloodthirst or Rampage to strike up to 4 additional targets for [del copy=true]50%[/del][ins]40%[/ins] damage.
+[color=lightblue]Now affects Raging Blow instead of Bloodthirst[/color][/li]
+[/ul]
+
+[h5]Talents[/h5]
+[center][table class="grid"]
+[tr][td width=50%][b]Live[/b][/td] [td][b]BFA[/b][/td][/tr]
+[tr][td][url=https://www.wowhead.com/talent-calc/warrior/fury][img src=https://i.gyazo.com/d89b19a7881a003d84b9b664ec960c50.png width=400][/url][/td]
+[td][url=https://bfa.wowhead.com/talent-calc/warrior/fury][img src=https://i.gyazo.com/5e455d950a195b2adf9d069d8d878eb1.png width=400][/url][/td][/tr][/table][/center]
+
+
+[b]Removed[/b]
+[ul][li][span class="patch-diff-removed"]REMOVED[/span] [b][anchor="shockwave-46968"][spell=46968][/b]   Sends a wave of force in a frontal cone, causing ([del copy=true]47.5%[/del][ins]7.7805%[/ins] of Attack power) damage and stunning all enemies within 10 yards for [del copy=true]3 sec. Cooldown reduced by 20 sec if it strikes at least 3 targets[/del][ins]2 sec[/ins].
+[color=lightblue][/color][/li][/ul]
+
+
+[b]Changed[/b]
+[ul][li][b][anchor="bladestorm-46924"][spell=46924][/b]   Become an unstoppable storm of destructive force, striking all targets within 8 yards [del copy=true]for [7 * (157% + 157%)][/del][ins]with both weapons for [7 * (33.852% + 20.3112% of Attack power)] Physical damage[/ins]) Physical damage over 6 sec.
+You are immune to movement impairing and loss of control effects, but can use defensive abilities and can avoid attacks.
+[color=lightblue][/color][/li]
+[li][b][anchor="dragon-roar-118000"][spell=118000][/b]   Roar explosively, dealing ([del copy=true]162%[/del][ins]22.113%[/ins] of Attack power) damage to all enemies within 8 yards and increasing all damage you deal by [del copy=true]16%[/del][ins]15%[/ins] for 6 sec. Dragon Roar ignores all armor and always critically strikes.
+[color=lightblue][/color][/li]
+[li][b][anchor="inner-rage-215573"][spell=215573][/b]   Raging Blow no longer requires Enrage and deals [del copy=true]150%[/del][ins]100%[/ins] increased damage, but has a 4.5 sec cooldown.
+[color=lightblue][/color][/li]
+[li][b][anchor="reckless-abandon-202751"][spell=202751][/b]   [del copy=true]Battle Cry[/del][ins]Recklessness[/ins] lasts 2 sec longer and generates 100 Rage.
+[color=lightblue][/color][/li]
+[li][b][anchor="storm-bolt-107570"][spell=107570][/b]   Hurls your weapon at an enemy, causing ([del copy=true]100%[/del][ins]16.38%[/ins] of Attack power) Physical damage and stunning for 4 sec.[/li]
+[li][b][anchor="wrecking-ball-215569"][spell=215569][/b]   Your attacks have a chance to make your next Whirlwind deal [del copy=true]250%[/del][ins]300%[/ins] increased damage.
+[color=lightblue][/color][/li][/ul]
+
+[h5]Azerite Traits[/h5]
+[ul]
+[li][b][anchor="bloodcraze-269233"][spell=269233][/b]   Bloodthirst has 5% additional critical strike chance, and deals 146 additional damage when it critically strikes.
+Fury
+[color=lightblue][/color][/li]
+[/ul]
+
+[/toggler]
+[toggler class="heading-size-3 c1" name="Prot Warrior" size=3]
+
+[h5]Specialization[/h5]
+[ul]
+[li][b][anchor="protection-warrior-137048"][spell=137048][/b]   Apply Aura: Modifies Damage/Healing Done by [del]10%[/del] [ins]0%[/ins].[/li]
+[li][span class="patch-diff-removed"]REMOVED[/span] [b][url=https://www.wowhead.com/spell=190456/ignore-pain]Ignore Pain[/url][/b]   Fight through the pain, ignoring 90% of the next up to [(22.3) * Attack power * (1 + Versatility)] damage you take from any sources, based on Rage spent.
+[color=lightblue][/color][/li]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="ignore-pain-258024"][spell=258024][/b]   Fight through the pain for the next 4 sec, causing 60% of damage taken to reduce your Rage instead.
+[color=lightblue][/color][/li]
+[li][b][anchor="deep-wounds-115768"][spell=115768][/b]   Your Devastator, Devastate and Revenge also cause ([del copy=true]525%[/del][ins]70%[/ins] of Attack power) Bleed damage over 15 sec.
+[color=lightblue][/color][/li]
+[li][b][anchor="defensive-stance-71"][spell=71][/b]   A tanking combat stance that [del copy=true]decreases damage taken by 0%, increases threat generation, and causes you to generate Rage from damage taken instead of dealt.[/del][ins]increases Stamina by 30%, and increases armor by 60% of your Strength.[/ins]
+[color=lightblue][/color][/li]
+[li][b][anchor="demoralizing-shout-1160"][spell=1160][/b]   Demoralizes all enemies within 10 yards, reducing the damage they [del copy=true]do[/del][ins]deal[/ins] to you by 20% for 8 sec.
+[color=lightblue]Cooldown changed from 1.5 min cooldown to 1 min cooldown[/color][/li]
+[li][b][anchor="devastate-20243"][spell=20243][/b]   A direct strike, dealing [del copy=true][278%[/del][ins][32.994% of Attack power[/ins] * ((max(0, min(Level - 12, 8)) * 8.5 + 241) / 309)] Physical damage.
+[color=lightblue][/color][/li]
+[li][b][anchor="intercept-198304"][spell=198304][/b]   Run at high speed toward an ally or enemy.
+When targeting an enemy, Intercept deals ([del copy=true]70%[/del][ins]11.466%[/ins] of Attack power) Physical damage, roots the target for 1 sec and then reduces the target's movement speed by 50% for 6 sec, but has a minimum range of 8 yds.
+When targeting an ally, Intercept will intercept the next melee or ranged attack against the ally within 10 sec while the target remains within 10 yards.
+Generates 15 Rage.
+[color=lightblue][/color][/li]
+[li][b][anchor="mastery-critical-block-76857"][spell=76857][/b]   Increases your chance to block by [del copy=true]4%[/del][ins]4.0%[/ins] and your chance to critically block (blocking twice the amount) by [del copy=true]12%.[/del][ins]12.0%.[/ins]
+Also increases your attack power by [del copy=true]8%[/del][ins]8.0%[/ins].
+[color=lightblue][/color][/li]
+[li][b][anchor="battle-cry-1719"][spell=1719][/b]   Lets loose a battle cry, granting 100% increased critical strike chance for [del copy=true]5[/del][ins]6[/ins] sec.
+[color=lightblue]Name changed from Battle Cry to Recklessness[/color][/li]
+[li][b][anchor="revenge-6572"][spell=6572][/b]   Swing in a wide arc, dealing ([del copy=true]350%[/del][ins]45.864%[/ins] of Attack power) damage to all enemies in front of you.
+Your successful dodges and parries cause your next Revenge to become free.
+[color=lightblue][/color][/li]
+[li][b][anchor="shield-block-2565"][spell=2565][/b]   Raise your shield, blocking [del copy=true]every melee attack[/del][ins]all melee attacks[/ins] against you for [del copy=true]6 sec[/del][ins]4 sec[/ins].
+ Protection (Level 78)
+These blocks can be critical blocks
+ Increases Shield Slam damage by 30% while active.
+[color=lightblue]Cost changed from 15 Rage to 35 Rage[/color][/li]
+[li][b][anchor="shield-slam-23922"][spell=23922][/b]   Slams the target with your shield, causing ([del copy=true]492.8%[/del][ins]80.7206%[/ins] of Attack power) Physical damage.
+ Protection (Level 34)
+Devastate, Thunder Clap, and Revenge have a 30% chance to reset the cooldown of Shield Slam
+Generates [del copy=true]20 Rage[/del][ins]15 Rage[/ins].[/li]
+[li][b][anchor="spell-reflection-23920"][spell=23920][/b]   Raise your shield, reflecting spells cast on you and reducing magical damage you take by [del]30%[/del][ins]15%[/ins]. Lasts 5 sec or until a spell is reflected.
+[color=lightblue]Now requires Level 70, down from 80[/color][/li]
+[li][b][anchor="thunder-clap-6343"][spell=6343][/b]   Blasts all enemies within 8 yards for ([del copy=true]300%[/del][ins]39.312%[/ins] of Attack power) damage and reduces their movement speed by [del copy=true]50%[/del][ins]20%[/ins] for 10 sec.
+Generates 5 Rage.[/li]
+[li][b][anchor="unwavering-sentinel-29144"][spell=29144][/b]   [del copy=true]Your Defensive Stance provides several additional benefits.
+Increases your total Stamina by 30%.
+[/del]Reduces the chance you will be critically hit by melee attacks by 6%.
+Reduces the chance your attacks will be parried by 3%.
+[color=lightblue][/color][/li]
+[li][b][anchor="victory-rush-34428"][spell=34428][/b]   Strikes the target, causing ([del copy=true]100% of Spell power + 200%[/del][ins]32.76%[/ins] of Attack power) damage and healing you for 30% of your maximum health.
+Only usable within 20 sec after you kill an enemy that yields experience or honor.[/li]
+[/ul]
+
+[h5]Talents[/h5]
+[center][table class="grid"]
+[tr][td width=50%][b]Live[/b][/td] [td][b]BFA[/b][/td][/tr]
+[tr][td][url=https://www.wowhead.com/talent-calc/warrior/protection][img src=https://i.gyazo.com/435488a0a054a56c6ea456e96c36bd22.png width=400][/url][/td]
+[td][url=https://bfa.wowhead.com/talent-calc/warrior/protection][img src=https://i.gyazo.com/d5de5436416e79e5c1d45cb293a6b70c.png width=400][/url][/td][/tr][/table][/center]
+
+[b]Removed[/b]
+[ul][li][b][anchor="inspiring-presence-205484"][spell=205484][/b]   You inspire your party or raid members within 60 yards, causing them to be healed for 3% of all damage they deal.
+[color=lightblue][/color][/li][/ul]
+
+[b]New[/b]
+[ul][li][b][anchor="coming-soon-264186"][spell=264186][/b]   Despite all our rage, this talent's just NYI on the page.
+[color=lightblue][/color][/li][/ul]
+
+[b]Changed[/b]
+[ul][li][b][anchor="anger-management-152278"][spell=152278][/b]   Every 10 Rage you spend reduces the remaining cooldown on [del copy=true]Battle Cry[/del][ins]Recklessness[/ins], Last Stand, Shield Wall, and Demoralizing Shout by 1 sec.[/li]
+[li][b][anchor="booming-voice-202743"][spell=202743][/b]   Demoralizing Shout also generates 60 Rage, and increases damage you deal to affected targets by [del copy=true]25%[/del][ins]15%[/ins].
+[color=lightblue][/color][/li]
+[li][b][anchor="devastator-236279"][spell=236279][/b]   Your auto attacks deal an additional [([del copy=true][278%[/del][ins]21% of Attack power)[/ins] * ((max(0, min(Level - 12, 8)) * 8.5 + 241) / 309)] Physical damage, generate 2 Rage, and have a [del copy=true]30%[/del][ins]20%[/ins] chance to reset the remaining cooldown on Shield Slam.
+[color=lightblue][/color][/li]
+[li][b][anchor="impending-victory-202168"][spell=202168][/b]   Instantly attack the target, causing ([del copy=true]240%[/del][ins]39.312%[/ins] of Attack power) damage and healing you for 15% of your maximum health.
+Killing an enemy that yields experience or honor resets the cooldown of Impending Victory.[/li]
+[li][b][anchor="indomitable-202095"][spell=202095][/b]   Increases your maximum health by 20%[del copy=true]and the maximum effect of Ignore Pain by 20%[/del].
+[color=lightblue][/color][/li]
+[li][b][anchor="never-surrender-202561"][spell=202561][/b]   Ignore Pain will ignore [del copy=true]up to 100% more damage, based on your missing health[/del][ins]an additional 20% damage[/ins].
+[color=lightblue][/color][/li]
+[li][b][anchor="shockwave-46968"][spell=46968][/b]   Sends a wave of force in a frontal cone, causing ([del copy=true]47.5%[/del][ins]7.7805%[/ins] of Attack power) damage and stunning all enemies within 10 yards for [del copy=true]3 sec. Cooldown reduced by 20 sec if it strikes at least 3 targets.[/del][ins]2 sec.[/ins]
+[color=lightblue]Cooldown changed from 40 sec cooldown to 30 sec cooldown[/color][/li]
+[li][b][anchor="storm-bolt-107570"][spell=107570][/b]   Hurls your weapon at an enemy, causing ([del copy=true]100%[/del][ins]16.38%[/ins] of Attack power) Physical damage and stunning for 4 sec.[/li]
+[li][b][anchor="vengeance-202572"][spell=202572][/b]   [del copy=true]Ignore Pain[/del][ins]Shield Block[/ins] reduces the Rage cost of your next Revenge by [del copy=true]35%[/del][ins]33%[/ins], and Revenge reduces the Rage cost of your next [del copy=true]Ignore Pain by 35%.[/del][ins]Shield Block by 33%.[/ins]
+[color=lightblue][/color][/li]
+[li][b][anchor="victory-rush-118779"][spell=118779][/b]   Strikes the target, causing ([del copy=true]100% of Spell power + 200%[/del][ins]32.76%[/ins] of Attack power) damage and healing you for 30% of your maximum health.
+Only usable within 20 sec after you kill an enemy that yields experience or honor.
+[color=lightblue][/color][/li]
+[li][b][anchor="warbringer-103828"][spell=103828][/b]   Intercept now deals [del copy=true]0 damage to all enemies within 5 yds of[/del][ins](17.6904% of Attack power) additional damage to[/ins] the target, and stuns them for until cancelled.
+[color=lightblue][/color][/li]
+[/ul]
+
+[h5]Honor Talents[/h5]
+[ul][li][b][anchor="oppressor-205800"][spell=205800][/b]   Intimidates the target, increasing their damage taken by [del copy=true]5%[/del][ins]3%[/ins] for 6 sec.  Each unique player that attacks the target increases the damage taken by an additional [del copy=true]5%[/del][ins]3%[/ins], stacking up to 5 times.
+Your melee attacks refresh the duration of Intimidated.
+[color=lightblue][/color][/li]
+[li][b][anchor="shield-bash-198912"][spell=198912][/b]   Bash the target with your shield dealing ([del copy=true]410%[/del][ins]3.198%[/ins] of Attack power) Physical damage and reducing their damage done by 15%. If the target is casting, the cooldown is instantly reset.
+Generates 3 Rage.[/li][/ul]
+
+[h5]Azerite Traits[/h5]
+[ul]
+[li][b][anchor="battering-ram-269244"][spell=269244][/b]   Devastate, Thunder Clap, and Revenge have an additional 5% chance to reset the cooldown of Shield Slam, and Shield Slam deals an additional 104 damage.
+Protection
+[color=lightblue][/color][/li]
+[/ul]
+
+[/toggler]
+[toggler class="heading-size-3 c1" name="Warrior General" size=3]
+
+[h5]Spells[/h5]
+[ul]
+[li][span class="patch-diff-new"]NEW[/span] [b][anchor="battle-shout-6673"][spell=6673][/b]   Increases the [del]Strength and Agility[/del][ins]Attack Power[/ins] of all raid and party members within 100 yards by 10% for 1 hour.
+[color=lightblue][/color][/li]
+[li][b][anchor="charge-100"][spell=100][/b]   Charge to an enemy, dealing ([del copy=true]70%[/del][ins]14.7%[/ins] of Attack power) Physical damage, rooting it for 1 sec[del copy=true] and then reducing its movement speed by 50% for 6 sec[/del]
+Warbringer: and stunning it for until cancelled
+Generates 20 Rage.
+[color=lightblue][/color][/li]
+[li][b][anchor="heroic-leap-52174"][spell=52174][/b]   Leap through the air toward a target location, slamming down with destructive force to deal [del copy=true]45[/del][ins](10.2211% of Attack power)[/ins] Physical damage to all enemies within 8 yards
+Protection: and resetting the remaining cooldown on Taunt.
+[color=lightblue]Now requires Level 26, down from 85[/color][/li]
+[li][b][anchor="heroic-throw-57755"][spell=57755][/b]   Throws your weapon at the enemy, causing [del copy=true]50%[/del][ins]8.2212% of Attack power[/ins] Physical damage. Generates high threat.
+[color=lightblue][/color][/li]
+[/ul][/toggler][/div]
