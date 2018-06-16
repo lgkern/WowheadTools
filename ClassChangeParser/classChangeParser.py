@@ -6,6 +6,7 @@ import re
 toc = '[toc]'
 separator = '[/toggler][/div][/toggler]'
 specSeparator = '[/toggler]\n[toggler class="heading-size-3'
+noWeaponSeparator = '[/table]\n[toggler class="heading-size-3'
 directory = 'output'
 tail = '[/toggler][/div]'
 baseHeader = '[h2][color={1}]{0} Spell Changes[/color][/h2][div class="patch-diff patch-diff-group-{2} patch-diff-class patch-diff-class-{3}"]'
@@ -52,6 +53,9 @@ if len(sys.argv) > 1:
 
 			content = clss.strip()
 			firstLine = clss.strip().split('\n')[0]
+			specData = {}
+			classGeneral = ''
+			classWeapon = ''
 			if nameRe.search(firstLine) is not None:
 
 				clsName = nameRe.search(firstLine).group(0)[6:-1]
@@ -66,14 +70,44 @@ if len(sys.argv) > 1:
 					if firstSpecLine is not None and 'table' not in firstSpecLine and 'Azerite' not in firstSpecLine:						
 						specName = nameRe.search(firstSpecLine).group(0)[6:-1]
 						start = 1
+					else:
+						specPartition = spec.split(noWeaponSeparator)
+						spec = specPartition[-1]
+						if len(specPartition) > 1:
+							start = 1
+							firstSpecLine = spec.strip().split('\n')[0]
+							specName = nameRe.search(firstSpecLine).group(0)[6:-1]
+
 					cleanSpecContent = '\n'.join(spec.strip().split('\n')[start:])
 
-					with open('{0} {1}.txt'.format(clsName, specName), 'w') as f:
-						f.seek(0)
-						f.write(specHeader.format(specName, clsName))
-						f.write('\n')
-						f.write(cleanSpecContent)
-						f.truncate()
+					if 'General' in specName:
+						specName = 'General'
+						classGeneral = specHeader.format(specName, clsName)
+						classGeneral += '\n' + cleanSpecContent
+					elif 'Weapon' in specName:
+						specName = 'Weapon Damage to AP Conversion'
+						classWeapon = specHeader.format(specName, clsName)
+						classWeapon += '\n' + cleanSpecContent
+					else:
+						specName = specName.replace(' DK', '')\
+						                   .replace(' Druid', '')\
+						                   .replace(' Mage', '')\
+						                   .replace(' Paladin', '')\
+						                   .replace(' Priest', '')\
+						                   .replace(' Shaman', '')\
+						                   .replace(' Warrior', '')
+						specData[specName] = specHeader.format(specName, clsName) + '\n' + cleanSpecContent				
+
+			for key in specData.keys():
+
+				print(key)
+
+				with open('{0} {1}.txt'.format(clsName, key), 'w') as f:
+					f.seek(0)
+					f.write(classGeneral)
+					f.write(specData[key])						
+					f.write(classWeapon)
+					f.truncate()
 
 
 				with open('{0}.txt'.format(clsName), 'w') as f:
