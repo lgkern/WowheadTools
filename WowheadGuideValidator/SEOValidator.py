@@ -4,6 +4,10 @@ import urllib.request
 from urllib.request import Request, urlopen, urlcleanup
 from urllib.error import URLError
 import json
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+import os
+import copy
 
 
 class SEOValidator:    
@@ -13,6 +17,12 @@ class SEOValidator:
         self.options = {}
         self.loadOptions()
         self.loop = 0
+        self.chrome_options = Options()
+        self.chrome_options.add_argument("--headless")
+        self.chrome_options.add_argument("--window-size=1920x1080")
+
+        #chrome driver from https://sites.google.com/a/chromium.org/chromedriver/home
+        self.chrome_driver = os.getcwd() +"\\chromedriver.exe"        
       
     def loadOptions(self):
         try:
@@ -58,6 +68,7 @@ class SEOValidator:
         
         # Checks if the Guide title is well formatted
         expectedTitle = '{0} {1} Guide – {2} {3}'.format(charSpec, charClass, expansion, patch)
+        expectedTitle2 = '{0} {1} Guide - {2} {3}'.format(charSpec, charClass, expansion, patch)
         
         if title != expectedTitle and title != expectedTitle2:
             issues.append('{0} {1} Overview Title has the wrong format. "<{2}>" instead of "<{3}>" '.format(charClass, charSpec, title, expectedTitle))
@@ -89,7 +100,7 @@ class SEOValidator:
         
         # Checks if the Guide title is well formatted
         expectedTitle = '{0} {1} Talents & Build Guide – {2} {3}'.format(charSpec, charClass, expansion, patch)
-        expectedTitle2 = '{0} {1} Talents & Build Guide -{2} {3}'.format(charSpec, charClass, expansion, patch)
+        expectedTitle2 = '{0} {1} Talents & Build Guide - {2} {3}'.format(charSpec, charClass, expansion, patch)
         
         if title != expectedTitle and title != expectedTitle2:
             issues.append('{0} {1} Talent Title has the wrong format. "<{2}>" instead of "<{3}>" '.format(charClass, charSpec, title, expectedTitle))
@@ -105,8 +116,311 @@ class SEOValidator:
             
         # Returns the amount of issues for the summary and the list of them for the detail
         return str(len(issues)), issues
+
+    def seoGuideAnalysis_simple_guide(self, charClass, charSpec):
+        expansion = self.options['expansion']
+        patch = self.options['patch']
+        
+        issues = []
+        
+        # Fetch the guide from Wowhead
+        title, content = self.dataFetch(charClass, charSpec, 'Simple Guide')
+        
+        # Verifies if it was found
+        if title is None:
+            return 'x', ['{0} {1} Simple Guide wasn\'t found.'.format(charClass, charSpec)]
+        
+        content = content.lower()
+        
+        # Checks if the Guide title is well formatted
+        expectedTitle = '{0} {1} Quick Start Guide – {2} {3}'.format(charSpec, charClass, expansion, patch)
+        expectedTitle2 = '{0} {1} Quick Start Guide - {2} {3}'.format(charSpec, charClass, expansion, patch)
+        
+        if title != expectedTitle and title != expectedTitle2:
+            issues.append('{0} {1} Simple Title has the wrong format. "<{2}>" instead of "<{3}>" '.format(charClass, charSpec, title, expectedTitle))  
+
+        # Checks the usage of aliases   
+        issues += self.aliasesEvaluation(charClass, charSpec, 'Simple Guide', content)
+
+        # Checks if the body is using expressions as often as it should    
+
+        # Returns the amount of issues for the summary and the list of them for the detail
+        return str(len(issues)), issues
+
+    def seoGuideAnalysis_azerite(self, charClass, charSpec):
+        expansion = self.options['expansion']
+        patch = self.options['patch']
+        
+        issues = []
+        
+        # Fetch the guide from Wowhead
+        title, content = self.dataFetch(charClass, charSpec, 'Azerite')
+        
+        # Verifies if it was found
+        if title is None:
+            return 'x', ['{0} {1} Azerite Guide wasn\'t found.'.format(charClass, charSpec)]
+        
+        content = content.lower()
+        
+        # Checks if the Guide title is well formatted
+        expectedTitle = '{0} {1} Azerite Traits, Azerite Armor, and Heart of Azeroth – {2} {3}'.format(charSpec, charClass, expansion, patch)
+        expectedTitle2 = '{0} {1} Azerite Traits, Azerite Armor, and Heart of Azeroth - {2} {3}'.format(charSpec, charClass, expansion, patch)
+        
+        if title != expectedTitle and title != expectedTitle2:
+            issues.append('{0} {1} Azerite Title has the wrong format. "<{2}>" instead of "<{3}>" '.format(charClass, charSpec, title, expectedTitle))  
+
+        # Checks the usage of aliases   
+        issues += self.aliasesEvaluation(charClass, charSpec, 'Azerite Guide', content)
+
+        # Checks if the body is using expressions as often as it should                    
+        guideFormat = '{0} {1} azerite'
+        issues += self.expressionEvaluation(charClass, charSpec, content, guideFormat, 'Azerite Guide', 3 )
+
+        # Returns the amount of issues for the summary and the list of them for the detail
+        return str(len(issues)), issues
+
+    def seoGuideAnalysis_simulations(self, charClass, charSpec):
+        expansion = self.options['expansion']
+        patch = self.options['patch']
+        
+        issues = []
+        
+        # Fetch the guide from Wowhead
+        title, content = self.dataFetch(charClass, charSpec, 'Simulations')
+        
+        # Verifies if it was found
+        if title is None:
+            return 'x', ['{0} {1} Simulations Guide wasn\'t found.'.format(charClass, charSpec)]
+        
+        content = content.lower()
+        
+        # Checks if the Guide title is well formatted
+        expectedTitle = '{0} {1} Simulation Compilation – {2} {3}'.format(charSpec, charClass, expansion, patch)
+        expectedTitle2 = '{0} {1} Simulation Compilation - {2} {3}'.format(charSpec, charClass, expansion, patch)
+        
+        if title != expectedTitle and title != expectedTitle2:
+            issues.append('{0} {1} Simulations Title has the wrong format. "<{2}>" instead of "<{3}>" '.format(charClass, charSpec, title, expectedTitle))  
+
+        # Checks the usage of aliases   
+        issues += self.aliasesEvaluation(charClass, charSpec, 'Simulations Guide', content)
+
+        # Checks if the body is using expressions as often as it should
+
+        # Returns the amount of issues for the summary and the list of them for the detail
+        return str(len(issues)), issues
+
+    def seoGuideAnalysis_mythic_plus(self, charClass, charSpec):
+        expansion = self.options['expansion']
+        patch = self.options['patch']
+        
+        issues = []
+        
+        # Fetch the guide from Wowhead
+        title, content = self.dataFetch(charClass, charSpec, 'Mythic Plus')
+        
+        # Verifies if it was found
+        if title is None:
+            return 'x', ['{0} {1} Mythic Plus Guide wasn\'t found.'.format(charClass, charSpec)]
+        
+        content = content.lower()
+        
+        # Checks if the Guide title is well formatted
+        expectedTitle = '{0} {1} Mythic+ Guide – {2} {3}'.format(charSpec, charClass, expansion, patch)
+        expectedTitle2 = '{0} {1} Mythic+ Guide - {2} {3}'.format(charSpec, charClass, expansion, patch)
+        
+        if title != expectedTitle and title != expectedTitle2:
+            issues.append('{0} {1} Mythic Plus Title has the wrong format. "<{2}>" instead of "<{3}>" '.format(charClass, charSpec, title, expectedTitle))  
+
+        # Checks the usage of aliases   
+        issues += self.aliasesEvaluation(charClass, charSpec, 'Mythic Plus Guide', content)
+
+        # Checks if the body is using expressions as often as it should    
+
+        # Returns the amount of issues for the summary and the list of them for the detail
+        return str(len(issues)), issues
+
+    def seoGuideAnalysis_raid_tips(self, charClass, charSpec):
+        expansion = self.options['expansion']
+        patch = self.options['patch']
+        
+        issues = []
+        
+        # Fetch the guide from Wowhead
+        title, content = self.dataFetch(charClass, charSpec, 'Raid Tips')
+        
+        # Verifies if it was found
+        if title is None:
+            return 'x', ['{0} {1} Raid Tips Guide wasn\'t found.'.format(charClass, charSpec)]
+        
+        content = content.lower()
+        
+        # Checks if the Guide title is well formatted
+        expectedTitle = '{0} {1} Raid Guide & Battle of Dazar\'alor Raid Tips – {2} {3}'.format(charSpec, charClass, expansion, patch)
+        expectedTitle2 = '{0} {1} Raid Guide & Battle of Dazar\'alor Raid Tips - {2} {3}'.format(charSpec, charClass, expansion, patch)
+        
+        if title != expectedTitle and title != expectedTitle2:
+            issues.append('{0} {1} Raid Tips Title has the wrong format. "<{2}>" instead of "<{3}>" '.format(charClass, charSpec, title, expectedTitle))  
+
+        # Checks the usage of aliases   
+        issues += self.aliasesEvaluation(charClass, charSpec, 'Raid Tips Guide', content)
+
+        # Checks if the body is using expressions as often as it should    
+
+        # Returns the amount of issues for the summary and the list of them for the detail
+        return str(len(issues)), issues
+
+    def seoGuideAnalysis_improve(self, charClass, charSpec):
+        expansion = self.options['expansion']
+        patch = self.options['patch']
+        
+        issues = []
+        
+        # Fetch the guide from Wowhead
+        title, content = self.dataFetch(charClass, charSpec, 'Improve')
+        
+        # Verifies if it was found
+        if title is None:
+            return 'x', ['{0} {1} Improve Guide wasn\'t found.'.format(charClass, charSpec)]
+        
+        content = content.lower()
+        
+        # Checks if the Guide title is well formatted
+        expectedTitle = '{0} {1} Mistakes and How to Improve – {2} {3}'.format(charSpec, charClass, expansion, patch)
+        expectedTitle2 = '{0} {1} Mistakes and How to Improve - {2} {3}'.format(charSpec, charClass, expansion, patch)
+        
+        if title != expectedTitle and title != expectedTitle2:
+            issues.append('{0} {1} Improve Title has the wrong format. "<{2}>" instead of "<{3}>" '.format(charClass, charSpec, title, expectedTitle))  
+
+        # Checks the usage of aliases   
+        issues += self.aliasesEvaluation(charClass, charSpec, 'Improve Guide', content)
+
+        # Checks if the body is using expressions as often as it should    
+
+        # Returns the amount of issues for the summary and the list of them for the detail
+        return str(len(issues)), issues
+
+    def seoGuideAnalysis_macro_guide(self, charClass, charSpec):
+        expansion = self.options['expansion']
+        patch = self.options['patch']
+        
+        issues = []
+        
+        # Fetch the guide from Wowhead
+        title, content = self.dataFetch(charClass, charSpec, 'Macro Guide')
+        
+        # Verifies if it was found
+        if title is None:
+            return 'x', ['{0} {1} Macro Guide wasn\'t found.'.format(charClass, charSpec)]
+        
+        content = content.lower()
+        
+        # Checks if the Guide title is well formatted
+        expectedTitle = '{0} {1} Macros & Addons – {2} {3}'.format(charSpec, charClass, expansion, patch)
+        expectedTitle2 = '{0} {1} Macros & Addons - {2} {3}'.format(charSpec, charClass, expansion, patch)
+        
+        if title != expectedTitle and title != expectedTitle2:
+            issues.append('{0} {1} Macro Title has the wrong format. "<{2}>" instead of "<{3}>" '.format(charClass, charSpec, title, expectedTitle))  
+
+        # Checks the usage of aliases   
+        issues += self.aliasesEvaluation(charClass, charSpec, 'Macro Guide', content)
+
+        # Checks if the body is using expressions as often as it should
+        guideFormat = '{0} {1} macro'
+        issues += self.expressionEvaluation(charClass, charSpec, content, guideFormat, 'Macro Guide', 3 )
+
+        # Returns the amount of issues for the summary and the list of them for the detail
+        return str(len(issues)), issues
+
+    def seoGuideAnalysis_weakauras(self, charClass, charSpec):
+        expansion = self.options['expansion']
+        patch = self.options['patch']
+        
+        issues = []
+        
+        # Fetch the guide from Wowhead
+        title, content = self.dataFetch(charClass, charSpec, 'WeakAuras')
+        
+        # Verifies if it was found
+        if title is None:
+            return 'x', ['{0} {1} WeakAuras Guide wasn\'t found.'.format(charClass, charSpec)]
+        
+        content = content.lower()
+        
+        # Checks if the Guide title is well formatted
+        expectedTitle = '{0} {1} WeakAuras – {2} {3}'.format(charSpec, charClass, expansion, patch)
+        expectedTitle2 = '{0} {1} WeakAuras - {2} {3}'.format(charSpec, charClass, expansion, patch)
+        
+        if title != expectedTitle and title != expectedTitle2:
+            issues.append('{0} {1} WeakAuras Title has the wrong format. "<{2}>" instead of "<{3}>" '.format(charClass, charSpec, title, expectedTitle))  
+
+        # Checks the usage of aliases   
+        issues += self.aliasesEvaluation(charClass, charSpec, 'WeakAuras Guide', content)
+
+        # Checks if the body is using expressions as often as it should    
+
+        # Returns the amount of issues for the summary and the list of them for the detail
+        return str(len(issues)), issues
+
+    def seoGuideAnalysis_pvp(self, charClass, charSpec):
+        expansion = self.options['expansion']
+        patch = self.options['patch']
+        
+        issues = []
+        
+        # Fetch the guide from Wowhead
+        title, content = self.dataFetch(charClass, charSpec, 'PvP')
+        
+        # Verifies if it was found
+        if title is None:
+            return 'x', ['{0} {1} PvP Guide wasn\'t found.'.format(charClass, charSpec)]
+        
+        content = content.lower()
+        
+        # Checks if the Guide title is well formatted
+        expectedTitle = '{0} {1} PvP Guide – {2} {3}'.format(charSpec, charClass, expansion, patch)
+        expectedTitle2 = '{0} {1} PvP Guide - {2} {3}'.format(charSpec, charClass, expansion, patch)
+        
+        if title != expectedTitle and title != expectedTitle2:
+            issues.append('{0} {1} PvP Title has the wrong format. "<{2}>" instead of "<{3}>" '.format(charClass, charSpec, title, expectedTitle))  
+
+        # Checks the usage of aliases   
+        issues += self.aliasesEvaluation(charClass, charSpec, 'PvP Guide', content)
+
+        # Checks if the body is using expressions as often as it should    
+
+        # Returns the amount of issues for the summary and the list of them for the detail
+        return str(len(issues)), issues
             
-            
+    def seoGuideAnalysis_glossary(self, charClass, charSpec):
+        expansion = self.options['expansion']
+        patch = self.options['patch']
+        
+        issues = []
+        
+        # Fetch the guide from Wowhead
+        title, content = self.dataFetch(charClass, charSpec, 'Glossary')
+        
+        # Verifies if it was found
+        if title is None:
+            return 'x', ['{0} {1} Glossary Guide wasn\'t found.'.format(charClass, charSpec)]
+        
+        content = content.lower()
+        
+        # Checks if the Guide title is well formatted
+        expectedTitle = '{0} {1} Glossary, Abbreviations, and Common Terms – {2} {3}'.format(charSpec, charClass, expansion, patch)
+        expectedTitle2 = '{0} {1} Glossary, Abbreviations, and Common Terms - {2} {3}'.format(charSpec, charClass, expansion, patch)
+        
+        if title != expectedTitle and title != expectedTitle2:
+            issues.append('{0} {1} Glossary Title has the wrong format. "<{2}>" instead of "<{3}>" '.format(charClass, charSpec, title, expectedTitle))  
+
+        # Checks the usage of aliases   
+        issues += self.aliasesEvaluation(charClass, charSpec, 'Glossary Guide', content)
+
+        # Checks if the body is using expressions as often as it should    
+
+        # Returns the amount of issues for the summary and the list of them for the detail
+        return str(len(issues)), issues
+
     def seoGuideAnalysis_rotation_guide(self, charClass, charSpec):
         expansion = self.options['expansion']
         patch = self.options['patch']
@@ -201,8 +515,8 @@ class SEOValidator:
         # Checks if the body is using expressions as often as it should
         guideFormat = 'bis'
         issues += self.expressionEvaluation(charClass, charSpec, content, guideFormat, 'Gear Guide', 3 )
-        guideFormat = 'tier set'
-        issues += self.expressionEvaluation(charClass, charSpec, content, guideFormat, 'Gear Guide', 3 )
+        #guideFormat = 'tier set'
+        #issues += self.expressionEvaluation(charClass, charSpec, content, guideFormat, 'Gear Guide', 3 )
         guideFormat = 'armor'
         issues += self.expressionEvaluation(charClass, charSpec, content, guideFormat, 'Gear Guide', 3 )
         guideFormat = 'gear'
@@ -210,8 +524,8 @@ class SEOValidator:
         
         guideFormat = '{0} {1} gear'
         issues += self.expressionEvaluation(charClass, charSpec, content, guideFormat, 'Gear Guide', 1 )
-        guideFormat = '{0} {1} tier set'
-        issues += self.expressionEvaluation(charClass, charSpec, content, guideFormat, 'Gear Guide', 1 )
+        #guideFormat = '{0} {1} tier set'
+        #issues += self.expressionEvaluation(charClass, charSpec, content, guideFormat, 'Gear Guide', 1 )
             
         # Returns the amount of issues for the summary and the list of them for the detail
         return str(len(issues)), issues
@@ -386,6 +700,9 @@ class SEOValidator:
         
         # Total sum of occurences
         termsSum = sum([x[1] for x in termsCount])
+
+        if termsSum == 0:
+            termsSum = 1
         
         for key, value in validations.items():
             
@@ -413,56 +730,23 @@ class SEOValidator:
         charClass = '-'.join(charClass.lower().split(' '))
         charSpec = '-'.join(charSpec.lower().split(' '))
         guide = '-'.join(guide.lower().split(' '))
-        url = 'https://www.wowhead.com/{1}-{0}-{2}'.format(charClass, charSpec, guide)               
         
-        req = Request(url)
+        url = self.options['urlFormats'][guide].format(charClass, charSpec)               
+        
+        driver = webdriver.Chrome(chrome_options=self.chrome_options, executable_path=self.chrome_driver)
+        driver.get(url)
+
         try:
-            urlcleanup() 
-            response = urlopen(req)
-        except URLError as e:
-            if hasattr(e, 'reason'):
-                print('   We failed to reach a server.')
-                print('   Reason: ', e.reason)
-            elif hasattr(e, 'code'):
-                print('    The server couldn\'t fulfill the request.')
-                print('    Error code: ', e.code)
+            title = copy.deepcopy(driver.title.replace(' - Guides - Wowhead',''))
+            body = copy.deepcopy(driver.find_element_by_id(id_='guide-body').text)
+        except:
+            driver.close()
             return None, None
-        else:
-            html = response.read()
-            soup = BeautifulSoup(html, 'html.parser')
-            # kill all script and style elements
-            for script in soup(["script", "style"]):
-                script.extract()    # rip it out
 
-            # get text
-            text = soup.get_text()
-
-            # break into lines and remove leading and trailing space on each
-            lines = (line.strip() for line in text.splitlines())
-            # break multi-headlines into a line each
-            chunks = (phrase.strip() for line in lines for phrase in line.split("  "))
-            # drop blank lines
-            text = '\n'.join(chunk for chunk in chunks if chunk)
-            
-            lines = text.split('\n')
-            
-            # Finds the title in the text
-            title = lines[0].replace(' - Guides - Wowhead','')
-            
-            # Finds the Context - It is the line after "ReportLinks"
-            content = ''
-            nextIsContent = False
-                                    
-            for line in lines:
-                if nextIsContent:
-                    content += line
-                if 'ReportLinks' in line:
-                    nextIsContent = True
-                if 'Share your comments about ' in line:
-                    break
-                    
-            return title, content
-            #return title, '\n'.join(lines)
+        driver.close()
+        
+        return title, body
+        #return title, '\n'.join(lines)
             
     def classSpecCombos(self):
         combos = []
@@ -470,6 +754,7 @@ class SEOValidator:
         combos.append(['Frost', 'Death Knight'])
         combos.append(['Unholy', 'Death Knight'])        
         combos.append(['Havoc', 'Demon Hunter'])
+        #return combos
         combos.append(['Vengeance', 'Demon Hunter'])
         combos.append(['Balance', 'Druid'])
         combos.append(['Guardian', 'Druid'])

@@ -4,10 +4,11 @@ import urllib.request
 from urllib.request import Request, urlopen
 from urllib.error import URLError
 from SEOValidator import SEOValidator
+
          
 validator = SEOValidator()
 
-results = 'Spec\tOverview\tTalents\tRotation\tArtifact\tGear\tStat\tEnhancements\tMacros\tLeveling\n'
+results = 'Spec\tOverview\tQuick Start\tTalents\tRotation\tStats\tGear\tAzerite\tEnhancements\tSims\tM+\tRaid\tImprove\tMacros\tWeakAuras\tPvP\tGlossary\n'
 issues = []
 
 #title, content = validator.dataFetch('Hunter', 'Beast Mastery', 'guide')

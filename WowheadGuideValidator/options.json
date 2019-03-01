@@ -1,6 +1,6 @@
 {
-    "expansion":"Legion",
-    "patch":"7.3",
+    "expansion":"Battle for Azeroth",
+    "patch":"8.1",
     "artifacts":{
                       "blood-death-knight" :  "Maw of the Damned"
                     , "frost-death-knight" : "Blades of the Fallen Prince"
@@ -64,6 +64,23 @@
            "Prot":1}
                   },
     "precision":0.2,
-    "guidesTypes":"guide,talent-guide,rotation-guide,artifact-guide,gear-guide,stat-priority-guide,enhancements-guide,macro-guide",
+    "guidesTypes":"guide,simple-guide,talent-guide,rotation-guide,stat-priority-guide,gear-guide,azerite,enhancements-guide,simulations,mythic-plus,raid-tips,improve,macro-guide,weakauras,pvp,glossary",
+    "urlFormats":{   "guide":"https://www.wowhead.com/{1}-{0}-guide"
+                   , "simple-guide":"https://www.wowhead.com/{1}-{0}-simple-guide"
+                   , "talent-guide":"https://www.wowhead.com/{1}-{0}-talent-guide"
+                   , "rotation-guide":"https://www.wowhead.com/{1}-{0}-rotation-guide"
+                   , "stat-priority-guide":"https://www.wowhead.com/{1}-{0}-stat-priority-guide"
+                   , "gear-guide":"https://www.wowhead.com/{1}-{0}-gear-guide"
+                   , "azerite":"https://www.wowhead.com/guides/{1}-{0}-azerite-traits-powers-armor-bfa-battle-for-azeroth"
+                   , "enhancements-guide":"https://www.wowhead.com/{1}-{0}-enhancements-guide"
+                   , "simulations":"https://www.wowhead.com/guides/{1}-{0}-simulations"
+                   , "mythic-plus":"https://www.wowhead.com/guides/{1}-{0}-basic-mythic-plus-keystone-dungeons"
+                   , "raid-tips":"https://www.wowhead.com/guides/{1}-{0}-dazaralor-raid-tips-bfa"
+                   , "improve":"https://www.wowhead.com/guides/{1}-{0}-get-good-how-to-improve"
+                   , "macro-guide":"https://www.wowhead.com/{1}-{0}-macro-guide"
+                   , "weakauras":"https://www.wowhead.com/guides/{1}-{0}-weakauras"
+                   , "pvp":"https://www.wowhead.com/{1}-{0}-pvp-guide"
+                   , "glossary":"https://www.wowhead.com/guides/{1}-{0}-glossary-abbreviations-common-terms"
+                    },
     "otherGuide":"leveling-guide"
 }
