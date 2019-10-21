@@ -41,8 +41,8 @@
                 },          
     "validations":{
         "Death Knight":{
-           "DK":3,
-           "Death Knight":1},
+           "DK":2,
+           "Death Knight":2},
         "Restoration":{
            "Restoration":1,
            "Resto":1},

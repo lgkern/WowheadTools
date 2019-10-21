@@ -19,13 +19,13 @@ chrome_options.add_argument("--window-size=1920x1080")
 chrome_driver = os.getcwd() +"\\chromedriver.exe"
 
 driver = webdriver.Chrome(chrome_options=chrome_options, executable_path=chrome_driver)
-driver.get('https://www.wowhead.com/havoc-demon-hunter-guide')
+driver.get('https://www.wowhead.com/blood-death-knight-enhancements-guide')
 title = driver.title.replace(' - Guides - Wowhead','')
 body = driver.find_element_by_id(id_='guide-body')
 
-driver.close()
 print(title)
 print(body.text)
+driver.close()
 driver.quit()
 
 #req = Request('https://www.wowhead.com/havoc-demon-hunter-guide')

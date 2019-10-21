@@ -8,6 +8,8 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import os
 import copy
+import re
+import string
 
 
 class SEOValidator:    
@@ -690,13 +692,15 @@ class SEOValidator:
         totalWeight = sum(validations.values())
         aliases = validations.keys()
         
-        content = content.lower()
+        exclude = set(string.punctuation)
+        content = ''.join(ch for ch in content.lower() if ch not in exclude)
         
         # Count the occurence of each term
         termsCount = []
         for alias in aliases:
             lowAlias = alias.lower()
-            termsCount.append([alias, content.count('{0} '.format(lowAlias))])                
+            pattern = r'{0}(\s|s\s|$)+'.format(lowAlias)            
+            termsCount.append([alias, re.subn(pattern, '', content)[1]])                
         
         # Total sum of occurences
         termsSum = sum([x[1] for x in termsCount])
@@ -707,7 +711,10 @@ class SEOValidator:
         for key, value in validations.items():
             
             # Checks if key shows up at least twice
-            if content.count(' {0} '.format(key.lower())) < 2:
+            pattern = r'{0}(\s|s\s|$)+'.format(key.lower())            
+             
+
+            if re.subn(pattern, '', content)[1] < 2:
                 issues.append('{0} doesn\'t show up 2 times on {1}'.format(key, context) )
                 
             # If the ratio of a given term is 50% or higher checks its frequency
@@ -731,7 +738,7 @@ class SEOValidator:
         charSpec = '-'.join(charSpec.lower().split(' '))
         guide = '-'.join(guide.lower().split(' '))
         
-        url = self.options['urlFormats'][guide].format(charClass, charSpec)               
+        url = (self.options['urlFormats'][guide]+'&brl').format(charClass, charSpec)
         
         driver = webdriver.Chrome(chrome_options=self.chrome_options, executable_path=self.chrome_driver)
         driver.get(url)
@@ -751,10 +758,10 @@ class SEOValidator:
     def classSpecCombos(self):
         combos = []
         combos.append(['Blood', 'Death Knight'])
+        #return combos
         combos.append(['Frost', 'Death Knight'])
         combos.append(['Unholy', 'Death Knight'])        
         combos.append(['Havoc', 'Demon Hunter'])
-        #return combos
         combos.append(['Vengeance', 'Demon Hunter'])
         combos.append(['Balance', 'Druid'])
         combos.append(['Guardian', 'Druid'])
